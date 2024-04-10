@@ -1,0 +1,85 @@
+# Rime dictionary
+# encoding: utf-8
+
+# Copyright (C) Mirtle
+# License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+---
+name: special
+version: "1"
+sort: by_weight
+...
+
+Google	gu ge
+Android	an zhuo
+Microsoft	wei ruan
+Apple	ping guo
+²	ping fang
+cm²	ping fang li mi
+dm²	ping fang fen mi
+m²	ping fang mi
+³	li fang
+cm³	li fang li mi
+dm³	li fang fen mi
+m³	li fang mi
+µm	wei mi
+cm	li mi
+mm	hao mi
+g	ke
+kg	qian ke
+°	du
+°C	she shi du
+°F	hua shi du
+—	lian jie hao
+—	lian jie fu
+－	lian zi fu
+¿	fan wen hao
+≈	yue deng yu
+≈	yue deng
+≈	yue deng hao
+≠	bu deng yu
+≠	bu deng hao
+>	da yu
+>	da yu hao
++	jia
+−	jian
+-	fu
+×	chen
+×	chen yi
+÷	chu
+÷	chu yi
+<	xiao yu
+<	xiao yu hao
+≤	xiao yu deng yu
+≤	xiao yu deng yu hao
+≥	da yu deng yu
+≥	da yu deng yu hao
+√	gen hao
+±	zheng fu hao
+±	zheng fu
+%	bai fen hao
+%	bai fen zhi
+‰	qian fen hao
+‰	qian fen zhi
+‱	wan fen hao
+‱	wan fen zhi
+卐	na cui
+∞	wu qiong
+π	yuan zhou lv
+π	pai
+α	a er fa
+β	bei ta
+γ	ga ma
+Ⅰ	yi
+Ⅱ	er
+Ⅲ	san
+Ⅳ	si
+Ⅴ	wu
+Ⅵ	liu
+Ⅶ	qi
+Ⅷ	ba
+Ⅸ	jiu
+Ⅹ	shi
+Ⅺ	shi yi
+Ⅻ	shi er
+·	dian

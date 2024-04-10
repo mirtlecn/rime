@@ -1,0 +1,234 @@
+# Weasel settings
+# encoding: utf-8
+
+config_version: "2024.04"
+
+# [app_options]
+app_options:
+  cmd.exe:
+    ascii_mode: true
+  firefox.exe:
+    inline_preedit: true
+  nvim-qt.exe:
+    ascii_mode: true
+    vim_mode: true
+  nvim.exe:
+    ascii_mode: true
+    vim_mode: true
+  gvim.exe:
+    ascii_mode: true
+    vim_mode: true
+  windowsterminal.exe:
+    ascii_mode: true
+    vim_mode: true
+  conhost.exe:
+    ascii_mode: true
+    vim_mode: true
+  photoshop.exe:
+    ascii_mode: true
+  powershell.exe:
+    ascii_mode: true
+  pwsh.exe:
+    ascii_mode: true
+  regedit.exe:
+    ascii_mode: true
+  sublime_text.exe:
+    ascii_mode: true
+  taskmgr.exe:
+    ascii_mode: true
+  alacritty.exe:
+    ascii_mode: true
+  code.exe:
+    ascii_mode: true
+  mmc.exe:
+    ascii_mode: true
+  explorer.exe:
+    ascii_mode: true
+# [End of <app_options>]
+
+# [global settings]
+show_notifications: false
+show_notifications_time: 1200
+global_ascii: false
+# [End of <global settings>]
+
+# [style]
+style:
+  color_scheme: google
+  # color_scheme_dark: purity_of_form_custom # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+
+  # font_face: "等距更纱黑体 SC:7c:7c, Noto Color Emoji:1F236:1F236, Noto Color Emoji:1F21A:1F21A, 等距更纱黑体 SC, Plangothic P1, Plangothic P2, SF Pro, Noto Color Emoji"
+  # label_font_face: "等距更纱黑体 SC"
+  # comment_font_face: "Noto Color Emoji:1F236:1F236, Noto Color Emoji:1F21A:1F21A, 等距更纱黑体 SC"
+  # font_face: "Segoe UI Emoji:263C:2648, Segoe UI Emoji:1F236:1F236, Segoe UI Emoji:1F21A:1F21A, Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, 思源黑体 CN, SF Pro, 遍黑体P1, 遍黑体P2, Segoe UI Emoji, Noto Color Emoji"
+  font_face: "MS Gothic:7c:7c, 思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, 思源黑体 CN, Microsoft Yahei, SF Pro, 遍黑体P1, 遍黑体P2, Noto Color Emoji"
+
+  # label_font_face: "思源黑体 CN"
+  # comment_font_face: "Segoe UI Emoji:1F236:1F236, Segoe UI Emoji:1F21A:1F21A, 思源黑体 CN"
+
+  font_point: 14
+  label_font_point: 14
+  comment_font_point: 14
+
+  candidate_abbreviate_length: 30
+  paging_on_scroll: true
+  click_to_capture: false
+  antialias_mode: default
+  enhanced_position: true
+
+  ascii_tip_follow_cursor: false
+  display_tray_icon: false
+  mouse_hover_ms: 0
+
+  inline_preedit: true
+  preedit_type: composition
+
+  mark_text: ""
+  label_format: "%s."
+  horizontal: false
+  fullscreen: false
+  vertical_auto_reverse: false
+  vertical_text: false
+  vertical_text_left_to_right: false
+  vertical_text_with_wrap: false
+
+  layout:
+    align_type: center
+    max_width: 0
+    min_width: 160
+    min_height: 0
+    max_height: 0
+    border_width: 3
+    margin_x: 12
+    margin_y: 12
+    spacing: 10
+    candidate_spacing: 5
+    hilite_spacing: 4
+    hilite_padding: 2
+    round_corner: 4
+    corner_radius: 4
+    shadow_radius: 0
+    shadow_offset_x: 4
+    shadow_offset_y: 4
+# [End of <style>]
+
+# [preset_color_schemes]
+preset_color_schemes:
+  nord:
+    name: "远山/Nord"
+    author: Mirtle
+    color_format: rgba
+    back_color: 0xECEFF4
+    border_color: 0xECEFF4
+    comment_text_color: 0xD08770
+    label_color: 0x4C566A
+    text_color: 0x2E3440
+    hilited_back_color: 0xEBCB8B
+    hilited_label_color: 0x4C566A
+    hilited_comment_text_color: 0xD08770
+    hilited_candidate_back_color: 0x8FBCBB
+    hilited_candidate_border_color: 0x8FBCBB
+    shadow_color: 0x00000080
+
+  # 修改自鼠须管配色方案
+  rime-ice:
+    name: "純粹的形式/Purity of Form Custom"
+    author: 雨過之後、佛振
+    text_color: 0x808080
+    back_color: 0x545554
+    label_color: 0xBBBBBB
+    border_color: 0x545554
+    comment_text_color: 0x808080
+    candidate_text_color: 0xEEEEEE
+    hilited_text_color: 0xEEEEEE
+    hilited_comment_text_color: 0x808080
+    hilited_candidate_back_color: 0xE3E3E3
+    hilited_candidate_border_color: 0xE3E3E3
+    hilited_candidate_label_color: 0x4C4C4C
+    hilited_candidate_text_color: 0x000000
+    shadow_color: 0x75000000
+
+  ink:
+    name: 墨池/Ink
+    author: 佛振 <chen.sst@gmail.com>
+    text_color: 0x1E1E1E
+    back_color: 0xF0F0F0
+    border_color: 0xF0F0F0
+    hilited_text_color: 0x1E1E1E
+    hilited_back_color: 0xF0F0F0
+    hilited_candidate_text_color: 0xF0F0F0
+    hilited_candidate_back_color: 0x1E1E1E
+    hilited_candidate_border_color: 0x1E1E1E
+    shadow_color: 0x75000000
+
+  dark_temple:
+    name: 暗堂/Dark Temple
+    author: 佛振 <chen.sst@gmail.com>, based on ir_black
+    text_color: 0x92f6da
+    candidate_text_color: 0xd8e3e6
+    back_color: 0x222222
+    border_color: 0x00222222
+    hilited_text_color: 0xffcf9a
+    hilited_back_color: 0x222222
+    hilited_candidate_text_color: 0x92f6da
+    hilited_candidate_back_color: 0x333333
+    comment_text_color: 0x606cff
+    shadow_color: 0x75000000
+
+  google:
+    name: 谷歌/Google
+    author: skoj <skoj@qq.com>
+    text_color: 0x666666
+    candidate_text_color: 0x000000
+    back_color: 0xFFFFFF
+    border_color: 0xFFFFFF
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0xCE7539
+    hilited_candidate_border_color: 0xCE7539
+    shadow_color: 0x80000000
+
+  win11light:
+    name: " Win11浅色/Win11light"
+    text_color: 0x191919
+    label_color: 0x191919
+    hilited_label_color: 0x191919
+    back_color: 0xf9f9f9
+    border_color: 0x009e5a00
+    hilited_mark_color: 0xc06700
+    hilited_candidate_back_color: 0xf0f0f0
+    shadow_color: 0x20000000
+
+  win11dark:
+    name: "Win11暗色/Win11Dark"
+    text_color: 0xf9f9f9
+    label_color: 0xf9f9f9
+    back_color: 0x2C2C2C
+    hilited_label_color: 0xf9f9f9
+    border_color: 0x002C2C2C
+    hilited_mark_color: 0xFFC24C
+    hilited_candidate_back_color: 0x383838
+    shadow_color: 0x20000000
+
+  youtube:
+    name: "YouTube"
+    author: "Patricivs <ipatrickmac@me.com>"
+    text_color: 0x000000
+    back_color: 0xdedede
+    border_color: 0xdedede
+    hilited_text_color: 0x230dc3
+    hilited_back_color: 0xF0F0F0
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+    hilited_candidate_text_color: 0xF0F0F0
+    hilited_comment_text_color: 0xF0F0F0
+    hilited_label_color: 0xF0F0F0
+    hilited_candidate_back_color: 0x230dc3
+    hilited_candidate_border_color: 0x230dc3
+    shadow_color: 0x80000000
+# [End of <preset_color_schemes>]
+
+__patch:
+  - res/style:/win11?
+  - weasel.custom:/patch?

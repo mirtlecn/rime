@@ -1,0 +1,126 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: en
+  name: 英文输入方案
+  version: "1.0"
+
+engine:
+  processors:
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+  translators:
+    - echo_translator
+    - table_translator
+  filters:
+    - uniquifier
+
+key_binder:
+  __include: default:/key_binder?
+
+translator:
+  dictionary: en
+
+speller:
+  delimiter: " '"
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  algebra:
+    - xform/^0$/<A>/
+    - xform/^1$/<B>/
+    - xform/^2$/<C>/
+    - xform/^3$/<D>/
+    - xform/^4$/<E>/
+    - xform/^5$/<F>/
+    - xform/^6$/<G>/
+    - xform/^7$/<H>/
+    - xform/^8$/<I>/
+    - xform/^9$/<J>/
+    - derive/(?<!\d)1([1-9])(?!\d)/ui$1/
+    - derive/([1-9])0000(?!0)/$1wj/
+    - derive/([1-9])000(?!0)/$1qm/
+    - derive/([1-9])00(?!0)/$1bd/
+    - derive/([2-9])0(?!0)/$1ui/
+    - derive/(?<!\d)([2-9])([1-9])(?!\d)/$1ui$2/
+    - derive/\./dm/
+    - derive/-/gh/
+    - derive/-/jm/
+    - derive/#/jk/
+    - derive/\+/jx/
+    - derive/10/ui/
+    - derive/0/lk/
+    - derive/1/yi/
+    - derive/2/er/
+    - derive/2/ll/
+    - derive/3/sj/
+    - derive/4/si/
+    - derive/5/wu/
+    - derive/6/lq/
+    - derive/7/qi/
+    - derive/8/ba/
+    - derive/9/jq/
+    # 数字和符号转写
+    - derive/1([4-7|9])/$1teen/
+    - derive/11/eleven/
+    - derive/12/twelve/
+    - derive/13/thirteen/
+    - derive/15/fifteen/
+    - derive/18/eighteen/
+    - derive/0/o/
+    - derive/0/O/
+    - derive/0/zero/
+    - derive/1/one/
+    - derive/10/ten/
+    - derive/2/to/
+    - derive/2/two/
+    - derive/3/three/
+    - derive/4/for/
+    - derive/4/four/
+    - derive/5/five/
+    - derive/6/six/
+    - derive/7/seven/
+    - derive/8/eight/
+    - derive/9/nine/
+    - xform/^<A>$/0/
+    - xform/^<B>$/1/
+    - xform/^<C>$/2/
+    - xform/^<D>$/3/
+    - xform/^<E>$/4/
+    - xform/^<F>$/5/
+    - xform/^<G>$/6/
+    - xform/^<H>$/7/
+    - xform/^<I>$/8/
+    - xform/^<J>$/9/
+    - derive/\+/plus/
+    - derive/\./dot/
+    - derive/@/at/
+    - derive/-/hyphen/
+    - derive/#/hash/
+    - derive/#/number/
+    - derive / slash
+    - derive/&/and/
+    - derive/%/percent/
+    # 删除单个特殊字符
+    - derive/[.]//
+    - derive/[+]//
+    - derive/[@]//
+    - derive/[-]//
+    - derive/'//
+    - derive/[_]//
+    # 删除所有特殊字符
+    - derive/[^a-zA-Z0-9]//
+    # 禁用非英文、数字开头的编码
+    - erase/^[\W|_].*$/
+    # 为了保证大写+小写开头的词排在全大写的前面
+    # - derive/^([A-Z][A-Z]+)[a-z]+/$1/
+    # 全小写
+    # - derive/^.*[A-Z].*$/\L$0/
+    # 全大写
+    # - derive/^.*[a-z].*$/\U$0/
+    # 首字母大写
+    # - derive/^./\U$0/

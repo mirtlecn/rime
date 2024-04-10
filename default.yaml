@@ -1,0 +1,155 @@
+# Rime default settings
+# encoding: utf-8
+
+config_version: "2024.04.10"
+
+schema_list:
+  - { schema: cn }
+
+switcher:
+  caption: "㞢"
+  hotkeys:
+    - Control+F4
+  save_options:
+    - full_shape
+    - ascii_punct
+    - simplification
+    - extended_charset
+    - zh_hant
+    - zh_hans
+    - zh_hant_tw
+    - traditionalize
+    - simplify
+    - reverse_simp
+    - emoji
+    - ascii_mode
+    - parrot_translator
+    - case_tips
+    - search_single_char
+  fold_options: true
+  abbreviate_options: true
+  # fix_schema_list_order: true
+  option_list_separator: "/"
+
+menu:
+  page_size: 5
+  page_down_cycle: true
+  # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨ ]  # 修改候選標籤
+  # alternative_select_keys: 'qwertyuiop'
+
+punctuator:
+  full_shape:
+    " ": { commit: "　" }
+    ",": { commit: ， }
+    ".": { commit: 。 }
+    "<": [《, 〈, «, ‹]
+    ">": [》, 〉, », ›]
+    "/": [／, ÷]
+    "?": { commit: ？ }
+    ";": { commit: ； }
+    ":": { commit: ： }
+    "'": { pair: ["‘", "’"] }
+    '"': { pair: ["“", "”"] }
+    '\': [、, ＼]
+    "|": [·, ｜, "§", "¦"]
+    "`": ｀
+    "~": ～
+    "!": { commit: ！ }
+    "@": [＠, ☯]
+    "#": [＃, ⌘]
+    "%": [％, "°", "℃"]
+    "$": [￥, "$", "€", "£", "¥", "¢", "¤"]
+    "^": { commit: …… }
+    "&": ＆
+    "*": [＊, ·, ・, ×, ※, ❂]
+    "(": （
+    ")": ）
+    "-": －
+    "_": ——
+    "+": ＋
+    "=": ＝
+    "[": [「, 【, 〔, ［]
+    "]": [」, 】, 〕, ］]
+    "{": [『, 〖, ｛]
+    "}": [』, 〗, ｝]
+  half_shape:
+    ",": [，, ","]
+    ".": [。, "."]
+    "<": ["<", 《, 〈]
+    ">": [">", 》, 〉]
+    "/": { commit: "/" }
+    "?": [？, "?"]
+    ";": [；, ";"]
+    ":": [：, ":"]
+    "'": { commit: "'" }
+    '"': { commit: '"' }
+    '\': [、, '\']
+    "|": ["|", "·"]
+    "`": { commit: "`" }
+    "~": { commit: "~" }
+    "!": [！, "!"]
+    "@": { commit: "@" }
+    "#": { commit: "#" }
+    "%": { commit: "%" }
+    "$": { commit: "$" }
+    "^": ["……", ^]
+    "&": { commit: "&" }
+    "*": { commit: "*" }
+    "(": [（, "("]
+    ")": [）, ")"]
+    "-": { commit: "-" }
+    "_": ["——", "_"]
+    "+": { commit: "+" }
+    "=": { commit: "=" }
+    "[": ["「", "[", "“", "【", 〔]
+    "]": ["」", "]", "”", "】", 〕]
+    "{": ["『", "{", "‘", 〖]
+    "}": ["』", "}", "’", 〗]
+  symbols:
+    __include: punct:/symbols
+
+key_binder:
+  bindings:
+    - { accept: ISO_Left_Tab, send: Shift+Left, when: composing }
+    - { accept: Shift+Tab, send: Shift+Left, when: composing }
+    - { accept: Tab, send: Shift+Right, when: composing }
+    - { accept: Insert, send: Shift+Right, when: composing }
+    - { accept: Control+Tab, send: Shift+Right, when: composing }
+    - { accept: Left, send: Page_Up, when: has_menu }
+    - { accept: Right, send: Page_Down, when: has_menu }
+    - { accept: KP_Enter, when: composing, send: Return }
+    - { accept: "Control+Shift+F2", select: .next, when: always }
+    - { accept: "Control+Shift+F1", toggle: ascii_mode, when: always }
+    - { accept: "Control+Shift+F1", when: composing, send: Eisu_toggle }
+    - { accept: Shift+space, when: always, toggle: ascii_mode }
+    - { accept: Shift+space, when: composing, send: Eisu_toggle }
+    # - { accept: "Control+j", send: Down, when: has_menu }
+    # - { accept: "Control+k", send: Up, when: has_menu }
+    # - { accept: "Control+l", send: Page_Down, when: has_menu }
+    # - { accept: "Control+h", send: Page_Up, when: has_menu }
+    # - { accept: "Control+bracketleft", send: Home, when: has_menu }
+    # - { accept: "Control+bracketright", send: End, when: has_menu }
+    # - { accept: Control+space, when: always, toggle: ascii_mode }
+    # - { accept: Control+space, when: always, send: Eisu_toggle }
+
+recognizer:
+  # use_space: true
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+
+# 不同的选项表示：打字打到一半时按下了 CapsLock、Shift、Control 后：
+# commit_code  上屏原始的编码，然后切换到英文
+# commit_text  上屏拼出的词句，然后切换到英文
+# clear        清除未上屏内容，然后切换到英文
+# inline_ascii 切换到临时英文模式，按回车上屏后回到中文状态
+# noop         屏蔽快捷键，不切换中英，但不要屏蔽 CapsLock
+ascii_composer:
+  good_old_caps_lock: true
+  switch_key:
+    Shift_L: noop
+    Shift_R: commit_code
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: clear
+    Eisu_toggle: commit_code

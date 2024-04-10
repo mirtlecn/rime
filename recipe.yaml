@@ -1,0 +1,27 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: all
+  description: >-
+    all content
+
+download_files: >-
+  https://raw.githubusercontent.com/iDvel/rime-ice/main/en_dicts/cn_en_flypy.txt
+
+install_files: >-
+  *.dict.yaml
+  *.schema.yaml
+  cn_en_flypy.txt
+  punct.yaml
+  weasel.yaml
+  default.yaml
+  cn_dicts/*
+  en_dicts/*
+  preview/*
+  opencc/*
+  lua/*
+  # build/*
+  res/*.ico
+  res/style.yaml
+  res/config.yaml
+  res/predict_hans.db

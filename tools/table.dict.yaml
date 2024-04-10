@@ -1,0 +1,6 @@
+---
+name: table
+version: "1"
+import_tables:
+  - zdict
+...

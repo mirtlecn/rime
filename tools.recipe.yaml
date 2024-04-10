@@ -1,0 +1,11 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: tools
+  description: >-
+    tools
+install_files: >-
+  tools/liangfen/*
+  tools/lua/*
+  tools/script/*
+  tools/*.*

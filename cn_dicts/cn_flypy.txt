@@ -1,0 +1,47 @@
+# Rime table
+#@/db_name	cn_flypy
+#@/db_type	tabledb
+#@/tick	136
+啊	a	2
+阿	a	1
+吧	b	2
+百	b	7
+从	c	1
+才	c	3
+地	d	2
+得	d	2
+的	d	367
+而	e	2
+分	f	1
+发	f	2
+个	g	4
+和	h	5
+或	h	1
+出	i	4
+差	i	1
+车	i	3
+及	j	3
+将	j	1
+可	k	3
+了	l	149
+吗	m	4
+呣	m	1
+嘛	m	2
+你	n	6
+哪	n	1
+那	n	2
+片	p	5
+篇	p	2
+去	q	2
+他	t	3
+她	t	2
+它	t	1
+是	u	1
+我	w	18
+一	y	4
+与	y	3
+有	y	7
+再	z	3
+在	z	5
+自	z	1
+只	v	2

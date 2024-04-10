@@ -1,0 +1,10 @@
+# Rime dictionary
+# encoding: utf-8
+# 词典拓展包
+---
+name: pack
+version: "1.0"
+import_tables:
+  - cn_dicts/base # 基础词库
+  - cn_dicts/ext # 扩展词库
+...

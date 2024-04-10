@@ -1,0 +1,9 @@
+# Rime dictionary
+# encoding: utf-8
+---
+name: en
+version: "2024.04.10"
+import_tables:
+  - en_dicts/main # 主词典
+  - en_dicts/special # 编码和词汇不完全匹配的词汇
+...
