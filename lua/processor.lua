@@ -51,6 +51,9 @@ function P.init( env )
     env.KEYTABLE = {}
     env.COMMITHISTTORY = {}
     env.KEYS = ''
+    env.COMMITHISTTORY[2] = ''
+    env.COMMITHISTTORY[0] = ''
+    env.COMMITHISTTORY[1] = ''
 
     local config = env.engine.schema.config
     env.name_space = env.name_space:gsub( '^*', '' )
@@ -145,7 +148,7 @@ function P.func( key, env )
 
     if P.history_key and #P.history_key > 0 and input:find( '^' .. P.history_key .. '$' ) then
         context:clear()
-        env.engine:commit_text( env.COMMITHISTTORY[0] )
+        env.engine:commit_text( env.COMMITHISTTORY[2] )
         return 1
     end
 
@@ -213,6 +216,10 @@ function P.func( key, env )
     else
         env.COMMITHISTTORY[1] = env.COMMITHISTTORY[0] or ''
         env.COMMITHISTTORY[0] = latest_text
+    end
+
+    if (env.COMMITHISTTORY[0] and #env.COMMITHISTTORY[0] > 0 and env.COMMITHISTTORY[0] ~= ' ') then
+        env.COMMITHISTTORY[2] = env.COMMITHISTTORY[0]
     end
 
     env.KEYTABLE[2] = env.KEYTABLE[1] or '-' -- 赋值以规避 error log 的产生
