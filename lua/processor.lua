@@ -206,13 +206,10 @@ function P.func( key, env )
     end
 
     -- 词组处理，如果输入了中英文词组，将最后一个字符视为历史提交
-    local l = endsWithChinese( latest_text )
-    if l and utf8.len( latest_text ) > 1 then
-        env.COMMITHISTTORY[1] = latest_text:gsub( l, '' )
-        env.COMMITHISTTORY[0] = l
-    elseif latest_text:find( '^%w+$' ) and #latest_text > 1 then
-        env.COMMITHISTTORY[1] = string.sub( latest_text, 1, -2 )
-        env.COMMITHISTTORY[0] = string.sub( latest_text, -1 )
+    if utf8.len( latest_text ) > 1 then
+        env.COMMITHISTTORY[0] = latest_text:sub( utf8.offset( latest_text, -1 ) )
+        local latest_text_re = latest_text:gsub( env.COMMITHISTTORY[0],'')
+        env.COMMITHISTTORY[1] = latest_text_re:sub( utf8.offset( latest_text_re, -1 ) )
     else
         env.COMMITHISTTORY[1] = env.COMMITHISTTORY[0] or ''
         env.COMMITHISTTORY[0] = latest_text
