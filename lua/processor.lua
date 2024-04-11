@@ -145,7 +145,7 @@ function P.func( key, env )
 
     if P.history_key and #P.history_key > 0 and input:find( '^' .. P.history_key .. '$' ) then
         context:clear()
-        env.engine:commit_text( latest_text )
+        env.engine:commit_text( env.COMMITHISTTORY[0] )
         return 1
     end
 
