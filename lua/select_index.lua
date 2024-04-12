@@ -1,6 +1,3 @@
--- Copyright (C) Mirtle
--- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-
 local s = {}
 
 function s.init( env )

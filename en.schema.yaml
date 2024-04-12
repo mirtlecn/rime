@@ -4,7 +4,7 @@
 schema:
   schema_id: en
   name: 英文输入方案
-  version: "1.0"
+  version: "2024.04"
 
 engine:
   processors:

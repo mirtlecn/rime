@@ -1,6 +1,3 @@
--- Copyright (C) Mirtle
--- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-
 local P = {}
 
 -- 处理提供的规则，用了特殊符号搭桥

@@ -6,7 +6,7 @@ schema:
   name: 小鹤双拼
   icon: res/cn_half.ico
   ascii_icon: res/en_half.ico
-  version: "2024.04.10"
+  version: "2024.04"
   dependencies:
     - radical
     - stroke

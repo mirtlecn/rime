@@ -1,7 +1,7 @@
 # Rime default settings
 # encoding: utf-8
 
-config_version: "2024.04.10"
+config_version: "2024.04"
 
 schema_list:
   - { schema: cn }

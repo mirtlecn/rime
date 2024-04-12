@@ -3,7 +3,7 @@
 
 ---
 name: cn
-version: "2024.04.10"
+version: "2024.04"
 import_tables:
   - cn_dicts/8105 # 字表
   - cn_dicts/han # 全字表

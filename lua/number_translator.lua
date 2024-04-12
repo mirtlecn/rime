@@ -244,7 +244,7 @@ local function number_translator( input, seg )
         numberPart = number_translatorFunc( str )
         if #numberPart > 0 then
             for i = 1, #numberPart do
-                yield( Candidate( input, seg.start, seg._end, numberPart[i][1], numberPart[i][2] ) )
+                yield( Candidate( input, seg.start, seg._end, numberPart[i][1], '' ) )
             end
         end
     end

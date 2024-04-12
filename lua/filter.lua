@@ -1,6 +1,3 @@
--- Copyright (C) Mirtle
--- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-
 -- 是否同时包含中文和英文数字
 local function is_mixed_cn_en_num( s ) return s:find( '([\228-\233][\128-\191]-)' ) and s:find( '[%a%d]' ) end
 

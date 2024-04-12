@@ -11,6 +11,7 @@ download_files: >-
 install_files: >-
   *.dict.yaml
   *.schema.yaml
+  *.py
   cn_en_flypy.txt
   punct.yaml
   weasel.yaml

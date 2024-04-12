@@ -1,6 +1,3 @@
--- Copyright (C) Mirtle
--- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-
 -- 将此翻译器放在最后，让产生的候选排序在后面
 -- 请将 translator 中设定 initial_quality 为 1 以上
 -- 转义特殊字符

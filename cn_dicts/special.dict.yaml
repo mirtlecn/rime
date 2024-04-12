@@ -1,13 +1,10 @@
 # Rime dictionary
 # encoding: utf-8
 
-# Copyright (C) Mirtle
-# License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-
 ---
 name: special
-version: "1"
-sort: by_weight
+version: "2024.04"
+sort: original
 ...
 
 Google	gu ge
