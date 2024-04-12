@@ -27,7 +27,7 @@ switches:
   - name: reverse_simp
     states: [分, 合]
   - name: parrot_translator
-    states: [造, 关]
+    states: [关, 造]
   - name: search_single_char
     states: [词, 单]
   - name: completion
