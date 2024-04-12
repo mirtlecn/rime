@@ -8,12 +8,10 @@ sort: original
 3D	3D
 A4	A4
 AI	AI
-AK	AK
 AV	AV
 C#	C#
 CD	CD
 CI	CI
-CN	CN
 CS	CS
 DJ	DJ
 Fn	Fn
@@ -40,13 +38,9 @@ as	as
 at	at
 be	be
 by	by
-db	db
 do	do
-er	er
 go	go
 he	he
-hi	hi
-id	id
 if	if
 in	in
 is	is
@@ -55,7 +49,6 @@ me	me
 my	my
 no	no
 of	of
-oh	oh
 ok	ok
 on	on
 or	or
@@ -76,17 +69,11 @@ AMD	AMD
 APC	APC
 API	API
 APK	APK
-ATI	ATI
 ATK	ATK
 ATM	ATM
-ATV	ATV
-AUD	AUD
-AUX	AUX
 AVI	AVI
 AWP	AWP
 AWS	AWS
-Ada	Ada
-Ali	Ali
 Amy	Amy
 Ann	Ann
 BBC	BBC
@@ -119,44 +106,6 @@ CTO	CTO
 Cen	Cen
 Cmd	Cmd
 Cox	Cox
-DIY	DIY
-DLC	DLC
-DLL	DLL
-DNA	DNA
-DNS	DNS
-DOS	DOS
-DPI	DPI
-DVD	DVD
-DWM	DWM
-DoH	DoH
-DoQ	DoQ
-EMP	EMP
-EMS	EMS
-EUR	EUR
-Esc	Esc
-Eva	Eva
-FAQ	FAQ
-FBI	FBI
-FDA	FDA
-FPS	FPS
-FTP	FTP
-FYI	FYI
-GBA	GBA
-GBC	GBC
-GBP	GBP
-GCC	GCC
-GCD	GCD
-GDP	GDP
-GFM	GFM
-GFW	GFW
-GIF	GIF
-GMT	GMT
-GNU	GNU
-GPL	GPL
-GPO	GPO
-GPS	GPS
-GPT	GPT
-GPU	GPU
 GTA	GTA
 GUI	GUI
 Ghz	Ghz
@@ -166,6 +115,7 @@ HBO	HBO
 HDD	HDD
 HHD	HHD
 HIV	HIV
+HTC	HTC
 Han	Han
 I'm	I'm
 IBM	IBM
@@ -664,6 +614,7 @@ nor	nor
 not	not
 now	now
 nox	nox
+npm	npm
 npm	npm
 nun	nun
 nut	nut
@@ -3050,6 +3001,7 @@ Ethan	Ethan
 Evans	Evans
 ExFAT	ExFAT
 Ezine	Ezine
+FView	FView
 Faire	Faire
 Fargo	Fargo
 Faroe	Faroe
@@ -6085,6 +6037,7 @@ Sedona	Sedona
 Serena	Serena
 Setapp	Setapp
 Shania	Shania
+ShareX	ShareX
 Sharon	Sharon
 Shelby	Shelby
 Shottr	Shottr
@@ -9099,7 +9052,6 @@ Granada	Granada
 GraphQL	GraphQL
 Gregory	Gregory
 Grenada	Grenada
-HTC	HTC	HTCHTC
 Haitian	Haitian
 Hammond	Hammond
 Hancock	Hancock
@@ -9286,6 +9238,7 @@ PowerPC	PowerPC
 Presley	Presley
 Preston	Preston
 Privoxy	Privoxy
+Psyduck	Psyduck
 PyCharm	PyCharm
 PyTorch	PyTorch
 PyWebIO	PyWebIO
@@ -11040,7 +10993,6 @@ nourish	nourish
 nouveau	nouveau
 novelty	novelty
 nowhere	nowhere
-npm	npm	npmnpm
 nuclear	nuclear
 nucleic	nucleic
 nucleus	nucleus
@@ -12800,6 +12752,7 @@ bridging	bridging
 briefing	briefing
 brighter	brighter
 brighton	brighton
+bring-up	bring-up
 bringing	bringing
 brisbane	brisbane
 broadway	broadway
@@ -16070,6 +16023,7 @@ imaginary	imaginary
 imitation	imitation
 immediate	immediate
 immersion	immersion
+immersive	immersive
 immigrant	immigrant
 immigrate	immigrate
 impartial	impartial
@@ -17817,7 +17771,9 @@ geological	geological
 geophysics	geophysics
 girlfriend	girlfriend
 github.com	github.com
+github.com	github.com
 glossaries	glossaries
+google.com	google.com
 goroutines	goroutines
 governance	governance
 government	government
@@ -18638,7 +18594,6 @@ Dragon Ball	DragonBall
 Dreamweaver	Dreamweaver
 Escherichia	Escherichia
 FBI WARNING	FBIWARNING
-FView	FView	FViewFView
 Fantastical	Fantastical
 Force Touch	ForceTouch
 Funtouch OS	FuntouchOS
@@ -20077,7 +20032,6 @@ NEAR Protocol	NEARProtocol
 New Zealander	NewZealander
 Party Animals	PartyAnimals
 Screen Studio	ScreenStudio
-ShareX	ShareX	ShareXShareX
 Staffordshire	Staffordshire
 Thessalonians	Thessalonians
 United States	UnitedStates
@@ -20462,7 +20416,6 @@ Navicat Premium	NavicatPremium
 Nintendo Switch	NintendoSwitch
 Nottinghamshire	Nottinghamshire
 Oracle Database	OracleDatabase
-Psyduck	Psyduck	PsyduckPsyduck
 accomplishments	accomplishments
 acknowledgement	acknowledgement
 acknowledgments	acknowledgments
@@ -20538,7 +20491,6 @@ Role-Playing Game	Role-PlayingGame
 Solid-state drive	Solid-statedrive
 Universal Actions	UniversalActions
 Vampire Survivors	VampireSurvivors
-bring-up	bring-up	bring-upbring-up
 interdisciplinary	interdisciplinary
 intergovernmental	intergovernmental
 multidisciplinary	multidisciplinary
@@ -20553,7 +20505,6 @@ VMware Workstation	VMwareWorkstation
 telecommunications	telecommunications
 ungoogled-chromium	ungoogled-chromium
 Traditional Chinese	TraditionalChinese
-immersive	immersive	immersiveimmersive
 rime-radical-pinyin	rime-radical-pinyin
 Downloadable content	Downloadablecontent
 Model-View-ViewModel	Model-View-ViewModel
@@ -20567,8 +20518,6 @@ Intelligence quotient	Intelligencequotient
 Model-View-Controller	Model-View-Controller
 SpongeBob SquarePants	SpongeBobSquarePants
 deoxyribonucleic acid	deoxyribonucleicacid
-github.com	github.com	github.comgithub.com
-google.com	google.com	google.comgoogle.com
 reverse_lookup_filter	reverse_lookup_filter
 Command-Line Interface	Command-LineInterface
 Hypertext Preprocessor	HypertextPreprocessor
@@ -20584,11 +20533,10 @@ Non-Governmental Organization	Non-GovernmentalOrganization
 3d	3d
 a4	a4
 ai	ai
-ak	ak
 av	av
 c#	c#
+cd	cd
 ci	ci
-cn	cn
 cs	cs
 dj	dj
 fn	fn
@@ -20622,17 +20570,11 @@ amd	amd
 apc	apc
 api	api
 apk	apk
-ati	ati
 atk	atk
 atm	atm
-atv	atv
-aud	aud
-aux	aux
 avi	avi
 awp	awp
 aws	aws
-ada	ada
-ali	ali
 amy	amy
 ann	ann
 bbc	bbc
@@ -20665,44 +20607,6 @@ cto	cto
 cen	cen
 cmd	cmd
 cox	cox
-diy	diy
-dlc	dlc
-dll	dll
-dna	dna
-dns	dns
-dos	dos
-dpi	dpi
-dvd	dvd
-dwm	dwm
-doh	doh
-doq	doq
-emp	emp
-ems	ems
-eur	eur
-esc	esc
-eva	eva
-faq	faq
-fbi	fbi
-fda	fda
-fps	fps
-ftp	ftp
-fyi	fyi
-gba	gba
-gbc	gbc
-gbp	gbp
-gcc	gcc
-gcd	gcd
-gdp	gdp
-gfm	gfm
-gfw	gfw
-gif	gif
-gmt	gmt
-gnu	gnu
-gpl	gpl
-gpo	gpo
-gps	gps
-gpt	gpt
-gpu	gpu
 gta	gta
 gui	gui
 ghz	ghz
@@ -20712,6 +20616,7 @@ hbo	hbo
 hdd	hdd
 hhd	hhd
 hiv	hiv
+htc	htc
 han	han
 i'm	i'm
 ibm	ibm
@@ -21438,6 +21343,7 @@ ethan	ethan
 evans	evans
 exfat	exfat
 ezine	ezine
+fview	fview
 faire	faire
 fargo	fargo
 faroe	faroe
@@ -22239,6 +22145,7 @@ sedona	sedona
 serena	serena
 setapp	setapp
 shania	shania
+sharex	sharex
 sharon	sharon
 shelby	shelby
 shottr	shottr
@@ -22589,7 +22496,6 @@ granada	granada
 graphql	graphql
 gregory	gregory
 grenada	grenada
-htc	htc	htchtc
 haitian	haitian
 hammond	hammond
 hancock	hancock
@@ -22776,6 +22682,7 @@ powerpc	powerpc
 presley	presley
 preston	preston
 privoxy	privoxy
+psyduck	psyduck
 pycharm	pycharm
 pytorch	pytorch
 pywebio	pywebio
@@ -23813,7 +23720,6 @@ dragon ball	dragonball
 dreamweaver	dreamweaver
 escherichia	escherichia
 fbi warning	fbiwarning
-fview	fview	fviewfview
 fantastical	fantastical
 force touch	forcetouch
 funtouch os	funtouchos
@@ -23961,7 +23867,6 @@ near protocol	nearprotocol
 new zealander	newzealander
 party animals	partyanimals
 screen studio	screenstudio
-sharex	sharex	sharexsharex
 staffordshire	staffordshire
 thessalonians	thessalonians
 united states	unitedstates
@@ -24018,7 +23923,6 @@ navicat premium	navicatpremium
 nintendo switch	nintendoswitch
 nottinghamshire	nottinghamshire
 oracle database	oracledatabase
-psyduck	psyduck	psyduckpsyduck
 native american	nativeamerican
 background music	backgroundmusic
 cloudflare pages	cloudflarepages
@@ -24073,11 +23977,9 @@ non-governmental organization	non-governmentalorganization
 # word.capitalize
 
 Ai	Ai
-Ak	Ak
 Av	Av
 Cd	Cd
 Ci	Ci
-Cn	Cn
 Cs	Cs
 Dj	Dj
 Hk	Hk
@@ -24102,14 +24004,9 @@ As	As
 At	At
 Be	Be
 By	By
-Db	Db
 Do	Do
-Er	Er
 Go	Go
 He	He
-Hi	Hi
-Ho	Ho
-Id	Id
 If	If
 In	In
 Is	Is
@@ -24117,19 +24014,15 @@ It	It
 Me	Me
 My	My
 No	No
-Nu	Nu
 Of	Of
-Oh	Oh
 Ok	Ok
 On	On
 Or	Or
-Pi	Pi
 So	So
 To	To
 Up	Up
 Us	Us
 We	We
-Xi	Xi
 Abs	Abs
 Acg	Acg
 Ack	Ack
@@ -24142,12 +24035,8 @@ Amd	Amd
 Apc	Apc
 Api	Api
 Apk	Apk
-Ati	Ati
 Atk	Atk
 Atm	Atm
-Atv	Atv
-Aud	Aud
-Aux	Aux
 Avi	Avi
 Awp	Awp
 Aws	Aws
@@ -24176,48 +24065,13 @@ Cnn	Cnn
 Cpu	Cpu
 Css	Css
 Cto	Cto
-Diy	Diy
-Dlc	Dlc
-Dll	Dll
-Dna	Dna
-Dns	Dns
-Dos	Dos
-Dpi	Dpi
-Dvd	Dvd
-Dwm	Dwm
-Doh	Doh
-Doq	Doq
-Emp	Emp
-Ems	Ems
-Eur	Eur
-Faq	Faq
-Fbi	Fbi
-Fda	Fda
-Fps	Fps
-Ftp	Ftp
-Fyi	Fyi
-Gba	Gba
-Gbc	Gbc
-Gbp	Gbp
-Gcc	Gcc
-Gcd	Gcd
-Gdp	Gdp
-Gfm	Gfm
-Gfw	Gfw
-Gif	Gif
-Gmt	Gmt
-Gnu	Gnu
-Gpl	Gpl
-Gpo	Gpo
-Gps	Gps
-Gpt	Gpt
-Gpu	Gpu
 Gta	Gta
 Gui	Gui
 Hbo	Hbo
 Hdd	Hdd
 Hhd	Hhd
 Hiv	Hiv
+Htc	Htc
 Ibm	Ibm
 Icp	Icp
 Icq	Icq
@@ -24684,6 +24538,7 @@ Nor	Nor
 Not	Not
 Now	Now
 Nox	Nox
+Npm	Npm
 Npm	Npm
 Nun	Nun
 Nut	Nut
@@ -26659,6 +26514,7 @@ Dapps	Dapps
 Dhtml	Dhtml
 Deepl	Deepl
 Exfat	Exfat
+Fview	Fview
 Fedex	Fedex
 Geoip	Geoip
 Hbase	Hbase
@@ -29002,6 +28858,7 @@ Qspace	Qspace
 Rsshub	Rsshub
 Rxjava	Rxjava
 Sqlite	Sqlite
+Sharex	Sharex
 Spacex	Spacex
 Tcp/ip	Tcp/ip
 Taptap	Taptap
@@ -31741,7 +31598,6 @@ Gitbook	Gitbook
 Godaddy	Godaddy
 Goframe	Goframe
 Graphql	Graphql
-Htc	htc	Htchtc
 Hip-hop	Hip-hop
 Homekit	Homekit
 Homepod	Homepod
@@ -33398,7 +33254,6 @@ Nourish	Nourish
 Nouveau	Nouveau
 Novelty	Novelty
 Nowhere	Nowhere
-Npm	npm	Npmnpm
 Nuclear	Nuclear
 Nucleic	Nucleic
 Nucleus	Nucleus
@@ -34849,6 +34704,7 @@ Bridging	Bridging
 Briefing	Briefing
 Brighter	Brighter
 Brighton	Brighton
+Bring-up	Bring-up
 Bringing	Bringing
 Brisbane	Brisbane
 Broadway	Broadway
@@ -37920,6 +37776,7 @@ Imaginary	Imaginary
 Imitation	Imitation
 Immediate	Immediate
 Immersion	Immersion
+Immersive	Immersive
 Immigrant	Immigrant
 Immigrate	Immigrate
 Impartial	Impartial
@@ -39568,7 +39425,9 @@ Geological	Geological
 Geophysics	Geophysics
 Girlfriend	Girlfriend
 Github.com	Github.com
+Github.com	Github.com
 Glossaries	Glossaries
+Google.com	Google.com
 Goroutines	Goroutines
 Governance	Governance
 Government	Government
@@ -40370,7 +40229,6 @@ Cleanshot x	Cleanshotx
 Code runner	Coderunner
 Dragon ball	Dragonball
 Fbi warning	Fbiwarning
-Fview	fview	Fviewfview
 Force touch	Forcetouch
 Funtouch os	Funtouchos
 Gif brewery	Gifbrewery
@@ -41769,7 +41627,6 @@ Near protocol	Nearprotocol
 New zealander	Newzealander
 Party animals	Partyanimals
 Screen studio	Screenstudio
-Sharex	sharex	Sharexsharex
 United states	Unitedstates
 Unreal engine	Unrealengine
 Vmware fusion	Vmwarefusion
@@ -42141,7 +41998,6 @@ Microsoft store	Microsoftstore
 Navicat premium	Navicatpremium
 Nintendo switch	Nintendoswitch
 Oracle database	Oracledatabase
-Psyduck	psyduck	Psyduckpsyduck
 Accomplishments	Accomplishments
 Acknowledgement	Acknowledgement
 Acknowledgments	Acknowledgments
@@ -42213,7 +42069,6 @@ Parallels desktop	Parallelsdesktop
 Role-playing game	Role-playinggame
 Universal actions	Universalactions
 Vampire survivors	Vampiresurvivors
-Bring-up	bring-up	Bring-upbring-up
 Interdisciplinary	Interdisciplinary
 Intergovernmental	Intergovernmental
 Multidisciplinary	Multidisciplinary
@@ -42228,7 +42083,6 @@ Vmware workstation	Vmwareworkstation
 Telecommunications	Telecommunications
 Ungoogled-chromium	Ungoogled-chromium
 Traditional chinese	Traditionalchinese
-Immersive	immersive	Immersiveimmersive
 Rime-radical-pinyin	Rime-radical-pinyin
 Model-view-viewmodel	Model-view-viewmodel
 Non-player character	Non-playercharacter
@@ -42238,8 +42092,6 @@ Don't starve together	Don'tstarvetogether
 Model-view-controller	Model-view-controller
 Spongebob squarepants	Spongebobsquarepants
 Deoxyribonucleic acid	Deoxyribonucleicacid
-Github.com	github.com	Github.comgithub.com
-Google.com	google.com	Google.comgoogle.com
 Reverse_lookup_filter	Reverse_lookup_filter
 Command-line interface	Command-lineinterface
 Hypertext preprocessor	Hypertextpreprocessor
@@ -42258,13 +42110,9 @@ AS	AS
 AT	AT
 BE	BE
 BY	BY
-DB	DB
 DO	DO
-ER	ER
 GO	GO
 HE	HE
-HI	HI
-ID	ID
 IF	IF
 IN	IN
 IS	IS
@@ -42273,7 +42121,6 @@ ME	ME
 MY	MY
 NO	NO
 OF	OF
-OH	OH
 OK	OK
 ON	ON
 OR	OR
@@ -42282,18 +42129,12 @@ TO	TO
 UP	UP
 US	US
 WE	WE
-ADA	ADA
-ALI	ALI
 AMY	AMY
 ANN	ANN
 BOB	BOB
 CEN	CEN
 CMD	CMD
 COX	COX
-DOH	DOH
-DOQ	DOQ
-ESC	ESC
-EVA	EVA
 GHZ	GHZ
 GIL	GIL
 GUS	GUS
@@ -42679,6 +42520,7 @@ NOR	NOR
 NOT	NOT
 NOW	NOW
 NOX	NOX
+NPM	NPM
 NPM	NPM
 NUN	NUN
 NUT	NUT
@@ -44948,6 +44790,7 @@ ETHAN	ETHAN
 EVANS	EVANS
 EXFAT	EXFAT
 EZINE	EZINE
+FVIEW	FVIEW
 FAIRE	FAIRE
 FARGO	FARGO
 FAROE	FAROE
@@ -47954,6 +47797,7 @@ SEDONA	SEDONA
 SERENA	SERENA
 SETAPP	SETAPP
 SHANIA	SHANIA
+SHAREX	SHAREX
 SHARON	SHARON
 SHELBY	SHELBY
 SHOTTR	SHOTTR
@@ -51146,6 +50990,7 @@ POWERPC	POWERPC
 PRESLEY	PRESLEY
 PRESTON	PRESTON
 PRIVOXY	PRIVOXY
+PSYDUCK	PSYDUCK
 PYCHARM	PYCHARM
 PYTORCH	PYTORCH
 PYWEBIO	PYWEBIO
@@ -52897,7 +52742,6 @@ NOURISH	NOURISH
 NOUVEAU	NOUVEAU
 NOVELTY	NOVELTY
 NOWHERE	NOWHERE
-NPM	NPM	NPMNPM
 NUCLEAR	NUCLEAR
 NUCLEIC	NUCLEIC
 NUCLEUS	NUCLEUS
@@ -54652,6 +54496,7 @@ BRIDGING	BRIDGING
 BRIEFING	BRIEFING
 BRIGHTER	BRIGHTER
 BRIGHTON	BRIGHTON
+BRING-UP	BRING-UP
 BRINGING	BRINGING
 BRISBANE	BRISBANE
 BROADWAY	BROADWAY
@@ -57922,6 +57767,7 @@ IMAGINARY	IMAGINARY
 IMITATION	IMITATION
 IMMEDIATE	IMMEDIATE
 IMMERSION	IMMERSION
+IMMERSIVE	IMMERSIVE
 IMMIGRANT	IMMIGRANT
 IMMIGRATE	IMMIGRATE
 IMPARTIAL	IMPARTIAL
@@ -59669,7 +59515,9 @@ GEOLOGICAL	GEOLOGICAL
 GEOPHYSICS	GEOPHYSICS
 GIRLFRIEND	GIRLFRIEND
 GITHUB.COM	GITHUB.COM
+GITHUB.COM	GITHUB.COM
 GLOSSARIES	GLOSSARIES
+GOOGLE.COM	GOOGLE.COM
 GOROUTINES	GOROUTINES
 GOVERNANCE	GOVERNANCE
 GOVERNMENT	GOVERNMENT
@@ -60489,7 +60337,6 @@ CRYPTOMATOR	CRYPTOMATOR
 DRAGON BALL	DRAGONBALL
 DREAMWEAVER	DREAMWEAVER
 ESCHERICHIA	ESCHERICHIA
-FVIEW	FVIEW	FVIEWFVIEW
 FANTASTICAL	FANTASTICAL
 FORCE TOUCH	FORCETOUCH
 FUNTOUCH OS	FUNTOUCHOS
@@ -61928,7 +61775,6 @@ NEAR PROTOCOL	NEARPROTOCOL
 NEW ZEALANDER	NEWZEALANDER
 PARTY ANIMALS	PARTYANIMALS
 SCREEN STUDIO	SCREENSTUDIO
-SHAREX	SHAREX	SHAREXSHAREX
 STAFFORDSHIRE	STAFFORDSHIRE
 THESSALONIANS	THESSALONIANS
 UNITED STATES	UNITEDSTATES
@@ -62313,7 +62159,6 @@ NAVICAT PREMIUM	NAVICATPREMIUM
 NINTENDO SWITCH	NINTENDOSWITCH
 NOTTINGHAMSHIRE	NOTTINGHAMSHIRE
 ORACLE DATABASE	ORACLEDATABASE
-PSYDUCK	PSYDUCK	PSYDUCKPSYDUCK
 ACCOMPLISHMENTS	ACCOMPLISHMENTS
 ACKNOWLEDGEMENT	ACKNOWLEDGEMENT
 ACKNOWLEDGMENTS	ACKNOWLEDGMENTS
@@ -62389,7 +62234,6 @@ ROLE-PLAYING GAME	ROLE-PLAYINGGAME
 SOLID-STATE DRIVE	SOLID-STATEDRIVE
 UNIVERSAL ACTIONS	UNIVERSALACTIONS
 VAMPIRE SURVIVORS	VAMPIRESURVIVORS
-BRING-UP	BRING-UP	BRING-UPBRING-UP
 INTERDISCIPLINARY	INTERDISCIPLINARY
 INTERGOVERNMENTAL	INTERGOVERNMENTAL
 MULTIDISCIPLINARY	MULTIDISCIPLINARY
@@ -62404,7 +62248,6 @@ VMWARE WORKSTATION	VMWAREWORKSTATION
 TELECOMMUNICATIONS	TELECOMMUNICATIONS
 UNGOOGLED-CHROMIUM	UNGOOGLED-CHROMIUM
 TRADITIONAL CHINESE	TRADITIONALCHINESE
-IMMERSIVE	IMMERSIVE	IMMERSIVEIMMERSIVE
 RIME-RADICAL-PINYIN	RIME-RADICAL-PINYIN
 DOWNLOADABLE CONTENT	DOWNLOADABLECONTENT
 MODEL-VIEW-VIEWMODEL	MODEL-VIEW-VIEWMODEL
@@ -62418,8 +62261,6 @@ INTELLIGENCE QUOTIENT	INTELLIGENCEQUOTIENT
 MODEL-VIEW-CONTROLLER	MODEL-VIEW-CONTROLLER
 SPONGEBOB SQUAREPANTS	SPONGEBOBSQUAREPANTS
 DEOXYRIBONUCLEIC ACID	DEOXYRIBONUCLEICACID
-GITHUB.COM	GITHUB.COM	GITHUB.COMGITHUB.COM
-GOOGLE.COM	GOOGLE.COM	GOOGLE.COMGOOGLE.COM
 REVERSE_LOOKUP_FILTER	REVERSE_LOOKUP_FILTER
 COMMAND-LINE INTERFACE	COMMAND-LINEINTERFACE
 HYPERTEXT PREPROCESSOR	HYPERTEXTPREPROCESSOR
