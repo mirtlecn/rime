@@ -346,7 +346,7 @@ radical_reverse_lookup:
   tags: [radical_lookup]
   # overwrite_comment: true
   # append_comment: true
-  dictionary: zdict
+  dictionary: kMandarin
   # comment_format:
   #   - xform/^/(/
   #   - xform/$/)/
@@ -354,7 +354,7 @@ radical_reverse_lookup:
 stroke_reverse_lookup:
   tags: [stroke_lookup]
   # append_comment: true
-  dictionary: zdict
+  dictionary: kMandarin
   # overwrite_comment: true
 
 radical_lookup:
