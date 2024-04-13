@@ -4,6 +4,7 @@
 name: en
 version: "2024.04"
 import_tables:
+  - en_dicts/term # 不应该大小写的术语
   - en_dicts/main # 主词典
   - en_dicts/special # 编码和词汇不完全匹配的词汇，不能大小写转换的词汇
 ...
