@@ -44,7 +44,7 @@ function s.func( key, env )
     local num = s.kb[key_sequence]
     if context:is_composing() and num then
         context:commit()
-        context:commit_text( num )
+        env.engine:commit_text( num )
         return 1
     end
 
