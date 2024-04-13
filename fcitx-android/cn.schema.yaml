@@ -1,0 +1,461 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: cn
+  name: 小鹤双拼 | Fcitx-Android
+  version: "2024.04"
+  dependencies:
+    - radical
+    - stroke
+    - en
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中, 英]
+  - name: traditionalize
+    reset: 0
+    states: [简, 臺]
+  - name: simplify
+    reset: 0
+    states: [原, 简]
+  - name: emoji
+    reset: 1
+    states: [无, 有]
+  - name: reverse_simp
+    states: [分, 合]
+  # - name: parrot_translator
+  #   reset: 0
+  #   states: [关, 造]
+  - name: search_single_char
+    states: [词, 单]
+  - name: completion
+    reset: 0
+    states: [补, 关]
+
+engine:
+  processors:
+    - ascii_composer
+    - lua_processor@*processor
+    - recognizer
+    # - lua_processor@*select_index
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@reverse_lookup
+    - affix_segmentor@radical_lookup
+    - affix_segmentor@stroke_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - script_translator
+    - table_translator@cn_flypy
+    - table_translator@en
+    - table_translator@radical_lookup
+    - table_translator@stroke_lookup
+    - lua_translator@*number_translator
+    - lua_translator@*unicode
+    - table_translator@cn_en_flypy
+    # - lua_translator@*parrot_translator
+  filters:
+    - simplifier@simplify
+    - simplifier@emoji
+    - simplifier@traditionalize
+    - reverse_lookup_filter@radical_reverse_lookup
+    - reverse_lookup_filter@stroke_reverse_lookup
+    - simplifier@reverse_simp
+    - lua_filter@*search
+    - lua_filter@*filter
+    - uniquifier
+
+processor:
+  debug: false
+  length_limit: 60
+  commit_history_key: "tt" # 按下此键直接上屏上一次的输入
+  # clear_history_key:
+  # 检测到此键（不影响该键功能），清空当前会话（进程）的历史提交记录
+  # rime 中，空格、退格等按键都会清空历史提交记录
+  # 脚本添加了 Escape，Up，Down 以及 Shift + Return 键清空记录
+  # 该选项的用例：将其设置为启动器（launcher）的快捷键，每触发一次都会重置输入状态
+  # - Release+Alt_R
+  # - Release+Alt_L
+
+  # 以下三个规则：
+  # 处理 [ASCII 码表](https://zh.wikipedia.org/wiki/ASCII) 0x21-0x7e 字符（**不包含空格**）
+  # 两个反斜杠代替斜杠（ \\ -> /）
+  # 百分号开头的特殊符号参考 <https://www.lua.org/pil/20.2.html>
+  ascii_rules:
+    # - ascii/A/B/
+    # 上一次上屏词结尾是 A 字符，则将要输入的 B 字符将以 ASCII 码形式直接上屏
+    # 历史字符留空表示，非编辑情况下，该按键始终以 ascii 形式上屏
+    # - ascii//%d~/
+    # - ascii/`/`/
+    # - ascii/%d/-.,:+*\\/
+    - ascii/\\/\\/
+    - ascii/././
+    - ascii/+-/+-/
+    - ascii/_/_/
+    - ascii/:/\\/
+    - ascii/'"/'"])>}/
+    # - ascii/:_`+,;-\\./%a/
+    # - ascii/%a/([<{_`+-\\'"%a/
+    - ascii/!/[/
+    # - ascii/[]/%w[]()'"/
+    # - ascii/(/%w)[]'"/
+    # - ascii/</%w>'"/
+    # - ascii/{}/%w{}'"/
+    - ascii/[]/[]()'"/
+    - ascii/(/)[]'"/
+    - ascii/</>'"/
+    - ascii/{}/{}'"/
+  cn_rules:
+    # 中文后的符号转换规则，和 rime 的算法规则一致
+    - xlit/.,?!:;|[{(\/。，？！：；·「『（、/
+    - xform _ ——
+    - xform \^ ……
+    # - xform 「 「」
+    # - xform 『 『』
+    # - xform （ （）
+  custom_rules:
+    # 优先级最高，最先处理
+    # fnr/历史字符/按键字符/上屏内容/
+    # 历史、按键字符前加 %% 为字符集匹配
+    # 上屏字符为 %%1 -> 禁用此按键
+    # 上屏字符为 %%2 -> 放行此按键
+    # 上屏字符为 %%0 -> 系统处理按键
+    # <https://github.com/hchunhui/librime-lua/wiki/Scripting#lua_processor>
+    - fnr/%%「』/%%"]/」/
+    - fnr/『/%%'}/』/
+    - fnr/（/)/）/
+    - fnr/!/[/[]()/
+    - fnr/%%《〉/>/》/
+    - fnr/〈/>/〉/
+    - fnr/：/%%'[/「/
+    - fnr/：/"/“”/
+    - fnr/：/%%{"/『/
+    - fnr/：/'/‘’/
+    - fnr/【/%%]}/】/
+    - fnr/〔/%%]}/〕/
+    - fnr/〖/%%]}/〗/
+    - fnr/%%“’/%%]}/”/
+    - fnr/%%”』」）》〉’/./。/
+    - fnr/%%”』」）》〉’/,/，/
+    - fnr/%%！？”』」）》〉’/?/？/
+    - fnr/%%！？”』」）》〉’/!/！/
+    - fnr/‘/%%]}/’/
+
+search:
+  show_other_cands: false
+  wildcard: "~" # 仅支持 db 反查
+  db:
+    - radical_flypy
+    - tone
+    - stroke
+  fuma_format:
+    - xlit/ABCDE/12345/
+  input2code_format:
+    - xform/([bpmfdtnljqx])n/$1iao/
+    - xform/(\w)g/$1eng/
+    - xform/(\w)q/$1iu/
+    - xform/(\w)w/$1ei/
+    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
+    - xform/(\w)t/$1ve/
+    - xform/(\w)y/$1un/
+    - xform/([dtnlgkhvuirzcs])o/$1uo/
+    - xform/(\w)p/$1ie/
+    - xform/([jqx])s/$1iong/
+    - xform/(\w)s/$1ong/
+    - xform/(\w)d/$1ai/
+    - xform/(\w)f/$1en/
+    - xform/(\w)h/$1ang/
+    - xform/(\w)j/$1an/
+    - xform/([gkhvuirzcs])k/$1uai/
+    - xform/(\w)k/$1ing/
+    - xform/([jqxnl])l/$1iang/
+    - xform/(\w)l/$1uang/
+    - xform/(\w)z/$1ou/
+    - xform/([gkhvuirzcs])x/$1ua/
+    - xform/(\w)x/$1ia/
+    - xform/(\w)c/$1ao/
+    - xform/([dtgkhvuirzcs])v/$1ui/
+    - xform/(\w)b/$1in/
+    - xform/(\w)m/$1ian/
+    - xform/([aoe])\1(\w)/$1$2/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+    - xform/([jqxy])v/$1u/
+    - xform/aa/a/
+    - xform/ee/e/
+    - xform/oo/o/
+
+parrot_translator:
+  schema: en
+  # remove_punct: "."
+  always_on: false
+  space_alt: "~"
+  comment: "+"
+  ignore_string: "`"
+  # ignore_pattern:
+  #   # - "^[^@]*%w+%.%w+[^@]*$"
+  #   - ""
+
+filter:
+  en_schema: en
+  case_tip: false
+  mark_user_dict: false
+  add_space_cn_en: false
+  recode_cn_en: true
+  add_space_en: false
+  comment_format:
+    - erase/^.*☯.*$/
+    - erase/^〔(半角|全角)〕$/
+    # - erase/^〔半角〕$/
+    # - xform/半角/半/
+    # - xform/全角/全/
+    - erase/^\s+$/
+    - xform/(.) $/$1/
+    - xform/^ (.)/$1/
+    - xform/^〔|〕$//
+    - xform/^/(/
+    - xform/$/)/
+    # - xform/\(半角\)/◐/
+    # - xform/\(全角\)/●/
+  # show_in_comment:
+  # - comment
+  # - type
+  # - get_dynamic_type()
+  # - preedit
+  # - quality
+
+en:
+  dictionary: en
+  enable_sentence: false
+  initial_quality: 1.1
+  preedit_format:
+    - xform/ /
+  comment_format:
+    - xform/^.+$//
+
+cn_en_flypy:
+  dictionary: ""
+  user_dict: cn_en_flypy
+  db_class: stabledb
+  enable_completion: true
+  initial_quality: 0.5
+  comment_format:
+    - xform/^.+$//
+
+cn_flypy:
+  dictionary: ""
+  user_dict: cn_dicts/cn_flypy
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 99
+  comment_format:
+    - xform/^.+$//
+
+emoji:
+  option_name: emoji
+  opencc_config: emoji_only.json
+  tags: [abc]
+  # tips: all
+
+translator:
+  dictionary: cn
+  initial_quality: 1.2
+  # enable_correction: false
+  # enable_completion: true
+  # user_dict: pinyin
+  preedit_format:
+    - xform/([0-9]) ([0-9])/$1$2/
+    - xform/([0-9]) ([0-9])/$1$2/
+    - xform/ /'/
+    # - xform/([jqxy])v/$1u/
+    # - xform/(.)v/$1ü/
+  # packs:
+  #   - cn_pack
+
+traditionalize:
+  option_name: traditionalize
+  opencc_config: s2twp.json
+  # tips: all
+  tags: [abc, number]
+
+simplify:
+  option_name: simplify
+  opencc_config: t2s.json
+  # tips: all
+  tags: [abc]
+  # tips: all
+  # show_in_comment: true
+  append_comment: true
+  inherit_comment: true
+
+reverse_simp:
+  option_name: reverse_simp
+  opencc_config: t2s.json
+  tips: all
+  show_in_comment: true
+  append_comment: true
+  inherit_comment: true
+  tags: [radical_lookup, stroke_lookup, reverse_lookup]
+  # comment_format:
+  #   - xform/^/(/
+  #   - xform/$/)/
+
+punctuator:
+  import_preset: default
+  half_shape:
+    ",": ，
+    ".": 。
+    "<": ["<", 《, 〈]
+    ">": [">", 》, 〉]
+    "/": ["/"]
+    "?": [？]
+    ";": ；
+    ":": ：
+    "'": ["'", "‘", "“"]
+    '"': ['"', "’", "”"]
+    '\': [、, '\']
+    "|": ["|", "•"]
+    "~": ["~"]
+    "!": ！
+    "@": ["@",'*']
+    "#": ["#","&","%"]
+    "*": "*"
+    "(": ['（', "「", "『", "【", "{"]
+    ")": ['）',"」", "』", "】", "}"]
+    "-": [——, "_", "-",'……']
+    "+": "+"
+    "=": "="
+
+key_binder:
+  select_first_character: plus
+  select_last_character: equal
+  import_preset: default
+  search: "`"
+  bindings:
+    - { accept: asterisk, send: grave, when: always }
+    - { accept: "Control+Shift+F3", toggle: traditionalize, when: always }
+    - { accept: "Control+Shift+F4", toggle: emoji, when: always }
+    - { accept: "Control+Shift+F5", toggle: simplify, when: has_menu }
+    - { accept: "Control+r", toggle: reverse_simp, when: has_menu }
+    # - { accept: "Control+p", toggle: parrot_translator, when: has_menu }
+    - { accept: "Control+s", toggle: search_single_char, when: has_menu }
+    - { accept: "Control+c", toggle: completion, when: has_menu }
+
+reverse_lookup:
+  tag: reverse_lookup
+  prefix: "`"
+  # suffix: "~"
+  tips: "[查]"
+  # closing_tips: ""
+  extra_tags:
+    - radical_lookup
+    - stroke_lookup
+
+radical_reverse_lookup:
+  tags: [radical_lookup]
+  # overwrite_comment: true
+  # append_comment: true
+  dictionary: zdict
+  # comment_format:
+  #   - xform/^/(/
+  #   - xform/$/)/
+
+stroke_reverse_lookup:
+  tags: [stroke_lookup]
+  # append_comment: true
+  dictionary: zdict
+  # overwrite_comment: true
+
+radical_lookup:
+  tag: radical_lookup
+  dictionary: radical_flypy
+  # enable_user_dict: false
+  enable_sentence: false
+  # max_phrase_length: 1
+  prefix: "`C"
+  # suffix: "~"
+  tips: "[拆]"
+  # closing_tips: "<拆"
+  comment_format:
+    - erase/^.*$//
+
+stroke_lookup:
+  tag: stroke_lookup
+  enable_sentence: false
+  # enable_user_dict: false
+  dictionary: stroke
+  prefix: "`B"
+  tips: "[笔]"
+  # closing_tips: "<笔"
+  comment_format:
+    - erase/^.*$//
+
+recognizer:
+  patterns:
+    punct: "^``.*$"
+    win_path: "^[A-Za-z]:.*"
+    hyphen: "^[A-Za-z0-9]+[-_/~.:'].*"
+    reverse_lookup: "^`[a-z;]+$"
+    radical_lookup: "^`C[a-z;]+$"
+    stroke_lookup: "^`B[hspnz]+$"
+    unicode: "^`U[a-fA-F0-9]+"
+    number: "^`[0-9]+[.]?[0-9]*"
+
+speller:
+  alphabet: zyxwvutsrqponmlkjüihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA~`1234567890
+  initials: zyxwvutsrqponmlkjüihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`
+  delimiter: " '"
+  algebra:
+    # - erase/^xx$/
+    # 模糊音
+    # - derive/^n/l/
+    # - derive/^l/n/
+    # - derive/ing$/in/
+    # - derive/in$/ing/
+    # - derive/^([jqxy])u$/$1v/
+    # - derive/^([aoe])([ioun])$/$1$1$2/
+    # 下面是转化
+    - xform/^([aoe])(ng)?$/$1$1$2/
+    - xform/iu$/<q>/
+    - derive/ü/<v>/
+    - xform/(.)ei$/$1<w>/
+    - xform/uan$/<r>/
+    - xform/[uv]e$/<t>/
+    - xform/un$/<y>/
+    - xform/^sh/<u>/
+    - xform/^ch/<i>/
+    - xform/^zh/<v>/
+    - xform/uo$/<o>/
+    - xform/ie$/<p>/
+    - xform/(.)i?ong$/$1<s>/
+    - xform/ing$|uai$/<k>/
+    - xform/(.)ai$/$1<d>/
+    - xform/(.)en$/$1<f>/
+    - xform/(.)eng$/$1<g>/
+    - xform/[iu]ang$/<l>/
+    - xform/(.)ang$/$1<h>/
+    - xform/ian$/<m>/
+    - xform/(.)an$/$1<j>/
+    - xform/(.)ou$/$1<z>/
+    - xform/[iu]a$/<x>/
+    - xform/iao$/<n>/
+    - xform/(.)ao$/$1<c>/
+    - xform/ui$/<v>/
+    - xform/in$/<b>/
+    - xform/<|>/
+    # - abbrev/^(.).+$/$1/
