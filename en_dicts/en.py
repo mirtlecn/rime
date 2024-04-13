@@ -8,11 +8,12 @@ en_d = []
 
 header_info = """---
 name: main
+version: "1.0"
 sort: original
 ...
 """
 
-with open('en.yaml', 'a+') as f:
+with open('main.dict.yaml', 'a+') as f:
     # 将文件指针移动到文件开头
     f.seek(0)
     # 清空文件内容
@@ -57,8 +58,8 @@ with open('en.txt', 'w', encoding='utf-8') as f:
             # 将单词全大写，并加入 en_d 表
             en_d.append(upper_en)
 
-with open('en.yaml', 'w', encoding='utf-8') as f:
-    # f.write(header_info)
+with open('main.dict.yaml', 'w', encoding='utf-8') as f:
+    f.write(header_info)
     for word in en_a:
         clean_word = re.sub(r'\s+', '', word)
         f.write(word + '\t' + clean_word + '\n')
