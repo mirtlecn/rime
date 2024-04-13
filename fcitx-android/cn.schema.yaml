@@ -332,7 +332,7 @@ punctuator:
     "|": ["|", "•"]
     "~": ["~"]
     "!": ！
-    "@": ['`']
+    "@": ['@']
     "#": ["#","&","%"]
     "*": ["*",'@']
     "(": ['（', "「", "『", "【", "{"]
@@ -347,7 +347,7 @@ key_binder:
   select_last_character: equal
   search: "`"
   bindings:
-    # - { accept: at, send: grave, when: always }
+    - { accept: at, send: grave, when: always }
     - { accept: "Control+Shift+F3", toggle: traditionalize, when: always }
     - { accept: "Control+Shift+F4", toggle: emoji, when: always }
     - { accept: "Control+Shift+F5", toggle: simplify, when: has_menu }
