@@ -205,7 +205,7 @@ function P.func( key, env )
     -- 词组处理，如果输入了中英文词组，将最后一个字符视为历史提交
     if utf8.len( latest_text ) > 1 then
         env.COMMITHISTTORY[0] = latest_text:sub( utf8.offset( latest_text, -1 ) )
-        local latest_text_re = latest_text:gsub( env.COMMITHISTTORY[0],'')
+        local latest_text_re = latest_text:gsub( env.COMMITHISTTORY[0] .. '$','')
         env.COMMITHISTTORY[1] = latest_text_re:sub( utf8.offset( latest_text_re, -1 ) )
     else
         env.COMMITHISTTORY[1] = env.COMMITHISTTORY[0] or ''
