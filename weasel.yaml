@@ -55,16 +55,10 @@ global_ascii: false
 # [style]
 style:
   color_scheme: google
-  # color_scheme_dark: purity_of_form_custom # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
-
-  # font_face: "等距更纱黑体 SC:7c:7c, Noto Color Emoji:1F236:1F236, Noto Color Emoji:1F21A:1F21A, 等距更纱黑体 SC, Plangothic P1, Plangothic P2, SF Pro, Noto Color Emoji"
-  # label_font_face: "等距更纱黑体 SC"
-  # comment_font_face: "Noto Color Emoji:1F236:1F236, Noto Color Emoji:1F21A:1F21A, 等距更纱黑体 SC"
-  # font_face: "Segoe UI Emoji:263C:2648, Segoe UI Emoji:1F236:1F236, Segoe UI Emoji:1F21A:1F21A, Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, 思源黑体 CN, SF Pro, 遍黑体P1, 遍黑体P2, Segoe UI Emoji, Noto Color Emoji"
+  # color_scheme_dark: purity_of_form_custom
   font_face: "MS Gothic:7c:7c, 思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, 思源黑体 CN, Microsoft Yahei, SF Pro, 遍黑体P1, 遍黑体P2, Noto Color Emoji"
-
-  # label_font_face: "思源黑体 CN"
-  # comment_font_face: "Segoe UI Emoji:1F236:1F236, Segoe UI Emoji:1F21A:1F21A, 思源黑体 CN"
+  label_font_face: "思源黑体 CN"
+  comment_font_face: "MS Gothic:7c:7c, 思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, 思源黑体 CN, Microsoft Yahei, SF Pro, 遍黑体P1, 遍黑体P2, Noto Color Emoji"
 
   font_point: 14
   label_font_point: 14
@@ -78,7 +72,8 @@ style:
 
   ascii_tip_follow_cursor: false
   display_tray_icon: false
-  mouse_hover_ms: 0
+  # mouse_hover_ms: 0
+  hover_type: semi_hilite
 
   inline_preedit: true
   preedit_type: composition
@@ -93,6 +88,8 @@ style:
   vertical_text_with_wrap: false
 
   layout:
+    # baseline: 100
+    # linespacing: 140
     align_type: center
     max_width: 0
     min_width: 160
@@ -228,7 +225,3 @@ preset_color_schemes:
     hilited_candidate_border_color: 0x230dc3
     shadow_color: 0x80000000
 # [End of <preset_color_schemes>]
-
-__patch:
-  - res/style:/win11?
-  - weasel.custom:/patch?

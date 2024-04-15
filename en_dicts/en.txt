@@ -196,7 +196,6 @@ MVP
 Mac
 Mag
 May
-Mr.
 N/A
 NAS
 NBA
@@ -899,14 +898,12 @@ Amex
 Andy
 Anna
 Anne
-Apr.
 Arab
 Ares
 Asia
 Asin
 Auch
 Audi
-Aug.
 Aust
 Aviv
 Avon
@@ -943,7 +940,6 @@ Cody
 Cory
 Ctrl
 Cuba
-D.VA
 DApp
 DDoS
 DHCP
@@ -953,7 +949,6 @@ DYOR
 Daly
 Dane
 Dave
-Dec.
 Dell
 Dior
 DivX
@@ -979,12 +974,10 @@ FIFA
 FIFO
 FOMO
 FOSS
-Feb.
 Fiji
 Finn
 Fred
 Frey
-Fri.
 Fyne
 GDPR
 GIFs
@@ -1032,7 +1025,6 @@ IPv6
 IQOS
 ISBN
 ISSN
-Inc.
 Indy
 Iowa
 Iran
@@ -1044,7 +1036,6 @@ JPEG
 JRPG
 JSON
 Jack
-Jan.
 Jane
 Java
 Jean
@@ -1101,7 +1092,6 @@ Lois
 Lola
 Lori
 Lowe
-Ltd.
 Lucy
 Luke
 Lund
@@ -1114,7 +1104,6 @@ MSDN
 MVVM
 Macy
 Mann
-Mar.
 Mars
 Marx
 Mary
@@ -1124,10 +1113,8 @@ Miss
 MitM
 Moby
 Moke
-Mon.
 Mona
 Moom
-Mrs.
 NAPA
 NASA
 NATO
@@ -1146,20 +1133,17 @@ Nina
 Niue
 Noah
 Nora
-Nov.
 Nvim
 OCSP
 OPPO
 OS X
 Oahu
-Oct.
 Oder
 Odoo
 Ohio
 Oman
 Omar
 Owen
-P.S.
 PCIe
 PDFs
 PIME
@@ -1196,16 +1180,13 @@ SUVs
 SWAT
 Saab
 Sara
-Sat.
 Sean
-Sep.
 Sims
 Sion
 Siri
 Skye
 Snip
 Sony
-Sun.
 Suns
 Sven
 TOML
@@ -1213,7 +1194,6 @@ TOTP
 Tate
 Thai
 Thor
-Thu.
 TiVo
 Tina
 Todd
@@ -1221,7 +1201,6 @@ Togo
 Toni
 Tory
 Troy
-Tue.
 Tyne
 UPnP
 URLs
@@ -1248,7 +1227,6 @@ Watt
 WebM
 WebP
 Webb
-Wed.
 WiFi
 Wood
 Xbox
@@ -1663,7 +1641,6 @@ duty
 dyer
 dyes
 dyke
-e.g.
 eGPU
 ePub
 eSIM
@@ -1692,7 +1669,6 @@ enum
 envy
 epic
 espn
-etc.
 euro
 eval
 even
@@ -1952,7 +1928,6 @@ hurt
 hush
 hymn
 hype
-i.e.
 i18n
 iMac
 iPad
@@ -3264,7 +3239,6 @@ Punta
 Putin
 Quinn
 Quora
-R.I.P
 ROOSE
 Ramon
 Raton
@@ -3288,7 +3262,6 @@ Scots
 Scott
 Seiko
 Seoul
-Sept.
 Serie
 Shane
 Shaun
@@ -6000,7 +5973,6 @@ OpenCV
 OpenGL
 OpenID
 Orbitz
-P.P.S.
 PCMCIA
 Pamela
 Pandoc
@@ -6115,7 +6087,6 @@ Texans
 Thames
 Thanos
 Thomas
-Thurs.
 TikTok
 Tivoli
 ToDesk
@@ -6151,7 +6122,6 @@ Vivian
 VoWiFi
 Volley
 Vonage
-Vue.js
 Walden
 Waline
 Walker
@@ -6952,7 +6922,6 @@ escrow
 essays
 estate
 esteem
-et al.
 ethics
 ethnic
 eureka
@@ -9223,7 +9192,6 @@ Newbury
 Nichols
 Nicolas
 Nielsen
-Node.js
 Norwood
 Notepad
 NovelAI
@@ -9377,8 +9345,6 @@ Tuscany
 Twitter
 Twiztid
 TypeORM
-USB 3.1
-USB 3.2
 Ubisoft
 Ulysses
 Unicode
@@ -14352,7 +14318,6 @@ rhapsody
 rhetoric
 ridicule
 rigorous
-rime.lua
 ringtone
 roadside
 robotics
@@ -15099,7 +15064,6 @@ Princeton
 Procreate
 Proxifier
 QuickTime
-README.md
 Radiohead
 Rajasthan
 Rammstein
@@ -16825,7 +16789,6 @@ sportsman
 spotlight
 spreading
 squirting
-sspai.com
 stability
 stainless
 staircase
@@ -17799,14 +17762,10 @@ geographic
 geological
 geophysics
 girlfriend
-github.com
-github.com
 glossaries
-google.com
 goroutines
 governance
 government
-gpedit.msc
 graduating
 graduation
 gramophone
@@ -19368,7 +19327,6 @@ retardation
 retractable
 scalability
 scandinavia
-schema.yaml
 scholarship
 scientology
 screensaver
@@ -19515,7 +19473,6 @@ viewpicture
 voluntarily
 warehousing
 watersports
-weasel.yaml
 westminster
 wholesalers
 willingness
@@ -19707,7 +19664,6 @@ counterparts
 cryptography
 customizable
 declarations
-default.yaml
 deficiencies
 deliberately
 demographics
@@ -20330,7 +20286,6 @@ FaceTime Audio
 GitHub Copilot
 Great Firewall
 IDEA Community
-J.R.R. Tolkien
 JetBrains Mono
 Leicestershire
 Northumberland

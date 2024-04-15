@@ -96,7 +96,7 @@ function F.func( input, env )
         -- 用作在注释中显示候选的各种信息
         if F.show_in_comment then
             local list = F.show_in_comment
-            local info = '/' .. 'input_code: ' .. input_code
+            local info = '/' .. 'input: ' .. input_code
             local key
             local value
             for i = 0, list.size - 1 do

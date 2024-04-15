@@ -3,6 +3,50 @@ name: term
 version: "1.0"
 sort: original
 ...
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 0	0
 1	1
 2	2
@@ -65,6 +109,49 @@ w	w
 x	x
 y	y
 z	z
+Mr.	Mr.
 .NET	.NET
+Apr.	Apr.
+Aug.	Aug.
+D.VA	D.VA
+Dec.	Dec.
+Feb.	Feb.
+Fri.	Fri.
+Inc.	Inc.
+Jan.	Jan.
+Ltd.	Ltd.
+Mar.	Mar.
+Mon.	Mon.
+Mrs.	Mrs.
+Nov.	Nov.
+Oct.	Oct.
+P.S.	P.S.
+Sat.	Sat.
+Sep.	Sep.
+Sun.	Sun.
+Thu.	Thu.
+Tue.	Tue.
+Wed.	Wed.
+e.g.	e.g.
+etc.	etc.
+i.e.	i.e.
+R.I.P	R.I.P
+Sept.	Sept.
 &nbsp;	&nbsp;
+P.P.S.	P.P.S.
+Thurs.	Thurs.
+Vue.js	Vue.js
+et al.	etal.
+Node.js	Node.js
+USB 3.1	USB3.1
+USB 3.2	USB3.2
+rime.lua	rime.lua
 .DS_Store	.DS_Store
+README.md	README.md
+sspai.com	sspai.com
+github.com	github.com
+google.com	google.com
+gpedit.msc	gpedit.msc
+schema.yaml	schema.yaml
+weasel.yaml	weasel.yaml
+default.yaml	default.yaml

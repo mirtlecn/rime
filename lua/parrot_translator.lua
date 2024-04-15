@@ -12,13 +12,6 @@ end
 -- 主函数
 local echo = {}
 
--- 读取设置
--- parrot_translator:
---     always_on: bool # 是否始终开启此翻译器
---     remove_punct:   # 在编码中删除这些符号
---     comment:        # 注释
---     space_pattern:  # 用以替代空格的符号（特殊字符需要 % 转义）
---     schema:         # 操作的方案（用户词典写入的方案）
 function echo.init( env )
     local config = env.engine.schema.config
     env.name_space = env.name_space:gsub( '^*', '' )
@@ -135,35 +128,8 @@ function echo.func( inp, seg, env )
     ::echo_phrase_with_space_done::
 
     if (not is_open) and (not echo.always_on) then return end
-
-    -- 学舌功能：开始
     -- inp 满足一定条件不学舌
     if echo.if_skip_echo( input_code ) then return end
-
-    -- dict_lookup function refactor in <https://github.com/hchunhui/librime-lua/commit/474b9d95e94e59af3e6d7f7c1b306bce6dae1b62>
-
-    -- local i = 0
-    -- -- in newer librime-lua, env.mem:dict_lookup(inp, false, 1) will always return an object
-    -- if env.dict then
-    --     for e in env.dict:lookup_words(inp, false, 1):iter() do
-    --         i = 1
-    --     end
-    -- else
-    --     if env.mem:dict_lookup(inp, false, 1) then
-    --         i = 1
-    --     end
-    -- end
-
-    -- local do_echo = true
-    -- local dict_lookup = env.mem:dict_lookup(inp, false, 2)
-    -- if dict_lookup then
-    --     for dictentry in env.mem:iter_dict() do
-    --         local text = dictentry.text
-    --         if text:find('^' .. match) then
-    --             do_echo = false
-    --         end
-    --     end
-    -- end
 
     -- can not find matched DictEntry then make new one
     -- if not env.mem:dict_lookup(inp, false, 1) then

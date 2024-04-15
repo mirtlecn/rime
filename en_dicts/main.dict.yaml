@@ -201,7 +201,6 @@ MVP	MVP
 Mac	Mac
 Mag	Mag
 May	May
-Mr.	Mr.
 N/A	N/A
 NAS	NAS
 NBA	NBA
@@ -904,14 +903,12 @@ Amex	Amex
 Andy	Andy
 Anna	Anna
 Anne	Anne
-Apr.	Apr.
 Arab	Arab
 Ares	Ares
 Asia	Asia
 Asin	Asin
 Auch	Auch
 Audi	Audi
-Aug.	Aug.
 Aust	Aust
 Aviv	Aviv
 Avon	Avon
@@ -948,7 +945,6 @@ Cody	Cody
 Cory	Cory
 Ctrl	Ctrl
 Cuba	Cuba
-D.VA	D.VA
 DApp	DApp
 DDoS	DDoS
 DHCP	DHCP
@@ -958,7 +954,6 @@ DYOR	DYOR
 Daly	Daly
 Dane	Dane
 Dave	Dave
-Dec.	Dec.
 Dell	Dell
 Dior	Dior
 DivX	DivX
@@ -984,12 +979,10 @@ FIFA	FIFA
 FIFO	FIFO
 FOMO	FOMO
 FOSS	FOSS
-Feb.	Feb.
 Fiji	Fiji
 Finn	Finn
 Fred	Fred
 Frey	Frey
-Fri.	Fri.
 Fyne	Fyne
 GDPR	GDPR
 GIFs	GIFs
@@ -1037,7 +1030,6 @@ IPv6	IPv6
 IQOS	IQOS
 ISBN	ISBN
 ISSN	ISSN
-Inc.	Inc.
 Indy	Indy
 Iowa	Iowa
 Iran	Iran
@@ -1049,7 +1041,6 @@ JPEG	JPEG
 JRPG	JRPG
 JSON	JSON
 Jack	Jack
-Jan.	Jan.
 Jane	Jane
 Java	Java
 Jean	Jean
@@ -1106,7 +1097,6 @@ Lois	Lois
 Lola	Lola
 Lori	Lori
 Lowe	Lowe
-Ltd.	Ltd.
 Lucy	Lucy
 Luke	Luke
 Lund	Lund
@@ -1119,7 +1109,6 @@ MSDN	MSDN
 MVVM	MVVM
 Macy	Macy
 Mann	Mann
-Mar.	Mar.
 Mars	Mars
 Marx	Marx
 Mary	Mary
@@ -1129,10 +1118,8 @@ Miss	Miss
 MitM	MitM
 Moby	Moby
 Moke	Moke
-Mon.	Mon.
 Mona	Mona
 Moom	Moom
-Mrs.	Mrs.
 NAPA	NAPA
 NASA	NASA
 NATO	NATO
@@ -1151,20 +1138,17 @@ Nina	Nina
 Niue	Niue
 Noah	Noah
 Nora	Nora
-Nov.	Nov.
 Nvim	Nvim
 OCSP	OCSP
 OPPO	OPPO
 OS X	OSX
 Oahu	Oahu
-Oct.	Oct.
 Oder	Oder
 Odoo	Odoo
 Ohio	Ohio
 Oman	Oman
 Omar	Omar
 Owen	Owen
-P.S.	P.S.
 PCIe	PCIe
 PDFs	PDFs
 PIME	PIME
@@ -1201,16 +1185,13 @@ SUVs	SUVs
 SWAT	SWAT
 Saab	Saab
 Sara	Sara
-Sat.	Sat.
 Sean	Sean
-Sep.	Sep.
 Sims	Sims
 Sion	Sion
 Siri	Siri
 Skye	Skye
 Snip	Snip
 Sony	Sony
-Sun.	Sun.
 Suns	Suns
 Sven	Sven
 TOML	TOML
@@ -1218,7 +1199,6 @@ TOTP	TOTP
 Tate	Tate
 Thai	Thai
 Thor	Thor
-Thu.	Thu.
 TiVo	TiVo
 Tina	Tina
 Todd	Todd
@@ -1226,7 +1206,6 @@ Togo	Togo
 Toni	Toni
 Tory	Tory
 Troy	Troy
-Tue.	Tue.
 Tyne	Tyne
 UPnP	UPnP
 URLs	URLs
@@ -1253,7 +1232,6 @@ Watt	Watt
 WebM	WebM
 WebP	WebP
 Webb	Webb
-Wed.	Wed.
 WiFi	WiFi
 Wood	Wood
 Xbox	Xbox
@@ -1668,7 +1646,6 @@ duty	duty
 dyer	dyer
 dyes	dyes
 dyke	dyke
-e.g.	e.g.
 eGPU	eGPU
 ePub	ePub
 eSIM	eSIM
@@ -1697,7 +1674,6 @@ enum	enum
 envy	envy
 epic	epic
 espn	espn
-etc.	etc.
 euro	euro
 eval	eval
 even	even
@@ -1957,7 +1933,6 @@ hurt	hurt
 hush	hush
 hymn	hymn
 hype	hype
-i.e.	i.e.
 i18n	i18n
 iMac	iMac
 iPad	iPad
@@ -3269,7 +3244,6 @@ Punta	Punta
 Putin	Putin
 Quinn	Quinn
 Quora	Quora
-R.I.P	R.I.P
 ROOSE	ROOSE
 Ramon	Ramon
 Raton	Raton
@@ -3293,7 +3267,6 @@ Scots	Scots
 Scott	Scott
 Seiko	Seiko
 Seoul	Seoul
-Sept.	Sept.
 Serie	Serie
 Shane	Shane
 Shaun	Shaun
@@ -6005,7 +5978,6 @@ OpenCV	OpenCV
 OpenGL	OpenGL
 OpenID	OpenID
 Orbitz	Orbitz
-P.P.S.	P.P.S.
 PCMCIA	PCMCIA
 Pamela	Pamela
 Pandoc	Pandoc
@@ -6120,7 +6092,6 @@ Texans	Texans
 Thames	Thames
 Thanos	Thanos
 Thomas	Thomas
-Thurs.	Thurs.
 TikTok	TikTok
 Tivoli	Tivoli
 ToDesk	ToDesk
@@ -6156,7 +6127,6 @@ Vivian	Vivian
 VoWiFi	VoWiFi
 Volley	Volley
 Vonage	Vonage
-Vue.js	Vue.js
 Walden	Walden
 Waline	Waline
 Walker	Walker
@@ -6957,7 +6927,6 @@ escrow	escrow
 essays	essays
 estate	estate
 esteem	esteem
-et al.	etal.
 ethics	ethics
 ethnic	ethnic
 eureka	eureka
@@ -9228,7 +9197,6 @@ Newbury	Newbury
 Nichols	Nichols
 Nicolas	Nicolas
 Nielsen	Nielsen
-Node.js	Node.js
 Norwood	Norwood
 Notepad	Notepad
 NovelAI	NovelAI
@@ -9382,8 +9350,6 @@ Tuscany	Tuscany
 Twitter	Twitter
 Twiztid	Twiztid
 TypeORM	TypeORM
-USB 3.1	USB3.1
-USB 3.2	USB3.2
 Ubisoft	Ubisoft
 Ulysses	Ulysses
 Unicode	Unicode
@@ -14357,7 +14323,6 @@ rhapsody	rhapsody
 rhetoric	rhetoric
 ridicule	ridicule
 rigorous	rigorous
-rime.lua	rime.lua
 ringtone	ringtone
 roadside	roadside
 robotics	robotics
@@ -15104,7 +15069,6 @@ Princeton	Princeton
 Procreate	Procreate
 Proxifier	Proxifier
 QuickTime	QuickTime
-README.md	README.md
 Radiohead	Radiohead
 Rajasthan	Rajasthan
 Rammstein	Rammstein
@@ -16830,7 +16794,6 @@ sportsman	sportsman
 spotlight	spotlight
 spreading	spreading
 squirting	squirting
-sspai.com	sspai.com
 stability	stability
 stainless	stainless
 staircase	staircase
@@ -17804,14 +17767,10 @@ geographic	geographic
 geological	geological
 geophysics	geophysics
 girlfriend	girlfriend
-github.com	github.com
-github.com	github.com
 glossaries	glossaries
-google.com	google.com
 goroutines	goroutines
 governance	governance
 government	government
-gpedit.msc	gpedit.msc
 graduating	graduating
 graduation	graduation
 gramophone	gramophone
@@ -19373,7 +19332,6 @@ retardation	retardation
 retractable	retractable
 scalability	scalability
 scandinavia	scandinavia
-schema.yaml	schema.yaml
 scholarship	scholarship
 scientology	scientology
 screensaver	screensaver
@@ -19520,7 +19478,6 @@ viewpicture	viewpicture
 voluntarily	voluntarily
 warehousing	warehousing
 watersports	watersports
-weasel.yaml	weasel.yaml
 westminster	westminster
 wholesalers	wholesalers
 willingness	willingness
@@ -19712,7 +19669,6 @@ counterparts	counterparts
 cryptography	cryptography
 customizable	customizable
 declarations	declarations
-default.yaml	default.yaml
 deficiencies	deficiencies
 deliberately	deliberately
 demographics	demographics
@@ -20335,7 +20291,6 @@ FaceTime Audio	FaceTimeAudio
 GitHub Copilot	GitHubCopilot
 Great Firewall	GreatFirewall
 IDEA Community	IDEACommunity
-J.R.R. Tolkien	J.R.R.Tolkien
 JetBrains Mono	JetBrainsMono
 Leicestershire	Leicestershire
 Northumberland	Northumberland
@@ -20737,7 +20692,6 @@ mvp	mvp
 mac	mac
 mag	mag
 may	may
-mr.	mr.
 n/a	n/a
 nas	nas
 nba	nba
@@ -20870,14 +20824,12 @@ amex	amex
 andy	andy
 anna	anna
 anne	anne
-apr.	apr.
 arab	arab
 ares	ares
 asia	asia
 asin	asin
 auch	auch
 audi	audi
-aug.	aug.
 aust	aust
 aviv	aviv
 avon	avon
@@ -20914,7 +20866,6 @@ cody	cody
 cory	cory
 ctrl	ctrl
 cuba	cuba
-d.va	d.va
 dapp	dapp
 ddos	ddos
 dhcp	dhcp
@@ -20924,7 +20875,6 @@ dyor	dyor
 daly	daly
 dane	dane
 dave	dave
-dec.	dec.
 dell	dell
 dior	dior
 divx	divx
@@ -20950,12 +20900,10 @@ fifa	fifa
 fifo	fifo
 fomo	fomo
 foss	foss
-feb.	feb.
 fiji	fiji
 finn	finn
 fred	fred
 frey	frey
-fri.	fri.
 fyne	fyne
 gdpr	gdpr
 gifs	gifs
@@ -21003,7 +20951,6 @@ ipv6	ipv6
 iqos	iqos
 isbn	isbn
 issn	issn
-inc.	inc.
 indy	indy
 iowa	iowa
 iran	iran
@@ -21015,7 +20962,6 @@ jpeg	jpeg
 jrpg	jrpg
 json	json
 jack	jack
-jan.	jan.
 jane	jane
 java	java
 jean	jean
@@ -21072,7 +21018,6 @@ lois	lois
 lola	lola
 lori	lori
 lowe	lowe
-ltd.	ltd.
 lucy	lucy
 luke	luke
 lund	lund
@@ -21085,7 +21030,6 @@ msdn	msdn
 mvvm	mvvm
 macy	macy
 mann	mann
-mar.	mar.
 mars	mars
 marx	marx
 mary	mary
@@ -21095,10 +21039,8 @@ miss	miss
 mitm	mitm
 moby	moby
 moke	moke
-mon.	mon.
 mona	mona
 moom	moom
-mrs.	mrs.
 napa	napa
 nasa	nasa
 nato	nato
@@ -21117,20 +21059,17 @@ nina	nina
 niue	niue
 noah	noah
 nora	nora
-nov.	nov.
 nvim	nvim
 ocsp	ocsp
 oppo	oppo
 os x	osx
 oahu	oahu
-oct.	oct.
 oder	oder
 odoo	odoo
 ohio	ohio
 oman	oman
 omar	omar
 owen	owen
-p.s.	p.s.
 pcie	pcie
 pdfs	pdfs
 pime	pime
@@ -21167,16 +21106,13 @@ suvs	suvs
 swat	swat
 saab	saab
 sara	sara
-sat.	sat.
 sean	sean
-sep.	sep.
 sims	sims
 sion	sion
 siri	siri
 skye	skye
 snip	snip
 sony	sony
-sun.	sun.
 suns	suns
 sven	sven
 toml	toml
@@ -21184,7 +21120,6 @@ totp	totp
 tate	tate
 thai	thai
 thor	thor
-thu.	thu.
 tivo	tivo
 tina	tina
 todd	todd
@@ -21192,7 +21127,6 @@ togo	togo
 toni	toni
 tory	tory
 troy	troy
-tue.	tue.
 tyne	tyne
 upnp	upnp
 urls	urls
@@ -21219,7 +21153,6 @@ watt	watt
 webm	webm
 webp	webp
 webb	webb
-wed.	wed.
 wifi	wifi
 wood	wood
 xbox	xbox
@@ -21646,7 +21579,6 @@ punta	punta
 putin	putin
 quinn	quinn
 quora	quora
-r.i.p	r.i.p
 roose	roose
 ramon	ramon
 raton	raton
@@ -21670,7 +21602,6 @@ scots	scots
 scott	scott
 seiko	seiko
 seoul	seoul
-sept.	sept.
 serie	serie
 shane	shane
 shaun	shaun
@@ -22148,7 +22079,6 @@ opencv	opencv
 opengl	opengl
 openid	openid
 orbitz	orbitz
-p.p.s.	p.p.s.
 pcmcia	pcmcia
 pamela	pamela
 pandoc	pandoc
@@ -22263,7 +22193,6 @@ texans	texans
 thames	thames
 thanos	thanos
 thomas	thomas
-thurs.	thurs.
 tiktok	tiktok
 tivoli	tivoli
 todesk	todesk
@@ -22299,7 +22228,6 @@ vivian	vivian
 vowifi	vowifi
 volley	volley
 vonage	vonage
-vue.js	vue.js
 walden	walden
 waline	waline
 walker	walker
@@ -22707,7 +22635,6 @@ newbury	newbury
 nichols	nichols
 nicolas	nicolas
 nielsen	nielsen
-node.js	node.js
 norwood	norwood
 notepad	notepad
 novelai	novelai
@@ -22861,8 +22788,6 @@ tuscany	tuscany
 twitter	twitter
 twiztid	twiztid
 typeorm	typeorm
-usb 3.1	usb3.1
-usb 3.2	usb3.2
 ubisoft	ubisoft
 ulysses	ulysses
 unicode	unicode
@@ -23511,7 +23436,6 @@ princeton	princeton
 procreate	procreate
 proxifier	proxifier
 quicktime	quicktime
-readme.md	readme.md
 radiohead	radiohead
 rajasthan	rajasthan
 rammstein	rammstein
@@ -23960,7 +23884,6 @@ facetime audio	facetimeaudio
 github copilot	githubcopilot
 great firewall	greatfirewall
 idea community	ideacommunity
-j.r.r. tolkien	j.r.r.tolkien
 jetbrains mono	jetbrainsmono
 leicestershire	leicestershire
 northumberland	northumberland
@@ -24888,7 +24811,6 @@ Cdpr	Cdpr
 Cnet	Cnet
 Crud	Crud
 Csdn	Csdn
-D.va	D.va
 Dapp	Dapp
 Ddos	Ddos
 Dhcp	Dhcp
@@ -24961,7 +24883,6 @@ Nyse	Nyse
 Ocsp	Ocsp
 Oppo	Oppo
 Os x	Osx
-P.s.	P.s.
 Pcie	Pcie
 Pdfs	Pdfs
 Pime	Pime
@@ -25402,7 +25323,6 @@ Duty	Duty
 Dyer	Dyer
 Dyes	Dyes
 Dyke	Dyke
-E.g.	E.g.
 Egpu	Egpu
 Epub	Epub
 Esim	Esim
@@ -25431,7 +25351,6 @@ Enum	Enum
 Envy	Envy
 Epic	Epic
 Espn	Espn
-Etc.	Etc.
 Euro	Euro
 Eval	Eval
 Even	Even
@@ -25691,7 +25610,6 @@ Hurt	Hurt
 Hush	Hush
 Hymn	Hymn
 Hype	Hype
-I.e.	I.e.
 I18n	I18n
 Imac	Imac
 Ipad	Ipad
@@ -26644,7 +26562,6 @@ Nuget	Nuget
 Posix	Posix
 Pppoe	Pppoe
 Prime	Prime
-R.i.p	R.i.p
 Roose	Roose
 Reged	Reged
 Tiobe	Tiobe
@@ -28953,7 +28870,6 @@ Opencc	Opencc
 Opencv	Opencv
 Opengl	Opengl
 Openid	Openid
-P.p.s.	P.p.s.
 Pcmcia	Pcmcia
 Paypal	Paypal
 Popcap	Popcap
@@ -29745,7 +29661,6 @@ Escrow	Escrow
 Essays	Essays
 Estate	Estate
 Esteem	Esteem
-Et al.	Etal.
 Ethics	Ethics
 Ethnic	Ethnic
 Eureka	Eureka
@@ -31744,8 +31659,6 @@ Swiftui	Swiftui
 Techweb	Techweb
 Tinypng	Tinypng
 Typeorm	Typeorm
-Usb 3.1	Usb3.1
-Usb 3.2	Usb3.2
 User id	Userid
 Vs code	Vscode
 Wysiwyg	Wysiwyg
@@ -36378,7 +36291,6 @@ Rhapsody	Rhapsody
 Rhetoric	Rhetoric
 Ridicule	Ridicule
 Rigorous	Rigorous
-Rime.lua	Rime.lua
 Ringtone	Ringtone
 Roadside	Roadside
 Robotics	Robotics
@@ -36978,7 +36890,6 @@ Powerpack	Powerpack
 Powertoys	Powertoys
 Presearch	Presearch
 Quicktime	Quicktime
-Readme.md	Readme.md
 Resharper	Resharper
 Saltstack	Saltstack
 Servercat	Servercat
@@ -38652,7 +38563,6 @@ Sportsman	Sportsman
 Spotlight	Spotlight
 Spreading	Spreading
 Squirting	Squirting
-Sspai.com	Sspai.com
 Stability	Stability
 Stainless	Stainless
 Staircase	Staircase
@@ -39527,14 +39437,10 @@ Geographic	Geographic
 Geological	Geological
 Geophysics	Geophysics
 Girlfriend	Girlfriend
-Github.com	Github.com
-Github.com	Github.com
 Glossaries	Glossaries
-Google.com	Google.com
 Goroutines	Goroutines
 Governance	Governance
 Government	Government
-Gpedit.msc	Gpedit.msc
 Graduating	Graduating
 Graduation	Graduation
 Gramophone	Gramophone
@@ -41055,7 +40961,6 @@ Retardation	Retardation
 Retractable	Retractable
 Scalability	Scalability
 Scandinavia	Scandinavia
-Schema.yaml	Schema.yaml
 Scholarship	Scholarship
 Scientology	Scientology
 Screensaver	Screensaver
@@ -41202,7 +41107,6 @@ Viewpicture	Viewpicture
 Voluntarily	Voluntarily
 Warehousing	Warehousing
 Watersports	Watersports
-Weasel.yaml	Weasel.yaml
 Westminster	Westminster
 Wholesalers	Wholesalers
 Willingness	Willingness
@@ -41380,7 +41284,6 @@ Counterparts	Counterparts
 Cryptography	Cryptography
 Customizable	Customizable
 Declarations	Declarations
-Default.yaml	Default.yaml
 Deficiencies	Deficiencies
 Deliberately	Deliberately
 Demographics	Demographics
@@ -41995,7 +41898,6 @@ Facetime audio	Facetimeaudio
 Github copilot	Githubcopilot
 Great firewall	Greatfirewall
 Idea community	Ideacommunity
-J.r.r. tolkien	J.r.r.tolkien
 Jetbrains mono	Jetbrainsmono
 Pickup artists	Pickupartists
 Reserveamerica	Reserveamerica
@@ -42260,7 +42162,6 @@ LUA	LUA
 MAC	MAC
 MAG	MAG
 MAY	MAY
-MR.	MR.
 OPT	OPT
 ORA	ORA
 PAK	PAK
@@ -42866,14 +42767,12 @@ AMEX	AMEX
 ANDY	ANDY
 ANNA	ANNA
 ANNE	ANNE
-APR.	APR.
 ARAB	ARAB
 ARES	ARES
 ASIA	ASIA
 ASIN	ASIN
 AUCH	AUCH
 AUDI	AUDI
-AUG.	AUG.
 AUST	AUST
 AVIV	AVIV
 AVON	AVON
@@ -42908,7 +42807,6 @@ DVDS	DVDS
 DALY	DALY
 DANE	DANE
 DAVE	DAVE
-DEC.	DEC.
 DELL	DELL
 DIOR	DIOR
 DIVX	DIVX
@@ -42929,12 +42827,10 @@ EVAN	EVAN
 EXIF	EXIF
 EZRA	EZRA
 FAQS	FAQS
-FEB.	FEB.
 FIJI	FIJI
 FINN	FINN
 FRED	FRED
 FREY	FREY
-FRI.	FRI.
 FYNE	FYNE
 GIFS	GIFS
 GPTS	GPTS
@@ -42960,7 +42856,6 @@ IMDB	IMDB
 IPOE	IPOE
 IPV4	IPV4
 IPV6	IPV6
-INC.	INC.
 INDY	INDY
 IOWA	IOWA
 IRAN	IRAN
@@ -42968,7 +42863,6 @@ IRAQ	IRAQ
 ISIS	ISIS
 IVAN	IVAN
 JACK	JACK
-JAN.	JAN.
 JANE	JANE
 JAVA	JAVA
 JEAN	JEAN
@@ -43019,7 +42913,6 @@ LOIS	LOIS
 LOLA	LOLA
 LORI	LORI
 LOWE	LOWE
-LTD.	LTD.
 LUCY	LUCY
 LUKE	LUKE
 LUND	LUND
@@ -43027,7 +42920,6 @@ LYNN	LYNN
 LYON	LYON
 MACY	MACY
 MANN	MANN
-MAR.	MAR.
 MARS	MARS
 MARX	MARX
 MARY	MARY
@@ -43037,10 +42929,8 @@ MISS	MISS
 MITM	MITM
 MOBY	MOBY
 MOKE	MOKE
-MON.	MON.
 MONA	MONA
 MOOM	MOOM
-MRS.	MRS.
 NVME	NVME
 NASH	NASH
 NAZI	NAZI
@@ -43051,10 +42941,8 @@ NINA	NINA
 NIUE	NIUE
 NOAH	NOAH
 NORA	NORA
-NOV.	NOV.
 NVIM	NVIM
 OAHU	OAHU
-OCT.	OCT.
 ODER	ODER
 ODOO	ODOO
 OHIO	OHIO
@@ -43085,22 +42973,18 @@ RYAN	RYAN
 SUVS	SUVS
 SAAB	SAAB
 SARA	SARA
-SAT.	SAT.
 SEAN	SEAN
-SEP.	SEP.
 SIMS	SIMS
 SION	SION
 SIRI	SIRI
 SKYE	SKYE
 SNIP	SNIP
 SONY	SONY
-SUN.	SUN.
 SUNS	SUNS
 SVEN	SVEN
 TATE	TATE
 THAI	THAI
 THOR	THOR
-THU.	THU.
 TIVO	TIVO
 TINA	TINA
 TODD	TODD
@@ -43108,7 +42992,6 @@ TOGO	TOGO
 TONI	TONI
 TORY	TORY
 TROY	TROY
-TUE.	TUE.
 TYNE	TYNE
 UPNP	UPNP
 URLS	URLS
@@ -43125,7 +43008,6 @@ WATT	WATT
 WEBM	WEBM
 WEBP	WEBP
 WEBB	WEBB
-WED.	WED.
 WIFI	WIFI
 WOOD	WOOD
 XBOX	XBOX
@@ -43538,7 +43420,6 @@ DUTY	DUTY
 DYER	DYER
 DYES	DYES
 DYKE	DYKE
-E.G.	E.G.
 EGPU	EGPU
 EPUB	EPUB
 ESIM	ESIM
@@ -43567,7 +43448,6 @@ ENUM	ENUM
 ENVY	ENVY
 EPIC	EPIC
 ESPN	ESPN
-ETC.	ETC.
 EURO	EURO
 EVAL	EVAL
 EVEN	EVEN
@@ -43827,7 +43707,6 @@ HURT	HURT
 HUSH	HUSH
 HYMN	HYMN
 HYPE	HYPE
-I.E.	I.E.
 I18N	I18N
 IMAC	IMAC
 IPAD	IPAD
@@ -45144,7 +45023,6 @@ SCOTS	SCOTS
 SCOTT	SCOTT
 SEIKO	SEIKO
 SEOUL	SEOUL
-SEPT.	SEPT.
 SERIE	SERIE
 SHANE	SHANE
 SHAUN	SHAUN
@@ -47951,7 +47829,6 @@ TEXANS	TEXANS
 THAMES	THAMES
 THANOS	THANOS
 THOMAS	THOMAS
-THURS.	THURS.
 TIKTOK	TIKTOK
 TIVOLI	TIVOLI
 TODESK	TODESK
@@ -47986,7 +47863,6 @@ VIVIAN	VIVIAN
 VOWIFI	VOWIFI
 VOLLEY	VOLLEY
 VONAGE	VONAGE
-VUE.JS	VUE.JS
 WALDEN	WALDEN
 WALINE	WALINE
 WALKER	WALKER
@@ -48786,7 +48662,6 @@ ESCROW	ESCROW
 ESSAYS	ESSAYS
 ESTATE	ESTATE
 ESTEEM	ESTEEM
-ET AL.	ETAL.
 ETHICS	ETHICS
 ETHNIC	ETHNIC
 EUREKA	EUREKA
@@ -51053,7 +50928,6 @@ NEWBURY	NEWBURY
 NICHOLS	NICHOLS
 NICOLAS	NICOLAS
 NIELSEN	NIELSEN
-NODE.JS	NODE.JS
 NORWOOD	NORWOOD
 NOTEPAD	NOTEPAD
 NOVELAI	NOVELAI
@@ -56173,7 +56047,6 @@ RHAPSODY	RHAPSODY
 RHETORIC	RHETORIC
 RIDICULE	RIDICULE
 RIGOROUS	RIGOROUS
-RIME.LUA	RIME.LUA
 RINGTONE	RINGTONE
 ROADSIDE	ROADSIDE
 ROBOTICS	ROBOTICS
@@ -56920,7 +56793,6 @@ PRINCETON	PRINCETON
 PROCREATE	PROCREATE
 PROXIFIER	PROXIFIER
 QUICKTIME	QUICKTIME
-README.MD	README.MD
 RADIOHEAD	RADIOHEAD
 RAJASTHAN	RAJASTHAN
 RAMMSTEIN	RAMMSTEIN
@@ -58646,7 +58518,6 @@ SPORTSMAN	SPORTSMAN
 SPOTLIGHT	SPOTLIGHT
 SPREADING	SPREADING
 SQUIRTING	SQUIRTING
-SSPAI.COM	SSPAI.COM
 STABILITY	STABILITY
 STAINLESS	STAINLESS
 STAIRCASE	STAIRCASE
@@ -59620,14 +59491,10 @@ GEOGRAPHIC	GEOGRAPHIC
 GEOLOGICAL	GEOLOGICAL
 GEOPHYSICS	GEOPHYSICS
 GIRLFRIEND	GIRLFRIEND
-GITHUB.COM	GITHUB.COM
-GITHUB.COM	GITHUB.COM
 GLOSSARIES	GLOSSARIES
-GOOGLE.COM	GOOGLE.COM
 GOROUTINES	GOROUTINES
 GOVERNANCE	GOVERNANCE
 GOVERNMENT	GOVERNMENT
-GPEDIT.MSC	GPEDIT.MSC
 GRADUATING	GRADUATING
 GRADUATION	GRADUATION
 GRAMOPHONE	GRAMOPHONE
@@ -61188,7 +61055,6 @@ RETARDATION	RETARDATION
 RETRACTABLE	RETRACTABLE
 SCALABILITY	SCALABILITY
 SCANDINAVIA	SCANDINAVIA
-SCHEMA.YAML	SCHEMA.YAML
 SCHOLARSHIP	SCHOLARSHIP
 SCIENTOLOGY	SCIENTOLOGY
 SCREENSAVER	SCREENSAVER
@@ -61335,7 +61201,6 @@ VIEWPICTURE	VIEWPICTURE
 VOLUNTARILY	VOLUNTARILY
 WAREHOUSING	WAREHOUSING
 WATERSPORTS	WATERSPORTS
-WEASEL.YAML	WEASEL.YAML
 WESTMINSTER	WESTMINSTER
 WHOLESALERS	WHOLESALERS
 WILLINGNESS	WILLINGNESS
@@ -61527,7 +61392,6 @@ COUNTERPARTS	COUNTERPARTS
 CRYPTOGRAPHY	CRYPTOGRAPHY
 CUSTOMIZABLE	CUSTOMIZABLE
 DECLARATIONS	DECLARATIONS
-DEFAULT.YAML	DEFAULT.YAML
 DEFICIENCIES	DEFICIENCIES
 DELIBERATELY	DELIBERATELY
 DEMOGRAPHICS	DEMOGRAPHICS
@@ -62150,7 +62014,6 @@ FACETIME AUDIO	FACETIMEAUDIO
 GITHUB COPILOT	GITHUBCOPILOT
 GREAT FIREWALL	GREATFIREWALL
 IDEA COMMUNITY	IDEACOMMUNITY
-J.R.R. TOLKIEN	J.R.R.TOLKIEN
 JETBRAINS MONO	JETBRAINSMONO
 LEICESTERSHIRE	LEICESTERSHIRE
 NORTHUMBERLAND	NORTHUMBERLAND
