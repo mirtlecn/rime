@@ -22,7 +22,4 @@ install_files: >-
   opencc/*
   lua/*
   # build/*
-  res/*.ico
-  res/style.yaml
-  res/config.yaml
-  res/predict_hans.db
+  res/*.*

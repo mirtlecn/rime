@@ -1,5 +1,21 @@
-# Copyright (C) Mirtle
-# License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+grammar:
+  grammar:
+    language: zh-hans-t-essay-bgw
+  translator/contextual_suggestions: true
+  translator/max_homophones: true
+  translator/max_homographs: true
+
+predict:
+  'engine/processors/@before 0': predictor
+  'engine/translators/@before 0': predict_translator
+  switches/+:
+    - name: prediction
+      states: [ 关闭预测, 开启预测 ]
+      reset: 0
+  predictor:
+    db: res/predict_hans.db
+    max_candidates: 5
+    max_iterations: 0
 
 v_full:
   style/+:
