@@ -54,8 +54,8 @@ global_ascii: false
 
 # [style]
 style:
-  color_scheme: google
-  # color_scheme_dark: purity_of_form_custom
+  color_scheme: ink
+  color_scheme_dark: nord
   font_face: "MS Gothic:7c:7c, 思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, 思源黑体 CN, Microsoft Yahei, SF Pro, 遍黑体P1, 遍黑体P2, Noto Color Emoji"
   label_font_face: "思源黑体 CN"
   comment_font_face: "MS Gothic:7c:7c, 思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, 思源黑体 CN, Microsoft Yahei, SF Pro, 遍黑体P1, 遍黑体P2, Noto Color Emoji"
@@ -72,7 +72,7 @@ style:
 
   ascii_tip_follow_cursor: false
   display_tray_icon: false
-  # mouse_hover_ms: 0
+  mouse_hover_ms: 0
   hover_type: semi_hilite
 
   inline_preedit: true
@@ -88,8 +88,8 @@ style:
   vertical_text_with_wrap: false
 
   layout:
-    # baseline: 100
-    # linespacing: 140
+    baseline: 0
+    linespacing: 0
     align_type: center
     max_width: 0
     min_width: 160
