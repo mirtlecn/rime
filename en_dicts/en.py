@@ -3,7 +3,9 @@ import os
 
 def sort_by_length_and_alpha(words):
     # 使用 sorted() 函数对列表进行排序
-    sorted_words = sorted(words, key=lambda x: (len(x), x))
+    unique_words = list(set(words))
+    non_empty_words = [word for word in unique_words if word.strip()]
+    sorted_words = sorted(non_empty_words, key=lambda x: (len(x), x))
     return sorted_words
 
 if os.path.exists('en.txt'):
@@ -104,6 +106,7 @@ sort: original
         f.seek(0)
         # 清空文件内容
         f.truncate()
+
     en_a = sort_by_length_and_alpha(en_a)
     
     with open('term.txt', 'w', encoding='utf-8') as f:
