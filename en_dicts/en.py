@@ -46,7 +46,7 @@ sort: original
         for word in en_a:
             f.write(word + '\n')
             lower_en = word.lower()
-            cap_en = word.capitalize()
+            cap_en = word[0].upper() + word[1:]
             upper_en = word.upper()
 
             # 将单词小写，并加入 en_b 表

@@ -23967,27 +23967,6 @@ non-governmental organization	non-governmentalorganization
 
 # word.capitalize
 
-Ai	Ai
-Av	Av
-Cd	Cd
-Ci	Ci
-Cs	Cs
-Dj	Dj
-Hk	Hk
-Id	Id
-Ie	Ie
-Io	Io
-Ip	Ip
-Lv	Lv
-Ok	Ok
-Os	Os
-Pc	Pc
-Pr	Pr
-Ps	Ps
-Qq	Qq
-Tv	Tv
-Ui	Ui
-Wc	Wc
 Am	Am
 As	As
 At	At
@@ -24012,209 +23991,6 @@ To	To
 Up	Up
 Us	Us
 We	We
-Abs	Abs
-Acg	Acg
-Ack	Ack
-Acm	Acm
-Adc	Adc
-Adm	Adm
-Agi	Agi
-Ahk	Ahk
-Amd	Amd
-Apc	Apc
-Api	Api
-Apk	Apk
-Atk	Atk
-Atm	Atm
-Avi	Avi
-Awp	Awp
-Aws	Aws
-Bbc	Bbc
-Bbq	Bbq
-Bbs	Bbs
-Bgm	Bgm
-Bmp	Bmp
-Bmw	Bmw
-Boc	Boc
-Bsd	Bsd
-Btc	Btc
-Btw	Btw
-Cba	Cba
-Cdc	Cdc
-Cdn	Cdn
-Cef	Cef
-Ceo	Ceo
-Cfo	Cfo
-Cgi	Cgi
-Cia	Cia
-Cio	Cio
-Cli	Cli
-Cms	Cms
-Cnn	Cnn
-Cpu	Cpu
-Css	Css
-Cto	Cto
-Diy	Diy
-Dlc	Dlc
-Dll	Dll
-Dna	Dna
-Dns	Dns
-Dos	Dos
-Dpi	Dpi
-Dvd	Dvd
-Dwm	Dwm
-Doh	Doh
-Doq	Doq
-Emp	Emp
-Ems	Ems
-Eur	Eur
-Faq	Faq
-Fbi	Fbi
-Fda	Fda
-Fps	Fps
-Ftp	Ftp
-Fyi	Fyi
-Gba	Gba
-Gbc	Gbc
-Gbp	Gbp
-Gcc	Gcc
-Gcd	Gcd
-Gdp	Gdp
-Gfm	Gfm
-Gfw	Gfw
-Gif	Gif
-Gmt	Gmt
-Gnu	Gnu
-Gpl	Gpl
-Gpo	Gpo
-Gps	Gps
-Gpt	Gpt
-Gpu	Gpu
-Gta	Gta
-Gui	Gui
-Hbo	Hbo
-Hdd	Hdd
-Hhd	Hhd
-Hiv	Hiv
-Htc	Htc
-Ibm	Ibm
-Icp	Icp
-Icq	Icq
-Ict	Ict
-Idc	Idc
-Ide	Ide
-Ign	Ign
-Iis	Iis
-Ime	Ime
-Ipc	Ipc
-Ipn	Ipn
-Ipo	Ipo
-Irs	Irs
-Iso	Iso
-Isp	Isp
-Jpg	Jpg
-Jsp	Jsp
-Jvm	Jvm
-Kfc	Kfc
-Kia	Kia
-Kpi	Kpi
-Ktv	Ktv
-Lan	Lan
-Lcd	Lcd
-Lol	Lol
-Mba	Mba
-Mbp	Mbp
-Mcu	Mcu
-Mit	Mit
-Mp3	Mp3
-Mp4	Mp4
-Msn	Msn
-Mtv	Mtv
-Mvc	Mvc
-Mvp	Mvp
-N/a	N/a
-Nas	Nas
-Nba	Nba
-Nbc	Nbc
-Nft	Nft
-Ngo	Ngo
-Npc	Npc
-Ntr	Ntr
-Nyc	Nyc
-Ocr	Ocr
-Okx	Okx
-Omg	Omg
-Orm	Orm
-Oss	Oss
-Otc	Otc
-P2p	P2p
-Pac	Pac
-Pci	Pci
-Pdf	Pdf
-Php	Php
-Png	Png
-Ppt	Ppt
-Psp	Psp
-Pua	Pua
-Pvc	Pvc
-Pvp	Pvp
-Phd	Phd
-Qos	Qos
-Ram	Ram
-Rfc	Rfc
-Rft	Rft
-Rgb	Rgb
-Rna	Rna
-Rpg	Rpg
-Rss	Rss
-Sdk	Sdk
-Seo	Seo
-Sfc	Sfc
-Sim	Sim
-Sms	Sms
-Sos	Sos
-Spa	Spa
-Sql	Sql
-Ssd	Ssd
-Ssl	Ssl
-Suv	Suv
-Svg	Svg
-Svn	Svn
-Tcl	Tcl
-Tcp	Tcp
-Tls	Tls
-Tnt	Tnt
-Toc	Toc
-Tui	Tui
-Udp	Udp
-Ufo	Ufo
-Uid	Uid
-Uno	Uno
-Ups	Ups
-Uri	Uri
-Url	Url
-Usa	Usa
-Usb	Usb
-Usc	Usc
-Usd	Usd
-Utc	Utc
-Utf	Utf
-Vcd	Vcd
-Vcr	Vcr
-Vcs	Vcs
-Vga	Vga
-Vip	Vip
-Vpn	Vpn
-Vps	Vps
-Wav	Wav
-Wip	Wip
-Wmv	Wmv
-Wow	Wow
-Wtf	Wtf
-Wto	Wto
-Wwi	Wwi
-Xml	Xml
-Xxl	Xxl
 Abc	Abc
 Ace	Ace
 Act	Act
@@ -24459,7 +24235,7 @@ Hug	Hug
 Huh	Huh
 Hum	Hum
 Hut	Hut
-Ios	Ios
+IOS	IOS
 Ibn	Ibn
 Ice	Ice
 Icy	Icy
@@ -24785,141 +24561,6 @@ Yum	Yum
 Zen	Zen
 Zip	Zip
 Zoo	Zoo
-Adhd	Adhd
-Adsl	Adsl
-Aigc	Aigc
-Ajax	Ajax
-Ak47	Ak47
-Ak74	Ak74
-Ansi	Ansi
-Aosp	Aosp
-Apfs	Apfs
-Apis	Apis
-Asap	Asap
-Asmr	Asmr
-Asus	Asus
-At&t	At&t
-Avif	Avif
-Bdsm	Bdsm
-Bios	Bios
-Benq	Benq
-Cctv	Cctv
-Cdma	Cdma
-Cdpr	Cdpr
-Cnet	Cnet
-Crud	Crud
-Csdn	Csdn
-Dapp	Dapp
-Ddos	Ddos
-Dhcp	Dhcp
-Dmca	Dmca
-Dvds	Dvds
-Dyor	Dyor
-Divx	Divx
-Djvu	Djvu
-Faqs	Faqs
-Fiat	Fiat
-Fifa	Fifa
-Fifo	Fifo
-Fomo	Fomo
-Foss	Foss
-Gdpr	Gdpr
-Gifs	Gifs
-Gpib	Gpib
-Gpio	Gpio
-Gpts	Gpts
-Gtav	Gtav
-Guid	Guid
-Gmbh	Gmbh
-Hdmi	Hdmi
-Hdtv	Hdtv
-Hhkb	Hhkb
-Html	Html
-Http	Http
-Icmp	Icmp
-Ieee	Ieee
-Iepl	Iepl
-Ietf	Ietf
-Iina	Iina
-Imap	Imap
-Imdb	Imdb
-Ipfs	Ipfs
-Iplc	Iplc
-Iptv	Iptv
-Ipoe	Ipoe
-Ipv4	Ipv4
-Ipv6	Ipv6
-Iqos	Iqos
-Isbn	Isbn
-Issn	Issn
-Jdbc	Jdbc
-Jpeg	Jpeg
-Jrpg	Jrpg
-Json	Json
-Jojo	Jojo
-Lgbt	Lgbt
-Lgpl	Lgpl
-Lgpo	Lgpo
-Lifo	Lifo
-Lmao	Lmao
-Ltsc	Ltsc
-Mips	Mips
-Miui	Miui
-Mpls	Mpls
-Msdn	Msdn
-Mvvm	Mvvm
-Mitm	Mitm
-Napa	Napa
-Nasa	Nasa
-Nato	Nato
-Ncaa	Ncaa
-Ngff	Ngff
-Nsfw	Nsfw
-Ntfs	Ntfs
-Nvme	Nvme
-Nyse	Nyse
-Ocsp	Ocsp
-Oppo	Oppo
-Os x	Osx
-Pcie	Pcie
-Pdfs	Pdfs
-Pime	Pime
-Pubg	Pubg
-Paas	Paas
-Quic	Quic
-Rfcs	Rfcs
-Rion	Rion
-Sars	Sars
-Sata	Sata
-Sftp	Sftp
-Smtp	Smtp
-Snmp	Snmp
-Soho	Soho
-Ssid	Ssid
-Suvs	Suvs
-Swat	Swat
-Toml	Toml
-Totp	Totp
-Tivo	Tivo
-Upnp	Upnp
-Urls	Urls
-Usdt	Usdt
-Ussr	Ussr
-Uuid	Uuid
-V2ex	V2ex
-Vlan	Vlan
-Vimr	Vimr
-Voip	Voip
-Wlan	Wlan
-Wmic	Wmic
-Wsgi	Wsgi
-Wwdc	Wwdc
-Wwii	Wwii
-Webm	Webm
-Webp	Webp
-Wifi	Wifi
-Yaml	Yaml
-Ymca	Ymca
 Able	Able
 Aces	Aces
 Ache	Ache
@@ -25093,7 +24734,7 @@ Butt	Butt
 Buys	Buys
 Buzz	Buzz
 Byte	Byte
-Cdna	Cdna
+CDNA	CDNA
 Cabo	Cabo
 Cafe	Cafe
 Cage	Cage
@@ -25321,9 +24962,9 @@ Duty	Duty
 Dyer	Dyer
 Dyes	Dyes
 Dyke	Dyke
-Egpu	Egpu
-Epub	Epub
-Esim	Esim
+EGPU	EGPU
+EPub	EPub
+ESIM	ESIM
 Each	Each
 Earl	Earl
 Earn	Earn
@@ -25609,9 +25250,9 @@ Hush	Hush
 Hymn	Hymn
 Hype	Hype
 I18n	I18n
-Imac	Imac
-Ipad	Ipad
-Ipod	Ipod
+IMac	IMac
+IPad	IPad
+IPod	IPod
 Icon	Icon
 Idea	Idea
 Idle	Idle
@@ -25772,7 +25413,7 @@ Lush	Lush
 Lust	Lust
 Lyme	Lyme
 Lynx	Lynx
-Mrna	Mrna
+MRNA	MRNA
 Mack	Mack
 Made	Made
 Mage	Mage
@@ -26347,9 +25988,9 @@ Tion	Tion
 Tips	Tips
 Tire	Tire
 Tits	Tits
-To b	Tob
-To c	Toc
-To g	Tog
+To B	ToB
+To C	ToC
+To G	ToG
 Toad	Toad
 Toby	Toby
 Todo	Todo
@@ -26391,12 +26032,12 @@ Tuna	Tuna
 Tune	Tune
 Turf	Turf
 Turn	Turn
-Tvos	Tvos
+TvOS	TvOS
 Twin	Twin
 Type	Type
 Typo	Typo
 Tyre	Tyre
-Upic	Upic
+UPic	UPic
 Ugly	Ugly
 Undo	Undo
 Unfo	Unfo
@@ -26501,7 +26142,7 @@ Worn	Worn
 Wrap	Wrap
 Writ	Writ
 Xlit	Xlit
-Xros	Xros
+XrOS	XrOS
 Yang	Yang
 Yard	Yard
 Yarn	Yarn
@@ -26520,66 +26161,7 @@ Zeta	Zeta
 Zinc	Zinc
 Zone	Zone
 Zoom	Zoom
-Apnic	Apnic
-Ascii	Ascii
-Asean	Asean
-Cd-rw	Cd-rw
-Clion	Clion
-Cname	Cname
-Corba	Corba
-Covid	Covid
-Cs:go	Cs:go
-Dapps	Dapps
-Dhtml	Dhtml
-Deepl	Deepl
-Exfat	Exfat
-Fview	Fview
-Fedex	Fedex
-Geoip	Geoip
-Hbase	Hbase
-Https	Https
-Hanlp	Hanlp
-Hi-fi	Hi-fi
-Icann	Icann
-Ifttt	Ifttt
-Ipsec	Ipsec
-Iqiyi	Iqiyi
-Infoq	Infoq
-Jboss	Jboss
-Junit	Junit
-Llama	Llama
-Lamda	Lamda
-Latex	Latex
-Mappa	Mappa
-Msnbc	Msnbc
-Macid	Macid
-Mccoy	Mccoy
-Mcgee	Mcgee
-Mysql	Mysql
-Nuget	Nuget
-Posix	Posix
-Pppoe	Pppoe
-Prime	Prime
-Roose	Roose
-Reged	Reged
-Tiobe	Tiobe
-Tl;dr	Tl;dr
-Usb 2	Usb2
-Usb 3	Usb3
-Usb 4	Usb4
-Usb-a	Usb-a
-Usb-b	Usb-b
-Usb-c	Usb-c
-Utf-8	Utf-8
-Vmess	Vmess
-Volte	Volte
-Wwiii	Wwiii
-Wi-fi	Wi-fi
-Wii u	Wiiu
-Winxp	Winxp
-Xhtml	Xhtml
-Zdnet	Zdnet
-Apaas	Apaas
+APaaS	APaaS
 Abbey	Abbey
 Abide	Abide
 About	About
@@ -26657,7 +26239,7 @@ Appal	Appal
 Apple	Apple
 Apply	Apply
 Apron	Apron
-Arxiv	Arxiv
+ArXiv	ArXiv
 Arbor	Arbor
 Areas	Areas
 Arena	Arena
@@ -27165,7 +26747,7 @@ Dwarf	Dwarf
 Dwell	Dwell
 Dying	Dying
 Dylan	Dylan
-Esata	Esata
+ESATA	ESATA
 Eager	Eager
 Eagle	Eagle
 Early	Early
@@ -27535,14 +27117,14 @@ Hutch	Hutch
 Hyatt	Hyatt
 Hydro	Hydro
 Hyper	Hyper
-Ibook	Ibook
-Idvel	Idvel
-Imore	Imore
-Ipack	Ipack
-Irime	Irime
-Ishot	Ishot
-Istat	Istat
-Iterm	Iterm
+IBook	IBook
+IDvel	IDvel
+IMore	IMore
+IPack	IPack
+IRime	IRime
+IShot	IShot
+IStat	IStat
+ITerm	ITerm
 Icons	Icons
 Idaho	Idaho
 Ideal	Ideal
@@ -27716,8 +27298,8 @@ Lying	Lying
 Lymph	Lymph
 Lynch	Lynch
 Lyric	Lyric
-Msata	Msata
-Macos	Macos
+MSATA	MSATA
+MacOS	MacOS
 Macon	Macon
 Macro	Macro
 Madam	Madam
@@ -27884,7 +27466,7 @@ Notre	Notre
 Novel	Novel
 Nudes	Nudes
 Nurse	Nurse
-Nvalt	Nvalt
+NvALT	NvALT
 Nylon	Nylon
 Oasis	Oasis
 Obese	Obese
@@ -27977,7 +27559,7 @@ Phase	Phase
 Phone	Phone
 Phony	Phony
 Photo	Photo
-Phpbb	Phpbb
+PhpBB	PhpBB
 Piano	Piano
 Picks	Picks
 Piece	Piece
@@ -28828,75 +28410,6 @@ Yummy	Yummy
 Zaire	Zaire
 Zebra	Zebra
 Zones	Zones
-Avast!	Avast!
-Bibtex	Bibtex
-Cd-rom	Cd-rom
-Centos	Centos
-Clamav	Clamav
-Clashx	Clashx
-Coreos	Coreos
-Dbmesh	Dbmesh
-Dewalt	Dewalt
-Dnspod	Dnspod
-Devops	Devops
-Dupont	Dupont
-Erc-20	Erc-20
-Ffmpeg	Ffmpeg
-Github	Github
-Gitlab	Gitlab
-Goland	Goland
-Hostus	Hostus
-Jj lin	Jjlin
-Keycue	Keycue
-Kucoin	Kucoin
-Ms-dos	Ms-dos
-Macvim	Macvim
-Mcafee	Mcafee
-Mccafe	Mccafe
-Mccain	Mccain
-Mcgill	Mcgill
-Mcgraw	Mcgraw
-Mclean	Mclean
-Nvidia	Nvidia
-Netbsd	Netbsd
-Nextag	Nextag
-Okhttp	Okhttp
-One ui	Oneui
-Onekey	Onekey
-Openai	Openai
-Opencc	Opencc
-Opencv	Opencv
-Opengl	Opengl
-Openid	Openid
-Pcmcia	Pcmcia
-Paypal	Paypal
-Popcap	Popcap
-Qspace	Qspace
-Rsshub	Rsshub
-Rxjava	Rxjava
-Sqlite	Sqlite
-Sharex	Sharex
-Spacex	Spacex
-Tcp/ip	Tcp/ip
-Taptap	Taptap
-Tiktok	Tiktok
-Todesk	Todesk
-Type-a	Type-a
-Type-b	Type-b
-Type-c	Type-c
-Unicef	Unicef
-Vmware	Vmware
-Vscode	Vscode
-Vtuber	Vtuber
-Vowifi	Vowifi
-Wechat	Wechat
-Webdav	Webdav
-Webgpu	Webgpu
-Webkit	Webkit
-Webrtc	Webrtc
-Xemacs	Xemacs
-Zbrush	Zbrush
-Zealer	Zealer
 Aboard	Aboard
 Abound	Abound
 Abroad	Abroad
@@ -29370,7 +28883,7 @@ Cloudy	Cloudy
 Clover	Clover
 Clumsy	Clumsy
 Clutch	Clutch
-Cnbeta	Cnbeta
+CnBeta	CnBeta
 Coarse	Coarse
 Coated	Coated
 Cobalt	Cobalt
@@ -29599,7 +29112,7 @@ Durham	Durham
 During	During
 Duties	Duties
 Dynamo	Dynamo
-Ecards	Ecards
+ECards	ECards
 Eagles	Eagles
 Earned	Earned
 Easier	Easier
@@ -30014,14 +29527,14 @@ Hurrah	Hurrah
 Hustle	Hustle
 Hybrid	Hybrid
 Hyperv	Hyperv
-Icloud	Icloud
-Iklear	Iklear
-Imovie	Imovie
-Ipados	Ipados
-Iphone	Iphone
-Irobot	Irobot
-Itunes	Itunes
-Iwatch	Iwatch
+ICloud	ICloud
+IKlear	IKlear
+IMovie	IMovie
+IPadOS	IPadOS
+IPhone	IPhone
+IRobot	IRobot
+ITunes	ITunes
+IWatch	IWatch
 Ideals	Ideals
 Idiots	Idiots
 Ignite	Ignite
@@ -30083,7 +29596,7 @@ Issuer	Issuer
 Issues	Issues
 Italic	Italic
 Itself	Itself
-Jquery	Jquery
+JQuery	JQuery
 Jabber	Jabber
 Jacket	Jacket
 Jaguar	Jaguar
@@ -31382,8 +30895,8 @@ Tycoon	Tycoon
 Typing	Typing
 Typist	Typist
 Tyrant	Tyrant
-Ublock	Ublock
-Utools	Utools
+UBlock	UBlock
+UTools	UTools
 Uganda	Uganda
 Ulster	Ulster
 Ultima	Ultima
@@ -31423,7 +30936,7 @@ Usable	Usable
 Useful	Useful
 Utmost	Utmost
 Utopia	Utopia
-V2rayn	V2rayn
+V2rayN	V2rayN
 Vacant	Vacant
 Vacuum	Vacuum
 Vagina	Vagina
@@ -31561,7 +31074,7 @@ Wretch	Wretch
 Wright	Wright
 Writer	Writer
 Writes	Writes
-Xscope	Xscope
+XScope	XScope
 Yachts	Yachts
 Yearly	Yearly
 Yellow	Yellow
@@ -31572,98 +31085,10 @@ Youths	Youths
 Zenith	Zenith
 Zigzag	Zigzag
 Zipper	Zipper
-Zksync	Zksync
+ZkSync	ZkSync
 Zodiac	Zodiac
 Zombie	Zombie
 Zoning	Zoning
-Activex	Activex
-Airdrop	Airdrop
-Airpods	Airpods
-Alphago	Alphago
-Ant-man	Ant-man
-Appcode	Appcode
-Appdata	Appdata
-Autocad	Autocad
-Berlios	Berlios
-Big sur	Bigsur
-Captcha	Captcha
-Chdbits	Chdbits
-Coolpix	Coolpix
-Callkit	Callkit
-Carplay	Carplay
-Chatgpt	Chatgpt
-Codebox	Codebox
-Codekit	Codekit
-Coloros	Coloros
-Day one	Dayone
-Deskjet	Deskjet
-Directv	Directv
-Directx	Directx
-Docbook	Docbook
-Erc-721	Erc-721
-Face id	Faceid
-Falconx	Falconx
-Finepix	Finepix
-Freebsd	Freebsd
-G suite	Gsuite
-Galgame	Galgame
-Gamespy	Gamespy
-Geforce	Geforce
-Genbank	Genbank
-Gitbook	Gitbook
-Godaddy	Godaddy
-Goframe	Goframe
-Graphql	Graphql
-Hip-hop	Hip-hop
-Homekit	Homekit
-Homepod	Homepod
-Hyper-v	Hyper-v
-Ideavim	Ideavim
-Infocus	Infocus
-Infousa	Infousa
-Java ee	Javaee
-Keepass	Keepass
-Kung fu	Kungfu
-Lyricsx	Lyricsx
-Mac pro	Macpro
-Macbook	Macbook
-Mactips	Mactips
-Mactype	Mactype
-Magsafe	Magsafe
-Mariadb	Mariadb
-Mcbride	Mcbride
-Mcguire	Mcguire
-Mclaren	Mclaren
-Mcmahon	Mcmahon
-Mongodb	Mongodb
-Netgear	Netgear
-Novelai	Novelai
-Oschina	Oschina
-Onenote	Onenote
-Oneplus	Oneplus
-Openbsd	Openbsd
-Opencat	Opencat
-Opensea	Opensea
-Popclip	Popclip
-Powerpc	Powerpc
-Pycharm	Pycharm
-Pytorch	Pytorch
-Pywebio	Pywebio
-Restful	Restful
-Red hat	Redhat
-Sigmaos	Sigmaos
-Steamos	Steamos
-Swiftui	Swiftui
-Techweb	Techweb
-Tinypng	Tinypng
-Typeorm	Typeorm
-User id	Userid
-Vs code	Vscode
-Wysiwyg	Wysiwyg
-Weak ai	Weakai
-Webcore	Webcore
-Youtube	Youtube
-Zencart	Zencart
 Abandon	Abandon
 Abdomen	Abdomen
 Abigail	Abigail
@@ -32253,7 +31678,7 @@ Cousins	Cousins
 Couture	Couture
 Covered	Covered
 Cowboys	Cowboys
-Crdroid	Crdroid
+CrDroid	CrDroid
 Cracked	Cracked
 Cracker	Cracker
 Crafted	Crafted
@@ -32421,7 +31846,7 @@ Dolphin	Dolphin
 Domains	Domains
 Donated	Donated
 Doorway	Doorway
-Dotpeek	Dotpeek
+DotPeek	DotPeek
 Doubled	Doubled
 Doubles	Doubles
 Doughty	Doughty
@@ -32879,8 +32304,8 @@ Huskies	Huskies
 Hustler	Hustler
 Hygiene	Hygiene
 Hyundai	Hyundai
-Iffmpeg	Iffmpeg
-Imazing	Imazing
+IFFmpeg	IFFmpeg
+IMazing	IMazing
 Ideally	Ideally
 Ignored	Ignored
 Illegal	Illegal
@@ -34296,7 +33721,7 @@ Warrior	Warrior
 Washers	Washers
 Washing	Washing
 Wasting	Wasting
-Watchos	Watchos
+WatchOS	WatchOS
 Watched	Watched
 Watches	Watches
 Wealthy	Wealthy
@@ -34370,90 +33795,6 @@ Yielded	Yielded
 Younger	Younger
 Zealand	Zealand
 Zoology	Zoology
-Acdbline	Acdbline
-Apple tv	Appletv
-Argent x	Argentx
-Bitcomet	Bitcomet
-Covid-19	Covid-19
-Capslock	Capslock
-Chromeos	Chromeos
-Circleci	Circleci
-Cloudapp	Cloudapp
-Cloudxns	Cloudxns
-Datagrip	Datagrip
-Deepmind	Deepmind
-Dell xps	Dellxps
-Docusign	Docusign
-Erc-1155	Erc-1155
-Edutools	Edutools
-Facetime	Facetime
-Fehelper	Fehelper
-Firstgov	Firstgov
-Forklift	Forklift
-Fujifilm	Fujifilm
-Game boy	Gameboy
-Gamefaqs	Gamefaqs
-Geeknote	Geeknote
-Goagentx	Goagentx
-Gridmove	Gridmove
-Htc vive	Htcvive
-Iso 8601	Iso8601
-Indesign	Indesign
-Intellij	Intellij
-Interpro	Interpro
-Jediswap	Jediswap
-Latexian	Latexian
-Laserjet	Laserjet
-Leetcode	Leetcode
-Let's go	Let'sgo
-Linkedin	Linkedin
-Lunarvim	Lunarvim
-Mamp pro	Mamppro
-Magic ui	Magicui
-Makerdao	Makerdao
-Mapquest	Mapquest
-Marsedit	Marsedit
-Mccarthy	Mccarthy
-Mcdonald	Mcdonald
-Mcdowell	Mcdowell
-Mcgregor	Mcgregor
-Mckenzie	Mckenzie
-Mckinney	Mckinney
-Metamask	Metamask
-Mplayerx	Mplayerx
-Namesilo	Namesilo
-New bing	Newbing
-O'reilly	O'reilly
-Omniplan	Omniplan
-Onedrive	Onedrive
-Opencart	Opencart
-Originos	Originos
-Pl/pgsql	Pl/pgsql
-Poeditor	Poeditor
-Pagerank	Pagerank
-Papermod	Papermod
-Phpstorm	Phpstorm
-Pingwest	Pingwest
-Proquest	Proquest
-Rfc 3339	Rfc3339
-Rimworld	Rimworld
-Routeros	Routeros
-Rubymine	Rubymine
-Rustdesk	Rustdesk
-Sanedesk	Sanedesk
-Sketchup	Sketchup
-Teamcity	Teamcity
-Thinkpad	Thinkpad
-Ticktick	Ticktick
-Touch id	Touchid
-Video cd	Videocd
-Webstorm	Webstorm
-Whatsapp	Whatsapp
-Wondercv	Wondercv
-Worldcat	Worldcat
-Xbox one	Xboxone
-Youtuber	Youtuber
-Zoominfo	Zoominfo
 Aberdeen	Aberdeen
 Abnormal	Abnormal
 Abortion	Abortion
@@ -35116,8 +34457,8 @@ Dominant	Dominant
 Dominate	Dominate
 Dominion	Dominion
 Donation	Donation
-Dotcover	Dotcover
-Dottrace	Dottrace
+DotCover	DotCover
+DotTrace	DotTrace
 Downbeat	Downbeat
 Downhill	Downhill
 Download	Download
@@ -35508,9 +34849,9 @@ Hundreds	Hundreds
 Husbands	Husbands
 Hydrogen	Hydrogen
 Hypnosis	Hypnosis
-Imessage	Imessage
-Ipad air	Ipadair
-Ipad pro	Ipadpro
+IMessage	IMessage
+IPad Air	IPadAir
+IPad Pro	IPadPro
 Idealism	Idealism
 Identify	Identify
 Identity	Identity
@@ -35896,7 +35237,7 @@ Oklahoma	Oklahoma
 Omission	Omission
 Oncology	Oncology
 Ontology	Ontology
-Opensuse	Opensuse
+OpenSUSE	OpenSUSE
 Openings	Openings
 Openness	Openness
 Operated	Operated
@@ -36830,78 +36171,6 @@ Yourself	Yourself
 Zeppelin	Zeppelin
 Zirconia	Zirconia
 Zoofilia	Zoofilia
-Almalinux	Almalinux
-Alphafold	Alphafold
-App store	Appstore
-Apple pay	Applepay
-Apple tv+	Appletv+
-Applecare	Applecare
-Bbc earth	Bbcearth
-Bnb chain	Bnbchain
-Chillseph	Chillseph
-Cinema 4d	Cinema4d
-Cocoapods	Cocoapods
-Dataspell	Dataspell
-Dictentry	Dictentry
-Easyshare	Easyshare
-Everquest	Everquest
-Filemaker	Filemaker
-Filevault	Filevault
-Final cut	Finalcut
-Freelists	Freelists
-Gnu/linux	Gnu/linux
-Geminipro	Geminipro
-Ghostnote	Ghostnote
-Ghosttile	Ghosttile
-Goodnotes	Goodnotes
-Harmonyos	Harmonyos
-Hong kong	Hongkong
-Infoworld	Infoworld
-Jetbrains	Jetbrains
-Jimmywang	Jimmywang
-John wick	Johnwick
-Keepassxc	Keepassxc
-Leancloud	Leancloud
-Librewolf	Librewolf
-Lineageos	Lineageos
-Logic pro	Logicpro
-Macdonald	Macdonald
-Mark text	Marktext
-Mccartney	Mccartney
-Mccormick	Mccormick
-Misswarmj	Misswarmj
-Namecheap	Namecheap
-Narrow ai	Narrowai
-Netsetman	Netsetman
-Notion ai	Notionai
-Oceanbase	Oceanbase
-Ommwriter	Ommwriter
-Omnifocus	Omnifocus
-One piece	Onepiece
-Paintcode	Paintcode
-Palo alto	Paloalto
-Photodesk	Photodesk
-Plistedit	Plistedit
-Pocket pc	Pocketpc
-Powerbook	Powerbook
-Powerpack	Powerpack
-Powertoys	Powertoys
-Presearch	Presearch
-Quicktime	Quicktime
-Resharper	Resharper
-Saltstack	Saltstack
-Servercat	Servercat
-Spongebob	Spongebob
-Strong ai	Strongai
-Sushiswap	Sushiswap
-Touch bar	Touchbar
-Travis ci	Travisci
-Trustpass	Trustpass
-Viewsonic	Viewsonic
-Websphere	Websphere
-Wordpress	Wordpress
-Workflowy	Workflowy
-Youdaobot	Youdaobot
 Abandoned	Abandoned
 Abatement	Abatement
 Abdominal	Abdominal
@@ -37473,14 +36742,14 @@ Dominance	Dominance
 Dominated	Dominated
 Dominican	Dominican
 Donations	Donations
-Dotmemory	Dotmemory
+DotMemory	DotMemory
 Doubtless	Doubtless
 Downloads	Downloads
 Dragonfly	Dragonfly
 Duplicate	Duplicate
 Dwellings	Dwellings
 Dynamical	Dynamical
-Em client	Emclient
+EM Client	EMClient
 Eccentric	Eccentric
 Ecommerce	Ecommerce
 Economics	Economics
@@ -37775,9 +37044,9 @@ Hydraulic	Hydraulic
 Hyperlink	Hyperlink
 Hypertext	Hypertext
 Hypocrisy	Hypocrisy
-Ia writer	Iawriter
-Iexplorer	Iexplorer
-Ipad mini	Ipadmini
+IA Writer	IAWriter
+IExplorer	IExplorer
+IPad mini	IPadmini
 Ice cream	Icecream
 Identical	Identical
 Ignorance	Ignorance
@@ -38807,79 +38076,6 @@ Wrestling	Wrestling
 Yesterday	Yesterday
 Youngster	Youngster
 Zoophilia	Zoophilia
-Aftershokz	Aftershokz
-Amytelecom	Amytelecom
-Ant design	Antdesign
-Appcleaner	Appcleaner
-Applecare+	Applecare+
-Applied ai	Appliedai
-Arch linux	Archlinux
-Autohotkey	Autohotkey
-Better zip	Betterzip
-Bundlehunt	Bundlehunt
-Cd projekt	Cdprojekt
-Cheatsheet	Cheatsheet
-Clash meta	Clashmeta
-Clashx pro	Clashxpro
-Cloudfront	Cloudfront
-Cloudmagic	Cloudmagic
-Coldfusion	Coldfusion
-Commonmark	Commonmark
-Devonthink	Devonthink
-Daisy disk	Daisydisk
-Deviantart	Deviantart
-Duckduckgo	Duckduckgo
-E-business	E-business
-Econpapers	Econpapers
-Ed sheeran	Edsheeran
-El capitan	Elcapitan
-Eletroboom	Eletroboom
-Epic games	Epicgames
-Fileplanet	Fileplanet
-Garageband	Garageband
-Google ads	Googleads
-Google one	Googleone
-Hp spectre	Hpspectre
-Ibm watson	Ibmwatson
-Javascript	Javascript
-Kip mirtle	Kipmirtle
-Legal high	Legalhigh
-Lexisnexis	Lexisnexis
-Livereload	Livereload
-Lockscreen	Lockscreen
-Mac rumors	Macrumors
-Mac studio	Macstudio
-Openai api	Openaiapi
-Openoffice	Openoffice
-Pdf expert	Pdfexpert
-Pied piper	Piedpiper
-Postmeridy	Postmeridy
-Powershell	Powershell
-Prestashop	Prestashop
-Rescuetime	Rescuetime
-Sql server	Sqlserver
-Sqlalchemy	Sqlalchemy
-Sauce labs	Saucelabs
-Scooby-doo	Scooby-doo
-Screenflow	Screenflow
-Sharepoint	Sharepoint
-Solidworks	Solidworks
-Soundcloud	Soundcloud
-Spencerwoo	Spencerwoo
-Spider-man	Spider-man
-Steam deck	Steamdeck
-Steve jobs	Stevejobs
-Superpages	Superpages
-Teamviewer	Teamviewer
-Tensorflow	Tensorflow
-Testflight	Testflight
-Tinkertool	Tinkertool
-Typescript	Typescript
-Vision pro	Visionpro
-Wechat pay	Wechatpay
-Windows xp	Windowsxp
-Xtrafinder	Xtrafinder
-Zero trust	Zerotrust
 Aboriginal	Aboriginal
 Absolutely	Absolutely
 Absorption	Absorption
@@ -40143,7 +39339,7 @@ Triumphant	Triumphant
 Turbulence	Turbulence
 Turnaround	Turnaround
 Typewriter	Typewriter
-Ublacklist	Ublacklist
+UBlacklist	UBlacklist
 Ubiquitous	Ubiquitous
 Ultimately	Ultimately
 Ultrasonic	Ultrasonic
@@ -40222,64 +39418,6 @@ Workaround	Workaround
 Worksheets	Worksheets
 Worthwhile	Worthwhile
 Yourselves	Yourselves
-Adult video	Adultvideo
-Aeron chair	Aeronchair
-Airpods max	Airpodsmax
-Airpods pro	Airpodspro
-Apple music	Applemusic
-Apple store	Applestore
-Apple watch	Applewatch
-Buhocleaner	Buhocleaner
-Chembiodraw	Chembiodraw
-Clash verge	Clashverge
-Cleanshot x	Cleanshotx
-Code runner	Coderunner
-Dragon ball	Dragonball
-Fbi warning	Fbiwarning
-Force touch	Forcetouch
-Funtouch os	Funtouchos
-Gif brewery	Gifbrewery
-Google bard	Googlebard
-Greasy fork	Greasyfork
-Harmony one	Harmonyone
-Hello world	Helloworld
-High sierra	Highsierra
-Lendingtree	Lendingtree
-Live photos	Livephotos
-Livejournal	Livejournal
-Mit license	Mitlicense
-Macappdeals	Macappdeals
-Macbook air	Macbookair
-Macbook pro	Macbookpro
-Markmywords	Markmywords
-Matrix talk	Matrixtalk
-New zealand	Newzealand
-Objective-c	Objective-c
-Oculus rift	Oculusrift
-Omnigraffle	Omnigraffle
-Pci express	Pciexpress
-Pancakeswap	Pancakeswap
-Path finder	Pathfinder
-Pictureview	Pictureview
-Pricerunner	Pricerunner
-Printscreen	Printscreen
-Proxychains	Proxychains
-Public beta	Publicbeta
-Pycharm edu	Pycharmedu
-Razer blade	Razerblade
-Rocky linux	Rockylinux
-Srware iron	Srwareiron
-Screenfloat	Screenfloat
-Sleep cycle	Sleepcycle
-Sogouspider	Sogouspider
-Sourceforge	Sourceforge
-Squarepants	Squarepants
-Stacksocial	Stacksocial
-Sumatra pdf	Sumatrapdf
-Turbo boost	Turboboost
-Window tidy	Windowtidy
-Woocommerce	Woocommerce
-Xbox series	Xboxseries
 Abstraction	Abstraction
 Accelerated	Accelerated
 Accelerator	Accelerator
@@ -40356,7 +39494,7 @@ Bestsellers	Bestsellers
 Bestselling	Bestselling
 Biochemical	Biochemical
 Biographies	Biographies
-Blackfriday	Blackfriday
+BlackFriday	BlackFriday
 Blockbuster	Blockbuster
 Booksellers	Booksellers
 Brotherhood	Brotherhood
@@ -40676,7 +39814,7 @@ Householder	Householder
 Humiliation	Humiliation
 Hydrocarbon	Hydrocarbon
 Hydrocodone	Hydrocodone
-Icloud mail	Icloudmail
+ICloud Mail	ICloudMail
 Identifiers	Identifiers
 Identifying	Identifying
 Ideological	Ideological
@@ -40908,7 +40046,7 @@ Provisional	Provisional
 Psychiatric	Psychiatric
 Publication	Publication
 Punctuation	Punctuation
-Qbittorrent	Qbittorrent
+QBittorrent	QBittorrent
 Qualitative	Qualitative
 Quarterback	Quarterback
 Questioning	Questioning
@@ -41113,36 +40251,6 @@ Wonderfully	Wonderfully
 Woodworking	Woodworking
 Workstation	Workstation
 Yellowstone	Yellowstone
-Browserstack	Browserstack
-Compactflash	Compactflash
-Digitalocean	Digitalocean
-Dish network	Dishnetwork
-Disk utility	Diskutility
-Don't starve	Don'tstarve
-Github pages	Githubpages
-Google gmail	Googlegmail
-Honey select	Honeyselect
-Media player	Mediaplayer
-Omnioutliner	Omnioutliner
-Oneplus nord	Oneplusnord
-Popcap games	Popcapgames
-Premiere pro	Premierepro
-Pricegrabber	Pricegrabber
-Quantumult x	Quantumultx
-Raspberry pi	Raspberrypi
-React native	Reactnative
-Secure shell	Secureshell
-Snow leopard	Snowleopard
-Sublime text	Sublimetext
-Surveymonkey	Surveymonkey
-Textexpander	Textexpander
-Textwrangler	Textwrangler
-Time capsule	Timecapsule
-Time machine	Timemachine
-Wacom cintiq	Wacomcintiq
-Wacom intuos	Wacomintuos
-Wifi scanner	Wifiscanner
-Wireless lan	Wirelesslan
 Abbreviation	Abbreviation
 Acceleration	Acceleration
 Accidentally	Accidentally
@@ -41345,7 +40453,7 @@ Genealogical	Genealogical
 Geographical	Geographical
 Governmental	Governmental
 Grandparents	Grandparents
-Hallelujahim	Hallelujahim
+HallelujahIM	HallelujahIM
 Handkerchief	Handkerchief
 Headquarters	Headquarters
 Hierarchical	Hierarchical
@@ -41357,9 +40465,9 @@ Housekeeping	Housekeeping
 Humanitarian	Humanitarian
 Hypertension	Hypertension
 Hypothetical	Hypothetical
-Icloud drive	Iclouddrive
-Itunes match	Itunesmatch
-Itunes store	Itunesstore
+ICloud Drive	ICloudDrive
+ITunes Match	ITunesMatch
+ITunes Store	ITunesStore
 Identifiable	Identifiable
 Illumination	Illumination
 Illustration	Illustration
@@ -41414,9 +40522,9 @@ Kindergarten	Kindergarten
 Laboratories	Laboratories
 Localization	Localization
 Longitudinal	Longitudinal
-Macos mojave	Macosmojave
-Macos server	Macosserver
-Macos sierra	Macossierra
+MacOS Mojave	MacOSMojave
+MacOS Server	MacOSServer
+MacOS Sierra	MacOSSierra
 Manipulation	Manipulation
 Manufactured	Manufactured
 Manufacturer	Manufacturer
@@ -41608,36 +40716,6 @@ Verification	Verification
 Volunteering	Volunteering
 Watermarking	Watermarking
 Workstations	Workstations
-After effects	Aftereffects
-Alibaba group	Alibabagroup
-Cocos creator	Cocoscreator
-Codewhisperer	Codewhisperer
-Color schemer	Colorschemer
-Color snapper	Colorsnapper
-Curve finance	Curvefinance
-Fedora coreos	Fedoracoreos
-Flow launcher	Flowlauncher
-Frank deloupe	Frankdeloupe
-Google chrome	Googlechrome
-Google search	Googlesearch
-Hollow knight	Hollowknight
-Idea ultimate	Ideaultimate
-Intellij idea	Intellijidea
-Lens protocal	Lensprotocal
-Little snitch	Littlesnitch
-Louis vuitton	Louisvuitton
-Mountain lion	Mountainlion
-Near protocol	Nearprotocol
-New zealander	Newzealander
-Party animals	Partyanimals
-Screen studio	Screenstudio
-United states	Unitedstates
-Unreal engine	Unrealengine
-Vmware fusion	Vmwarefusion
-Visual studio	Visualstudio
-Wifi explorer	Wifiexplorer
-Windows vista	Windowsvista
-Youtube music	Youtubemusic
 Abbreviations	Abbreviations
 Abnormalities	Abnormalities
 Accessibility	Accessibility
@@ -41782,14 +40860,14 @@ Jurisdictions	Jurisdictions
 Justification	Justification
 Knowledgeable	Knowledgeable
 Liechtenstein	Liechtenstein
-Macos ventura	Macosventura
+MacOS Ventura	MacOSVentura
 Macroeconomic	Macroeconomic
 Manufacturers	Manufacturers
 Manufacturing	Manufacturing
 Mediterranean	Mediterranean
 Merchandising	Merchandising
 Merge request	Mergerequest
-Messenger rna	Messengerrna
+Messenger RNA	MessengerRNA
 Methodologies	Methodologies
 Miscellaneous	Miscellaneous
 Misunderstand	Misunderstand
@@ -41873,7 +40951,7 @@ Transmissions	Transmissions
 Transnational	Transnational
 Transvestites	Transvestites
 Troublemaking	Troublemaking
-Ublock origin	Ublockorigin
+UBlock Origin	UBlockOrigin
 Uncategorized	Uncategorized
 Uncertainties	Uncertainties
 Uncomfortable	Uncomfortable
@@ -41886,26 +40964,6 @@ Unprecedented	Unprecedented
 Unpredictable	Unpredictable
 Visualization	Visualization
 Vulnerability	Vulnerability
-Affinity photo	Affinityphoto
-Android police	Androidpolice
-Braavos wallet	Braavoswallet
-Clash meta gui	Clashmetagui
-Control center	Controlcenter
-Counter-strike	Counter-strike
-Facetime audio	Facetimeaudio
-Github copilot	Githubcopilot
-Great firewall	Greatfirewall
-Idea community	Ideacommunity
-Jetbrains mono	Jetbrainsmono
-Pickup artists	Pickupartists
-Reserveamerica	Reserveamerica
-Silicon valley	Siliconvalley
-Stack overflow	Stackoverflow
-Studio display	Studiodisplay
-Surface studio	Surfacestudio
-The unarchiver	Theunarchiver
-United kingdom	Unitedkingdom
-Userdictionary	Userdictionary
 Accommodations	Accommodations
 Accomplishment	Accomplishment
 Accountability	Accountability
@@ -41946,7 +41004,7 @@ Experimentally	Experimentally
 Fcitx5 android	Fcitx5android
 Generalization	Generalization
 Geographically	Geographically
-Itunes connect	Itunesconnect
+ITunes Connect	ITunesConnect
 Identification	Identification
 Implementation	Implementation
 Infrastructure	Infrastructure
@@ -41955,8 +41013,8 @@ Interplanetary	Interplanetary
 Interpretation	Interpretation
 Investigations	Investigations
 Knowledgestorm	Knowledgestorm
-Macos catalina	Macoscatalina
-Macos monterey	Macosmonterey
+MacOS Catalina	MacOSCatalina
+MacOS Monterey	MacOSMonterey
 Meteorological	Meteorological
 Microprocessor	Microprocessor
 Multiplication	Multiplication
@@ -41992,15 +41050,6 @@ Transformation	Transformation
 Transportation	Transportation
 Undergraduates	Undergraduates
 Understandable	Understandable
-Adobe photoshop	Adobephotoshop
-Coinbase wallet	Coinbasewallet
-Davinci resolve	Davinciresolve
-Lenovo thinkpad	Lenovothinkpad
-Linus tech tips	Linustechtips
-Microsoft store	Microsoftstore
-Navicat premium	Navicatpremium
-Nintendo switch	Nintendoswitch
-Oracle database	Oracledatabase
 Accomplishments	Accomplishments
 Acknowledgement	Acknowledgement
 Acknowledgments	Acknowledgments
@@ -42023,7 +41072,7 @@ Interconnection	Interconnection
 Internationally	Internationally
 Interpretations	Interpretations
 Merchantability	Merchantability
-Native american	Nativeamerican
+Native American	NativeAmerican
 Notwithstanding	Notwithstanding
 Pharmaceuticals	Pharmaceuticals
 Phosphorylation	Phosphorylation
@@ -42039,16 +41088,6 @@ Transformations	Transformations
 Transplantation	Transplantation
 Troubleshooting	Troubleshooting
 Vulnerabilities	Vulnerabilities
-Cloudflare pages	Cloudflarepages
-Emotional damage	Emotionaldamage
-Impostor factory	Impostorfactory
-Keyboard maestro	Keyboardmaestro
-Language reactor	Languagereactor
-Music television	Musictelevision
-Operating system	Operatingsystem
-Quicktime player	Quicktimeplayer
-Wallpaper engine	Wallpaperengine
-Windows terminal	Windowsterminal
 Acknowledgements	Acknowledgements
 Air-conditioning	Air-conditioning
 Characterization	Characterization
@@ -42059,49 +41098,19 @@ Interoperability	Interoperability
 Responsibilities	Responsibilities
 Ribonucleic acid	Ribonucleicacid
 Sublimedirectory	Sublimedirectory
-Affinity designer	Affinitydesigner
-Apache subversion	Apachesubversion
-Cloudflare images	Cloudflareimages
-Cloudflare stream	Cloudflarestream
-Developer preview	Developerpreview
-Google gemini app	Googlegeminiapp
-Internet explorer	Internetexplorer
-Macupdate desktop	Macupdatedesktop
-Microsoft outlook	Microsoftoutlook
-Parallels desktop	Parallelsdesktop
-Role-playing game	Role-playinggame
-Universal actions	Universalactions
-Vampire survivors	Vampiresurvivors
 Interdisciplinary	Interdisciplinary
 Intergovernmental	Intergovernmental
 Multidisciplinary	Multidisciplinary
 Script_translator	Script_translator
 Telecommunication	Telecommunication
-Aftershokz aeropex	Aftershokzaeropex
-Cloudflare workers	Cloudflareworkers
-Non-fungible token	Non-fungibletoken
-Scribble diffusion	Scribblediffusion
-Simplified chinese	Simplifiedchinese
-Vmware workstation	Vmwareworkstation
 Telecommunications	Telecommunications
 Ungoogled-chromium	Ungoogled-chromium
-Traditional chinese	Traditionalchinese
 Rime-radical-pinyin	Rime-radical-pinyin
-Model-view-viewmodel	Model-view-viewmodel
-Non-player character	Non-playercharacter
 Radical_pinyin_flypy	Radical_pinyin_flypy
-Apple music classcial	Applemusicclasscial
-Don't starve together	Don'tstarvetogether
-Model-view-controller	Model-view-controller
-Spongebob squarepants	Spongebobsquarepants
 Deoxyribonucleic acid	Deoxyribonucleicacid
 Reverse_lookup_filter	Reverse_lookup_filter
-Command-line interface	Command-lineinterface
-Hypertext preprocessor	Hypertextpreprocessor
 Denial-of-service attack	Denial-of-serviceattack
-Closed-circuit television	Closed-circuittelevision
 Reverse_lookup_translator	Reverse_lookup_translator
-Non-governmental organization	Non-governmentalorganization
 
 
 # word.upper
@@ -42422,7 +41431,6 @@ HUG	HUG
 HUH	HUH
 HUM	HUM
 HUT	HUT
-IOS	IOS
 IBN	IBN
 ICE	ICE
 ICY	ICY
@@ -43189,7 +42197,6 @@ BUTT	BUTT
 BUYS	BUYS
 BUZZ	BUZZ
 BYTE	BYTE
-CDNA	CDNA
 CABO	CABO
 CAFE	CAFE
 CAGE	CAGE
@@ -43417,9 +42424,7 @@ DUTY	DUTY
 DYER	DYER
 DYES	DYES
 DYKE	DYKE
-EGPU	EGPU
 EPUB	EPUB
-ESIM	ESIM
 EACH	EACH
 EARL	EARL
 EARN	EARN
@@ -43868,7 +42873,6 @@ LUSH	LUSH
 LUST	LUST
 LYME	LYME
 LYNX	LYNX
-MRNA	MRNA
 MACK	MACK
 MADE	MADE
 MAGE	MAGE
@@ -45677,7 +44681,6 @@ DWARF	DWARF
 DWELL	DWELL
 DYING	DYING
 DYLAN	DYLAN
-ESATA	ESATA
 EAGER	EAGER
 EAGLE	EAGLE
 EARLY	EARLY
@@ -46228,7 +45231,6 @@ LYING	LYING
 LYMPH	LYMPH
 LYNCH	LYNCH
 LYRIC	LYRIC
-MSATA	MSATA
 MACOS	MACOS
 MACON	MACON
 MACRO	MACRO
