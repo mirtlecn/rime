@@ -173,6 +173,6 @@ function F.func( input, env )
     end
 end
 
-function F.fina( env ) if F.recode_cn_en and F.en_dict then env.commit_notifier:disconnect() end end
+function F.fini( env ) if F.recode_cn_en and F.en_dict then env.commit_notifier:disconnect() end end
 
 return F
