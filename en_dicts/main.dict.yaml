@@ -3,57 +3,6 @@ name: main
 version: "1.0"
 sort: original
 ...
-2D	2D
-3D	3D
-A4	A4
-AI	AI
-AV	AV
-C#	C#
-CD	CD
-CI	CI
-CS	CS
-DJ	DJ
-Fn	Fn
-Go	Go
-HK	HK
-ID	ID
-IE	IE
-IO	IO
-IP	IP
-LV	LV
-OK	OK
-OS	OS
-PC	PC
-PR	PR
-PS	PS
-QQ	QQ
-TV	TV
-UI	UI
-WC	WC
-am	am
-as	as
-at	at
-be	be
-by	by
-do	do
-go	go
-he	he
-if	if
-in	in
-is	is
-it	it
-me	me
-my	my
-no	no
-of	of
-ok	ok
-on	on
-or	or
-so	so
-to	to
-up	up
-us	us
-we	we
 ABS	ABS
 ACG	ACG
 ACK	ACK
@@ -11944,7 +11893,6 @@ urinary	urinary
 urology	urology
 uruguay	uruguay
 useless	useless
-user_id	user_id
 usually	usually
 utensil	utensil
 utility	utility
@@ -16007,10 +15955,7 @@ hydraulic	hydraulic
 hyperlink	hyperlink
 hypertext	hypertext
 hypocrisy	hypocrisy
-iA Writer	iAWriter
-iExplorer	iExplorer
 iPad mini	iPadmini
-ice cream	icecream
 identical	identical
 ignorance	ignorance
 illegally	illegally
@@ -16962,7 +16907,6 @@ unwilling	unwilling
 upgrading	upgrading
 uploading	uploading
 usability	usability
-user_dict	user_dict
 utilities	utilities
 utilizing	utilizing
 vacancies	vacancies
@@ -17090,10 +17034,7 @@ Derbyshire	Derbyshire
 DeviantArt	DeviantArt
 Disneyland	Disneyland
 DuckDuckGo	DuckDuckGo
-E-Business	E-Business
 EconPapers	EconPapers
-Ed Sheeran	EdSheeran
-El Capitan	ElCapitan
 EletroBOOM	EletroBOOM
 Epic Games	EpicGames
 Evansville	Evansville
@@ -17937,7 +17878,6 @@ literature	literature
 litigation	litigation
 localities	localities
 locomotive	locomotive
-lua script	luascript
 lubricants	lubricants
 luxembourg	luxembourg
 macromedia	macromedia
@@ -18037,7 +17977,6 @@ occasional	occasional
 occupation	occupation
 occurrence	occurrence
 officially	officially
-okey dokey	okeydokey
 operations	operations
 opposition	opposition
 oppression	oppression
@@ -19128,13 +19067,11 @@ legislators	legislators
 legislature	legislature
 liabilities	liabilities
 libertarian	libertarian
-librime lua	librimelua
 lightweight	lightweight
 limitations	limitations
 linguistics	linguistics
 liposuction	liposuction
 liquidation	liquidation
-living room	livingroom
 loudspeaker	loudspeaker
 magnificent	magnificent
 maintainers	maintainers
@@ -19699,7 +19636,6 @@ distributors	distributors
 disturbances	disturbances
 downloadable	downloadable
 dramatically	dramatically
-early access	earlyaccess
 economically	economically
 efficiencies	efficiencies
 embarrassing	embarrassing
@@ -19886,7 +19822,6 @@ prostitution	prostitution
 provisioning	provisioning
 psychologist	psychologist
 publications	publications
-pull request	pullrequest
 purification	purification
 quantitative	quantitative
 questionable	questionable
@@ -20181,7 +20116,6 @@ manufacturers	manufacturers
 manufacturing	manufacturing
 mediterranean	mediterranean
 merchandising	merchandising
-merge request	mergerequest
 messenger RNA	messengerRNA
 methodologies	methodologies
 miscellaneous	miscellaneous
@@ -20419,7 +20353,6 @@ entrepreneurial	entrepreneurial
 environmentally	environmentally
 experimentation	experimentation
 extraordinarily	extraordinarily
-feature request	featurerequest
 implementations	implementations
 instrumentation	instrumentation
 interconnection	interconnection
@@ -20463,8 +20396,6 @@ gastrointestinal	gastrointestinal
 intercontinental	intercontinental
 interoperability	interoperability
 responsibilities	responsibilities
-ribonucleic acid	ribonucleicacid
-sublimedirectory	sublimedirectory
 Affinity Designer	AffinityDesigner
 Apache Subversion	ApacheSubversion
 Cloudflare Images	CloudflareImages
@@ -20482,7 +20413,6 @@ Vampire Survivors	VampireSurvivors
 interdisciplinary	interdisciplinary
 intergovernmental	intergovernmental
 multidisciplinary	multidisciplinary
-script_translator	script_translator
 telecommunication	telecommunication
 AfterShokz Aeropex	AfterShokzAeropex
 Cloudflare Workers	CloudflareWorkers
@@ -20498,52 +20428,21 @@ Downloadable content	Downloadablecontent
 Model-View-ViewModel	Model-View-ViewModel
 Non-Player Character	Non-PlayerCharacter
 Random-access memory	Random-accessmemory
-radical_pinyin_flypy	radical_pinyin_flypy
 Apple Music Classcial	AppleMusicClasscial
 Champion's inequality	Champion'sinequality
 Don't Starve Together	Don'tStarveTogether
 Intelligence quotient	Intelligencequotient
 Model-View-Controller	Model-View-Controller
 SpongeBob SquarePants	SpongeBobSquarePants
-deoxyribonucleic acid	deoxyribonucleicacid
-reverse_lookup_filter	reverse_lookup_filter
 Command-Line Interface	Command-LineInterface
 Hypertext Preprocessor	HypertextPreprocessor
 denial-of-service attack	denial-of-serviceattack
 Closed-Circuit Television	Closed-CircuitTelevision
-reverse_lookup_translator	reverse_lookup_translator
 Non-Governmental Organization	Non-GovernmentalOrganization
 
 
 # word.lower
 
-2d	2d
-3d	3d
-a4	a4
-ai	ai
-av	av
-c#	c#
-cd	cd
-ci	ci
-cs	cs
-dj	dj
-fn	fn
-go	go
-hk	hk
-id	id
-ie	ie
-io	io
-ip	ip
-lv	lv
-ok	ok
-os	os
-pc	pc
-pr	pr
-ps	ps
-qq	qq
-tv	tv
-ui	ui
-wc	wc
 abs	abs
 acg	acg
 ack	ack
@@ -23503,8 +23402,6 @@ youdaobot	youdaobot
 zoomerang	zoomerang
 dotmemory	dotmemory
 em client	emclient
-ia writer	iawriter
-iexplorer	iexplorer
 ipad mini	ipadmini
 aftershokz	aftershokz
 alexandria	alexandria
@@ -23557,10 +23454,7 @@ derbyshire	derbyshire
 deviantart	deviantart
 disneyland	disneyland
 duckduckgo	duckduckgo
-e-business	e-business
 econpapers	econpapers
-ed sheeran	edsheeran
-el capitan	elcapitan
 eletroboom	eletroboom
 epic games	epicgames
 evansville	evansville
@@ -23967,30 +23861,6 @@ non-governmental organization	non-governmentalorganization
 
 # word.capitalize
 
-Am	Am
-As	As
-At	At
-Be	Be
-By	By
-Do	Do
-Go	Go
-He	He
-If	If
-In	In
-Is	Is
-It	It
-Me	Me
-My	My
-No	No
-Of	Of
-Ok	Ok
-On	On
-Or	Or
-So	So
-To	To
-Up	Up
-Us	Us
-We	We
 Abc	Abc
 Ace	Ace
 Act	Act
@@ -33645,7 +33515,6 @@ Urinary	Urinary
 Urology	Urology
 Uruguay	Uruguay
 Useless	Useless
-User_id	User_id
 Usually	Usually
 Utensil	Utensil
 Utility	Utility
@@ -37044,10 +36913,7 @@ Hydraulic	Hydraulic
 Hyperlink	Hyperlink
 Hypertext	Hypertext
 Hypocrisy	Hypocrisy
-IA Writer	IAWriter
-IExplorer	IExplorer
 IPad mini	IPadmini
-Ice cream	Icecream
 Identical	Identical
 Ignorance	Ignorance
 Illegally	Illegally
@@ -37999,7 +37865,6 @@ Unwilling	Unwilling
 Upgrading	Upgrading
 Uploading	Uploading
 Usability	Usability
-User_dict	User_dict
 Utilities	Utilities
 Utilizing	Utilizing
 Vacancies	Vacancies
@@ -38802,7 +38667,6 @@ Literature	Literature
 Litigation	Litigation
 Localities	Localities
 Locomotive	Locomotive
-Lua script	Luascript
 Lubricants	Lubricants
 Luxembourg	Luxembourg
 Macromedia	Macromedia
@@ -38902,7 +38766,6 @@ Occasional	Occasional
 Occupation	Occupation
 Occurrence	Occurrence
 Officially	Officially
-Okey dokey	Okeydokey
 Operations	Operations
 Opposition	Opposition
 Oppression	Oppression
@@ -39894,13 +39757,11 @@ Legislators	Legislators
 Legislature	Legislature
 Liabilities	Liabilities
 Libertarian	Libertarian
-Librime lua	Librimelua
 Lightweight	Lightweight
 Limitations	Limitations
 Linguistics	Linguistics
 Liposuction	Liposuction
 Liquidation	Liquidation
-Living room	Livingroom
 Loudspeaker	Loudspeaker
 Magnificent	Magnificent
 Maintainers	Maintainers
@@ -40421,7 +40282,6 @@ Distributors	Distributors
 Disturbances	Disturbances
 Downloadable	Downloadable
 Dramatically	Dramatically
-Early access	Earlyaccess
 Economically	Economically
 Efficiencies	Efficiencies
 Embarrassing	Embarrassing
@@ -40608,7 +40468,6 @@ Prostitution	Prostitution
 Provisioning	Provisioning
 Psychologist	Psychologist
 Publications	Publications
-Pull request	Pullrequest
 Purification	Purification
 Quantitative	Quantitative
 Questionable	Questionable
@@ -40866,7 +40725,6 @@ Manufacturers	Manufacturers
 Manufacturing	Manufacturing
 Mediterranean	Mediterranean
 Merchandising	Merchandising
-Merge request	Mergerequest
 Messenger RNA	MessengerRNA
 Methodologies	Methodologies
 Miscellaneous	Miscellaneous
@@ -41065,7 +40923,6 @@ Entrepreneurial	Entrepreneurial
 Environmentally	Environmentally
 Experimentation	Experimentation
 Extraordinarily	Extraordinarily
-Feature request	Featurerequest
 Implementations	Implementations
 Instrumentation	Instrumentation
 Interconnection	Interconnection
@@ -41096,51 +40953,18 @@ Gastrointestinal	Gastrointestinal
 Intercontinental	Intercontinental
 Interoperability	Interoperability
 Responsibilities	Responsibilities
-Ribonucleic acid	Ribonucleicacid
-Sublimedirectory	Sublimedirectory
 Interdisciplinary	Interdisciplinary
 Intergovernmental	Intergovernmental
 Multidisciplinary	Multidisciplinary
-Script_translator	Script_translator
 Telecommunication	Telecommunication
 Telecommunications	Telecommunications
 Ungoogled-chromium	Ungoogled-chromium
 Rime-radical-pinyin	Rime-radical-pinyin
-Radical_pinyin_flypy	Radical_pinyin_flypy
-Deoxyribonucleic acid	Deoxyribonucleicacid
-Reverse_lookup_filter	Reverse_lookup_filter
 Denial-of-service attack	Denial-of-serviceattack
-Reverse_lookup_translator	Reverse_lookup_translator
 
 
 # word.upper
 
-FN	FN
-GO	GO
-AM	AM
-AS	AS
-AT	AT
-BE	BE
-BY	BY
-DO	DO
-GO	GO
-HE	HE
-IF	IF
-IN	IN
-IS	IS
-IT	IT
-ME	ME
-MY	MY
-NO	NO
-OF	OF
-OK	OK
-ON	ON
-OR	OR
-SO	SO
-TO	TO
-UP	UP
-US	US
-WE	WE
 AMY	AMY
 ANN	ANN
 BOB	BOB
@@ -52673,7 +52497,6 @@ URINARY	URINARY
 UROLOGY	UROLOGY
 URUGUAY	URUGUAY
 USELESS	USELESS
-USER_ID	USER_ID
 USUALLY	USUALLY
 UTENSIL	UTENSIL
 UTILITY	UTILITY
@@ -56731,10 +56554,7 @@ HYDRAULIC	HYDRAULIC
 HYPERLINK	HYPERLINK
 HYPERTEXT	HYPERTEXT
 HYPOCRISY	HYPOCRISY
-IA WRITER	IAWRITER
-IEXPLORER	IEXPLORER
 IPAD MINI	IPADMINI
-ICE CREAM	ICECREAM
 IDENTICAL	IDENTICAL
 IGNORANCE	IGNORANCE
 ILLEGALLY	ILLEGALLY
@@ -57686,7 +57506,6 @@ UNWILLING	UNWILLING
 UPGRADING	UPGRADING
 UPLOADING	UPLOADING
 USABILITY	USABILITY
-USER_DICT	USER_DICT
 UTILITIES	UTILITIES
 UTILIZING	UTILIZING
 VACANCIES	VACANCIES
@@ -57814,10 +57633,7 @@ DERBYSHIRE	DERBYSHIRE
 DEVIANTART	DEVIANTART
 DISNEYLAND	DISNEYLAND
 DUCKDUCKGO	DUCKDUCKGO
-E-BUSINESS	E-BUSINESS
 ECONPAPERS	ECONPAPERS
-ED SHEERAN	EDSHEERAN
-EL CAPITAN	ELCAPITAN
 ELETROBOOM	ELETROBOOM
 EPIC GAMES	EPICGAMES
 EVANSVILLE	EVANSVILLE
@@ -58661,7 +58477,6 @@ LITERATURE	LITERATURE
 LITIGATION	LITIGATION
 LOCALITIES	LOCALITIES
 LOCOMOTIVE	LOCOMOTIVE
-LUA SCRIPT	LUASCRIPT
 LUBRICANTS	LUBRICANTS
 LUXEMBOURG	LUXEMBOURG
 MACROMEDIA	MACROMEDIA
@@ -58761,7 +58576,6 @@ OCCASIONAL	OCCASIONAL
 OCCUPATION	OCCUPATION
 OCCURRENCE	OCCURRENCE
 OFFICIALLY	OFFICIALLY
-OKEY DOKEY	OKEYDOKEY
 OPERATIONS	OPERATIONS
 OPPOSITION	OPPOSITION
 OPPRESSION	OPPRESSION
@@ -59851,13 +59665,11 @@ LEGISLATORS	LEGISLATORS
 LEGISLATURE	LEGISLATURE
 LIABILITIES	LIABILITIES
 LIBERTARIAN	LIBERTARIAN
-LIBRIME LUA	LIBRIMELUA
 LIGHTWEIGHT	LIGHTWEIGHT
 LIMITATIONS	LIMITATIONS
 LINGUISTICS	LINGUISTICS
 LIPOSUCTION	LIPOSUCTION
 LIQUIDATION	LIQUIDATION
-LIVING ROOM	LIVINGROOM
 LOUDSPEAKER	LOUDSPEAKER
 MAGNIFICENT	MAGNIFICENT
 MAINTAINERS	MAINTAINERS
@@ -60422,7 +60234,6 @@ DISTRIBUTORS	DISTRIBUTORS
 DISTURBANCES	DISTURBANCES
 DOWNLOADABLE	DOWNLOADABLE
 DRAMATICALLY	DRAMATICALLY
-EARLY ACCESS	EARLYACCESS
 ECONOMICALLY	ECONOMICALLY
 EFFICIENCIES	EFFICIENCIES
 EMBARRASSING	EMBARRASSING
@@ -60609,7 +60420,6 @@ PROSTITUTION	PROSTITUTION
 PROVISIONING	PROVISIONING
 PSYCHOLOGIST	PSYCHOLOGIST
 PUBLICATIONS	PUBLICATIONS
-PULL REQUEST	PULLREQUEST
 PURIFICATION	PURIFICATION
 QUANTITATIVE	QUANTITATIVE
 QUESTIONABLE	QUESTIONABLE
@@ -60904,7 +60714,6 @@ MANUFACTURERS	MANUFACTURERS
 MANUFACTURING	MANUFACTURING
 MEDITERRANEAN	MEDITERRANEAN
 MERCHANDISING	MERCHANDISING
-MERGE REQUEST	MERGEREQUEST
 MESSENGER RNA	MESSENGERRNA
 METHODOLOGIES	METHODOLOGIES
 MISCELLANEOUS	MISCELLANEOUS
@@ -61142,7 +60951,6 @@ ENTREPRENEURIAL	ENTREPRENEURIAL
 ENVIRONMENTALLY	ENVIRONMENTALLY
 EXPERIMENTATION	EXPERIMENTATION
 EXTRAORDINARILY	EXTRAORDINARILY
-FEATURE REQUEST	FEATUREREQUEST
 IMPLEMENTATIONS	IMPLEMENTATIONS
 INSTRUMENTATION	INSTRUMENTATION
 INTERCONNECTION	INTERCONNECTION
@@ -61186,8 +60994,6 @@ GASTROINTESTINAL	GASTROINTESTINAL
 INTERCONTINENTAL	INTERCONTINENTAL
 INTEROPERABILITY	INTEROPERABILITY
 RESPONSIBILITIES	RESPONSIBILITIES
-RIBONUCLEIC ACID	RIBONUCLEICACID
-SUBLIMEDIRECTORY	SUBLIMEDIRECTORY
 AFFINITY DESIGNER	AFFINITYDESIGNER
 APACHE SUBVERSION	APACHESUBVERSION
 CLOUDFLARE IMAGES	CLOUDFLAREIMAGES
@@ -61205,7 +61011,6 @@ VAMPIRE SURVIVORS	VAMPIRESURVIVORS
 INTERDISCIPLINARY	INTERDISCIPLINARY
 INTERGOVERNMENTAL	INTERGOVERNMENTAL
 MULTIDISCIPLINARY	MULTIDISCIPLINARY
-SCRIPT_TRANSLATOR	SCRIPT_TRANSLATOR
 TELECOMMUNICATION	TELECOMMUNICATION
 AFTERSHOKZ AEROPEX	AFTERSHOKZAEROPEX
 CLOUDFLARE WORKERS	CLOUDFLAREWORKERS
@@ -61221,18 +61026,14 @@ DOWNLOADABLE CONTENT	DOWNLOADABLECONTENT
 MODEL-VIEW-VIEWMODEL	MODEL-VIEW-VIEWMODEL
 NON-PLAYER CHARACTER	NON-PLAYERCHARACTER
 RANDOM-ACCESS MEMORY	RANDOM-ACCESSMEMORY
-RADICAL_PINYIN_FLYPY	RADICAL_PINYIN_FLYPY
 APPLE MUSIC CLASSCIAL	APPLEMUSICCLASSCIAL
 CHAMPION'S INEQUALITY	CHAMPION'SINEQUALITY
 DON'T STARVE TOGETHER	DON'TSTARVETOGETHER
 INTELLIGENCE QUOTIENT	INTELLIGENCEQUOTIENT
 MODEL-VIEW-CONTROLLER	MODEL-VIEW-CONTROLLER
 SPONGEBOB SQUAREPANTS	SPONGEBOBSQUAREPANTS
-DEOXYRIBONUCLEIC ACID	DEOXYRIBONUCLEICACID
-REVERSE_LOOKUP_FILTER	REVERSE_LOOKUP_FILTER
 COMMAND-LINE INTERFACE	COMMAND-LINEINTERFACE
 HYPERTEXT PREPROCESSOR	HYPERTEXTPREPROCESSOR
 DENIAL-OF-SERVICE ATTACK	DENIAL-OF-SERVICEATTACK
 CLOSED-CIRCUIT TELEVISION	CLOSED-CIRCUITTELEVISION
-REVERSE_LOOKUP_TRANSLATOR	REVERSE_LOOKUP_TRANSLATOR
 NON-GOVERNMENTAL ORGANIZATION	NON-GOVERNMENTALORGANIZATION

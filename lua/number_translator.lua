@@ -242,7 +242,7 @@ local function number_translator( input, seg )
     if seg:has_tag( 'number' ) and string.match( input, '^`(%d+)(%.?)(%d*)$' ) ~= nil then
         str = string.gsub( input, '^`', '' )
         numberPart = number_translatorFunc( str )
-        if #numberPart > 0 then
+        if str and #str >0 and #numberPart > 0 then
             for i = 1, #numberPart do
                 yield( Candidate( input, seg.start, seg._end, numberPart[i][1], '' ) )
             end

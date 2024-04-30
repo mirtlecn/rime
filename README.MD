@@ -48,6 +48,4 @@ bash rime-install mirtlecn/rime
 
 ## Credit
 
-`res/*.ico`: (C) EasyIME/PIME (C) [wubi98](https://github.com/yanhuacuo/weasel-data/tree/main/Rime/icons)
-
 Unless otherwise specified by a separate license, all files in this project are released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License (C) 2023 Mirtle.

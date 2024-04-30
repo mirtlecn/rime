@@ -23,7 +23,7 @@ switches:
     reset: 0
     states: [原, 简]
   - name: emoji
-    states: [无, 有]
+    states: [🈚️, 🈶]
   - name: reverse_simp
     states: [分, 合]
   - name: parrot_translator
@@ -212,7 +212,6 @@ parrot_translator:
 
 filter:
   en_schema: en
-  case_tip: false
   mark_user_dict: false
   add_space_cn_en: false
   recode_cn_en: true
@@ -296,12 +295,11 @@ traditionalize:
 simplify:
   option_name: simplify
   opencc_config: t2s.json
-  # tips: all
-  tags: [abc]
-  # tips: all
-  # show_in_comment: true
+  tags: [abc, number]
   append_comment: true
   inherit_comment: true
+  # tips: all
+  # show_in_comment: true
 
 reverse_simp:
   option_name: reverse_simp

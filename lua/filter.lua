@@ -1,20 +1,3 @@
--- 是否同时包含中文和英文数字
-local function is_mixed_cn_en_num( s ) return s:find( '([\228-\233][\128-\191]-)' ) and s:find( '[%a%d]' ) end
-
--- 在中文字符后和英文字符前插入空格
--- 在英文字符后和中文字符前插入空格
-local function add_spaces( s )
-    s = s:gsub( '([\228-\233][\128-\191]-)([%w%p])', '%1 %2' )
-    s = s:gsub( '([%w%p])([\228-\233][\128-\191]-)', '%1 %2' )
-    return s
-end
-
--- 在英文后添加空格
-local function add_space_to_english_word( input )
-    input = input:gsub( '(%a+\'?%a*)', '%1 ' )
-    return input
-end
-
 local F = {}
 
 function F.init( env )
@@ -23,12 +6,9 @@ function F.init( env )
 
     F.show_in_comment = config:get_list( env.name_space .. '/show_in_comment' )
     if F.show_in_comment then return end
-    F.add_space_cn_en = config:get_bool( env.name_space .. '/add_space_cn_en' )
-    F.add_space_en = config:get_bool( env.name_space .. '/add_space_en' )
     F.mark_user_dict = config:get_bool( env.name_space .. '/mark_user_dict' )
     F.recode_cn_en = config:get_bool( env.name_space .. '/recode_cn_en' )
-    local case_tip = config:get_bool( env.name_space .. '/case_tip' )
-    if F.recode_cn_en or case_tip then
+    if F.recode_cn_en then
         local schema = config:get_string( env.name_space .. '/en_schema' ) or 'en'
         F.en_dict = Memory( env.engine, Schema( schema ) )
     end
@@ -45,7 +25,6 @@ function F.init( env )
                 local cand = ctx:get_selected_candidate()
                 local commit_text = ctx:get_commit_text()
                 local commit_code = ctx.input
-
                 if (cand and cand.text == commit_text) then
                     -- 直选，上屏了一个候选
                     if (cand.type == 'sentence' or cand.type == 'raw') and
@@ -125,6 +104,7 @@ function F.func( input, env )
         -- 删除用标点开头的候选
         if input_code:find( '^%p' ) and text:find( '^[%p]' ) and type == 'completion' then goto skip end
 
+        --[[
         -- case_tips
         if F.en_dict and env.engine.context:get_option( 'case_tips' ) and (type == 'user_table' or type == 'completion') and
             (text == text:lower() or text == text:upper()) and not F.en_dict:dict_lookup( search_text, false, 1 ) and
@@ -138,9 +118,12 @@ function F.func( input, env )
                 end
             end
         end
+        --]]
 
         -- 给用户词标记
-        if F.mark_user_dict and type == 'user_phrase' then cand.comment = cand.comment .. '•' end
+        if F.mark_user_dict and (type == 'user_phrase' or type == 'user_table') then
+            cand.comment = cand.comment .. '^'
+        end
 
         -- 给所有的注释加上特定的字符
         if F.projection and cand.comment and #cand.comment > 0 then
@@ -148,22 +131,6 @@ function F.func( input, env )
                 cand = ShadowCandidate( cand:get_genuine(), type, text, F.projection:apply( cand.comment, true ) )
             else
                 cand.comment = F.projection:apply( cand.comment, true )
-            end
-        end
-
-        -- 在英文后添加空格
-        if F.add_space_en then
-            if text:match( '^[%a\']+[%a\']*$' ) then
-                text = add_space_to_english_word( text )
-                cand = cand:to_shadow_candidate( type, text, cand.comment )
-            end
-        end
-
-        -- 在中英文之间加空格
-        if F.add_space_cn_en then
-            if is_mixed_cn_en_num( text ) then
-                text = add_spaces( text )
-                cand = cand:to_shadow_candidate( type, text, cand.comment )
             end
         end
 

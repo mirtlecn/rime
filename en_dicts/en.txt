@@ -1,54 +1,3 @@
-2D
-3D
-A4
-AI
-AV
-C#
-CD
-CI
-CS
-DJ
-Fn
-Go
-HK
-ID
-IE
-IO
-IP
-LV
-OK
-OS
-PC
-PR
-PS
-QQ
-TV
-UI
-WC
-am
-as
-at
-be
-by
-do
-go
-he
-if
-in
-is
-it
-me
-my
-no
-of
-ok
-on
-or
-so
-to
-up
-us
-we
 ABS
 ACG
 ACK
@@ -11939,7 +11888,6 @@ urinary
 urology
 uruguay
 useless
-user_id
 usually
 utensil
 utility
@@ -16002,10 +15950,7 @@ hydraulic
 hyperlink
 hypertext
 hypocrisy
-iA Writer
-iExplorer
 iPad mini
-ice cream
 identical
 ignorance
 illegally
@@ -16957,7 +16902,6 @@ unwilling
 upgrading
 uploading
 usability
-user_dict
 utilities
 utilizing
 vacancies
@@ -17085,10 +17029,7 @@ Derbyshire
 DeviantArt
 Disneyland
 DuckDuckGo
-E-Business
 EconPapers
-Ed Sheeran
-El Capitan
 EletroBOOM
 Epic Games
 Evansville
@@ -17932,7 +17873,6 @@ literature
 litigation
 localities
 locomotive
-lua script
 lubricants
 luxembourg
 macromedia
@@ -18032,7 +17972,6 @@ occasional
 occupation
 occurrence
 officially
-okey dokey
 operations
 opposition
 oppression
@@ -19123,13 +19062,11 @@ legislators
 legislature
 liabilities
 libertarian
-librime lua
 lightweight
 limitations
 linguistics
 liposuction
 liquidation
-living room
 loudspeaker
 magnificent
 maintainers
@@ -19694,7 +19631,6 @@ distributors
 disturbances
 downloadable
 dramatically
-early access
 economically
 efficiencies
 embarrassing
@@ -19881,7 +19817,6 @@ prostitution
 provisioning
 psychologist
 publications
-pull request
 purification
 quantitative
 questionable
@@ -20176,7 +20111,6 @@ manufacturers
 manufacturing
 mediterranean
 merchandising
-merge request
 messenger RNA
 methodologies
 miscellaneous
@@ -20414,7 +20348,6 @@ entrepreneurial
 environmentally
 experimentation
 extraordinarily
-feature request
 implementations
 instrumentation
 interconnection
@@ -20458,8 +20391,6 @@ gastrointestinal
 intercontinental
 interoperability
 responsibilities
-ribonucleic acid
-sublimedirectory
 Affinity Designer
 Apache Subversion
 Cloudflare Images
@@ -20477,7 +20408,6 @@ Vampire Survivors
 interdisciplinary
 intergovernmental
 multidisciplinary
-script_translator
 telecommunication
 AfterShokz Aeropex
 Cloudflare Workers
@@ -20493,18 +20423,14 @@ Downloadable content
 Model-View-ViewModel
 Non-Player Character
 Random-access memory
-radical_pinyin_flypy
 Apple Music Classcial
 Champion's inequality
 Don't Starve Together
 Intelligence quotient
 Model-View-Controller
 SpongeBob SquarePants
-deoxyribonucleic acid
-reverse_lookup_filter
 Command-Line Interface
 Hypertext Preprocessor
 denial-of-service attack
 Closed-Circuit Television
-reverse_lookup_translator
 Non-Governmental Organization
