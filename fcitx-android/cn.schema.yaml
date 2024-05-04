@@ -3,7 +3,7 @@
 
 schema:
   schema_id: cn
-  name: 鹤
+  name: 双拼鹤
   version: "2024.04"
   dependencies:
     - radical
@@ -22,7 +22,7 @@ switches:
     states: [原, 简]
   - name: emoji
     reset: 1
-    states: [无, 有]
+    states: [🈚️, 🈶]
   - name: reverse_simp
     states: [分, 合]
   # - name: parrot_translator

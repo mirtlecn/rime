@@ -3,7 +3,7 @@
 
 schema:
   schema_id: cn
-  name: 小鹤双拼
+  name: 双拼鹤
   icon: res/cn.ico
   ascii_icon: res/en.ico
   version: "2024.04"
