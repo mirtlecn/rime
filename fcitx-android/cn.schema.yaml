@@ -275,7 +275,7 @@ emoji:
 translator:
   dictionary: cn
   initial_quality: 1.2
-  # enable_correction: false
+  enable_correction: true
   # enable_completion: true
   # user_dict: pinyin
   preedit_format:
