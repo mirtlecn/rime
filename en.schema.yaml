@@ -26,6 +26,7 @@ key_binder:
 
 translator:
   dictionary: en
+  db_class: tabledb
 
 speller:
   delimiter: " '"

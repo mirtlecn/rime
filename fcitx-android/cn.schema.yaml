@@ -3,7 +3,7 @@
 
 schema:
   schema_id: cn
-  name: 小鹤双拼 | Fcitx-Android
+  name: 鹤
   version: "2024.04"
   dependencies:
     - radical
@@ -66,7 +66,6 @@ engine:
     - lua_translator@*number_translator
     - lua_translator@*unicode
     - table_translator@cn_en_flypy
-    # - lua_translator@*parrot_translator
   filters:
     - simplifier@simplify
     - simplifier@emoji
@@ -240,6 +239,7 @@ filter:
 
 en:
   dictionary: en
+  db_class: tabledb
   enable_sentence: false
   initial_quality: 1.1
   preedit_format:
