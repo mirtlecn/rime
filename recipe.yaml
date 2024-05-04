@@ -16,6 +16,7 @@ install_files: >-
   punct.yaml
   weasel.yaml
   default.yaml
+  ibus_rime.yaml
   cn_dicts/*
   en_dicts/*
   preview/*
