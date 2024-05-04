@@ -26,8 +26,6 @@ switches:
     states: [🈚️, 🈶]
   - name: reverse_simp
     states: [分, 合]
-  - name: parrot_translator
-    states: [关, 造]
   - name: search_single_char
     states: [词, 单]
   - name: completion
@@ -66,7 +64,6 @@ engine:
     - lua_translator@*number_translator
     - lua_translator@*unicode
     - table_translator@cn_en_flypy
-    - lua_translator@*parrot_translator
   filters:
     - simplifier@simplify
     - simplifier@emoji
@@ -199,23 +196,8 @@ search:
   #   - xform/ee/e/
   #   - xform/oo/o/
 
-parrot_translator:
-  schema: en
-  # remove_punct: "."
-  always_on: false
-  space_alt: "~"
-  comment: "+"
-  ignore_string: "`"
-  # ignore_pattern:
-  #   # - "^[^@]*%w+%.%w+[^@]*$"
-  #   - ""
-
 filter:
-  en_schema: en
   mark_user_dict: false
-  add_space_cn_en: false
-  recode_cn_en: true
-  add_space_en: false
   comment_format:
     - erase/^.*☯.*$/
     - erase/^〔(半角|全角)〕$/
@@ -326,7 +308,6 @@ key_binder:
     - { accept: "Control+Shift+F4", toggle: emoji, when: always }
     - { accept: "Control+Shift+F5", toggle: simplify, when: has_menu }
     - { accept: "Control+r", toggle: reverse_simp, when: has_menu }
-    - { accept: "Control+p", toggle: parrot_translator, when: has_menu }
     - { accept: "Control+s", toggle: search_single_char, when: has_menu }
     - { accept: "Control+c", toggle: completion, when: has_menu }
 
