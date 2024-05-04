@@ -7,12 +7,16 @@ function F.init( env )
     F.show_in_comment = config:get_list( env.name_space .. '/show_in_comment' )
     if F.show_in_comment then return end
     F.mark_user_dict = config:get_bool( env.name_space .. '/mark_user_dict' )
-    --[[
-
     F.recode_cn_en = config:get_bool( env.name_space .. '/recode_cn_en' )
     if F.recode_cn_en then
         local schema = config:get_string( env.name_space .. '/en_schema' ) or 'en'
         F.en_dict = Memory( env.engine, Schema( schema ) )
+    end
+
+    local cmt_list = config:get_list( env.name_space .. '/comment_format' )
+    if cmt_list then
+        F.projection = Projection()
+        F.projection:load( cmt_list )
     end
 
     if F.recode_cn_en and F.en_dict then
@@ -39,13 +43,6 @@ function F.init( env )
                 end
             end
                                )
-    end
-    --]]
-
-    local cmt_list = config:get_list( env.name_space .. '/comment_format' )
-    if cmt_list then
-        F.projection = Projection()
-        F.projection:load( cmt_list )
     end
 end
 
@@ -143,6 +140,6 @@ function F.func( input, env )
     end
 end
 
--- function F.fini( env ) if F.recode_cn_en and F.en_dict then env.commit_notifier:disconnect() end end
+function F.fini( env ) if F.recode_cn_en and F.en_dict then env.commit_notifier:disconnect() end end
 
 return F
