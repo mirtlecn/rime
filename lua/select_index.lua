@@ -6,7 +6,7 @@ function s.init( env )
     s.t_2 = { 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9' }
     s.number = {
         'Control+1', 'Control+2', 'Control+3', 'Control+4', 'Control+5', 'Control+6', 'Control+7', 'Control+8',
-        'Control+9'
+        'Control+9', 'Control+0'
     }
     for i, v in ipairs( s.t ) do s.t[v] = i - 1 end
     for i, v in ipairs( s.t_2 ) do s.t_2[v] = i - 1 end
