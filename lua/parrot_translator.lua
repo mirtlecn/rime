@@ -156,4 +156,12 @@ function echo.func( inp, seg, env )
     end
     -- end
 end
+
+function echo.fini( env )
+    if env.mem then
+        env.mem = nil
+        collectgarbage( 'collect' )
+    end
+end
+
 return echo

@@ -10,7 +10,7 @@ function F.init( env )
     F.recode_cn_en = config:get_bool( env.name_space .. '/recode_cn_en' )
     if F.recode_cn_en then
         local schema = config:get_string( env.name_space .. '/en_schema' ) or 'en'
-        F.en_dict = Memory( env.engine, Schema( schema ) )
+        env.mem = Memory( env.engine, Schema( schema ) )
     end
 
     local cmt_list = config:get_list( env.name_space .. '/comment_format' )
@@ -19,7 +19,7 @@ function F.init( env )
         F.projection:load( cmt_list )
     end
 
-    if F.recode_cn_en and F.en_dict then
+    if F.recode_cn_en and env.mem then
         env.commit_notifier = env.engine.context.commit_notifier:connect(
                                   function( ctx )
                 local cand = ctx:get_selected_candidate()
@@ -30,13 +30,13 @@ function F.init( env )
                     if (cand.type == 'sentence' or cand.type == 'raw') and
                         ((commit_text:find( '%a' ) and commit_text:find( '%d' )) or (commit_text:find( '^%a+$' ))) then
                         log.info( '- record: ' .. commit_text )
-                        F.update_dict_entry( commit_text, commit_code )
+                        F.update_dict_entry( commit_text, commit_code, env.mem )
                     end
                 elseif (cand and cand.text ~= commit_text) then
                     -- 多个候选的组合
                     if (utf8.len( commit_text ) ~= #commit_text and commit_text:find( '%a' )) then
                         log.info( '+ record: ' .. commit_text )
-                        F.update_dict_entry( commit_text, commit_code )
+                        F.update_dict_entry( commit_text, commit_code, env.mem )
                     end
                 else
                     return
@@ -46,12 +46,14 @@ function F.init( env )
     end
 end
 
-function F.update_dict_entry( text, code )
+function F.update_dict_entry( text, code, mem )
     if #text == 0 then return end
     local e = DictEntry()
     e.text = text
     e.custom_code = code .. ' '
-    F.en_dict:update_userdict( e, 1, '' )
+    if mem.start_session then mem:start_session() end -- new on librime 2024.05
+    mem:update_userdict( e, 1, '' )
+    if mem.finish_session then mem:finish_session() end -- new on librime 2024.05
 end
 
 function F.func( input, env )
@@ -106,13 +108,13 @@ function F.func( input, env )
 
         --[[
         -- case_tips
-        if F.en_dict and env.engine.context:get_option( 'case_tips' ) and (type == 'user_table' or type == 'completion') and
-            (text == text:lower() or text == text:upper()) and not F.en_dict:dict_lookup( search_text, false, 1 ) and
-            F.en_dict:user_lookup( search_text, false ) then
+        if env.mem and env.engine.context:get_option( 'case_tips' ) and (type == 'user_table' or type == 'completion') and
+            (text == text:lower() or text == text:upper()) and not env.mem:dict_lookup( search_text, false, 1 ) and
+            env.mem:user_lookup( search_text, false ) then
             search_text = search_text:lower()
-            if F.en_dict:dict_lookup( search_text, false, 1 ) then
-                for e in F.en_dict:iter_dict() do
-                    local code = table.concat( F.en_dict:decode( e.code ), '' )
+            if env.mem:dict_lookup( search_text, false, 1 ) then
+                for e in env.mem:iter_dict() do
+                    local code = table.concat( env.mem:decode( e.code ), '' )
                     cand.comment = code
                     break
                 end
@@ -140,6 +142,12 @@ function F.func( input, env )
     end
 end
 
-function F.fini( env ) if F.recode_cn_en and F.en_dict then env.commit_notifier:disconnect() end end
+function F.fini( env )
+    if F.recode_cn_en and env.mem then
+        env.commit_notifier:disconnect()
+        env.mem = nil
+        collectgarbage( 'collect' )
+    end
+end
 
 return F

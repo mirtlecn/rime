@@ -240,7 +240,6 @@ filter:
 
 en:
   dictionary: en
-  db_class: tabledb
   enable_sentence: false
   initial_quality: 1.1
   preedit_format:
