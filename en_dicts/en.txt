@@ -222,6 +222,7 @@ USC
 USD
 UTC
 UTF
+UWP
 VCD
 VCR
 VCS
@@ -928,6 +929,7 @@ Fred
 Frey
 Fyne
 GDPR
+GHub
 GIFs
 GPIB
 GPIO
@@ -1877,6 +1879,7 @@ hush
 hymn
 hype
 i18n
+iBus
 iMac
 iPad
 iPod
@@ -5852,6 +5855,7 @@ Malibu
 Malone
 Manico
 Manson
+Mantis
 Manuel
 Marcos
 Mariah
@@ -9313,6 +9317,7 @@ Walkman
 Walmart
 Walters
 Waltham
+Warlock
 Warwick
 Watkins
 Weak AI
@@ -12053,6 +12058,7 @@ Angelina
 Anglican
 Anguilla
 Antilles
+Appimage
 Apple TV
 Appleton
 Aquarius

@@ -227,6 +227,7 @@ USC	USC
 USD	USD
 UTC	UTC
 UTF	UTF
+UWP	UWP
 VCD	VCD
 VCR	VCR
 VCS	VCS
@@ -933,6 +934,7 @@ Fred	Fred
 Frey	Frey
 Fyne	Fyne
 GDPR	GDPR
+GHub	GHub
 GIFs	GIFs
 GPIB	GPIB
 GPIO	GPIO
@@ -1882,6 +1884,7 @@ hush	hush
 hymn	hymn
 hype	hype
 i18n	i18n
+iBus	iBus
 iMac	iMac
 iPad	iPad
 iPod	iPod
@@ -5857,6 +5860,7 @@ Malibu	Malibu
 Malone	Malone
 Manico	Manico
 Manson	Manson
+Mantis	Mantis
 Manuel	Manuel
 Marcos	Marcos
 Mariah	Mariah
@@ -9318,6 +9322,7 @@ Walkman	Walkman
 Walmart	Walmart
 Walters	Walters
 Waltham	Waltham
+Warlock	Warlock
 Warwick	Warwick
 Watkins	Watkins
 Weak AI	WeakAI
@@ -12058,6 +12063,7 @@ Angelina	Angelina
 Anglican	Anglican
 Anguilla	Anguilla
 Antilles	Antilles
+Appimage	Appimage
 Apple TV	AppleTV
 Appleton	Appleton
 Aquarius	Aquarius
@@ -20667,6 +20673,7 @@ usc	usc
 usd	usd
 utc	utc
 utf	utf
+uwp	uwp
 vcd	vcd
 vcr	vcr
 vcs	vcs
@@ -20804,6 +20811,7 @@ fred	fred
 frey	frey
 fyne	fyne
 gdpr	gdpr
+ghub	ghub
 gifs	gifs
 gpib	gpib
 gpio	gpio
@@ -21068,6 +21076,7 @@ cdna	cdna
 egpu	egpu
 epub	epub
 esim	esim
+ibus	ibus
 imac	imac
 ipad	ipad
 ipod	ipod
@@ -21908,6 +21917,7 @@ malibu	malibu
 malone	malone
 manico	manico
 manson	manson
+mantis	mantis
 manuel	manuel
 marcos	marcos
 mariah	mariah
@@ -22706,6 +22716,7 @@ walkman	walkman
 walmart	walmart
 walters	walters
 waltham	waltham
+warlock	warlock
 warwick	warwick
 watkins	watkins
 weak ai	weakai
@@ -22746,6 +22757,7 @@ angelina	angelina
 anglican	anglican
 anguilla	anguilla
 antilles	antilles
+appimage	appimage
 apple tv	appletv
 appleton	appleton
 aquarius	aquarius
@@ -25120,6 +25132,7 @@ Hush	Hush
 Hymn	Hymn
 Hype	Hype
 I18n	I18n
+IBus	IBus
 IMac	IMac
 IPad	IPad
 IPod	IPod
@@ -41661,6 +41674,7 @@ FINN	FINN
 FRED	FRED
 FREY	FREY
 FYNE	FYNE
+GHUB	GHUB
 GIFS	GIFS
 GPTS	GPTS
 GAIL	GAIL
@@ -42534,6 +42548,7 @@ HUSH	HUSH
 HYMN	HYMN
 HYPE	HYPE
 I18N	I18N
+IBUS	IBUS
 IMAC	IMAC
 IPAD	IPAD
 IPOD	IPOD
@@ -46472,6 +46487,7 @@ MALIBU	MALIBU
 MALONE	MALONE
 MANICO	MANICO
 MANSON	MANSON
+MANTIS	MANTIS
 MANUEL	MANUEL
 MARCOS	MARCOS
 MARIAH	MARIAH
@@ -49922,6 +49938,7 @@ WALKMAN	WALKMAN
 WALMART	WALMART
 WALTERS	WALTERS
 WALTHAM	WALTHAM
+WARLOCK	WARLOCK
 WARWICK	WARWICK
 WATKINS	WATKINS
 WEAK AI	WEAKAI
@@ -52662,6 +52679,7 @@ ANGELINA	ANGELINA
 ANGLICAN	ANGLICAN
 ANGUILLA	ANGUILLA
 ANTILLES	ANTILLES
+APPIMAGE	APPIMAGE
 APPLE TV	APPLETV
 APPLETON	APPLETON
 AQUARIUS	AQUARIUS
