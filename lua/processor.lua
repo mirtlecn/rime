@@ -186,6 +186,12 @@ function P.func( key, env )
                 context:clear()
                 return 1
             end
+        elseif utf8.len( text ) and utf8.len( text ) == 1 then
+            if (key:repr() == P.first_key) or (key:repr() == P.last_key) then
+                engine:commit_text( text )
+                context:clear()
+                return 1
+            end
         end
     end
 
