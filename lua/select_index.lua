@@ -1,17 +1,17 @@
 local s = {}
 
 function s.init( env )
-    s.t = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' }
-    s.kb = { 'KP_0', 'KP_1', 'KP_2', 'KP_3', 'KP_4', 'KP_5', 'KP_6', 'KP_7', 'KP_8', 'KP_9' }
-    s.t_2 = { 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9' }
-    s.number = {
+    env.t = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' }
+    env.kb = { 'KP_0', 'KP_1', 'KP_2', 'KP_3', 'KP_4', 'KP_5', 'KP_6', 'KP_7', 'KP_8', 'KP_9' }
+    env.t_2 = { 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9' }
+    env.number = {
         'Control+1', 'Control+2', 'Control+3', 'Control+4', 'Control+5', 'Control+6', 'Control+7', 'Control+8',
         'Control+9', 'Control+0'
     }
-    for i, v in ipairs( s.t ) do s.t[v] = i - 1 end
-    for i, v in ipairs( s.t_2 ) do s.t_2[v] = i - 1 end
-    for i, v in ipairs( s.kb ) do s.kb[v] = i - 1 end
-    for _, v in ipairs( s.number ) do s.number[v] = v:gsub( 'Control%+', '' ) end
+    for i, v in ipairs( env.t ) do env.t[v] = i - 1 end
+    for i, v in ipairs( env.t_2 ) do env.t_2[v] = i - 1 end
+    for i, v in ipairs( env.kb ) do env.kb[v] = i - 1 end
+    for _, v in ipairs( env.number ) do env.number[v] = v:gsub( 'Control%+', '' ) end
 end
 
 function s.func( key, env )
@@ -21,14 +21,14 @@ function s.func( key, env )
     local key_sequence = key:repr()
     local context = env.engine.context
 
-    if context:is_composing() and s.number[key_sequence] then
-        context.input = context.input .. s.number[key_sequence]
+    if context:is_composing() and env.number[key_sequence] then
+        context.input = context.input .. env.number[key_sequence]
         return 1
     end
 
     if key:ctrl() then return 2 end
-    local i = s.t[key_sequence]
-    local i_2 = s.t_2[key_sequence]
+    local i = env.t[key_sequence]
+    local i_2 = env.t_2[key_sequence]
 
     if context:has_menu() then
         if i then
@@ -40,7 +40,7 @@ function s.func( key, env )
         end
     end
 
-    local num = s.kb[key_sequence]
+    local num = env.kb[key_sequence]
     if context:is_composing() and num then
         context:commit()
         env.engine:commit_text( num )

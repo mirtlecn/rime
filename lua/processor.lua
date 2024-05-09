@@ -54,36 +54,36 @@ function P.init( env )
 
     local config = env.engine.schema.config
     env.name_space = env.name_space:gsub( '^*', '' )
-    P.history_key = config:get_string( env.name_space .. '/commit_history_key' ) or ''
-    P.search_key = config:get_string( 'key_binder/search' ) or config:get_string( env.name_space .. '/key' )
-    P.debug = config:get_bool( env.name_space .. '/debug' )
+    env.history_key = config:get_string( env.name_space .. '/commit_history_key' ) or ''
+    env.search_key = config:get_string( 'key_binder/search' ) or config:get_string( env.name_space .. '/key' )
+    env.debug = config:get_bool( env.name_space .. '/debug' )
 
-    P.first_key = config:get_string( 'key_binder/select_first_character' )
-    P.last_key = config:get_string( 'key_binder/select_last_character' )
-    P.length_limit = config:get_int( env.name_space .. '/length_limit' ) or 50
+    env.first_key = config:get_string( 'key_binder/select_first_character' )
+    env.last_key = config:get_string( 'key_binder/select_last_character' )
+    env.length_limit = config:get_int( env.name_space .. '/length_limit' ) or 50
 
     -- 检测到相关按键，推入一个空历史，重置输入状态
     local key_list = config:get_list( env.name_space .. '/clear_history_key' )
-    P.key_list = Set( { 'Up', 'Down', 'Escape', 'Shift+Return', 'Tab', 'Shift+Tab', 'Control+BackSpace' } )
+    env.key_list = Set( { 'Up', 'Down', 'Escape', 'Shift+Return', 'Tab', 'Shift+Tab', 'Control+BackSpace' } )
     if key_list then
         for i = 0, key_list.size - 1 do
             local k = key_list:get_value_at( i ).value
-            if k and #k > 0 then P.key_list[k] = true end
+            if k and #k > 0 then env.key_list[k] = true end
         end
     end
 
     -- 中文后的符号转换规则，和 rime 的算法规则一致
     local cn_rules = config:get_list( env.name_space .. '/cn_rules' )
     if cn_rules then
-        P.projection = Projection()
-        P.projection:load( cn_rules )
+        env.projection = Projection()
+        env.projection:load( cn_rules )
     end
 
     -- ascii/[历史字符]/按键/
     local list = config:get_list( env.name_space .. '/ascii_rules' )
     if list then
-        P.ascii = {}
-        P.commit = ''
+        env.ascii = {}
+        env.commit = ''
         for i = 0, list.size - 1 do
             local configString = list:get_value_at( i ).value
             local key, value = configString:match( '^ascii/(.*)/(.*)/$' )
@@ -91,16 +91,16 @@ function P.init( env )
             if key and value and #key > 0 and #value > 0 then
                 key = c( key )
                 value = c( value )
-                P.ascii[key] = value
+                env.ascii[key] = value
                 -- log.warning(key .. ' = ' .. value)
             elseif key and value and #key == 0 and #value > 0 then
-                P.commit = P.commit .. value
+                env.commit = env.commit .. value
             end
         end
-        if #P.commit > 0 then
-            P.commit = '[' .. c( P.commit ) .. ']'
+        if #env.commit > 0 then
+            env.commit = '[' .. c( env.commit ) .. ']'
         else
-            P.commit = nil
+            env.commit = nil
         end
     end
 
@@ -108,9 +108,9 @@ function P.init( env )
     local c_rules = config:get_list( env.name_space .. '/custom_rules' )
     if c_rules then
         -- 设置三个表，绕开 utf-8 处理的麻烦
-        P.c_rules_match = {}
-        P.c_rules = {}
-        P.match = '' -- 方便先匹配一次
+        env.c_rules_match = {}
+        env.c_rules = {}
+        env.match = '' -- 方便先匹配一次
         for i = 0, c_rules.size - 1 do
             local configString = c_rules:get_value_at( i ).value
             local m, k, v = configString:match( '^fnr/(.+)/(.+)/(.+)/$' )
@@ -119,19 +119,19 @@ function P.init( env )
                 k = k:gsub( [[\\]], [[/]] )
                 v = v:gsub( [[\\]], [[/]] )
                 -- log.error( m .. k .. v)
-                P.match = P.match .. m:gsub( '^%%%%', '' )
+                env.match = env.match .. m:gsub( '^%%%%', '' )
                 m = m .. ' ' .. i -- 添加 i 以标记不同的规则
                 k = k .. ' ' .. i
-                P.c_rules_match[m] = k
-                P.c_rules[k] = v
+                env.c_rules_match[m] = k
+                env.c_rules[k] = v
             end
         end
-        P.match = '[' .. c( P.match ) .. ']'
-        -- log.error(P.match)
+        env.match = '[' .. c( env.match ) .. ']'
+        -- log.error(env.match)
     end
 
     -- 判断是否无规则
-    if not list and not cn_rules and c_rules then P.no_rules = true end
+    if not list and not cn_rules and c_rules then env.no_rules = true end
 end
 
 function P.func( key, env )
@@ -143,7 +143,7 @@ function P.func( key, env )
     local input = context.input
     if key.keycode > 0x20 and key.keycode < 0x7f then ascii_str = string.char( key.keycode ) end
 
-    if P.history_key and #P.history_key > 0 and input:find( '^' .. P.history_key .. '$' ) then
+    if env.history_key and #env.history_key > 0 and input:find( '^' .. env.history_key .. '$' ) then
         context:clear()
         env.engine:commit_text( env.COMMITHISTTORY[2] )
         return 1
@@ -151,7 +151,7 @@ function P.func( key, env )
 
     if not key:release() and (context:is_composing() or context:has_menu()) then
         -- 限制输入长度
-        if (string.len( input ) > P.length_limit) then
+        if (string.len( input ) > env.length_limit) then
             context:pop_input( 1 )
             return 1
         end
@@ -166,8 +166,8 @@ function P.func( key, env )
             -- elseif input:find( '^%_$' ) and ascii_str == '_' then
             --     env.engine:process_key( KeyEvent( 'Down' ) )
             --     return 1
-        elseif P.search_key and #P.search_key > 0 and input:find( '^[a-z;]+' .. P.search_key .. '.*' .. P.search_key ) and
-            ascii_str == P.search_key then
+        elseif env.search_key and #env.search_key > 0 and input:find( '^[a-z;]+' .. env.search_key .. '.*' .. env.search_key ) and
+            ascii_str == env.search_key then
             return 1
         end
 
@@ -177,17 +177,17 @@ function P.func( key, env )
         if utf8.len( text ) and utf8.len( text ) > 1 then
             local a = text:sub( 1, utf8.offset( text, 2 ) - 1 )
             local b = text:sub( utf8.offset( text, -1 ) )
-            if (key:repr() == P.first_key) then
+            if (key:repr() == env.first_key) then
                 engine:commit_text( a )
                 context:clear()
                 return 1
-            elseif (key:repr() == P.last_key) then
+            elseif (key:repr() == env.last_key) then
                 engine:commit_text( b )
                 context:clear()
                 return 1
             end
         elseif utf8.len( text ) and utf8.len( text ) == 1 then
-            if (key:repr() == P.first_key) or (key:repr() == P.last_key) then
+            if (key:repr() == env.first_key) or (key:repr() == env.last_key) then
                 engine:commit_text( text )
                 context:clear()
                 return 1
@@ -227,7 +227,7 @@ function P.func( key, env )
     env.KEYTABLE[0] = key:repr() or '-'
     env.KEYS = env.KEYTABLE[2] .. '|' .. env.KEYTABLE[1] .. '|' .. env.KEYTABLE[0]
 
-    if P.debug then
+    if env.debug then
         -- log.warning('history Liter: ' .. context.commit_history:repr())
         -- log.warning('latest_text: ' .. context.commit_history:latest_text())
         log.warning( 'KEYS_sequence: ' .. env.KEYS )
@@ -236,7 +236,7 @@ function P.func( key, env )
     end
 
     -- 检测到相关按键，推入一个空历史，重置输入状态
-    if P.key_list and P.key_list[key:repr()] then context.commit_history:push( 'lua', '' ) end
+    if env.key_list and env.key_list[key:repr()] then context.commit_history:push( 'lua', '' ) end
 
     -- 下面开始处理按键规则
 
@@ -244,15 +244,15 @@ function P.func( key, env )
     if key:ctrl() or key:alt() or key:super() then -- 不处理按下 ctrl() alt() 或者 super()
         return 2
     else
-        -- if P.commit and P.commit[ascii_str] then
-        if P.commit and ascii_str:find( P.commit ) then
+        -- if env.commit and env.commit[ascii_str] then
+        if env.commit and ascii_str:find( env.commit ) then
             env.engine:commit_text( ascii_str )
             return 1
         end
     end
 
     -- 不处理的情况
-    if P.no_rules -- 不指定规则
+    if env.no_rules -- 不指定规则
     -- or key:ctrl() or key:alt() or key:super() -- 按下 ctrl() alt() 或者 super()
     or #ascii_str == 0 -- 无按键
     or #latest_text == 0 -- 上一次输入未记住
@@ -260,10 +260,10 @@ function P.func( key, env )
     then return 2 end
 
     -- 首先处理自定义规则
-    if P.c_rules_match and P.c_rules and latest_text:find( P.match ) then
-        for m, v in pairs( P.c_rules_match ) do
+    if env.c_rules_match and env.c_rules and latest_text:find( env.match ) then
+        for m, v in pairs( env.c_rules_match ) do
             if r_match( latest_text, m ) and r_match( ascii_str, v ) then
-                local str = P.c_rules[v]
+                local str = env.c_rules[v]
                 if str:find( '^%%%%1' ) then
                     return 1 -- 禁用
                 elseif str:find( '^%%%%0' ) then
@@ -279,9 +279,9 @@ function P.func( key, env )
     end
 
     -- 处理中文规则：有相关规则；上一次以中文结尾；输入的为标点
-    if P.projection and endsWithChinese( latest_text ) and not ascii_str:find( '%w' ) then
-        -- log.error('key: ' .. ascii_str .. ' c: ' .. P.projection:apply(ascii_str))
-        local c = P.projection:apply( ascii_str )
+    if env.projection and endsWithChinese( latest_text ) and not ascii_str:find( '%w' ) then
+        -- log.error('key: ' .. ascii_str .. ' c: ' .. env.projection:apply(ascii_str))
+        local c = env.projection:apply( ascii_str )
         if c and c ~= '' then
             env.engine:commit_text( c )
             return 1
@@ -289,8 +289,8 @@ function P.func( key, env )
     end
 
     -- 处理 ascii 规则
-    if not P.ascii then return 2 end
-    for k, v in pairs( P.ascii ) do
+    if not env.ascii then return 2 end
+    for k, v in pairs( env.ascii ) do
         if latest_text:match( '[' .. k .. ']$' ) and ascii_str:match( '[' .. v .. ']' ) then
             -- 一种解决办法，直接用 commit_text 方法
             env.engine:commit_text( ascii_str )
@@ -309,8 +309,8 @@ end
 
 function P.fini( env )
     -- 清空
-    env.KEYTABLE = {}
-    env.COMMITHISTTORY = {}
+    env.KEYTABLE = nil
+    env.COMMITHISTTORY = nil
 end
 
 return P
