@@ -34,7 +34,7 @@ function F.init( env )
                                   function( ctx )
                 local cand = ctx:get_selected_candidate()
                 local commit_text = ctx:get_commit_text()
-                local commit_code = commit_text:gsub( '%s', '' )
+                local commit_code = ctx.input:gsub( '%s', '' )
                 if (cand and cand.text == commit_text) then
                     -- 直选，上屏了一个候选
                     if (cand.type == 'sentence' or cand.type == 'raw') and
