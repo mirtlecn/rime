@@ -351,10 +351,10 @@ key_binder:
     - { accept: "Control+Shift+F3", toggle: traditionalize, when: always }
     - { accept: "Control+Shift+F4", toggle: emoji, when: always }
     - { accept: "Control+Shift+F5", toggle: simplify, when: has_menu }
-    - { accept: "Control+Shift+R", toggle: reverse_simp, when: has_menu }
+    - { accept: "Control+r", toggle: reverse_simp, when: has_menu }
     # - { accept: "Control+p", toggle: parrot_translator, when: has_menu }
-    - { accept: "Control+Shift+S", toggle: search_single_char, when: has_menu }
-    - { accept: "Control+Shift+C", toggle: completion, when: has_menu }
+    - { accept: "Control+s", toggle: search_single_char, when: has_menu }
+    - { accept: "Control+c", toggle: completion, when: has_menu }
 
 reverse_lookup:
   tag: reverse_lookup
@@ -409,7 +409,7 @@ recognizer:
   patterns:
     punct: "^``.*$"
     win_path: "^[A-Za-z]:.*"
-    hyphen: "^[A-Za-z0-9]+[-_/~.:'].*"
+    hyphen: "^[A-Za-z0-9]+[-_/.:'].*"
     reverse_lookup: "^`[a-z;]+$"
     radical_lookup: "^`C[a-z;]+$"
     stroke_lookup: "^`B[hspnz]+$"
