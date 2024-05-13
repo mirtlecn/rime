@@ -56,7 +56,7 @@ local function yield_entry( mem, seg, inp, match )
     if mem:dict_lookup( inp, true, 100 ) then
         -- 上屏固态词典
         for entry in mem:iter_dict() do
-            if match and entry.text:find( '^' .. match ) or entry.text:lower():find( '^' .. match ) then
+            if match and (entry.text:find( '^' .. match ) or entry.text:lower():find( '^' .. match )) then
                 entry.comment = ''
                 yield( Phrase( mem, 'echo', seg.start, seg._end, entry ):toCandidate() )
             elseif not match then
