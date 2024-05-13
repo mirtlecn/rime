@@ -50,14 +50,16 @@ sort: original
             upper_en = word.upper()
 
             # 将单词小写，并加入 en_b 表
-            if lower_en != word:
+            if lower_en != word and lower_en not in en_a and lower_en not in en_b:
                 en_b.append(lower_en)
 
-            if cap_en != word and cap_en != lower_en:
+            # 如果单词首字母大写不是单词本身，也不在 en_a 表中
+            if cap_en != word and cap_en != lower_en and cap_en not in en_a and cap_en not in en_c:
+            # if cap_en != word and cap_en != lower_en:
                 # 将单词首字母大写，并加入 en_c 表
                 en_c.append(cap_en)
 
-            if upper_en !=word and upper_en != lower_en and upper_en != cap_en:
+            if upper_en !=word and upper_en != lower_en and upper_en != cap_en and upper_en not in en_a and upper_en not in en_c and upper_en not in en_d:
                 # 将单词全大写，并加入 en_d 表
                 en_d.append(upper_en)
 

@@ -20497,7 +20497,6 @@ css	css
 cto	cto
 cen	cen
 cmd	cmd
-cox	cox
 diy	diy
 dlc	dlc
 dll	dll
@@ -20530,8 +20529,6 @@ gfm	gfm
 gfw	gfw
 gif	gif
 gmt	gmt
-gnu	gnu
-gpl	gpl
 gpo	gpo
 gps	gps
 gpt	gpt
@@ -20553,7 +20550,6 @@ icp	icp
 icq	icq
 ict	ict
 idc	idc
-ide	ide
 ign	ign
 iis	iis
 ime	ime
@@ -20567,7 +20563,6 @@ ian	ian
 jpg	jpg
 jsp	jsp
 jvm	jvm
-jay	jay
 jew	jew
 jim	jim
 joe	joe
@@ -20595,7 +20590,6 @@ mvc	mvc
 mvp	mvp
 mac	mac
 mag	mag
-may	may
 n/a	n/a
 nas	nas
 nba	nba
@@ -20642,7 +20636,6 @@ sfc	sfc
 sim	sim
 sms	sms
 sos	sos
-spa	spa
 sql	sql
 ssd	ssd
 ssl	ssl
@@ -20650,7 +20643,6 @@ suv	suv
 svg	svg
 svn	svn
 sam	sam
-sir	sir
 tcl	tcl
 tcp	tcp
 tls	tls
@@ -20686,7 +20678,6 @@ vue	vue
 wav	wav
 wip	wip
 wmv	wmv
-wow	wow
 wtf	wtf
 wto	wto
 wwi	wwi
@@ -20743,7 +20734,6 @@ bios	bios
 bach	bach
 baja	baja
 bali	bali
-bell	bell
 benq	benq
 benz	benz
 bern	bern
@@ -20780,7 +20770,6 @@ dyor	dyor
 daly	daly
 dane	dane
 dave	dave
-dell	dell
 dior	dior
 divx	divx
 djvu	djvu
@@ -20791,7 +20780,6 @@ doug	doug
 dunn	dunn
 emma	emma
 enya	enya
-epic	epic
 eric	eric
 erie	erie
 erin	erin
@@ -20823,7 +20811,6 @@ gary	gary
 gaza	gaza
 gina	gina
 gmbh	gmbh
-gray	gray
 grok	grok
 guam	guam
 gwen	gwen
@@ -20867,10 +20854,8 @@ jdbc	jdbc
 jpeg	jpeg
 jrpg	jrpg
 json	json
-jack	jack
 jane	jane
 java	java
-jean	jean
 jeff	jeff
 jews	jews
 jira	jira
@@ -20941,7 +20926,6 @@ marx	marx
 mary	mary
 mero	mero
 ming	ming
-miss	miss
 mitm	mitm
 moby	moby
 moke	moke
@@ -20985,19 +20969,15 @@ palo	palo
 paul	paul
 perl	perl
 pitt	pitt
-pole	pole
 quic	quic
 rfcs	rfcs
 rion	rion
 rdio	rdio
 reid	reid
 rita	rita
-roma	roma
-rose	rose
 ross	ross
 roth	roth
 rowe	rowe
-ruby	ruby
 rudy	rudy
 ruth	ruth
 ryan	ryan
@@ -21060,7 +21040,6 @@ webm	webm
 webp	webp
 webb	webb
 wifi	wifi
-wood	wood
 xbox	xbox
 xeon	xeon
 xnip	xnip
@@ -21096,7 +21075,6 @@ acura	acura
 adams	adams
 adios	adios
 adler	adler
-adobe	adobe
 aeron	aeron
 agnes	agnes
 ahmad	ahmad
@@ -21135,7 +21113,6 @@ avril	avril
 axure	axure
 azure	azure
 baidu	baidu
-baker	baker
 banff	banff
 basel	basel
 bauer	bauer
@@ -21156,7 +21133,6 @@ braun	braun
 brett	brett
 brian	brian
 bronx	bronx
-brown	brown
 bruce	bruce
 bruno	bruno
 bryce	bryce
@@ -21178,11 +21154,9 @@ capoo	capoo
 capri	capri
 carey	carey
 carlo	carlo
-carol	carol
 casey	casey
 cathy	cathy
 cecil	cecil
-china	china
 ching	ching
 chloe	chloe
 chris	chris
@@ -21266,7 +21240,6 @@ flink	flink
 flyme	flyme
 flynn	flynn
 foley	foley
-frank	frank
 franz	franz
 fritz	fritz
 gabon	gabon
@@ -21299,7 +21272,6 @@ hamas	hamas
 hanlp	hanlp
 hanna	hanna
 hanoi	hanoi
-harry	harry
 hawks	hawks
 heidi	heidi
 heinz	heinz
@@ -21332,7 +21304,6 @@ james	james
 jamie	jamie
 janet	janet
 janis	janis
-japan	japan
 jared	jared
 jason	jason
 jenna	jenna
@@ -21340,7 +21311,6 @@ jenny	jenny
 jerry	jerry
 jesse	jesse
 jesus	jesus
-jimmy	jimmy
 jinja	jinja
 johan	johan
 johns	johns
@@ -21363,7 +21333,6 @@ kathy	kathy
 kauai	kauai
 kazaa	kazaa
 keith	keith
-kelly	kelly
 kenny	kenny
 kenya	kenya
 kevin	kevin
@@ -21375,7 +21344,6 @@ kuala	kuala
 kyoto	kyoto
 llama	llama
 lamda	lamda
-latex	latex
 lamar	lamar
 lange	lange
 latin	latin
@@ -21386,7 +21354,6 @@ lenny	lenny
 lenox	lenox
 leone	leone
 leroy	leroy
-lewis	lewis
 lexar	lexar
 libby	libby
 libra	libra
@@ -21413,12 +21380,9 @@ macau	macau
 maine	maine
 malay	malay
 maori	maori
-march	march
-maria	maria
 marie	marie
 mario	mario
 marty	marty
-mason	mason
 mccoy	mccoy
 mcgee	mcgee
 meade	meade
@@ -21462,7 +21426,6 @@ owens	owens
 oxley	oxley
 posix	posix
 pppoe	pppoe
-prime	prime
 paige	paige
 paolo	paolo
 patel	patel
@@ -21470,11 +21433,8 @@ patti	patti
 paula	paula
 paulo	paulo
 payne	payne
-pedro	pedro
-penny	penny
 pepsi	pepsi
 perez	perez
-peter	peter
 pixar	pixar
 plato	plato
 pluto	pluto
@@ -21519,7 +21479,6 @@ singh	singh
 sioux	sioux
 slicy	slicy
 sloan	sloan
-smith	smith
 sonia	sonia
 sonny	sonny
 spain	spain
@@ -21571,7 +21530,6 @@ walsh	walsh
 wanda	wanda
 watts	watts
 wayne	wayne
-white	white
 wi-fi	wi-fi
 wii u	wiiu
 win32	win32
@@ -21649,10 +21607,8 @@ atkins	atkins
 atreyu	atreyu
 auburn	auburn
 audrey	audrey
-august	august
 aussie	aussie
 avalon	avalon
-bailey	bailey
 baltic	baltic
 bangor	bangor
 barrie	barrie
@@ -21864,7 +21820,6 @@ johann	johann
 johnny	johnny
 joomla	joomla
 joplin	joplin
-jordan	jordan
 joshua	joshua
 judith	judith
 julian	julian
@@ -21942,7 +21897,6 @@ melvin	melvin
 michel	michel
 miguel	miguel
 milano	milano
-miller	miller
 minnie	minnie
 mirtle	mirtle
 mojave	mojave
@@ -21957,7 +21911,6 @@ morton	morton
 moslem	moslem
 motrix	motrix
 mozart	mozart
-murphy	murphy
 murray	murray
 musica	musica
 nvidia	nvidia
@@ -21990,7 +21943,6 @@ orbitz	orbitz
 pcmcia	pcmcia
 pamela	pamela
 pandoc	pandoc
-parker	parker
 patton	patton
 paypal	paypal
 pearce	pearce
@@ -22006,10 +21958,8 @@ phoebe	phoebe
 phuket	phuket
 pisces	pisces
 poland	poland
-polish	polish
 popcap	popcap
 powell	powell
-presto	presto
 punjab	punjab
 purdue	purdue
 putnam	putnam
@@ -22138,7 +22088,6 @@ volley	volley
 vonage	vonage
 walden	walden
 waline	waline
-walker	walker
 wallis	wallis
 walton	walton
 watson	watson
@@ -22159,7 +22108,6 @@ wilson	wilson
 wilton	wilton
 winnie	winnie
 wordle	wordle
-wright	wright
 xemacs	xemacs
 xavier	xavier
 xshell	xshell
@@ -22513,7 +22461,6 @@ mcmahon	mcmahon
 medford	medford
 melanie	melanie
 melinda	melinda
-melissa	melissa
 merriam	merriam
 merrill	merrill
 michael	michael
@@ -22663,7 +22610,6 @@ strauss	strauss
 sudbury	sudbury
 suffolk	suffolk
 sumatra	sumatra
-sundays	sundays
 suzanne	suzanne
 svenska	svenska
 swansea	swansea
@@ -22728,7 +22674,6 @@ wilhelm	wilhelm
 wilkins	wilkins
 willard	willard
 william	william
-windows	windows
 wyndham	wyndham
 xamarin	xamarin
 xenical	xenical
@@ -22807,7 +22752,6 @@ caroline	caroline
 catalina	catalina
 catholic	catholic
 celebrex	celebrex
-chandler	chandler
 charlton	charlton
 cherokee	cherokee
 cheshire	cheshire
@@ -22834,7 +22778,6 @@ datalore	datalore
 davidson	davidson
 december	december
 deepmind	deepmind
-deligate	deligate
 dell xps	dellxps
 djibouti	djibouti
 docusign	docusign
@@ -23194,7 +23137,6 @@ catherine	catherine
 catholics	catholics
 caucasian	caucasian
 chainlink	chainlink
-charlotte	charlotte
 chillseph	chillseph
 chinatown	chinatown
 christian	christian
@@ -23970,7 +23912,6 @@ Cor	Cor
 Cos	Cos
 Cot	Cot
 Cow	Cow
-Cox	Cox
 Cry	Cry
 Cue	Cue
 Cum	Cum
@@ -24134,7 +24075,6 @@ Ivy	Ivy
 Jam	Jam
 Jar	Jar
 Jaw	Jaw
-Jay	Jay
 Jet	Jet
 Job	Job
 Jog	Jog
@@ -24182,7 +24122,6 @@ Map	Map
 Mar	Mar
 Mat	Mat
 Max	Max
-May	May
 Med	Med
 Mel	Mel
 Men	Men
@@ -24336,7 +24275,6 @@ Shy	Shy
 Sig	Sig
 Sin	Sin
 Sip	Sip
-Sir	Sir
 Sis	Sis
 Sit	Sit
 Six	Six
@@ -24543,7 +24481,6 @@ Beef	Beef
 Been	Been
 Beer	Beer
 Bees	Bees
-Bell	Bell
 Belt	Belt
 Bend	Bend
 Bent	Bent
@@ -24768,7 +24705,6 @@ Deem	Deem
 Deep	Deep
 Deer	Deer
 Defy	Defy
-Dell	Dell
 Demo	Demo
 Dent	Dent
 Deny	Deny
@@ -24870,7 +24806,6 @@ Emit	Emit
 Ends	Ends
 Enum	Enum
 Envy	Envy
-Epic	Epic
 Espn	Espn
 Euro	Euro
 Eval	Eval
@@ -25021,7 +24956,6 @@ Grad	Grad
 Gram	Gram
 Gran	Gran
 Gras	Gras
-Gray	Gray
 Greg	Greg
 Grep	Grep
 Grew	Grew
@@ -25152,7 +25086,6 @@ Iron	Iron
 Isle	Isle
 It's	It's
 Item	Item
-Jack	Jack
 Jade	Jade
 Jail	Jail
 Jake	Jake
@@ -25161,7 +25094,6 @@ Jars	Jars
 Jaws	Jaws
 Jays	Jays
 Jazz	Jazz
-Jean	Jean
 Jeep	Jeep
 Jerk	Jerk
 Jess	Jess
@@ -25363,7 +25295,6 @@ Mini	Mini
 Mins	Mins
 Mint	Mint
 Misc	Misc
-Miss	Miss
 Mist	Mist
 Moan	Moan
 Mock	Mock
@@ -25535,7 +25466,6 @@ Poem	Poem
 Poet	Poet
 Pogo	Pogo
 Poke	Poke
-Pole	Pole
 Polk	Polk
 Poll	Poll
 Polo	Polo
@@ -25639,18 +25569,15 @@ Rode	Rode
 Rods	Rods
 Role	Role
 Roll	Roll
-Roma	Roma
 Rome	Rome
 Roof	Roof
 Room	Room
 Root	Root
 Rope	Rope
 Rosa	Rosa
-Rose	Rose
 Rove	Rove
 Rows	Rows
 Rppi	Rppi
-Ruby	Ruby
 Rude	Rude
 Rugs	Rugs
 Ruin	Ruin
@@ -26014,7 +25941,6 @@ Woes	Woes
 Woke	Woke
 Wolf	Wolf
 Wont	Wont
-Wood	Wood
 Woof	Woof
 Wool	Wool
 Word	Word
@@ -26060,7 +25986,6 @@ Adapt	Adapt
 Added	Added
 Admin	Admin
 Admit	Admit
-Adobe	Adobe
 Adopt	Adopt
 Adore	Adore
 Adult	Adult
@@ -26169,7 +26094,6 @@ Bacon	Bacon
 Badge	Badge
 Badly	Badly
 Baked	Baked
-Baker	Baker
 Balls	Balls
 Bands	Bands
 Banjo	Banjo
@@ -26308,7 +26232,6 @@ Broke	Broke
 Brood	Brood
 Brook	Brook
 Broom	Broom
-Brown	Brown
 Brush	Brush
 Bryan	Bryan
 Bucks	Bucks
@@ -26354,7 +26277,6 @@ Cards	Cards
 Cared	Cared
 Cares	Cares
 Cargo	Cargo
-Carol	Carol
 Carry	Carry
 Carte	Carte
 Carts	Carts
@@ -26399,7 +26321,6 @@ Child	Child
 Chile	Chile
 Chili	Chili
 Chill	Chill
-China	China
 Chips	Chips
 Choco	Choco
 Choir	Choir
@@ -26805,7 +26726,6 @@ Found	Found
 Frail	Frail
 Frame	Frame
 Franc	Franc
-Frank	Frank
 Fraud	Fraud
 Fread	Fread
 Freak	Freak
@@ -26924,7 +26844,6 @@ Handy	Handy
 Hangs	Hangs
 Happy	Happy
 Hardy	Hardy
-Harry	Harry
 Harsh	Harsh
 Haste	Haste
 Hasty	Hasty
@@ -27038,12 +26957,10 @@ Issue	Issue
 Items	Items
 Ivory	Ivory
 Jacks	Jacks
-Japan	Japan
 Jeans	Jeans
 Jelly	Jelly
 Jewel	Jewel
 Jihad	Jihad
-Jimmy	Jimmy
 Joins	Joins
 Joint	Joint
 Jokes	Jokes
@@ -27058,7 +26975,6 @@ Karma	Karma
 Katie	Katie
 Kayak	Kayak
 Keeps	Keeps
-Kelly	Kelly
 Kerry	Kerry
 Kicks	Kicks
 Kills	Kills
@@ -27118,7 +27034,6 @@ Let's	Let's
 Level	Level
 Lever	Lever
 Levin	Levin
-Lewis	Lewis
 Lexus	Lexus
 Liens	Liens
 Lifts	Lifts
@@ -27204,16 +27119,13 @@ Mango	Mango
 Mania	Mania
 Manor	Manor
 Maple	Maple
-March	March
 Marco	Marco
 Mardi	Mardi
-Maria	Maria
 Marin	Marin
 Marks	Marks
 Marry	Marry
 Marsh	Marsh
 Masks	Masks
-Mason	Mason
 Match	Match
 Mates	Mates
 Maths	Maths
@@ -27424,18 +27336,15 @@ Peach	Peach
 Peaks	Peaks
 Pearl	Pearl
 Pedal	Pedal
-Pedro	Pedro
 Peers	Peers
 Peggy	Peggy
 Penis	Penis
-Penny	Penny
 Perch	Perch
 Peril	Peril
 Perry	Perry
 Perth	Perth
 Pesos	Pesos
 Pests	Pests
-Peter	Peter
 Petit	Petit
 Petty	Petty
 Phase	Phase
@@ -27808,7 +27717,6 @@ Smart	Smart
 Smash	Smash
 Smell	Smell
 Smile	Smile
-Smith	Smith
 Smoke	Smoke
 Smoky	Smoky
 Snack	Snack
@@ -28230,7 +28138,6 @@ Where	Where
 Which	Which
 While	While
 Whirl	Whirl
-White	White
 Whois	Whois
 Whole	Whole
 Whore	Whore
@@ -28427,7 +28334,6 @@ Attack	Attack
 Attain	Attain
 Attend	Attend
 Audits	Audits
-August	August
 Aurora	Aurora
 Austin	Austin
 Author	Author
@@ -28444,7 +28350,6 @@ Backup	Backup
 Badger	Badger
 Badges	Badges
 Baffle	Baffle
-Bailey	Bailey
 Bakery	Bakery
 Baking	Baking
 Ballad	Ballad
@@ -29493,7 +29398,6 @@ Jingle	Jingle
 Jockey	Jockey
 Joined	Joined
 Joints	Joints
-Jordan	Jordan
 Joseph	Joseph
 Judged	Judged
 Judges	Judges
@@ -29730,7 +29634,6 @@ Middot	Middot
 Midget	Midget
 Midway	Midway
 Mighty	Mighty
-Miller	Miller
 Milton	Milton
 Minded	Minded
 Miners	Miners
@@ -29784,7 +29687,6 @@ Mumbai	Mumbai
 Munich	Munich
 Murder	Murder
 Murmur	Murmur
-Murphy	Murphy
 Muscle	Muscle
 Museum	Museum
 Muslim	Muslim
@@ -29929,7 +29831,6 @@ Parent	Parent
 Parish	Parish
 Parity	Parity
 Parked	Parked
-Parker	Parker
 Parody	Parody
 Parole	Parole
 Parrot	Parrot
@@ -30019,7 +29920,6 @@ Poised	Poised
 Poison	Poison
 Police	Police
 Policy	Policy
-Polish	Polish
 Polite	Polite
 Pollen	Pollen
 Ponder	Ponder
@@ -30045,7 +29945,6 @@ Preach	Preach
 Prefer	Prefer
 Prefix	Prefix
 Preset	Preset
-Presto	Presto
 Pretty	Pretty
 Priced	Priced
 Prices	Prices
@@ -30885,7 +30784,6 @@ Waived	Waived
 Waiver	Waiver
 Waking	Waking
 Walked	Walked
-Walker	Walker
 Wallet	Wallet
 Walnut	Walnut
 Walter	Walter
@@ -30954,7 +30852,6 @@ Wounds	Wounds
 Wreath	Wreath
 Wrench	Wrench
 Wretch	Wretch
-Wright	Wright
 Writer	Writer
 Writes	Writes
 XScope	XScope
@@ -32460,7 +32357,6 @@ Measure	Measure
 Medical	Medical
 Medline	Medline
 Meeting	Meeting
-Melissa	Melissa
 Melting	Melting
 Members	Members
 Memoirs	Memoirs
@@ -33331,7 +33227,6 @@ Sulfate	Sulfate
 Sulphur	Sulphur
 Summary	Summary
 Summers	Summers
-Sundays	Sundays
 Sunrise	Sunrise
 Support	Support
 Suppose	Suppose
@@ -33643,7 +33538,6 @@ Wichita	Wichita
 Widgets	Widgets
 Willing	Willing
 Winding	Winding
-Windows	Windows
 Windsor	Windsor
 Winners	Winners
 Winning	Winning
@@ -34014,7 +33908,6 @@ Cervical	Cervical
 Chairman	Chairman
 Chambers	Chambers
 Champion	Champion
-Chandler	Chandler
 Changing	Changing
 Channels	Channels
 Chapters	Chapters
@@ -34249,7 +34142,6 @@ Delegate	Delegate
 Deleting	Deleting
 Deletion	Deletion
 Delicate	Delicate
-Deligate	Deligate
 Delights	Delights
 Delivers	Delivers
 Delivery	Delivery
@@ -36340,7 +36232,6 @@ Champions	Champions
 Changelog	Changelog
 Character	Character
 Charities	Charities
-Charlotte	Charlotte
 Chartered	Chartered
 Checklist	Checklist
 Chemicals	Chemicals
@@ -41121,7 +41012,6 @@ COR	COR
 COS	COS
 COT	COT
 COW	COW
-COX	COX
 CRY	CRY
 CUE	CUE
 CUM	CUM
@@ -41228,12 +41118,10 @@ GIG	GIG
 GIN	GIN
 GIS	GIS
 GIT	GIT
-GNU	GNU
 GOD	GOD
 GOO	GOO
 GOT	GOT
 GOV	GOV
-GPL	GPL
 GUM	GUM
 GUN	GUN
 GUT	GUT
@@ -41271,7 +41159,6 @@ HUT	HUT
 IBN	IBN
 ICE	ICE
 ICY	ICY
-IDE	IDE
 IMG	IMG
 ING	ING
 INK	INK
@@ -41284,7 +41171,6 @@ IVY	IVY
 JAM	JAM
 JAR	JAR
 JAW	JAW
-JAY	JAY
 JET	JET
 JOB	JOB
 JOG	JOG
@@ -41332,7 +41218,6 @@ MAP	MAP
 MAR	MAR
 MAT	MAT
 MAX	MAX
-MAY	MAY
 MED	MED
 MEL	MEL
 MEN	MEN
@@ -41486,7 +41371,6 @@ SHY	SHY
 SIG	SIG
 SIN	SIN
 SIP	SIP
-SIR	SIR
 SIS	SIS
 SIT	SIT
 SIX	SIX
@@ -41496,7 +41380,6 @@ SLY	SLY
 SON	SON
 SOW	SOW
 SOY	SOY
-SPA	SPA
 SPY	SPY
 SRC	SRC
 SSH	SSH
@@ -41576,7 +41459,6 @@ WMA	WMA
 WOE	WOE
 WON	WON
 WOO	WOO
-WOW	WOW
 WWW	WWW
 YAN	YAN
 YAY	YAY
@@ -41962,7 +41844,6 @@ BEEF	BEEF
 BEEN	BEEN
 BEER	BEER
 BEES	BEES
-BELL	BELL
 BELT	BELT
 BEND	BEND
 BENT	BENT
@@ -42186,7 +42067,6 @@ DEEM	DEEM
 DEEP	DEEP
 DEER	DEER
 DEFY	DEFY
-DELL	DELL
 DEMO	DEMO
 DENT	DENT
 DENY	DENY
@@ -42286,7 +42166,6 @@ EMIT	EMIT
 ENDS	ENDS
 ENUM	ENUM
 ENVY	ENVY
-EPIC	EPIC
 ESPN	ESPN
 EURO	EURO
 EVAL	EVAL
@@ -42437,7 +42316,6 @@ GRAD	GRAD
 GRAM	GRAM
 GRAN	GRAN
 GRAS	GRAS
-GRAY	GRAY
 GREG	GREG
 GREP	GREP
 GREW	GREW
@@ -42568,7 +42446,6 @@ IRON	IRON
 ISLE	ISLE
 IT'S	IT'S
 ITEM	ITEM
-JACK	JACK
 JADE	JADE
 JAIL	JAIL
 JAKE	JAKE
@@ -42577,7 +42454,6 @@ JARS	JARS
 JAWS	JAWS
 JAYS	JAYS
 JAZZ	JAZZ
-JEAN	JEAN
 JEEP	JEEP
 JERK	JERK
 JESS	JESS
@@ -42778,7 +42654,6 @@ MINI	MINI
 MINS	MINS
 MINT	MINT
 MISC	MISC
-MISS	MISS
 MIST	MIST
 MOAN	MOAN
 MOCK	MOCK
@@ -42950,7 +42825,6 @@ POEM	POEM
 POET	POET
 POGO	POGO
 POKE	POKE
-POLE	POLE
 POLK	POLK
 POLL	POLL
 POLO	POLO
@@ -43054,18 +42928,15 @@ RODE	RODE
 RODS	RODS
 ROLE	ROLE
 ROLL	ROLL
-ROMA	ROMA
 ROME	ROME
 ROOF	ROOF
 ROOM	ROOM
 ROOT	ROOT
 ROPE	ROPE
 ROSA	ROSA
-ROSE	ROSE
 ROVE	ROVE
 ROWS	ROWS
 RPPI	RPPI
-RUBY	RUBY
 RUDE	RUDE
 RUGS	RUGS
 RUIN	RUIN
@@ -43429,7 +43300,6 @@ WOES	WOES
 WOKE	WOKE
 WOLF	WOLF
 WONT	WONT
-WOOD	WOOD
 WOOF	WOOF
 WOOL	WOOL
 WORD	WORD
@@ -43950,7 +43820,6 @@ ADAPT	ADAPT
 ADDED	ADDED
 ADMIN	ADMIN
 ADMIT	ADMIT
-ADOBE	ADOBE
 ADOPT	ADOPT
 ADORE	ADORE
 ADULT	ADULT
@@ -44059,7 +43928,6 @@ BACON	BACON
 BADGE	BADGE
 BADLY	BADLY
 BAKED	BAKED
-BAKER	BAKER
 BALLS	BALLS
 BANDS	BANDS
 BANJO	BANJO
@@ -44198,7 +44066,6 @@ BROKE	BROKE
 BROOD	BROOD
 BROOK	BROOK
 BROOM	BROOM
-BROWN	BROWN
 BRUSH	BRUSH
 BRYAN	BRYAN
 BUCKS	BUCKS
@@ -44244,7 +44111,6 @@ CARDS	CARDS
 CARED	CARED
 CARES	CARES
 CARGO	CARGO
-CAROL	CAROL
 CARRY	CARRY
 CARTE	CARTE
 CARTS	CARTS
@@ -44289,7 +44155,6 @@ CHILD	CHILD
 CHILE	CHILE
 CHILI	CHILI
 CHILL	CHILL
-CHINA	CHINA
 CHIPS	CHIPS
 CHOCO	CHOCO
 CHOIR	CHOIR
@@ -44694,7 +44559,6 @@ FOUND	FOUND
 FRAIL	FRAIL
 FRAME	FRAME
 FRANC	FRANC
-FRANK	FRANK
 FRAUD	FRAUD
 FREAD	FREAD
 FREAK	FREAK
@@ -44813,7 +44677,6 @@ HANDY	HANDY
 HANGS	HANGS
 HAPPY	HAPPY
 HARDY	HARDY
-HARRY	HARRY
 HARSH	HARSH
 HASTE	HASTE
 HASTY	HASTY
@@ -44927,12 +44790,10 @@ ISSUE	ISSUE
 ITEMS	ITEMS
 IVORY	IVORY
 JACKS	JACKS
-JAPAN	JAPAN
 JEANS	JEANS
 JELLY	JELLY
 JEWEL	JEWEL
 JIHAD	JIHAD
-JIMMY	JIMMY
 JOINS	JOINS
 JOINT	JOINT
 JOKES	JOKES
@@ -44947,7 +44808,6 @@ KARMA	KARMA
 KATIE	KATIE
 KAYAK	KAYAK
 KEEPS	KEEPS
-KELLY	KELLY
 KERRY	KERRY
 KICKS	KICKS
 KILLS	KILLS
@@ -44987,7 +44847,6 @@ LASER	LASER
 LASTS	LASTS
 LATCH	LATCH
 LATER	LATER
-LATEX	LATEX
 LATHE	LATHE
 LAUGH	LAUGH
 LAYER	LAYER
@@ -45007,7 +44866,6 @@ LET'S	LET'S
 LEVEL	LEVEL
 LEVER	LEVER
 LEVIN	LEVIN
-LEWIS	LEWIS
 LEXUS	LEXUS
 LIENS	LIENS
 LIFTS	LIFTS
@@ -45092,16 +44950,13 @@ MANGO	MANGO
 MANIA	MANIA
 MANOR	MANOR
 MAPLE	MAPLE
-MARCH	MARCH
 MARCO	MARCO
 MARDI	MARDI
-MARIA	MARIA
 MARIN	MARIN
 MARKS	MARKS
 MARRY	MARRY
 MARSH	MARSH
 MASKS	MASKS
-MASON	MASON
 MATCH	MATCH
 MATES	MATES
 MATHS	MATHS
@@ -45312,18 +45167,15 @@ PEACH	PEACH
 PEAKS	PEAKS
 PEARL	PEARL
 PEDAL	PEDAL
-PEDRO	PEDRO
 PEERS	PEERS
 PEGGY	PEGGY
 PENIS	PENIS
-PENNY	PENNY
 PERCH	PERCH
 PERIL	PERIL
 PERRY	PERRY
 PERTH	PERTH
 PESOS	PESOS
 PESTS	PESTS
-PETER	PETER
 PETIT	PETIT
 PETTY	PETTY
 PHASE	PHASE
@@ -45388,7 +45240,6 @@ PRICE	PRICE
 PRICK	PRICK
 PRIDE	PRIDE
 PRIMA	PRIMA
-PRIME	PRIME
 PRINT	PRINT
 PRIOR	PRIOR
 PRISM	PRISM
@@ -45696,7 +45547,6 @@ SMART	SMART
 SMASH	SMASH
 SMELL	SMELL
 SMILE	SMILE
-SMITH	SMITH
 SMOKE	SMOKE
 SMOKY	SMOKY
 SNACK	SNACK
@@ -46118,7 +45968,6 @@ WHERE	WHERE
 WHICH	WHICH
 WHILE	WHILE
 WHIRL	WHIRL
-WHITE	WHITE
 WHOIS	WHOIS
 WHOLE	WHOLE
 WHORE	WHORE
@@ -46873,7 +46722,6 @@ ATTACK	ATTACK
 ATTAIN	ATTAIN
 ATTEND	ATTEND
 AUDITS	AUDITS
-AUGUST	AUGUST
 AURORA	AURORA
 AUSTIN	AUSTIN
 AUTHOR	AUTHOR
@@ -46890,7 +46738,6 @@ BACKUP	BACKUP
 BADGER	BADGER
 BADGES	BADGES
 BAFFLE	BAFFLE
-BAILEY	BAILEY
 BAKERY	BAKERY
 BAKING	BAKING
 BALLAD	BALLAD
@@ -47939,7 +47786,6 @@ JINGLE	JINGLE
 JOCKEY	JOCKEY
 JOINED	JOINED
 JOINTS	JOINTS
-JORDAN	JORDAN
 JOSEPH	JOSEPH
 JUDGED	JUDGED
 JUDGES	JUDGES
@@ -48176,7 +48022,6 @@ MIDDOT	MIDDOT
 MIDGET	MIDGET
 MIDWAY	MIDWAY
 MIGHTY	MIGHTY
-MILLER	MILLER
 MILTON	MILTON
 MINDED	MINDED
 MINERS	MINERS
@@ -48230,7 +48075,6 @@ MUMBAI	MUMBAI
 MUNICH	MUNICH
 MURDER	MURDER
 MURMUR	MURMUR
-MURPHY	MURPHY
 MUSCLE	MUSCLE
 MUSEUM	MUSEUM
 MUSLIM	MUSLIM
@@ -48375,7 +48219,6 @@ PARENT	PARENT
 PARISH	PARISH
 PARITY	PARITY
 PARKED	PARKED
-PARKER	PARKER
 PARODY	PARODY
 PAROLE	PAROLE
 PARROT	PARROT
@@ -48465,7 +48308,6 @@ POISED	POISED
 POISON	POISON
 POLICE	POLICE
 POLICY	POLICY
-POLISH	POLISH
 POLITE	POLITE
 POLLEN	POLLEN
 PONDER	PONDER
@@ -48491,7 +48333,6 @@ PREACH	PREACH
 PREFER	PREFER
 PREFIX	PREFIX
 PRESET	PRESET
-PRESTO	PRESTO
 PRETTY	PRETTY
 PRICED	PRICED
 PRICES	PRICES
@@ -49331,7 +49172,6 @@ WAIVED	WAIVED
 WAIVER	WAIVER
 WAKING	WAKING
 WALKED	WALKED
-WALKER	WALKER
 WALLET	WALLET
 WALNUT	WALNUT
 WALTER	WALTER
@@ -49400,7 +49240,6 @@ WOUNDS	WOUNDS
 WREATH	WREATH
 WRENCH	WRENCH
 WRETCH	WRETCH
-WRIGHT	WRIGHT
 WRITER	WRITER
 WRITES	WRITES
 XSCOPE	XSCOPE
@@ -51446,7 +51285,6 @@ MEASURE	MEASURE
 MEDICAL	MEDICAL
 MEDLINE	MEDLINE
 MEETING	MEETING
-MELISSA	MELISSA
 MELTING	MELTING
 MEMBERS	MEMBERS
 MEMOIRS	MEMOIRS
@@ -52317,7 +52155,6 @@ SULFATE	SULFATE
 SULPHUR	SULPHUR
 SUMMARY	SUMMARY
 SUMMERS	SUMMERS
-SUNDAYS	SUNDAYS
 SUNRISE	SUNRISE
 SUPPORT	SUPPORT
 SUPPOSE	SUPPOSE
@@ -52629,7 +52466,6 @@ WICHITA	WICHITA
 WIDGETS	WIDGETS
 WILLING	WILLING
 WINDING	WINDING
-WINDOWS	WINDOWS
 WINDSOR	WINDSOR
 WINNERS	WINNERS
 WINNING	WINNING
@@ -53389,7 +53225,6 @@ CERVICAL	CERVICAL
 CHAIRMAN	CHAIRMAN
 CHAMBERS	CHAMBERS
 CHAMPION	CHAMPION
-CHANDLER	CHANDLER
 CHANGING	CHANGING
 CHANNELS	CHANNELS
 CHAPTERS	CHAPTERS
@@ -53624,7 +53459,6 @@ DELEGATE	DELEGATE
 DELETING	DELETING
 DELETION	DELETION
 DELICATE	DELICATE
-DELIGATE	DELIGATE
 DELIGHTS	DELIGHTS
 DELIVERS	DELIVERS
 DELIVERY	DELIVERY
@@ -55986,7 +55820,6 @@ CHAMPIONS	CHAMPIONS
 CHANGELOG	CHANGELOG
 CHARACTER	CHARACTER
 CHARITIES	CHARITIES
-CHARLOTTE	CHARLOTTE
 CHARTERED	CHARTERED
 CHECKLIST	CHECKLIST
 CHEMICALS	CHEMICALS
