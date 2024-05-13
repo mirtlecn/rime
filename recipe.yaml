@@ -13,6 +13,7 @@ install_files: >-
   *.schema.yaml
   *.py
   cn_en_flypy.txt
+  zh_CN.txt
   punct.yaml
   weasel.yaml
   default.yaml
