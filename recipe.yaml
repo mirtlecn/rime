@@ -15,6 +15,7 @@ install_files: >-
   cn_en_flypy.txt
   zh_CN.txt
   punct.yaml
+  fcitx5.yaml
   weasel.yaml
   default.yaml
   ibus_rime.yaml

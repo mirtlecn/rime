@@ -601,12 +601,10 @@ oar
 odd
 ode
 off
-ohm
 oil
 old
 ole
 one
-ooh
 orb
 ore
 org
@@ -1027,7 +1025,6 @@ LGPL
 LGPO
 LIFO
 LMAO
-LTSC
 Laos
 Lara
 Lars
@@ -1083,14 +1080,12 @@ Nina
 Niue
 Noah
 Nora
-Nvim
 OCSP
 OPPO
 OS X
 Oahu
 Oder
 Odoo
-Ohio
 Oman
 Omar
 Owen
