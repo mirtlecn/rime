@@ -215,7 +215,7 @@ filter:
   en_schema: en
   mark_user_dict: false
   add_space_cn_en: false
-  recode_cn_en: true
+  recode_cn_en: false
   add_space_en: false
   comment_format:
     - erase/^.*☯.*$/
