@@ -121,7 +121,7 @@ function echo.func( inp, seg, env )
         -- 生成新的候选词组
         local candTable = {}
         -- 将空格替换符替换为空格作为候选
-        local dict = new_dict_entry( inp:gsub( env.space_pattern, ' ' ):gsub( '%s$', '' ), input, env.comment )
+        local dict = new_dict_entry( inp:gsub( env.space_pattern, ' ' ):gsub( '%s+$', '' ), input, env.comment )
         table.insert( candTable, dict )
         -- 在大写字母前自动插入空格作为候选
         if inp:find( '%l%u+' ) then

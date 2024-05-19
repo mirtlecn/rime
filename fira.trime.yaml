@@ -1,0 +1,888 @@
+# Trime custom style settings
+# encoding: utf-8
+
+config_version: "3.2"
+name: Fira
+author: ChiesiMario
+
+# 键盘按键高度
+height:
+  1: &jpgd1 30 # 表情键盘
+  2: &jpgd2 24 # 颜文字键盘 1
+  3: &jpgd3 24 # 颜文字键盘 2
+  4: &jpgd4 37 # 主键盘
+  5: &jpgd5 39.5 # 符号键盘
+  6: &hgap 4 # 键盘横缝大小
+  7: &sgap 8 # 键盘竖缝大小
+
+# 键盘高度
+round_corner:
+  1: &round1 20 # 按键圆角半径
+  2: &round2 15 # 候选窗口圆角
+  3: &round3 15 # 回车键圆角
+
+# 界面风格、功能开关
+style:
+  auto_caps: false # 自动句首大写:true|false|ascii
+  background_dim_amount: 0.5
+  root_background: keyboard_back_color # 整个键盘区+候选栏的背景图/色
+  # candidate_font: hanb.ttf  # 候选字体
+  candidate_padding: 10  # 候选项内边距
+  candidate_spacing: 0  # 候选间距
+  candidate_text_size: 20  # 候选字号
+  candidate_use_cursor: true # 高亮候选项
+  candidate_view_height: 40 # 候选区高度
+  color_scheme: fira_dark # 配色方案
+  # comment_font: comment.ttf # 编码提示字体
+  comment_height: 25 # 编码提示区高度
+  comment_on_top: false # 编码提示在上方或右侧
+  comment_text_size: 7 # 编码提示字号
+  # hanb_font: hanb.ttf # 扩充字体
+  horizontal: false # 水平模式
+  horizontal_gap: *hgap # 键水平间距
+  layout:
+    position: fixed # 候选窗口位置： left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left 、 right 需要 Android5.0 以上)
+    min_length: 4 # 候选窗口最小词长
+    max_length: 4 # 超过字数则换行
+    sticky_lines: 0 # 固顶行数
+    sticky_lines_land: 0 # 横屏模式下的固顶行数
+    max_entries: 5 # 候选窗口最大词条数
+    border: 0 # 候选窗口边框宽度
+    max_width: 360 # 最大宽度，超过则自动换行
+    max_height: 300 # 最大高度
+    min_width: 0 # 最小宽度
+    min_height: 50 # 最小高度
+    margin_x: 10 # 水平边距 NOTE: margin_{x, y, bottom} 实际为 padding
+    margin_y: 5 # 竖直边距
+    margin_bottom: 5 # 竖直边距
+    line_spacing: 0 # 候选词的行间距 (px)
+    line_spacing_multiplier: 1.2 # 候选词的行间距 (倍数)
+    real_margin: 5 # 屏幕左右边缘和悬浮窗之间的距离 TODO: 在 4.0 时给 real_margin 与 spacing 换一个更适合的名字
+    spacing: 5 # 屏幕上下边缘或预编辑上下边缘和悬浮窗之间的距离
+    round_corner: *round2 # 候选窗口圆角
+    alpha: 0xff # 透明度 (0-255)
+    elevation: 0 # 阴影 (>=Android5.0)
+    background: background.png # 颜色或者 backgrounds 目录下的图片文档名
+    movable: false # 是否可移动窗口，或仅移动一次 true|false|once
+    all_phrases: false # 显示所有长词
+  window: # 悬浮窗口组件
+#    - {start: "", move: 'ㄓ ', end: ""}
+    - {start: "", composition: "%s", end: "", letter_spacing: 0.12} # letter_spacing 需要 Android5.0
+    - {start: "\n", label: "%s.", candidate: "%s", comment: "%s", end: "", sep: "☁️️"}
+  # key_font: FiraCode_+_SarasaMono_Semibold.ttf # 键盘字体
+  key_height: *jpgd4 # 键高
+  key_long_text_size: 16 # 长标签字号
+  key_text_size: 24 # 键字号
+  key_width: 10.0 # 键宽，占屏幕宽的百分比
+  keyboards: [.default, default, numberandsymbol, number, mini] # 键盘配置
+  label_text_size: 22 # 标签字号
+  # label_font: FiraCode_+_SarasaMono_Semibold.ttf # 编标签字体
+  # latin_font: FiraCode_+_SarasaMono_Semibold.ttf # 西文本体
+  latin_locale: en_US # 西文语言
+  locale: zh_CN # 缺省语言 zh_TW,zh_CN,zh_HK,""
+  keyboard_height: 260 # 锁定键盘高度，避免切换时键盘高度变化而造成闪烁
+  keyboard_height_land: 250 # 锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
+  # preview_font: FiraCode_+_SarasaMono_Semibold.ttf # 按键提示字体
+  preview_height: 56 # 按键提示高度
+  preview_offset: -32 # 按键提示纵向偏移
+  preview_text_size: 40 # 按键提示字号
+  proximity_correction: true # 按键纠错
+  reset_ascii_mode: false # 显示键盘时重置为中文状态
+  round_corner: *round1 # 按键圆角半径
+  shadow_radius: 0.0 # 按键阴影半径
+  speech_opencc_config: none # 语音输入简繁转换
+  # symbol_font: FiraCode_+_SarasaMono_Semibold.ttf # 符号字体
+  symbol_text_size: 10 # 符号字号
+  # text_font: FiraCode_+_SarasaMono_Semibold.ttf # 编码字体
+  # text_height: 32 # 编码区高度
+  text_size: 16 # 编码区字号
+  vertical_correction: -5
+  vertical_gap: *sgap # 键盘行距
+  enter_label_mode: 0  # 是否使用 App 提供的 ActionLabel 内容作为 Enter 键的文本（由于多数 App 没有适配 ActionLable ，实际影响不大）。 0 不使用， 1 只使用 actionlabel ， 2 优先使用， 3 当其他方式没有获得 label 时才读取 actionlabel
+  enter_labels:  # 定义 Enter 键的文本
+    go: 前往
+    done: 完成
+    next: 下个
+    pre:  上个
+    search: 搜索
+    send: 发送
+    default: Enter   # 定义默认 Enter 键的文本
+
+fallback_colors:
+  candidate_text_color: text_color
+  comment_text_color: candidate_text_color
+  border_color: back_color
+  candidate_separator_color: border_color
+  hilited_text_color: text_color
+  hilited_back_color: back_color
+  hilited_candidate_text_color: hilited_text_color
+  hilited_candidate_back_color: hilited_back_color
+  hilited_comment_text_color: comment_text_color
+  hilited_key_back_color: hilited_candidate_back_color
+  hilited_key_text_color: hilited_candidate_text_color
+  hilited_key_symbol_color: hilited_comment_text_color
+  hilited_off_key_back_color: hilited_key_back_color
+  hilited_on_key_back_color: hilited_key_back_color
+  hilited_off_key_text_color: hilited_key_text_color
+  hilited_on_key_text_color: hilited_key_text_color
+  key_back_color: back_color
+  key_border_color: border_color
+  key_text_color: candidate_text_color
+  key_symbol_color: comment_text_color
+  label_color: candidate_text_color
+  off_key_back_color: key_back_color
+  off_key_text_color: key_text_color
+  on_key_back_color: hilited_key_back_color
+  on_key_text_color: hilited_key_text_color
+  preview_back_color: key_text_color
+  preview_text_color: key_back_color
+  shadow_color: border_color
+  root_background: back_color # 整个键盘区+候选栏的背景图/色
+  candidate_background: back_color # 候选栏的整体背景图/色
+  keyboard_back_color: border_color # 键盘去的背景图/色
+  liquid_keyboard_background: keyboard_back_color # liquidKeyboard 的背景图/色
+  text_back_color: back_color # 编码区背景，即悬浮窗背景
+  long_text_back_color: key_back_color # 长文本按键的背景 (剪贴板）
+
+#--------配色开始----------------#
+
+# Fira Dark 配色方案
+preset_color_schemes:
+  fira_dark:
+    # 颜色定义
+    1: &fira_dark_color1 0xffF1F1F1 # 主要文本色
+    2: &fira_dark_color2 0xff393c3f # 主要按键背景色
+    3: &fira_dark_color3 0xff000000 # 主要背景色
+    4: &fira_dark_color4 0xff676767 # 功能键背景色
+    6: &fira_dark_color5 0xff2472e1 # 强调背景色
+    7: &fira_dark_color6 0xff000000 # 强调文本色
+    8: &fira_dark_color7 0xffB6B6B6 # 次要文本色
+    # ----------------------------------------
+    name: "Fira Dark"  # 方案名称
+    author: ChiesiMario # 作者信息
+    light_scheme: fira_light # 视当前为深色模式的配色。当系统切换为浅色模式后，切换至该主题
+    back_color: *fira_dark_color3 # 候选区背景状态栏
+    border_color: *fira_dark_color1 # 边框颜色
+    candidate_separator_color: *fira_dark_color7 # 候选分割背景
+    candidate_text_color: *fira_dark_color1 # 候选文本
+    comment_text_color: *fira_dark_color7 # 提示
+    hilited_back_color: *fira_dark_color3 # 高亮编码背景
+    hilited_candidate_back_color: *fira_dark_color3 # 高亮候选背景
+    hilited_candidate_text_color: *fira_dark_color5 # 高亮候选文本
+    hilited_comment_text_color: *fira_dark_color7 # 高亮提示
+    hilited_key_back_color: *fira_dark_color5 # 高亮按键背景
+    hilited_key_symbol_color: *fira_dark_color6 # 高亮按键符号
+    hilited_key_text_color: *fira_dark_color6 # 高亮按键文本
+    hilited_off_key_back_color: *fira_dark_color5 # 高亮按键关闭状态背景
+    hilited_off_key_text_color: *fira_dark_color6 # 高亮按键关闭状态文本
+    hilited_text_color: *fira_dark_color1 # 高亮编码
+    key_back_color: *fira_dark_color2 # 按键背景
+    key_symbol_color: *fira_dark_color7 # 按键符号
+    key_text_color: *fira_dark_color1 # 按键文本
+    keyboard_back_color: *fira_dark_color3 # 键盘背景
+    label_color: *fira_dark_color5 # 标签
+    off_key_back_color: *fira_dark_color4  # 按键关闭状态背景
+    off_key_text_color: *fira_dark_color7 # 按键关闭状态文本
+    preview_back_color: *fira_dark_color4 # 按键提示背景
+    preview_text_color: *fira_dark_color5 # 按键提示文本
+    text_color: *fira_dark_color5 # 编码
+    text_back_color: *fira_dark_color3 # 编码区背景
+    bkg: *fira_dark_color2 # 空格键背景色
+    tkg: *fira_dark_color1 # 空格键文字颜色
+    benter: *fira_dark_color5 # 回车键背景色
+    tenter: *fira_dark_color6 # 回车键文字颜色
+    bgn: *fira_dark_color4 # 功能键背景色
+    tgn: *fira_dark_color1 # 功能键文字颜色
+    bbs: *fira_dark_color4 # 退格键背景色
+    tbs: *fira_dark_color1 # 退格键文字颜色
+    baoe: *fira_dark_color2 # aoeiu 背景色
+    taoe: *fira_dark_color5 # aoeiu 文字颜色
+    bh1: *fira_dark_color2 # 第一行背景色
+    th1: *fira_dark_color1 # 第一行文字颜色
+    bh2: *fira_dark_color2 # 第二行背景色
+    th2: *fira_dark_color1 # 第二行文字颜色
+    bh3: *fira_dark_color2 # 第三行背景色
+    th3: *fira_dark_color1 # 第三行文字颜色
+    bh4: *fira_dark_color2 # 第四行背景色
+    th4: *fira_dark_color1 # 第四行文字颜色
+
+# Fira Light 配色方案
+  fira_light:
+    # 颜色定义
+    1: &fira_light_color1 0xff656565 # 主要文本色
+    2: &fira_light_color2 0xffffffff # 主要按键背景色
+    3: &fira_light_color3 0xffe7e9eb # 主要背景色
+    4: &fira_light_color4 0xffcacdd3 # 功能键背景色
+    6: &fira_light_color5 0xff2472e1 # 强调背景色
+    7: &fira_light_color6 0xffffffff # 强调文本色
+    8: &fira_light_color7 0xff5d5e5f # 次要文本色
+    # ----------------------------------------
+    name: "Fira Light"  # 方案名称
+    author: ChiesiMario # 作者信息
+    dark_scheme: fira_dark # 视当前为浅色模式的配色。当系统切换为深色模式后，切换至该主题
+    back_color: *fira_light_color3 # 候选区背景状态栏
+    border_color: *fira_light_color1 # 边框颜色
+    candidate_separator_color: 0xffFF0000 # 候选分割背景
+    candidate_text_color: *fira_light_color1 # 候选文本
+    comment_text_color: *fira_light_color7 # 提示
+    hilited_back_color: *fira_light_color3 # 高亮编码背景
+    hilited_candidate_back_color: *fira_light_color3 # 高亮候选背景
+    hilited_candidate_text_color: *fira_light_color5 # 高亮候选文本
+    hilited_comment_text_color: *fira_light_color7 # 高亮提示
+    hilited_key_back_color: *fira_light_color5 # 高亮按键背景
+    hilited_key_symbol_color: *fira_light_color6 # 高亮按键符号
+    hilited_key_text_color: *fira_light_color6 # 高亮按键文本
+    hilited_off_key_back_color: *fira_light_color5 # 高亮按键关闭状态背景
+    hilited_off_key_text_color: *fira_light_color6 # 高亮按键关闭状态文本
+    hilited_text_color: *fira_light_color1 # 高亮编码
+    key_back_color: *fira_light_color2 # 按键背景
+    key_symbol_color: *fira_light_color7 # 按键符号
+    key_text_color: *fira_light_color1 # 按键文本
+    keyboard_back_color: *fira_light_color3 # 键盘背景
+    label_color: *fira_light_color5 # 标签
+    off_key_back_color: *fira_light_color4  # 按键关闭状态背景
+    off_key_text_color: *fira_light_color7 # 按键关闭状态文本
+    preview_back_color: *fira_light_color4 # 按键提示背景
+    preview_text_color: *fira_light_color5 # 按键提示文本
+    text_color: *fira_light_color5 # 编码
+    text_back_color: *fira_light_color3 # 编码区背景
+    bkg: *fira_light_color2 # 空格键背景色
+    tkg: *fira_light_color1 # 空格键文字颜色
+    benter: *fira_light_color5 # 回车键背景色
+    tenter: *fira_light_color6 # 回车键文字颜色
+    bgn: *fira_light_color4 # 功能键背景色
+    tgn: *fira_light_color1 # 功能键文字颜色
+    bbs: *fira_light_color4 # 退格键背景色
+    tbs: *fira_light_color1 # 退格键文字颜色
+    baoe: *fira_light_color2 # aoeiu 背景色
+    taoe: *fira_light_color5 # aoeiu 文字颜色
+    bh1: *fira_light_color2 # 第一行背景色
+    th1: *fira_light_color1 # 第一行文字颜色
+    bh2: *fira_light_color2 # 第二行背景色
+    th2: *fira_light_color1 # 第二行文字颜色
+    bh3: *fira_light_color2 # 第三行背景色
+    th3: *fira_light_color1 # 第三行文字颜色
+    bh4: *fira_light_color2 # 第四行背景色
+    th4: *fira_light_color1 # 第四行文字颜色
+
+# Fira Dimmed 配色方案
+  fira_light_dimmed:
+    # 颜色定义
+    1: &fira_light_dimmed_color1 0xff828282 # 主要文本色
+    2: &fira_light_dimmed_color2 0xffF6F7F7 # 主要按键背景色
+    3: &fira_light_dimmed_color3 0xffffffff # 主要背景色
+    4: &fira_light_dimmed_color4 0xffECEEEF # 功能键背景色
+    6: &fira_light_dimmed_color5 0xff2472e1 # 强调背景色
+    7: &fira_light_dimmed_color6 0xffF2F2F2 # 强调文本色
+    8: &fira_light_dimmed_color7 0xff636363 # 次要文本色
+    # ----------------------------------------
+    name: "Fira Dimmed"  # 方案名称
+    author: ChiesiMario # 作者信息
+    dark_scheme: fira_dark_dimmed # 视当前为浅色模式的配色。当系统切换为深色模式后，切换至该主题
+    back_color: *fira_light_dimmed_color3 # 候选区背景状态栏
+    border_color: *fira_light_dimmed_color1 # 边框颜色
+    candidate_separator_color: 0xffFF0000 # 候选分割背景
+    candidate_text_color: *fira_light_dimmed_color1 # 候选文本
+    comment_text_color: *fira_light_dimmed_color7 # 提示
+    hilited_back_color: *fira_light_dimmed_color3 # 高亮编码背景
+    hilited_candidate_back_color: *fira_light_dimmed_color3 # 高亮候选背景
+    hilited_candidate_text_color: *fira_light_dimmed_color5 # 高亮候选文本
+    hilited_comment_text_color: *fira_light_dimmed_color7 # 高亮提示
+    hilited_key_back_color: *fira_light_dimmed_color5 # 高亮按键背景
+    hilited_key_symbol_color: *fira_light_dimmed_color6 # 高亮按键符号
+    hilited_key_text_color: *fira_light_dimmed_color6 # 高亮按键文本
+    hilited_off_key_back_color: *fira_light_dimmed_color5 # 高亮按键关闭状态背景
+    hilited_off_key_text_color: *fira_light_dimmed_color6 # 高亮按键关闭状态文本
+    hilited_text_color: *fira_light_dimmed_color1 # 高亮编码
+    key_back_color: *fira_light_dimmed_color2 # 按键背景
+    key_symbol_color: *fira_light_dimmed_color7 # 按键符号
+    key_text_color: *fira_light_dimmed_color1 # 按键文本
+    keyboard_back_color: *fira_light_dimmed_color3 # 键盘背景
+    label_color: *fira_light_dimmed_color5 # 标签
+    off_key_back_color: *fira_light_dimmed_color4  # 按键关闭状态背景
+    off_key_text_color: *fira_light_dimmed_color7 # 按键关闭状态文本
+    preview_back_color: *fira_light_dimmed_color4 # 按键提示背景
+    preview_text_color: *fira_light_dimmed_color5 # 按键提示文本
+    text_color: *fira_light_dimmed_color5 # 编码
+    text_back_color: *fira_light_dimmed_color3 # 编码区背景
+    bkg: *fira_light_dimmed_color2 # 空格键背景色
+    tkg: *fira_light_dimmed_color1 # 空格键文字颜色
+    benter: *fira_light_dimmed_color5 # 回车键背景色
+    tenter: *fira_light_dimmed_color6 # 回车键文字颜色
+    bgn: *fira_light_dimmed_color4 # 功能键背景色
+    tgn: *fira_light_dimmed_color1 # 功能键文字颜色
+    bbs: *fira_light_dimmed_color4 # 退格键背景色
+    tbs: *fira_light_dimmed_color1 # 退格键文字颜色
+    baoe: *fira_light_dimmed_color2 # aoeiu 背景色
+    taoe: *fira_light_dimmed_color5 # aoeiu 文字颜色
+    bh1: *fira_light_dimmed_color2 # 第一行背景色
+    th1: *fira_light_dimmed_color1 # 第一行文字颜色
+    bh2: *fira_light_dimmed_color2 # 第二行背景色
+    th2: *fira_light_dimmed_color1 # 第二行文字颜色
+    bh3: *fira_light_dimmed_color2 # 第三行背景色
+    th3: *fira_light_dimmed_color1 # 第三行文字颜色
+    bh4: *fira_light_dimmed_color2 # 第四行背景色
+    th4: *fira_light_dimmed_color1 # 第四行文字颜色
+
+# Fira Dimmed (Dark)配色方案
+  fira_dark_dimmed:
+    # 颜色定义
+    1: &fira_dark_dimmed_color1 0xffc5d1de # 主要文本色
+    2: &fira_dark_dimmed_color2 0xff2b3038 # 主要按键背景色
+    3: &fira_dark_dimmed_color3 0xff22272e # 主要背景色
+    4: &fira_dark_dimmed_color4 0xff373e47 # 功能键背景色
+    6: &fira_dark_dimmed_color5 0xff2472e1 # 强调背景色
+    7: &fira_dark_dimmed_color6 0xffc5d1de # 强调文本色
+    8: &fira_dark_dimmed_color7 0xff717d7e # 次要文本色
+    # ----------------------------------------
+    name: "Fira Dimmed (Dark)"  # 方案名称
+    author: ChiesiMario # 作者信息
+    light_scheme: fira_light_dimmed # 视当前为深色模式的配色。当系统切换为浅色模式后，切换至该主题
+    back_color: *fira_dark_dimmed_color3 # 候选区背景状态栏
+    border_color: *fira_dark_dimmed_color1 # 边框颜色
+    candidate_separator_color: 0xffFF0000 # 候选分割背景
+    candidate_text_color: *fira_dark_dimmed_color1 # 候选文本
+    comment_text_color: *fira_dark_dimmed_color7 # 提示
+    hilited_back_color: *fira_dark_dimmed_color3 # 高亮编码背景
+    hilited_candidate_back_color: *fira_dark_dimmed_color3 # 高亮候选背景
+    hilited_candidate_text_color: *fira_dark_dimmed_color5 # 高亮候选文本
+    hilited_comment_text_color: *fira_dark_dimmed_color7 # 高亮提示
+    hilited_key_back_color: *fira_dark_dimmed_color5 # 高亮按键背景
+    hilited_key_symbol_color: *fira_dark_dimmed_color6 # 高亮按键符号
+    hilited_key_text_color: *fira_dark_dimmed_color6 # 高亮按键文本
+    hilited_off_key_back_color: *fira_dark_dimmed_color5 # 高亮按键关闭状态背景
+    hilited_off_key_text_color: *fira_dark_dimmed_color6 # 高亮按键关闭状态文本
+    hilited_text_color: *fira_dark_dimmed_color1 # 高亮编码
+    key_back_color: *fira_dark_dimmed_color2 # 按键背景
+    key_symbol_color: *fira_dark_dimmed_color7 # 按键符号
+    key_text_color: *fira_dark_dimmed_color1 # 按键文本
+    keyboard_back_color: *fira_dark_dimmed_color3 # 键盘背景
+    label_color: *fira_dark_dimmed_color5 # 标签
+    off_key_back_color: *fira_dark_dimmed_color4  # 按键关闭状态背景
+    off_key_text_color: *fira_dark_dimmed_color7 # 按键关闭状态文本
+    preview_back_color: *fira_dark_dimmed_color4 # 按键提示背景
+    preview_text_color: *fira_dark_dimmed_color5 # 按键提示文本
+    text_color: *fira_dark_dimmed_color5 # 编码
+    text_back_color: *fira_dark_dimmed_color3 # 编码区背景
+    bkg: *fira_dark_dimmed_color2 # 空格键背景色
+    tkg: *fira_dark_dimmed_color1 # 空格键文字颜色
+    benter: *fira_dark_dimmed_color5 # 回车键背景色
+    tenter: *fira_dark_dimmed_color6 # 回车键文字颜色
+    bgn: *fira_dark_dimmed_color4 # 功能键背景色
+    tgn: *fira_dark_dimmed_color1 # 功能键文字颜色
+    bbs: *fira_dark_dimmed_color4 # 退格键背景色
+    tbs: *fira_dark_dimmed_color1 # 退格键文字颜色
+    baoe: *fira_dark_dimmed_color2 # aoeiu 背景色
+    taoe: *fira_dark_dimmed_color5 # aoeiu 文字颜色
+    bh1: *fira_dark_dimmed_color2 # 第一行背景色
+    th1: *fira_dark_dimmed_color1 # 第一行文字颜色
+    bh2: *fira_dark_dimmed_color2 # 第二行背景色
+    th2: *fira_dark_dimmed_color1 # 第二行文字颜色
+    bh3: *fira_dark_dimmed_color2 # 第三行背景色
+    th3: *fira_dark_dimmed_color1 # 第三行文字颜色
+    bh4: *fira_dark_dimmed_color2 # 第四行背景色
+    th4: *fira_dark_dimmed_color1 # 第四行文字颜色
+
+# Fira Pink 配色方案
+  fira_light_pink:
+    # 颜色定义
+    1: &fira_light_dimmed_color1 0xff505050 # 主要文本色
+    2: &fira_light_dimmed_color2 0xffffffff # 主要按键背景色
+    3: &fira_light_dimmed_color3 0xfffbeded # 主要背景色
+    4: &fira_light_dimmed_color4 0xfffad8da # 功能键背景色
+    6: &fira_light_dimmed_color5 0xffFE8B90 # 强调背景色
+    7: &fira_light_dimmed_color6 0xff505050 # 强调文本色
+    8: &fira_light_dimmed_color7 0xff959595 # 次要文本色
+    # ----------------------------------------
+    name: "Fira Pink"  # 方案名称
+    author: ChiesiMario # 作者信息
+    dark_scheme: fira_dark_pink # 视当前为浅色模式的配色。当系统切换为深色模式后，切换至该主题
+    back_color: *fira_light_dimmed_color3 # 候选区背景状态栏
+    border_color: *fira_light_dimmed_color1 # 边框颜色
+    candidate_separator_color: 0xffFF0000 # 候选分割背景
+    candidate_text_color: *fira_light_dimmed_color1 # 候选文本
+    comment_text_color: *fira_light_dimmed_color7 # 提示
+    hilited_back_color: *fira_light_dimmed_color3 # 高亮编码背景
+    hilited_candidate_back_color: *fira_light_dimmed_color3 # 高亮候选背景
+    hilited_candidate_text_color: *fira_light_dimmed_color5 # 高亮候选文本
+    hilited_comment_text_color: *fira_light_dimmed_color7 # 高亮提示
+    hilited_key_back_color: *fira_light_dimmed_color5 # 高亮按键背景
+    hilited_key_symbol_color: *fira_light_dimmed_color6 # 高亮按键符号
+    hilited_key_text_color: *fira_light_dimmed_color6 # 高亮按键文本
+    hilited_off_key_back_color: *fira_light_dimmed_color5 # 高亮按键关闭状态背景
+    hilited_off_key_text_color: *fira_light_dimmed_color6 # 高亮按键关闭状态文本
+    hilited_text_color: *fira_light_dimmed_color1 # 高亮编码
+    key_back_color: *fira_light_dimmed_color2 # 按键背景
+    key_symbol_color: *fira_light_dimmed_color7 # 按键符号
+    key_text_color: *fira_light_dimmed_color1 # 按键文本
+    keyboard_back_color: *fira_light_dimmed_color3 # 键盘背景
+    label_color: *fira_light_dimmed_color5 # 标签
+    off_key_back_color: *fira_light_dimmed_color4  # 按键关闭状态背景
+    off_key_text_color: *fira_light_dimmed_color7 # 按键关闭状态文本
+    preview_back_color: *fira_light_dimmed_color4 # 按键提示背景
+    preview_text_color: *fira_light_dimmed_color5 # 按键提示文本
+    text_color: *fira_light_dimmed_color5 # 编码
+    text_back_color: *fira_light_dimmed_color3 # 编码区背景
+    bkg: *fira_light_dimmed_color2 # 空格键背景色
+    tkg: *fira_light_dimmed_color1 # 空格键文字颜色
+    benter: *fira_light_dimmed_color5 # 回车键背景色
+    tenter: *fira_light_dimmed_color6 # 回车键文字颜色
+    bgn: *fira_light_dimmed_color4 # 功能键背景色
+    tgn: *fira_light_dimmed_color1 # 功能键文字颜色
+    bbs: *fira_light_dimmed_color4 # 退格键背景色
+    tbs: *fira_light_dimmed_color1 # 退格键文字颜色
+    baoe: *fira_light_dimmed_color2 # aoeiu 背景色
+    taoe: *fira_light_dimmed_color5 # aoeiu 文字颜色
+    bh1: *fira_light_dimmed_color2 # 第一行背景色
+    th1: *fira_light_dimmed_color1 # 第一行文字颜色
+    bh2: *fira_light_dimmed_color2 # 第二行背景色
+    th2: *fira_light_dimmed_color1 # 第二行文字颜色
+    bh3: *fira_light_dimmed_color2 # 第三行背景色
+    th3: *fira_light_dimmed_color1 # 第三行文字颜色
+    bh4: *fira_light_dimmed_color2 # 第四行背景色
+    th4: *fira_light_dimmed_color1 # 第四行文字颜色
+
+# Fira Pink (Dark)配色方案
+  fira_dark_pink:
+    # 颜色定义
+    1: &fira_dark_dimmed_color1 0xffFE8B90 # 主要文本色
+    2: &fira_dark_dimmed_color2 0xff383838 # 主要按键背景色
+    3: &fira_dark_dimmed_color3 0xff000000 # 主要背景色
+    4: &fira_dark_dimmed_color4 0xff5D5D5D # 功能键背景色
+    6: &fira_dark_dimmed_color5 0xffFA5F66 # 强调背景色
+    7: &fira_dark_dimmed_color6 0xff1B1B1B # 强调文本色
+    8: &fira_dark_dimmed_color7 0xff888888 # 次要文本色
+    # ----------------------------------------
+    name: "Fira Pink (Dark)"  # 方案名称
+    author: ChiesiMario # 作者信息
+    light_scheme: fira_light_pink # 视当前为深色模式的配色。当系统切换为浅色模式后，切换至该主题
+    back_color: *fira_dark_dimmed_color3 # 候选区背景状态栏
+    border_color: *fira_dark_dimmed_color1 # 边框颜色
+    candidate_separator_color: 0xffFF0000 # 候选分割背景
+    candidate_text_color: *fira_dark_dimmed_color1 # 候选文本
+    comment_text_color: *fira_dark_dimmed_color7 # 提示
+    hilited_back_color: *fira_dark_dimmed_color3 # 高亮编码背景
+    hilited_candidate_back_color: *fira_dark_dimmed_color3 # 高亮候选背景
+    hilited_candidate_text_color: *fira_dark_dimmed_color5 # 高亮候选文本
+    hilited_comment_text_color: *fira_dark_dimmed_color7 # 高亮提示
+    hilited_key_back_color: *fira_dark_dimmed_color5 # 高亮按键背景
+    hilited_key_symbol_color: *fira_dark_dimmed_color6 # 高亮按键符号
+    hilited_key_text_color: *fira_dark_dimmed_color6 # 高亮按键文本
+    hilited_off_key_back_color: *fira_dark_dimmed_color5 # 高亮按键关闭状态背景
+    hilited_off_key_text_color: *fira_dark_dimmed_color6 # 高亮按键关闭状态文本
+    hilited_text_color: *fira_dark_dimmed_color1 # 高亮编码
+    key_back_color: *fira_dark_dimmed_color2 # 按键背景
+    key_symbol_color: *fira_dark_dimmed_color7 # 按键符号
+    key_text_color: *fira_dark_dimmed_color1 # 按键文本
+    keyboard_back_color: *fira_dark_dimmed_color3 # 键盘背景
+    label_color: *fira_dark_dimmed_color5 # 标签
+    off_key_back_color: *fira_dark_dimmed_color4  # 按键关闭状态背景
+    off_key_text_color: *fira_dark_dimmed_color7 # 按键关闭状态文本
+    preview_back_color: *fira_dark_dimmed_color4 # 按键提示背景
+    preview_text_color: *fira_dark_dimmed_color5 # 按键提示文本
+    text_color: *fira_dark_dimmed_color5 # 编码
+    text_back_color: *fira_dark_dimmed_color3 # 编码区背景
+    bkg: *fira_dark_dimmed_color2 # 空格键背景色
+    tkg: *fira_dark_dimmed_color1 # 空格键文字颜色
+    benter: *fira_dark_dimmed_color5 # 回车键背景色
+    tenter: *fira_dark_dimmed_color6 # 回车键文字颜色
+    bgn: *fira_dark_dimmed_color4 # 功能键背景色
+    tgn: *fira_dark_dimmed_color1 # 功能键文字颜色
+    bbs: *fira_dark_dimmed_color4 # 退格键背景色
+    tbs: *fira_dark_dimmed_color1 # 退格键文字颜色
+    baoe: *fira_dark_dimmed_color2 # aoeiu 背景色
+    taoe: *fira_dark_dimmed_color5 # aoeiu 文字颜色
+    bh1: *fira_dark_dimmed_color2 # 第一行背景色
+    th1: *fira_dark_dimmed_color1 # 第一行文字颜色
+    bh2: *fira_dark_dimmed_color2 # 第二行背景色
+    th2: *fira_dark_dimmed_color1 # 第二行文字颜色
+    bh3: *fira_dark_dimmed_color2 # 第三行背景色
+    th3: *fira_dark_dimmed_color1 # 第三行文字颜色
+    bh4: *fira_dark_dimmed_color2 # 第四行背景色
+    th4: *fira_dark_dimmed_color1 # 第四行文字颜色
+
+#--------配色结束----------------#
+
+liquid_keyboard:
+  # 目前只能直接写参数，不支持变量或者 fallback 机制。
+  # 缺少参数时，自动从 style 中加载参数。除非需要指定 liquid_keyboard 使用与主键盘不同的背景色、背景图，否则不应设置被注释掉的参数。
+  author: "tumuyan"
+  row: 6              # 每屏最多显示多少行按键
+  row_land: 5         # 横屏每屏最多显示多少行按键
+  key_height: 40      # 按键高度
+  key_height_land: 40 # 横屏模式按键高度
+  single_width: 60    # single 类型的按键宽度
+  vertical_gap: 8     # 纵向按键间隙
+  margin_x: 2       # 左右按键间隙的 1/2
+  keyboards: [ exit, clipboard]  # tab 列表
+  exit:
+    name: 返回
+    type: NO_KEY
+    keys: EXIT
+  clipboard:
+    type: CLIPBOARD
+    name: 剪贴板
+
+# 键盘布局
+preset_keyboards:
+  default:
+    author: "ChiesiMario"
+    name: 26 键默认布局
+    width: 10
+    key_text_offset_y: 1.8
+    # height: 45
+    ascii_mode: 0
+    keys:
+      - {click: q, long_click: '~', key_back_color: bh2, key_text_color: th2}
+      - {click: w, long_click: '!', key_back_color: bh2, key_text_color: th2}
+      - {click: e, long_click: '@', key_back_color: bh2, key_text_color: th2}
+      - {click: r, long_click: '#', key_back_color: bh2, key_text_color: th2}
+      - {click: t, long_click: '$', key_back_color: bh2, key_text_color: th2}
+      - {click: y, long_click: '^', key_back_color: bh2, key_text_color: th2}
+      - {click: u, long_click: '&', key_back_color: bh2, key_text_color: th2}
+      - {click: i, long_click: '*', key_back_color: bh2, key_text_color: th2}
+      - {click: o, long_click: '(){Left}', key_back_color: bh2, key_text_color: th2}
+      - {click: p, long_click: '{doubleDash}', key_back_color: bh2, key_text_color: th2}
+
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+      - {click: a, long_click: select_all, key_back_color: bh2, key_text_color: th2}
+      - {click: s, long_click: '「」{Left}', key_back_color: bh2, key_text_color: th2}
+      - {click: d, long_click: '『』{Left}', key_back_color: bh2, key_text_color: th2}
+      - {click: f, long_click: '{Brackets}', key_back_color: bh2, key_text_color: th2}
+      - {click: g, long_click: '{Braces}', key_back_color: bh2, key_text_color: th2}
+      - {click: h, long_click: '`', key_back_color: bh2, key_text_color: th2}
+      - {click: j, long_click: '、', key_back_color: bh2, key_text_color: th2}
+      - {click: k, long_click: "'", key_back_color: bh2, key_text_color: th2}
+      - {click: l, long_click: '"', key_back_color: bh2, key_text_color: th2}
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+
+      - {click: Shift_L, width: 15, hilited_key_back_color: benter, hilited_key_text_color: tenter, key_back_color: bbs, key_text_color: tbs,key_text_size: 14 , key_text_offset_y: 0}
+      - {click: z, long_click: '《》{Left}', key_back_color: bh3, key_text_color: th3}
+      - {click: x, long_click: cut, key_back_color: bh3, key_text_color: th3}
+      - {click: c, long_click: copy, key_back_color: bh3, key_text_color: th3}
+      - {click: v, long_click: paste_clip, key_back_color: bh3, key_text_color: th3}
+      - {click: b, long_click: ";", key_back_color: bh3, key_text_color: th3}
+      - {click: n, long_click: ":", key_back_color: bh3, key_text_color: th3}
+      - {click: m, long_click: '?', key_back_color: bh3, key_text_color: th3}
+      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs, key_text_offset_y: 0}
+
+      - {click: Keyboard_numberandsymbol, long_click: Keyboard_number, width: 15, key_back_color: bgn, key_text_color: tgn}
+      - {click: ',', label: '，', long_click: Color_switch, key_back_color: bh4, key_text_color: th4}
+      - {click: Left, long_click: Home, composing: Page_Up, key_back_color: bh2, key_text_color: th2}
+      - {click: space, long_click: Mode_switch, width: 30, key_back_color: bkg, key_text_color: tkg}
+      - {click: Right, long_click: End , composing: Page_Down, key_back_color: bh2, key_text_color: th2}
+      - {click: '.', label: '。', long_click: liquid_keyboard_clipboard, key_back_color: bh4, key_text_color: th4}
+      - {click: Return, composing: Return1, width: 15, key_back_color: benter, key_text_color: tenter, key_text_offset_y: 0}
+      - {height: 3, width: 100}
+  mini:
+    name: 精简键盘
+    author: "tumuyan"
+    ascii_mode: 0
+    width: 10
+    height: 60
+    keyboard_height: 50
+    lock: true #切換程序時記憶鍵盤
+    keys:
+      - {click: BackSpace, width: 15, key_back_color: bgn, key_text_color: tgn}
+      - {click: ',', label: '，', long_click: Color_switch, key_back_color: bh4, key_text_color: th4}
+      - {click: Left, long_click: Home, composing: Page_Up, key_back_color: bh2, key_text_color: th2}
+      - {click: space, long_click: Mode_switch, width: 30, key_back_color: bkg, key_text_color: tkg}
+      - {click: Right, long_click: End , composing: Page_Down, key_back_color: bh2, key_text_color: th2}
+      - {click: '.', label: '。', long_click: liquid_keyboard_clipboard, key_back_color: bh4, key_text_color: th4}
+      - {click: Return, composing: Return1, width: 15, key_back_color: benter, key_text_color: tenter, key_text_offset_y: 0}
+
+  numberandsymbol:
+    author: "ChiesiMario"
+    name: 数字和符号
+    width: 10
+    key_text_offset_y: 0
+    # height: 45
+    ascii_mode: 0
+    keys:
+      - {click: '{1+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{2+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{3+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{4+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{5+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{6+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{7+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{8+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{9+}', key_back_color: bh1, key_text_color: th1}
+      - {click: '{0+}', key_back_color: bh1, key_text_color: th1}
+
+      - {click: '{Graveaccent}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Tilde}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '·', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Backslash}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Slash}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{VerticalBar}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Hyphen-minus}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Underline}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Equals}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Plus}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+
+      - {click: '%', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Brackets}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Braces}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Chevrons}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Parentheses}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Semicolon}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{Colon}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: '{QuestionMark}', key_back_color: bh2, key_text_color: th2, key_text_size: 18}
+      - {click: DeleteCandidate, width: 20, key_back_color: bbs, key_text_color: tbs, key_text_offset_y: 0}
+
+      - {click: Keyboard_default, width: 15, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 0}
+      - {click: '{Comma}', key_back_color: bh4, key_text_color: th4}
+      - {click: Settings, key_back_color: bh2, key_text_color: th2}
+      - {click: F4, width: 30, key_back_color: bkg, key_text_color: tkg, key_text_offset_y: 0}
+      - {click: IME_switch, key_back_color: bh2, key_text_color: th2}
+      - {click: '{Period}',key_back_color: bh4, key_text_color: th4}
+      - {click: Return, composing: Return1, width: 15, key_back_color: benter, key_text_color: tenter, key_text_offset_y: 0}
+
+      - {height: 3, width: 100}
+
+  number:
+    author: "ChiesiMario"
+    name: 数字
+    width: 16.6
+   # height: 48
+    ascii_mode: 1
+    keys:
+
+      - {click: 1, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 2, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 3, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: '+', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: '{Asterisk}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: '{Brackets}', long_click: '{Braces}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+
+
+      - {click: 4, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 5, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 6, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: '-', long_click: '{Percent}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: '{Underline}', key_back_color: bgn, key_text_size: 20, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: '{Slash}', long_click: '{Backslash}', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+
+      - {click: 7, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 8, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: 9, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: '{Parentheses}', long_click: '@', key_text_size: 20, key_back_color: bgn, key_text_color: tgn, key_text_offset_y: 5}
+      - {click: BackSpace, width: 33.2, key_back_color: bbs, key_text_color: tbs}
+
+      - {click: Keyboard_default, key_back_color: bgn, key_text_color: 'tgn'}
+      - {click: 0, key_back_color: key_back_color, key_text_color: key_text_color}
+      - {click: '{Period}', long_click: '{Comma}', key_back_color: bgn, key_text_color: tgn}
+      - {click: '=', long_click: '≠', key_back_color: bgn, key_text_color: tgn}
+      - {click: space1, key_back_color: bgn, key_text_color: tgn}
+      - {click: Return, key_back_color: benter, key_text_color: tenter}
+
+      - {height: 3, width: 100}
+preset_keys:
+  # 英文符号
+  Comma: {label: ',', commit: ','}
+  Period: {label: '.', commit: '.'}
+  Apostrophe: {label: "'", commit: "'"}
+  quotationMark: {label: '"', commit: '"'}
+  Underline: {label: '_', commit: '_'}
+  Backslash: {label: '\', commit: '\'}
+  Slash: {label: '/', commit: '/'}
+  ParenthesesA: {label: '()', commit: '()'}
+  Parentheses: {label: '()', text: '{ParenthesesA}{Left}'}
+  BracketsA: {label: '[]', commit: '[]',}
+  Brackets: {label: '[]', text: '{BracketsA}{Left}'}
+  BracesA: {label: '{}', commit: '{}'}
+  Braces: {label: '{}', text: '{BracesA}{Left}'}
+  ChevronsA: {label: '<>', commit: '<>'}
+  Chevrons: {label: '<>', text: '{ChevronsA}{Left}'}
+  Asterisk: {label: '*', commit: '*'}
+  Percent: {label: '%', commit: '%'}
+  Hyphen-minus: {label: '-', commit: '-'}
+  Graveaccent: {label: '`', commit: '`'}
+  Equals: {label: '=', commit: '='}
+  Colon: {label: ':', commit: ':'}
+  Semicolon: {label: ';', commit: ';'}
+  Plus: {label: '+', commit: '+'}
+  VerticalBar: {label: '|', commit: '|'}
+  Tilde: {label: '~', commit: '~'}
+  QuestionMark: {label: '?', commit: '?'}
+  ExclamationMark: {label: '!', commit: '!'}
+  Dollar: {label: '$', commit: '$'}
+  Caret: {label: '^', commit: '^'}
+
+
+  # 数字
+  1: {label: '1', commit: '1'}
+  1+: {label: '1', commit: '1', shift_lock: '{1}'}
+
+  2: {label: '2', commit: '2'}
+  2+: {label: '2', commit: '2', shift_lock: '{2}'}
+
+  3: {label: '3', commit: '3'}
+  3+: {label: '3', commit: '3', shift_lock: '{3}'}
+
+  4: {label: '4', commit: '4'}
+  4+: {label: '4', commit: '4', shift_lock: '{4}'}
+
+  5: {label: '5', commit: '5'}
+  5+: {label: '5', commit: '5', shift_lock: '{5}'}
+
+  6: {label: '6', commit: '6'}
+  6+: {label: '6', commit: '6', shift_lock: '{6}'}
+
+  7: {label: '7', commit: '7'}
+  7+: {label: '7', commit: '7', shift_lock: '{7}'}
+
+  8: {label: '8', commit: '8'}
+  8+: {label: '8', commit: '8', shift_lock: '{8}'}
+
+  9: {label: '9', commit: '9'}
+  9+: {label: '9', commit: '9', shift_lock: '{9}'}
+
+  0: {label: '0', commit: '0'}
+  0+: {label: '0', commit: '0', shift_lock: '{0}'}
+
+  # 中文符号
+  doubleDash: {label: '—', commit: '——'}
+  CH-Apostrophe: {label: "‘’", commit: "‘’"}
+  CH-quotationMark: {label: '“”', commit: '“”'}
+
+  # 安卓
+  BRIGHTNESS_DOWN: {label: 亮度-, send: BRIGHTNESS_DOWN}
+  BRIGHTNESS_UP: {label: 亮度+, send: BRIGHTNESS_UP}
+  CALCULATOR: {label: 计算机, send: CALCULATOR}
+  CALENDAR: {label: 日历, send: CALENDAR}
+  CONTACTS: {label: 电话簿, send: CONTACTS}
+  ENVELOPE: {label: 信箱, send: ENVELOPE}
+  EXPLORER: {label: 浏览器, send: EXPLORER}
+  MUSIC: {label: 音乐, send: MUSIC}
+  POWER: {label: 电源, send: POWER}
+  SEARCH: {label: 搜寻, send: Find}
+  SLEEP: {label: 休眠, send: SLEEP}
+  VOICE_ASSIST: {label: 语音, functional: true, send: VOICE_ASSIST}
+  VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
+  VOLUME_UP: {label: 音量+, send: VOLUME_UP}
+  VOLUME_MUTE: {label: 静音, send: VOLUME_MUTE}
+  # 编辑
+  Shift_L: {label: Shift, preview: '⇪', functional: false, send: Shift_L}
+  Return: { label: enter_labels, preview: '↩', functional: false, send: Return }
+  Return1: {label: Enter, preview: '↩', functional: false, send: Return}
+  Hide: {label: 隐藏, send: BACK}
+  BackSpace: {label: 退格, preview: '⇦', repeatable: true, functional: false, send: BackSpace}
+  space: {repeatable: false, preview: ' ', functional: false, label: '_______', send: space}
+  space1: {repeatable: false, label: '空格', functional: false, send: space}
+  Clear: {label: 全清, send: Clear}
+  Escape: {label: 取消, functional: false, send: Escape}
+  Home: {label: Home, send: Home, functional: false}
+  Insert: {label: 插入, send: Insert}
+  Delete: {label: 删除, send: Delete, functional: false}
+  End: {label: End, send: End, functional: false}
+  Page_Up: {label: ↑, send: Page_Up, functional: false}
+  Page_Down: {label: ↓, send: Page_Down, functional: false}
+  Left: {label: '←', send: Left, repeatable: true, functional: false}
+  Down: {label: '↓', send: Down, functional: false}
+  Up: {label: '↑', send: Up, functional: false}
+  Right: {label: '→', send: Right, repeatable: true, functional: false}
+  select_all: {label: 全选, functional: false, send: Control+a}
+  cut: {label: 剪切, functional: false, send: Control+x}
+  copy: {label: 复制, functional: false, send: Control+c}
+  paste: {label: 粘贴, functional: false, send: Control+v}
+  paste_clip: {label: 粘贴, send: function, command: clipboard}
+  paste_text: {label: 贴上文本, send: Control+Shift+Alt+v} # >=Android 6.0
+  share_text: {label: 分享文本, send: Control+Alt+s} # >=Android 6.0
+  redo: {label: 重做, functional: false, send: Control+Shift+z} # >=Android 6.0
+  undo: {label: 撤销, functional: false, send: Control+z} # >=Android 6.0
+  delimiter: {label: 分词, text: ''''}
+  x1: {text: '{Home}{Right}{Right}', label: 单字, functional: false}
+  x2: {text: '{Home}{Right}{Right}{Right}{Right}', label: 二字, functional: false}
+  x3: {text: '{Home}{Right}{Right}{Right}{Right}{Right}{Right}', label: 三字, functional: false}
+  x4: {text: '{Home}{Right}{Right}{Right}{Right}{Right}{Right}{Right}{Right}', label: 四字, functional: false}
+  # x1: {text: '{Home}{Right}{Right}', label: 单字, functional: false}
+  # rime 组合键
+  F4: {label: 方案菜单, send: Control+F4}
+  BackToPreviousSyllable: {label: 删音节, send: Control+BackSpace}
+  CommitRawInput: {label: 编码, send: Control+Return}
+  CommitScriptText: {label: 编码, send: Shift+Return}
+  CommitComment: {label: 编码, send: Control+Shift+Return}
+  DeleteCandidate: {label: 删词, send: Control+Delete, functional: false}
+  # 切换键盘
+  Keyboard_default: { label: 返回, functional: false, send: Eisu_toggle, select: .default }
+  Keyboard_number: { label: 123, functional: false, send: Eisu_toggle, select: number }
+  Keyboard_switch: { label: 键盘, functional: true, send: Eisu_toggle, select: .next }
+  Keyboard_numberandsymbol: { label: 1+, functional: false, send: Eisu_toggle, select: numberandsymbol }
+  Keyboard_symbols: { label: 更多, functional: false, send: Eisu_toggle, select: symbols }
+  Keyboard_move: { label: ❖, functional: true, send: Eisu_toggle, select: move }
+  Keyboard_next: { label: 后退, functional: false, send: Eisu_toggle, select: .next }
+  Keyboard_last: { label: 后退, functional: false, send: Eisu_toggle, select: .last }
+  Keyboard_last_lock: { label: 返回, send: Eisu_toggle, select: .last_lock } # 直接切换到下一键盘
+  liquid_keyboard_clipboard: { label: 剪贴, send: function, command: liquid_keyboard, option: "剪贴板" }
+  # rime 状态
+  Mode_switch: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 中文, 西文 ]}
+  Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半角, 全角 ]}
+  Henkan: {toggle: simplification, send: Mode_switch, states: [ 汉字, 汉字 ]}
+  Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 增广 ]}
+  Punct_switch: {toggle: ascii_punct, send: Mode_switch, states: [ 。，, ．， ]}
+  # trime 设置
+  IME_switch: {label: 🌐, send: LANGUAGE_SWITCH} # 弹出对话框选择输入法
+  IME_last: {label: 上一输入法, send: LANGUAGE_SWITCH, select: .last} # 直接切换到上一输入法
+  IME_next: {label: 下一输入法, send: LANGUAGE_SWITCH, select: .next} # 直接切换到下一输入法
+  Schema_switch: {label: 下一方案, functional: false, send: Control+Shift+1}
+  Schema_Eng: {label: En, functional: true, send: Control+Shift+0}
+  Theme_settings: {label: 主题, send: SETTINGS, option: "theme"}
+  Color_switch: {label: 配色, functional: false, send: PROG_RED}
+  Help: {label: 说明, send: Help}
+  Info: {label: 关于, send: INFO}
+  Menu: {label: 菜单, functional: false, send: Menu}
+  Settings: {label: 设置, functional: false, send: SETTINGS}
+  # trime 命令
+  Date: {label: 日期, send: function, command: date, option: " yyyy-MM-dd "}
+  Time: {label: 时间, send: function, command: date, option: "HH:mm:ss"} # 时间： date 格式
+  TrimeApp: {label: 同文, send: function, command: run, option: "com.osfans.trime"} # 运行程序: run 包名
+  TrimeCmp: {label: 同文组件, send: function, command: run, option: "com.osfans.trime/.Pref"} # 运行程序指定组件: run 包名/组件名
+  Homepage: {label: 同文主页, send: function, command: run, option: "https://github.com/osfans/trime"} # 查看网页: run 网址
+  Wiki: {label: 维基, send: function, command: run, option: "https://zh.wikipedia.org/wiki/%s"} # 搜索网页: %s 或者%1$s 为当前字符
+  Google: {label: 谷歌, send: function, command: run, option: "https://www.google.com/search?q=%s"} # 搜索网页: %s 或者%1$s 为当前字符
+  MoeDict: {label: 萌典, send: function, command: run, option: "https://www.moedict.tw/%3$s"} # 搜索网页: %3$s 为光标前字符
+  Baidu: {label: 百度搜索, send: function, command: run, option: "https://www.baidu.com/s?wd=%4$s"} # 搜索网页: %4s 为光标前所有字符
+  Zdic: {label: 汉典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%1$s"} # 搜索网页: %s 或者%1$s 为当前字符
+  Zdic2: {label: 汉典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} # 搜索网页: %2$s 为当前输入的编码
+  WebSearch: {label: 搜索网页, send: function, command: web_search, option: "%4$s"} # 搜索，其他 view 、 dial 、 edit 、 search 等 intent ，参考安卓的 intent 文档： https://developer.android.com/reference/android/content/Intent.html
+
+  Left1: {label: '⇦', send: Control+Left, repeatable: true, functional: false}
+  Right1: {label: '⇨', send: Control+Right, repeatable: true, functional: false}
+  Shift_L2: {label: 选择, preview: '⇪', functional: false, send: Shift_L}
+
+  # 22 自定义功能键
+  Keyboard_defaulten: {label: EN, functional: false, send: Eisu_toggle, select: letter}
+  Schema_switchen1: {label: EN, send: Control+Shift+5, functional: true}
+  Schema_switchen: {label: EN, send: Control+Shift+5, functional: false}
+  Schema_switchcn: {label: 中文, send: Control+Shift+6, functional: false}
+  Keyboard_v2: {label: "✾", functional: false, send: v}
+  Keyboard_r2: {label: "❀", functional: false, send: r}
+  Keyboard_fc: {label: "'分词", send: apostrophe, functional: false}
+  Control_L: {label: "退格", send: Control_L, functional: false}
+
+  # aoeiu 功能键
+  Keyboard_a: {label: "A", functional: false, send: asciicircum, key_text_color: bct0}
+  Keyboard_u: {label: "U", functional: false, send: exclam, key_text_color: bct0}
+  Keyboard_i: {label: "I", functional: false, send: question, key_text_color: bct0}
+  Keyboard_o: {label: "O", functional: false, send: comma, key_text_color: bct0}
+  Keyboard_e: {label: "E", functional: false, send: period, key_text_color: bct0}
+
+  Keyboard_u2: {label: "丨", text: '""{Left}'}
+  Keyboard_a2: {label: "一", send: 0}
+  Keyboard_i2: {label: "丿", text: "''{Left}"}
+  Keyboard_o2: {label: "丶", send: 9}
+  Keyboard_e2: {label: "ㄥ", text: "{}{Left}"}
+  Keyboard_k: {label: "一", send: A}
+  Keyboard_v: {label: "丨", send: U}
+  Keyboard_h: {label: "丿", send: I}
+  Keyboard_r: {label: "丶", send: O}
+  Keyboard_e0: {label: "ㄥ", send: E}
+
+  Keyboard_a3: {label: "……", functional: false, send: asciicircum}
+
+  Zcj: {label: 单字, functional: false, text: "{Home}{Right}{Right}"}
+  Tab: {label: 字词, send: Tab}
+  Tab1: {label: Tab, functional: false, send: Tab}
+  space_R1: {label: "EN", functional: false, send: Eisu_toggle, select: letter}
