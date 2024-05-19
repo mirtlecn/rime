@@ -54,7 +54,7 @@ global_ascii: false
 
 # [style]
 style:
-  color_scheme: ink
+  color_scheme: nord
   color_scheme_dark: nord
   font_face: "MS Gothic:7c:7c, 思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, 思源黑体 CN, Microsoft Yahei, SF Pro, 遍黑体P1, 遍黑体P2, Noto Color Emoji"
   label_font_face: "思源黑体 CN"
