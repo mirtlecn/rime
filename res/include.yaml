@@ -293,6 +293,7 @@ win11:
   style/label_font_point: 15
   style/comment_font_point: 15
   style/horizontal: true
+  style/hover_type: semi_hilite
   style/color_scheme: win11light
   style/color_scheme_dark: win11dark
   style/layout/align_type: center

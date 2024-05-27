@@ -281,7 +281,7 @@ translator:
   preedit_format:
     - xform/([0-9]) ([0-9])/$1$2/
     - xform/([0-9]) ([0-9])/$1$2/
-    - xform/ /'/
+    # - xform/ /'/
     # - xform/([jqxy])v/$1u/
     # - xform/(.)v/$1ü/
   # packs:
@@ -383,7 +383,7 @@ stroke_lookup:
 recognizer:
   patterns:
     punct: "^``.*$"
-    win_path: "^[A-Za-z]:.*"
+    # win_path: "^[A-Za-z]:.*"
     hyphen: "^[A-Za-z0-9]+[-_/.:'].*"
     reverse_lookup: "^`[a-z;]+$"
     radical_lookup: "^`C[a-z;]+$"
@@ -394,7 +394,7 @@ recognizer:
 speller:
   alphabet: zyxwvutsrqponmlkjüihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA~`1234567890
   initials: zyxwvutsrqponmlkjüihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`
-  delimiter: " '"
+  delimiter: " "
   algebra:
     # - erase/^xx$/
     # 模糊音

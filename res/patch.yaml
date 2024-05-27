@@ -142,6 +142,7 @@ v_half:
     fullscreen: false
     vertical_auto_reverse: false
     vertical_text: false
+    hover_type: semi_hilite
     vertical_text_left_to_right: false
     vertical_text_with_wrap: false
     layout:
