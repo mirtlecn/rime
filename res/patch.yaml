@@ -1,6 +1,5 @@
 grammar:
-  grammar:
-    language: zh-hans-t-essay-bgw
+  grammar/language: zh-hans-t-essay-bgw
   translator/contextual_suggestions: true
   translator/max_homophones: true
   translator/max_homographs: true
@@ -92,6 +91,7 @@ win11:
     label_font_point: 15
     comment_font_point: 15
     horizontal: true
+    hover_type: semi_hilite
     color_scheme: win11light
     color_scheme_dark: win11dark
     layout:
@@ -142,10 +142,54 @@ v_half:
     fullscreen: false
     vertical_auto_reverse: false
     vertical_text: false
-    hover_type: semi_hilite
     vertical_text_left_to_right: false
     vertical_text_with_wrap: false
     layout:
+      align_type: center
+      max_width: 0
+      min_width: 160
+      min_height: 0
+      max_height: 0
+      border_width: 3
+      margin_x: 12
+      margin_y: 12
+      spacing: 10
+      candidate_spacing: 5
+      hilite_spacing: 4
+      hilite_padding: 2
+      round_corner: 4
+      corner_radius: 4
+      shadow_radius: 0
+      shadow_offset_x: 4
+      shadow_offset_y: 4
+
+base:
+  style/+:
+    font_point: 14
+    label_font_point: 14
+    comment_font_point: 14
+    candidate_abbreviate_length: 30
+    paging_on_scroll: true
+    click_to_capture: false
+    antialias_mode: default
+    enhanced_position: true
+    ascii_tip_follow_cursor: false
+    display_tray_icon: false
+    mouse_hover_ms: 0
+    hover_type: none
+    inline_preedit: true
+    preedit_type: composition
+    mark_text: ""
+    label_format: "%s."
+    horizontal: false
+    fullscreen: false
+    vertical_auto_reverse: false
+    vertical_text: false
+    vertical_text_left_to_right: false
+    vertical_text_with_wrap: false
+    layout:
+      baseline: 0
+      linespacing: 0
       align_type: center
       max_width: 0
       min_width: 160
