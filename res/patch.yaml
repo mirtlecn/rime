@@ -103,9 +103,8 @@ win11:
       margin_y: 8
       border: 2
       spacing: 20
-      candidate_spacing: 22
-      hilite_spacing: 6
-      hilite_padding: 2
+      hilite_spacing: 4
+      hilite_padding: 3
       hilite_padding_x: 8
       corner_radius: 10
       round_corner: 8

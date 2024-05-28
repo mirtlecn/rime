@@ -264,7 +264,7 @@ h_full:
   style/label_font_point: 15
   style/comment_font_point: 14
   style/horizontal: true
-  style/layout/max_width: 1200
+  style/layout/max_width: 0
   style/layout/min_width: 10
   style/layout/margin_x: 15
   style/layout/margin_y: 6
@@ -285,7 +285,7 @@ h_half:
   style/comment_font_point: 13
   style/horizontal: true
   style/layout/max_height: 0
-  style/layout/max_width: 1200
+  style/layout/max_width: 0
   style/layout/min_width: 10
   style/layout/margin_x: 10
   style/layout/margin_y: 8
@@ -312,15 +312,14 @@ win11:
   style/color_scheme_dark: win11dark
   style/layout/align_type: center
   style/layout/max_height: 0
-  style/layout/max_width: 1200
+  style/layout/max_width: 0
   style/layout/min_width: 10
   style/layout/margin_x: 16
   style/layout/margin_y: 8
   style/layout/border: 2
   style/layout/spacing: 20
-  style/layout/candidate_spacing: 22
-  style/layout/hilite_spacing: 6
-  style/layout/hilite_padding: 2
+  style/layout/hilite_spacing: 4
+  style/layout/hilite_padding: 3
   style/layout/hilite_padding_x: 8
   style/layout/corner_radius: 10
   style/layout/round_corner: 8
