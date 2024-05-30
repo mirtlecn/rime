@@ -157,7 +157,7 @@ function P.func( key, env )
         end
 
         if nil then
-        elseif key:repr() == 'Escape' then
+        elseif key:repr() == 'Escape' and key:repr() == 'Control+c' then
             context:clear()
             return 1
             -- elseif input:find('^%.$') and ascii_str == '.' then
