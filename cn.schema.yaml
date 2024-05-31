@@ -329,7 +329,7 @@ key_binder:
     - { accept: "Control+r", toggle: reverse_simp, when: has_menu }
     - { accept: "Control+p", toggle: parrot_translator, when: has_menu }
     - { accept: "Control+s", toggle: search_single_char, when: has_menu }
-    - { accept: "Control+c", toggle: completion, when: has_menu }
+    - { accept: "Control+t", toggle: completion, when: has_menu }
 
 reverse_lookup:
   tag: reverse_lookup

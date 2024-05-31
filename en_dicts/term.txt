@@ -120,17 +120,4 @@ Sept.
 P.P.S.
 Thurs.
 Vue.js
-et al.
 Node.js
-USB 3.1
-USB 3.2
-rime.lua
-.DS_Store
-README.md
-sspai.com
-github.com
-google.com
-gpedit.msc
-schema.yaml
-weasel.yaml
-default.yaml

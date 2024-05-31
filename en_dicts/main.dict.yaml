@@ -1087,7 +1087,6 @@ Noah	Noah
 Nora	Nora
 OCSP	OCSP
 OPPO	OPPO
-OS X	OSX
 Oahu	Oahu
 Oder	Oder
 Odoo	Odoo
@@ -2618,9 +2617,6 @@ tion	tion
 tips	tips
 tire	tire
 tits	tits
-to B	toB
-to C	toC
-to G	toG
 toad	toad
 toby	toby
 todo	todo
@@ -3249,9 +3245,6 @@ Trina	Trina
 Trish	Trish
 Twink	Twink
 Tyson	Tyson
-USB 2	USB2
-USB 3	USB3
-USB 4	USB4
 USB-A	USB-A
 USB-B	USB-B
 USB-C	USB-C
@@ -3277,7 +3270,6 @@ Watts	Watts
 Wayne	Wayne
 White	White
 Wi-Fi	Wi-Fi
-Wii U	WiiU
 Win32	Win32
 WinXP	WinXP
 Wolai	Wolai
@@ -5785,7 +5777,6 @@ Israel	Israel
 Italia	Italia
 Ithaca	Ithaca
 Ivoire	Ivoire
-JJ Lin	JJLin
 Jackie	Jackie
 Jacobs	Jacobs
 Janice	Janice
@@ -5917,7 +5908,6 @@ OkHttp	OkHttp
 Oldham	Oldham
 Oliver	Oliver
 Olivia	Olivia
-One UI	OneUI
 OneKey	OneKey
 OpenAI	OpenAI
 OpenCC	OpenCC
@@ -8849,7 +8839,6 @@ BerliOS	BerliOS
 Bethany	Bethany
 Beverly	Beverly
 Beyonce	Beyonce
-Big Sur	BigSur
 Binance	Binance
 Bingbot	Bingbot
 Bitcoin	Bitcoin
@@ -8918,7 +8907,6 @@ Cumbria	Cumbria
 Cynthia	Cynthia
 Daniels	Daniels
 Darcula	Darcula
-Day One	DayOne
 Daytona	Daytona
 Deborah	Deborah
 Decatur	Decatur
@@ -8955,7 +8943,6 @@ Eritrea	Eritrea
 Everest	Everest
 Everett	Everett
 Ezekiel	Ezekiel
-Face ID	FaceID
 Fairfax	Fairfax
 FalconX	FalconX
 Farrell	Farrell
@@ -8972,7 +8959,6 @@ Frankie	Frankie
 Freddie	Freddie
 FreeBSD	FreeBSD
 Fridays	Fridays
-G Suite	GSuite
 GalGame	GalGame
 Galileo	Galileo
 GameSpy	GameSpy
@@ -9038,7 +9024,6 @@ Ipswich	Ipswich
 Iranian	Iranian
 Ireland	Ireland
 Israeli	Israeli
-It's me	It'sme
 Italian	Italian
 Jackson	Jackson
 Jacques	Jacques
@@ -9046,7 +9031,6 @@ Jakarta	Jakarta
 Jamaica	Jamaica
 Jameson	Jameson
 January	January
-Java EE	JavaEE
 Jeffrey	Jeffrey
 Jenkins	Jenkins
 Jessica	Jessica
@@ -9071,7 +9055,6 @@ Knowles	Knowles
 Krishna	Krishna
 Kristen	Kristen
 Kristin	Kristin
-Kung Fu	KungFu
 Kurdish	Kurdish
 Kuromis	Kuromis
 Kyocera	Kyocera
@@ -9090,7 +9073,6 @@ Lipitor	Lipitor
 Lorenzo	Lorenzo
 Lubbock	Lubbock
 LyricsX	LyricsX
-Mac Pro	MacPro
 MacBook	MacBook
 MacTips	MacTips
 MacType	MacType
@@ -9200,7 +9182,6 @@ Raycast	Raycast
 Raymond	Raymond
 Readkit	Readkit
 Rebecca	Rebecca
-Red Hat	RedHat
 Redmond	Redmond
 Regulex	Regulex
 Renault	Renault
@@ -9303,8 +9284,6 @@ Unicode	Unicode
 Unigram	Unigram
 Uniswap	Uniswap
 Upscayl	Upscayl
-User ID	UserID
-VS Code	VSCode
 Valerie	Valerie
 Vanessa	Vanessa
 Vaughan	Vaughan
@@ -9320,7 +9299,6 @@ Waltham	Waltham
 Warlock	Warlock
 Warwick	Warwick
 Watkins	Watkins
-Weak AI	WeakAI
 WebCore	WebCore
 Wheaton	Wheaton
 Whitman	Whitman
@@ -12059,11 +12037,9 @@ Anglican	Anglican
 Anguilla	Anguilla
 Antilles	Antilles
 Appimage	Appimage
-Apple TV	AppleTV
 Appleton	Appleton
 Aquarius	Aquarius
 Arbitrum	Arbitrum
-Argent X	ArgentX
 Arkansas	Arkansas
 Armenian	Armenian
 Ashcroft	Ashcroft
@@ -12136,7 +12112,6 @@ Davidson	Davidson
 December	December
 DeepMind	DeepMind
 Deligate	Deligate
-Dell XPS	DellXPS
 Djibouti	Djibouti
 DocuSign	DocuSign
 Dominica	Dominica
@@ -12178,7 +12153,6 @@ Frederic	Frederic
 Friedman	Friedman
 FujiFilm	FujiFilm
 Galloway	Galloway
-Game Boy	GameBoy
 GameFAQs	GameFAQs
 Garfield	Garfield
 GeekNote	GeekNote
@@ -12197,7 +12171,6 @@ Gravatar	Gravatar
 GridMove	GridMove
 Griffith	Griffith
 Guinness	Guinness
-HTC Vive	HTCVive
 Handover	Handover
 Hannover	Hannover
 Harrison	Harrison
@@ -12212,7 +12185,6 @@ Homebrew	Homebrew
 Houghton	Houghton
 Humboldt	Humboldt
 Humphrey	Humphrey
-ISO 8601	ISO8601
 InDesign	InDesign
 Infiniti	Infiniti
 Inspiron	Inspiron
@@ -12241,17 +12213,13 @@ Lawrence	Lawrence
 Lebanese	Lebanese
 LeetCode	LeetCode
 Leonardo	Leonardo
-Let's Go	Let'sGo
 LinkedIn	LinkedIn
 Logitech	Logitech
 Lorraine	Lorraine
 LunarVim	LunarVim
 Lutheran	Lutheran
-MAMP PRO	MAMPPRO
-Mac mini	Macmini
 Macworld	Macworld
 Magellan	Magellan
-Magic UI	MagicUI
 MakerDAO	MakerDAO
 Mallorca	Mallorca
 Manitoba	Manitoba
@@ -12291,7 +12259,6 @@ Mudvayne	Mudvayne
 Muhammad	Muhammad
 Murakami	Murakami
 NameSilo	NameSilo
-New Bing	NewBing
 Newsweek	Newsweek
 Nicholas	Nicholas
 Niconico	Niconico
@@ -12334,7 +12301,6 @@ Promotee	Promotee
 Provence	Provence
 Pythonic	Pythonic
 Qualcomm	Qualcomm
-RFC 3339	RFC3339
 Radisson	Radisson
 Randolph	Randolph
 Retrofit	Retrofit
@@ -12402,7 +12368,6 @@ Thompson	Thompson
 Thornton	Thornton
 Thursday	Thursday
 TickTick	TickTick
-Touch ID	TouchID
 Toulouse	Toulouse
 Townsend	Townsend
 Tuesdays	Tuesdays
@@ -12410,7 +12375,6 @@ Tweetbot	Tweetbot
 Valhalla	Valhalla
 Vauxhall	Vauxhall
 Verisign	Verisign
-Video CD	VideoCD
 Vladimir	Vladimir
 Vodafone	Vodafone
 Waterfox	Waterfox
@@ -12430,7 +12394,6 @@ Wolfgang	Wolfgang
 WonderCV	WonderCV
 Woodward	Woodward
 WorldCat	WorldCat
-Xbox One	XboxOne
 Yosemite	Yosemite
 YouTuber	YouTuber
 Yugoslav	Yugoslav
@@ -13491,8 +13454,6 @@ husbands	husbands
 hydrogen	hydrogen
 hypnosis	hypnosis
 iMessage	iMessage
-iPad Air	iPadAir
-iPad Pro	iPadPro
 idealism	idealism
 identify	identify
 identity	identity
@@ -14823,9 +14784,6 @@ Americana	Americana
 Americans	Americans
 Annapolis	Annapolis
 Anthropic	Anthropic
-App Store	AppStore
-Apple Pay	ApplePay
-Apple TV+	AppleTV+
 AppleCare	AppleCare
 Applegate	Applegate
 Argentina	Argentina
@@ -14835,8 +14793,6 @@ Asheville	Asheville
 Atlassian	Atlassian
 Augustine	Augustine
 Australia	Australia
-BBC Earth	BBCEarth
-BNB Chain	BNBChain
 Backblaze	Backblaze
 Backspace	Backspace
 Bartender	Bartender
@@ -14874,7 +14830,6 @@ Christine	Christine
 Christmas	Christmas
 Chromebox	Chromebox
 Churchill	Churchill
-Cinema 4D	Cinema4D
 Claremont	Claremont
 CocoaPods	CocoaPods
 Colombian	Colombian
@@ -14901,7 +14856,6 @@ Ferdinand	Ferdinand
 Fernandez	Fernandez
 FileMaker	FileMaker
 FileVault	FileVault
-Final Cut	FinalCut
 Forrester	Forrester
 Francesco	Francesco
 Frankfurt	Frankfurt
@@ -14931,7 +14885,6 @@ Helvetica	Helvetica
 Hernandez	Hernandez
 Hitchcock	Hitchcock
 Hollywood	Hollywood
-Hong Kong	HongKong
 Hootsuite	Hootsuite
 Hyderabad	Hyderabad
 Icelander	Icelander
@@ -14948,7 +14901,6 @@ Jefferson	Jefferson
 Jerusalem	Jerusalem
 JetBrains	JetBrains
 JimmyWang	JimmyWang
-John Wick	JohnWick
 Josephine	Josephine
 Kalamazoo	Kalamazoo
 Karabiner	Karabiner
@@ -14962,7 +14914,6 @@ Leicester	Leicester
 LibreWolf	LibreWolf
 Lightroom	Lightroom
 LineageOS	LineageOS
-Logic Pro	LogicPro
 Louisiana	Louisiana
 MacDonald	MacDonald
 Mackenzie	Mackenzie
@@ -14973,7 +14924,6 @@ Mailfence	Mailfence
 Malaysian	Malaysian
 Manhattan	Manhattan
 Mansfield	Mansfield
-Mark Text	MarkText
 Marquette	Marquette
 Mavericks	Mavericks
 McCartney	McCartney
@@ -14984,7 +14934,6 @@ Middlesex	Middlesex
 Middleton	Middleton
 MissWarmJ	MissWarmJ
 NameCheap	NameCheap
-Narrow AI	NarrowAI
 Nathaniel	Nathaniel
 Nederland	Nederland
 NetSetMan	NetSetMan
@@ -14992,14 +14941,11 @@ Nexitally	Nexitally
 Nicholson	Nicholson
 Nightwish	Nightwish
 Notepad++	Notepad++
-Notion AI	NotionAI
 OceanBase	OceanBase
 OmmWriter	OmmWriter
 OmniFocus	OmniFocus
-One Piece	OnePiece
 PaintCode	PaintCode
 Pakistani	Pakistani
-Palo Alto	PaloAlto
 Parkinson	Parkinson
 Patagonia	Patagonia
 Pensacola	Pensacola
@@ -15007,7 +14953,6 @@ PhotoDesk	PhotoDesk
 Photoshop	Photoshop
 Pinterest	Pinterest
 PlistEdit	PlistEdit
-Pocket PC	PocketPC
 Polynesia	Polynesia
 PowerBook	PowerBook
 PowerPack	PowerPack
@@ -15048,7 +14993,6 @@ Starbucks	Starbucks
 Stephanie	Stephanie
 Stevenson	Stevenson
 Stratford	Stratford
-Strong AI	StrongAI
 Stuttgart	Stuttgart
 Sugababes	Sugababes
 Superlist	Superlist
@@ -15056,8 +15000,6 @@ SushiSwap	SushiSwap
 Swarovski	Swarovski
 Teleflora	Teleflora
 Textastic	Textastic
-Touch Bar	TouchBar
-Travis CI	TravisCI
 TrustPass	TrustPass
 Ukrainian	Ukrainian
 Unclutter	Unclutter
@@ -15075,8 +15017,6 @@ Wikimedia	Wikimedia
 Wilkinson	Wilkinson
 Wiltshire	Wiltshire
 Wimbledon	Wimbledon
-Windows 7	Windows7
-Windows 8	Windows8
 Woodstock	Woodstock
 WordPress	WordPress
 WorkFlowy	WorkFlowy
@@ -15661,7 +15601,6 @@ dragonfly	dragonfly
 duplicate	duplicate
 dwellings	dwellings
 dynamical	dynamical
-eM Client	eMClient
 eccentric	eccentric
 ecommerce	ecommerce
 economics	economics
@@ -15956,7 +15895,6 @@ hydraulic	hydraulic
 hyperlink	hyperlink
 hypertext	hypertext
 hypocrisy	hypocrisy
-iPad mini	iPadmini
 identical	identical
 ignorance	ignorance
 illegally	illegally
@@ -16987,22 +16925,17 @@ zoophilia	zoophilia
 AfterShokz	AfterShokz
 Alexandria	Alexandria
 AmyTelecom	AmyTelecom
-Ant Design	AntDesign
 Antarctica	Antarctica
 AppCleaner	AppCleaner
 AppleCare+	AppleCare+
-Applied AI	AppliedAI
-Arch Linux	ArchLinux
 Australian	Australian
 AutoHotkey	AutoHotkey
 Bernardino	Bernardino
-Better Zip	BetterZip
 Bittorrent	Bittorrent
 Bloomfield	Bloomfield
 Bridgeport	Bridgeport
 Buckingham	Buckingham
 BundleHunt	BundleHunt
-CD Projekt	CDProjekt
 California	California
 Charleston	Charleston
 CheatSheet	CheatSheet
@@ -17012,8 +16945,6 @@ Christians	Christians
 Chromebook	Chromebook
 Chromecast	Chromecast
 Cinderella	Cinderella
-Clash Meta	ClashMeta
-ClashX Pro	ClashXPro
 Clearwater	Clearwater
 CloudFront	CloudFront
 CloudMagic	CloudMagic
@@ -17028,7 +16959,6 @@ Craigslist	Craigslist
 Cumberland	Cumberland
 Cunningham	Cunningham
 DEVONthink	DEVONthink
-Daisy Disk	DaisyDisk
 Darlington	Darlington
 Darussalam	Darussalam
 Derbyshire	Derbyshire
@@ -17037,7 +16967,6 @@ Disneyland	Disneyland
 DuckDuckGo	DuckDuckGo
 EconPapers	EconPapers
 EletroBOOM	EletroBOOM
-Epic Games	EpicGames
 Evansville	Evansville
 Fahrenheit	Fahrenheit
 Farmington	Farmington
@@ -17046,39 +16975,31 @@ Fitzgerald	Fitzgerald
 GarageBand	GarageBand
 Georgetown	Georgetown
 Gloucester	Gloucester
-Google Ads	GoogleAds
-Google One	GoogleOne
 Greenville	Greenville
 Grenadines	Grenadines
 Guadeloupe	Guadeloupe
-HP Spectre	HPSpectre
 Harrington	Harrington
 Harrisburg	Harrisburg
 Heidelberg	Heidelberg
 Heisenberg	Heisenberg
 Huntsville	Huntsville
 Hutchinson	Hutchinson
-IBM Watson	IBMWatson
 Instapaper	Instapaper
 Instashare	Instashare
 Jacqueline	Jacqueline
 JavaScript	JavaScript
 Kazakhstan	Kazakhstan
 Keypirinha	Keypirinha
-Kip Mirtle	KipMirtle
 Kubernetes	Kubernetes
 Kurzgesagt	Kurzgesagt
 Kyrgyzstan	Kyrgyzstan
 Lancashire	Lancashire
-Legal High	LegalHigh
 LexisNexis	LexisNexis
 Lithuanian	Lithuanian
 LiveReload	LiveReload
 Livingston	Livingston
 LockScreen	LockScreen
 Louisville	Louisville
-Mac Rumors	MacRumors
-Mac Studio	MacStudio
 Manchester	Manchester
 Martinique	Martinique
 Mauritania	Mauritania
@@ -17093,13 +17014,9 @@ Montserrat	Montserrat
 Musixmatch	Musixmatch
 Nederlands	Nederlands
 Nickelback	Nickelback
-Office 365	Office365
-OpenAI API	OpenAIAPI
 OpenOffice	OpenOffice
-PDF Expert	PDFExpert
 Philippine	Philippine
 Philppines	Philppines
-Pied Piper	PiedPiper
 Pixelmator	Pixelmator
 Portuguese	Portuguese
 PostMeridy	PostMeridy
@@ -17108,10 +17025,8 @@ PrestaShop	PrestaShop
 Protractor	Protractor
 RescueTime	RescueTime
 Richardson	Richardson
-SQL Server	SQLServer
 SQLAlchemy	SQLAlchemy
 Salesforce	Salesforce
-Sauce Labs	SauceLabs
 Scooby-Doo	Scooby-Doo
 ScreenFlow	ScreenFlow
 Sennheiser	Sennheiser
@@ -17124,8 +17039,6 @@ SoundCloud	SoundCloud
 Sourcetree	Sourcetree
 SpencerWoo	SpencerWoo
 Spider-Man	Spider-Man
-Steam Deck	SteamDeck
-Steve Jobs	SteveJobs
 SuperPages	SuperPages
 Sutherland	Sutherland
 Tajikistan	Tajikistan
@@ -17136,23 +17049,16 @@ TestFlight	TestFlight
 TinkerTool	TinkerTool
 Travelodge	Travelodge
 TypeScript	TypeScript
-Unix shell	Unixshell
 Uzbekistan	Uzbekistan
 Vanderbilt	Vanderbilt
-Vision Pro	VisionPro
 Wappalyzer	Wappalyzer
-WeChat Pay	WeChatPay
 Wednesdays	Wednesdays
 Wellbutrin	Wellbutrin
 Williamson	Williamson
 Wilmington	Wilmington
-Windows 10	Windows10
-Windows 11	Windows11
-Windows XP	WindowsXP
 Wunderlist	Wunderlist
 XtraFinder	XtraFinder
 Yugoslavia	Yugoslavia
-Zero Trust	ZeroTrust
 aboriginal	aboriginal
 absolutely	absolutely
 absorption	absorption
@@ -18493,15 +18399,8 @@ workaround	workaround
 worksheets	worksheets
 worthwhile	worthwhile
 yourselves	yourselves
-Adult Video	AdultVideo
-Aeron Chair	AeronChair
-AirPods Max	AirPodsMax
-AirPods Pro	AirPodsPro
 Amphetamine	Amphetamine
 Appalachian	Appalachian
-Apple Music	AppleMusic
-Apple Store	AppleStore
-Apple Watch	AppleWatch
 Australasia	Australasia
 Australians	Australians
 Baiduspider	Baiduspider
@@ -18516,82 +18415,50 @@ Chattanooga	Chattanooga
 ChemBioDraw	ChemBioDraw
 Christensen	Christensen
 Christopher	Christopher
-Clash Verge	ClashVerge
-CleanShot X	CleanShotX
 Clopidogrel	Clopidogrel
-Code Runner	CodeRunner
 Corinthians	Corinthians
 Cryptomator	Cryptomator
-Dragon Ball	DragonBall
 Dreamweaver	Dreamweaver
 Escherichia	Escherichia
-FBI WARNING	FBIWARNING
 Fantastical	Fantastical
-Force Touch	ForceTouch
-Funtouch OS	FuntouchOS
 Gainesville	Gainesville
-Gif Brewery	GifBrewery
-Google Bard	GoogleBard
-Greasy Fork	GreasyFork
 Hammerspoon	Hammerspoon
-Harmony One	HarmonyOne
-Hello World	HelloWorld
 Herzegovina	Herzegovina
-High Sierra	HighSierra
 Lamborghini	Lamborghini
 LendingTree	LendingTree
-Live Photos	LivePhotos
 LiveJournal	LiveJournal
-MIT License	MITLicense
 MacAppDeals	MacAppDeals
-MacBook Air	MacBookAir
-MacBook Pro	MacBookPro
 Maharashtra	Maharashtra
 MarkMyWords	MarkMyWords
 Marlborough	Marlborough
-Matrix Talk	MatrixTalk
 Mississauga	Mississauga
 Netherlands	Netherlands
-New Zealand	NewZealand
 Northampton	Northampton
 Objective-C	Objective-C
-Oculus Rift	OculusRift
 OmniGraffle	OmniGraffle
 Oxfordshire	Oxfordshire
-PCI Express	PCIExpress
 PancakeSwap	PancakeSwap
-Path Finder	PathFinder
 Philippines	Philippines
 PictureView	PictureView
 PriceRunner	PriceRunner
 PrintScreen	PrintScreen
 ProxyChains	ProxyChains
-Public Beta	PublicBeta
-PyCharm Edu	PyCharmEdu
-Razer Blade	RazerBlade
 Readability	Readability
-Rocky Linux	RockyLinux
-SRWare Iron	SRWareIron
 Sagittarius	Sagittarius
 Scarborough	Scarborough
 ScreenFloat	ScreenFloat
 Shadowsocks	Shadowsocks
-Sleep Cycle	SleepCycle
 SogouSpider	SogouSpider
 SourceForge	SourceForge
 Spiritfarer	Spiritfarer
 Springfield	Springfield
 SquarePants	SquarePants
 StackSocial	StackSocial
-Sumatra PDF	SumatraPDF
 Tallahassee	Tallahassee
 Thunderbolt	Thunderbolt
 Travelocity	Travelocity
-Turbo Boost	TurboBoost
 Westchester	Westchester
-Window Tidy	WindowTidy
 WooCommerce	WooCommerce
-Xbox Series	XboxSeries
 abstraction	abstraction
 accelerated	accelerated
 accelerator	accelerator
@@ -18988,7 +18855,6 @@ householder	householder
 humiliation	humiliation
 hydrocarbon	hydrocarbon
 hydrocodone	hydrocodone
-iCloud Mail	iCloudMail
 identifiers	identifiers
 identifying	identifying
 ideological	ideological
@@ -19428,45 +19294,22 @@ BrowserStack	BrowserStack
 Christchurch	Christchurch
 CompactFlash	CompactFlash
 DigitalOcean	DigitalOcean
-Dish Network	DishNetwork
-Disk Utility	DiskUtility
-Don't Starve	Don'tStarve
 Fayetteville	Fayetteville
-GitHub Pages	GitHubPages
-Google Gmail	GoogleGmail
-Honey Select	HoneySelect
-Hybrid drive	Hybriddrive
 Indianapolis	Indianapolis
 Jacksonville	Jacksonville
 Johannesburg	Johannesburg
 Kaleidoscope	Kaleidoscope
 Lincolnshire	Lincolnshire
-Media Player	MediaPlayer
 OmniOutliner	OmniOutliner
-OnePlus Nord	OnePlusNord
 Palestinians	Palestinians
 Peterborough	Peterborough
-PopCap Games	PopCapGames
-Premiere Pro	PremierePro
 PriceGrabber	PriceGrabber
-Quantumult X	QuantumultX
-Raspberry Pi	RaspberryPi
-React Native	ReactNative
-Secure Shell	SecureShell
-Snow Leopard	SnowLeopard
-Sublime Text	SublimeText
 SurveyMonkey	SurveyMonkey
 TextExpander	TextExpander
 TextWrangler	TextWrangler
-Time Capsule	TimeCapsule
-Time Machine	TimeMachine
 Turkmenistan	Turkmenistan
-Wacom Cintiq	WacomCintiq
-Wacom Intuos	WacomIntuos
 Warwickshire	Warwickshire
-WiFi Scanner	WiFiScanner
 Williamsburg	Williamsburg
-Wireless LAN	WirelessLAN
 abbreviation	abbreviation
 acceleration	acceleration
 accidentally	accidentally
@@ -19680,9 +19523,6 @@ housekeeping	housekeeping
 humanitarian	humanitarian
 hypertension	hypertension
 hypothetical	hypothetical
-iCloud Drive	iCloudDrive
-iTunes Match	iTunesMatch
-iTunes Store	iTunesStore
 identifiable	identifiable
 illumination	illumination
 illustration	illustration
@@ -19737,9 +19577,6 @@ kindergarten	kindergarten
 laboratories	laboratories
 localization	localization
 longitudinal	longitudinal
-macOS Mojave	macOSMojave
-macOS Server	macOSServer
-macOS Sierra	macOSSierra
 manipulation	manipulation
 manufactured	manufactured
 manufacturer	manufacturer
@@ -19930,43 +19767,13 @@ verification	verification
 volunteering	volunteering
 watermarking	watermarking
 workstations	workstations
-After Effects	AfterEffects
-Alibaba Group	AlibabaGroup
-Cocos Creator	CocosCreator
 CodeWhisperer	CodeWhisperer
-Color Schemer	ColorSchemer
-Color Snapper	ColorSnapper
 Computerworld	Computerworld
-Curve Finance	CurveFinance
-Fedora CoreOS	FedoraCoreOS
-Flow Launcher	FlowLauncher
-Frank DeLoupe	FrankDeLoupe
-Google Chrome	GoogleChrome
-Google Search	GoogleSearch
 Hertfordshire	Hertfordshire
-Hollow Knight	HollowKnight
-IDEA Ultimate	IDEAUltimate
-IntelliJ IDEA	IntelliJIDEA
-Lens Protocal	LensProtocal
-Little Snitch	LittleSnitch
-Louis Vuitton	LouisVuitton
 Massachusetts	Massachusetts
-Microsoft 365	Microsoft365
-Mountain Lion	MountainLion
-NEAR Protocol	NEARProtocol
-New Zealander	NewZealander
-Party Animals	PartyAnimals
-Screen Studio	ScreenStudio
 Staffordshire	Staffordshire
 Thessalonians	Thessalonians
-United States	UnitedStates
-Unreal Engine	UnrealEngine
-VMware Fusion	VMwareFusion
-Visual Studio	VisualStudio
-WiFi Explorer	WiFiExplorer
-Windows Vista	WindowsVista
 Wolverhampton	Wolverhampton
-YouTube Music	YouTubeMusic
 abbreviations	abbreviations
 abnormalities	abnormalities
 accessibility	accessibility
@@ -20111,13 +19918,11 @@ jurisdictions	jurisdictions
 justification	justification
 knowledgeable	knowledgeable
 liechtenstein	liechtenstein
-macOS Ventura	macOSVentura
 macroeconomic	macroeconomic
 manufacturers	manufacturers
 manufacturing	manufacturing
 mediterranean	mediterranean
 merchandising	merchandising
-messenger RNA	messengerRNA
 methodologies	methodologies
 miscellaneous	miscellaneous
 misunderstand	misunderstand
@@ -20201,7 +20006,6 @@ transmissions	transmissions
 transnational	transnational
 transvestites	transvestites
 troublemaking	troublemaking
-uBlock Origin	uBlockOrigin
 uncategorized	uncategorized
 uncertainties	uncertainties
 uncomfortable	uncomfortable
@@ -20214,29 +20018,12 @@ unprecedented	unprecedented
 unpredictable	unpredictable
 visualization	visualization
 vulnerability	vulnerability
-Affinity Photo	AffinityPhoto
-Android Police	AndroidPolice
-Braavos Wallet	BraavosWallet
 Cambridgeshire	Cambridgeshire
-Clash Meta GUI	ClashMetaGUI
-Control Center	ControlCenter
 Counter-Strike	Counter-Strike
-FaceTime Audio	FaceTimeAudio
-GitHub Copilot	GitHubCopilot
-Great Firewall	GreatFirewall
-IDEA Community	IDEACommunity
-JetBrains Mono	JetBrainsMono
 Leicestershire	Leicestershire
 Northumberland	Northumberland
-Pickup Artists	PickupArtists
 ReserveAmerica	ReserveAmerica
 Schwarzenegger	Schwarzenegger
-Silicon Valley	SiliconValley
-Stack Overflow	StackOverflow
-Studio Display	StudioDisplay
-Surface Studio	SurfaceStudio
-The Unarchiver	TheUnarchiver
-United Kingdom	UnitedKingdom
 UserDictionary	UserDictionary
 Worcestershire	Worcestershire
 accommodations	accommodations
@@ -20276,10 +20063,8 @@ distinguishing	distinguishing
 electronically	electronically
 establishments	establishments
 experimentally	experimentally
-fcitx5 android	fcitx5android
 generalization	generalization
 geographically	geographically
-iTunes Connect	iTunesConnect
 identification	identification
 implementation	implementation
 infrastructure	infrastructure
@@ -20288,8 +20073,6 @@ interplanetary	interplanetary
 interpretation	interpretation
 investigations	investigations
 knowledgestorm	knowledgestorm
-macOS Catalina	macOSCatalina
-macOS Monterey	macOSMonterey
 meteorological	meteorological
 microprocessor	microprocessor
 multiplication	multiplication
@@ -20325,20 +20108,11 @@ transformation	transformation
 transportation	transportation
 undergraduates	undergraduates
 understandable	understandable
-Adobe Photoshop	AdobePhotoshop
 Bizjournalshire	Bizjournalshire
 Buckinghamshire	Buckinghamshire
 Charlottesville	Charlottesville
-Coinbase Wallet	CoinbaseWallet
-DaVinci Resolve	DaVinciResolve
 Gloucestershire	Gloucestershire
-Lenovo ThinkPad	LenovoThinkPad
-Linus Tech Tips	LinusTechTips
-Microsoft Store	MicrosoftStore
-Navicat Premium	NavicatPremium
-Nintendo Switch	NintendoSwitch
 Nottinghamshire	Nottinghamshire
-Oracle Database	OracleDatabase
 accomplishments	accomplishments
 acknowledgement	acknowledgement
 acknowledgments	acknowledgments
@@ -20360,7 +20134,6 @@ interconnection	interconnection
 internationally	internationally
 interpretations	interpretations
 merchantability	merchantability
-native American	nativeAmerican
 notwithstanding	notwithstanding
 pharmaceuticals	pharmaceuticals
 phosphorylation	phosphorylation
@@ -20376,19 +20149,7 @@ transformations	transformations
 transplantation	transplantation
 troubleshooting	troubleshooting
 vulnerabilities	vulnerabilities
-Background music	Backgroundmusic
-Cloudflare Pages	CloudflarePages
-Emotional Damage	EmotionalDamage
-Impostor Factory	ImpostorFactory
-Keyboard Maestro	KeyboardMaestro
-Language Reactor	LanguageReactor
-Music Television	MusicTelevision
 Northamptonshire	Northamptonshire
-Operating System	OperatingSystem
-QuickTime Player	QuickTimePlayer
-Read-only memory	Read-onlymemory
-Wallpaper Engine	WallpaperEngine
-Windows Terminal	WindowsTerminal
 acknowledgements	acknowledgements
 air-conditioning	air-conditioning
 characterization	characterization
@@ -20397,49 +20158,15 @@ gastrointestinal	gastrointestinal
 intercontinental	intercontinental
 interoperability	interoperability
 responsibilities	responsibilities
-Affinity Designer	AffinityDesigner
-Apache Subversion	ApacheSubversion
-Cloudflare Images	CloudflareImages
-Cloudflare Stream	CloudflareStream
-Developer Preview	DeveloperPreview
-Google Gemini App	GoogleGeminiApp
-Internet Explorer	InternetExplorer
-MacUpdate Desktop	MacUpdateDesktop
-Microsoft Outlook	MicrosoftOutlook
-Parallels Desktop	ParallelsDesktop
-Role-Playing Game	Role-PlayingGame
-Solid-state drive	Solid-statedrive
-Universal Actions	UniversalActions
-Vampire Survivors	VampireSurvivors
 interdisciplinary	interdisciplinary
 intergovernmental	intergovernmental
 multidisciplinary	multidisciplinary
 telecommunication	telecommunication
-AfterShokz Aeropex	AfterShokzAeropex
-Cloudflare Workers	CloudflareWorkers
-Non-Fungible Token	Non-FungibleToken
-Scribble Diffusion	ScribbleDiffusion
-Simplified Chinese	SimplifiedChinese
-VMware Workstation	VMwareWorkstation
 telecommunications	telecommunications
 ungoogled-chromium	ungoogled-chromium
-Traditional Chinese	TraditionalChinese
 rime-radical-pinyin	rime-radical-pinyin
-Downloadable content	Downloadablecontent
 Model-View-ViewModel	Model-View-ViewModel
-Non-Player Character	Non-PlayerCharacter
-Random-access memory	Random-accessmemory
-Apple Music Classcial	AppleMusicClasscial
-Champion's inequality	Champion'sinequality
-Don't Starve Together	Don'tStarveTogether
-Intelligence quotient	Intelligencequotient
 Model-View-Controller	Model-View-Controller
-SpongeBob SquarePants	SpongeBobSquarePants
-Command-Line Interface	Command-LineInterface
-Hypertext Preprocessor	HypertextPreprocessor
-denial-of-service attack	denial-of-serviceattack
-Closed-Circuit Television	Closed-CircuitTelevision
-Non-Governmental Organization	Non-GovernmentalOrganization
 
 
 # word.lower
@@ -20945,7 +20672,6 @@ noah	noah
 nora	nora
 ocsp	ocsp
 oppo	oppo
-os x	osx
 oahu	oahu
 oder	oder
 odoo	odoo
@@ -21052,9 +20778,6 @@ imac	imac
 ipad	ipad
 ipod	ipod
 mrna	mrna
-to b	tob
-to c	toc
-to g	tog
 tvos	tvos
 upic	upic
 xros	xros
@@ -21496,9 +21219,6 @@ trina	trina
 trish	trish
 twink	twink
 tyson	tyson
-usb 2	usb2
-usb 3	usb3
-usb 4	usb4
 usb-a	usb-a
 usb-b	usb-b
 usb-c	usb-c
@@ -21523,7 +21243,6 @@ wanda	wanda
 watts	watts
 wayne	wayne
 wi-fi	wi-fi
-wii u	wiiu
 win32	win32
 winxp	winxp
 wolai	wolai
@@ -21795,7 +21514,6 @@ israel	israel
 italia	italia
 ithaca	ithaca
 ivoire	ivoire
-jj lin	jjlin
 jackie	jackie
 jacobs	jacobs
 janice	janice
@@ -21924,7 +21642,6 @@ okhttp	okhttp
 oldham	oldham
 oliver	oliver
 olivia	olivia
-one ui	oneui
 onekey	onekey
 openai	openai
 opencc	opencc
@@ -22188,7 +21905,6 @@ berlios	berlios
 bethany	bethany
 beverly	beverly
 beyonce	beyonce
-big sur	bigsur
 binance	binance
 bingbot	bingbot
 bitcoin	bitcoin
@@ -22257,7 +21973,6 @@ cumbria	cumbria
 cynthia	cynthia
 daniels	daniels
 darcula	darcula
-day one	dayone
 daytona	daytona
 deborah	deborah
 decatur	decatur
@@ -22294,7 +22009,6 @@ eritrea	eritrea
 everest	everest
 everett	everett
 ezekiel	ezekiel
-face id	faceid
 fairfax	fairfax
 falconx	falconx
 farrell	farrell
@@ -22311,7 +22025,6 @@ frankie	frankie
 freddie	freddie
 freebsd	freebsd
 fridays	fridays
-g suite	gsuite
 galgame	galgame
 galileo	galileo
 gamespy	gamespy
@@ -22377,7 +22090,6 @@ ipswich	ipswich
 iranian	iranian
 ireland	ireland
 israeli	israeli
-it's me	it'sme
 italian	italian
 jackson	jackson
 jacques	jacques
@@ -22385,7 +22097,6 @@ jakarta	jakarta
 jamaica	jamaica
 jameson	jameson
 january	january
-java ee	javaee
 jeffrey	jeffrey
 jenkins	jenkins
 jessica	jessica
@@ -22410,7 +22121,6 @@ knowles	knowles
 krishna	krishna
 kristen	kristen
 kristin	kristin
-kung fu	kungfu
 kurdish	kurdish
 kuromis	kuromis
 kyocera	kyocera
@@ -22429,7 +22139,6 @@ lipitor	lipitor
 lorenzo	lorenzo
 lubbock	lubbock
 lyricsx	lyricsx
-mac pro	macpro
 macbook	macbook
 mactips	mactips
 mactype	mactype
@@ -22538,7 +22247,6 @@ raycast	raycast
 raymond	raymond
 readkit	readkit
 rebecca	rebecca
-red hat	redhat
 redmond	redmond
 regulex	regulex
 renault	renault
@@ -22640,8 +22348,6 @@ unicode	unicode
 unigram	unigram
 uniswap	uniswap
 upscayl	upscayl
-user id	userid
-vs code	vscode
 valerie	valerie
 vanessa	vanessa
 vaughan	vaughan
@@ -22657,7 +22363,6 @@ waltham	waltham
 warlock	warlock
 warwick	warwick
 watkins	watkins
-weak ai	weakai
 webcore	webcore
 wheaton	wheaton
 whitman	whitman
@@ -22695,11 +22400,9 @@ anglican	anglican
 anguilla	anguilla
 antilles	antilles
 appimage	appimage
-apple tv	appletv
 appleton	appleton
 aquarius	aquarius
 arbitrum	arbitrum
-argent x	argentx
 arkansas	arkansas
 armenian	armenian
 ashcroft	ashcroft
@@ -22770,7 +22473,6 @@ datalore	datalore
 davidson	davidson
 december	december
 deepmind	deepmind
-dell xps	dellxps
 djibouti	djibouti
 docusign	docusign
 dominica	dominica
@@ -22812,7 +22514,6 @@ frederic	frederic
 friedman	friedman
 fujifilm	fujifilm
 galloway	galloway
-game boy	gameboy
 gamefaqs	gamefaqs
 garfield	garfield
 geeknote	geeknote
@@ -22831,7 +22532,6 @@ gravatar	gravatar
 gridmove	gridmove
 griffith	griffith
 guinness	guinness
-htc vive	htcvive
 handover	handover
 hannover	hannover
 harrison	harrison
@@ -22846,7 +22546,6 @@ homebrew	homebrew
 houghton	houghton
 humboldt	humboldt
 humphrey	humphrey
-iso 8601	iso8601
 indesign	indesign
 infiniti	infiniti
 inspiron	inspiron
@@ -22875,17 +22574,13 @@ lawrence	lawrence
 lebanese	lebanese
 leetcode	leetcode
 leonardo	leonardo
-let's go	let'sgo
 linkedin	linkedin
 logitech	logitech
 lorraine	lorraine
 lunarvim	lunarvim
 lutheran	lutheran
-mamp pro	mamppro
-mac mini	macmini
 macworld	macworld
 magellan	magellan
-magic ui	magicui
 makerdao	makerdao
 mallorca	mallorca
 manitoba	manitoba
@@ -22925,7 +22620,6 @@ mudvayne	mudvayne
 muhammad	muhammad
 murakami	murakami
 namesilo	namesilo
-new bing	newbing
 newsweek	newsweek
 nicholas	nicholas
 niconico	niconico
@@ -22968,7 +22662,6 @@ promotee	promotee
 provence	provence
 pythonic	pythonic
 qualcomm	qualcomm
-rfc 3339	rfc3339
 radisson	radisson
 randolph	randolph
 retrofit	retrofit
@@ -23036,7 +22729,6 @@ thompson	thompson
 thornton	thornton
 thursday	thursday
 ticktick	ticktick
-touch id	touchid
 toulouse	toulouse
 townsend	townsend
 tuesdays	tuesdays
@@ -23044,7 +22736,6 @@ tweetbot	tweetbot
 valhalla	valhalla
 vauxhall	vauxhall
 verisign	verisign
-video cd	videocd
 vladimir	vladimir
 vodafone	vodafone
 waterfox	waterfox
@@ -23064,7 +22755,6 @@ wolfgang	wolfgang
 wondercv	wondercv
 woodward	woodward
 worldcat	worldcat
-xbox one	xboxone
 yosemite	yosemite
 youtuber	youtuber
 yugoslav	yugoslav
@@ -23073,8 +22763,6 @@ zoominfo	zoominfo
 dotcover	dotcover
 dottrace	dottrace
 imessage	imessage
-ipad air	ipadair
-ipad pro	ipadpro
 opensuse	opensuse
 alexander	alexander
 alexandra	alexandra
@@ -23087,9 +22775,6 @@ americana	americana
 americans	americans
 annapolis	annapolis
 anthropic	anthropic
-app store	appstore
-apple pay	applepay
-apple tv+	appletv+
 applecare	applecare
 applegate	applegate
 argentina	argentina
@@ -23099,8 +22784,6 @@ asheville	asheville
 atlassian	atlassian
 augustine	augustine
 australia	australia
-bbc earth	bbcearth
-bnb chain	bnbchain
 backblaze	backblaze
 backspace	backspace
 bartender	bartender
@@ -23137,7 +22820,6 @@ christine	christine
 christmas	christmas
 chromebox	chromebox
 churchill	churchill
-cinema 4d	cinema4d
 claremont	claremont
 cocoapods	cocoapods
 colombian	colombian
@@ -23164,7 +22846,6 @@ ferdinand	ferdinand
 fernandez	fernandez
 filemaker	filemaker
 filevault	filevault
-final cut	finalcut
 forrester	forrester
 francesco	francesco
 frankfurt	frankfurt
@@ -23194,7 +22875,6 @@ helvetica	helvetica
 hernandez	hernandez
 hitchcock	hitchcock
 hollywood	hollywood
-hong kong	hongkong
 hootsuite	hootsuite
 hyderabad	hyderabad
 icelander	icelander
@@ -23211,7 +22891,6 @@ jefferson	jefferson
 jerusalem	jerusalem
 jetbrains	jetbrains
 jimmywang	jimmywang
-john wick	johnwick
 josephine	josephine
 kalamazoo	kalamazoo
 karabiner	karabiner
@@ -23225,7 +22904,6 @@ leicester	leicester
 librewolf	librewolf
 lightroom	lightroom
 lineageos	lineageos
-logic pro	logicpro
 louisiana	louisiana
 macdonald	macdonald
 mackenzie	mackenzie
@@ -23236,7 +22914,6 @@ mailfence	mailfence
 malaysian	malaysian
 manhattan	manhattan
 mansfield	mansfield
-mark text	marktext
 marquette	marquette
 mavericks	mavericks
 mccartney	mccartney
@@ -23247,7 +22924,6 @@ middlesex	middlesex
 middleton	middleton
 misswarmj	misswarmj
 namecheap	namecheap
-narrow ai	narrowai
 nathaniel	nathaniel
 nederland	nederland
 netsetman	netsetman
@@ -23255,14 +22931,11 @@ nexitally	nexitally
 nicholson	nicholson
 nightwish	nightwish
 notepad++	notepad++
-notion ai	notionai
 oceanbase	oceanbase
 ommwriter	ommwriter
 omnifocus	omnifocus
-one piece	onepiece
 paintcode	paintcode
 pakistani	pakistani
-palo alto	paloalto
 parkinson	parkinson
 patagonia	patagonia
 pensacola	pensacola
@@ -23270,7 +22943,6 @@ photodesk	photodesk
 photoshop	photoshop
 pinterest	pinterest
 plistedit	plistedit
-pocket pc	pocketpc
 polynesia	polynesia
 powerbook	powerbook
 powerpack	powerpack
@@ -23311,7 +22983,6 @@ starbucks	starbucks
 stephanie	stephanie
 stevenson	stevenson
 stratford	stratford
-strong ai	strongai
 stuttgart	stuttgart
 sugababes	sugababes
 superlist	superlist
@@ -23319,8 +22990,6 @@ sushiswap	sushiswap
 swarovski	swarovski
 teleflora	teleflora
 textastic	textastic
-touch bar	touchbar
-travis ci	travisci
 trustpass	trustpass
 ukrainian	ukrainian
 unclutter	unclutter
@@ -23338,8 +23007,6 @@ wikimedia	wikimedia
 wilkinson	wilkinson
 wiltshire	wiltshire
 wimbledon	wimbledon
-windows 7	windows7
-windows 8	windows8
 woodstock	woodstock
 wordpress	wordpress
 workflowy	workflowy
@@ -23347,27 +23014,20 @@ yorkshire	yorkshire
 youdaobot	youdaobot
 zoomerang	zoomerang
 dotmemory	dotmemory
-em client	emclient
-ipad mini	ipadmini
 aftershokz	aftershokz
 alexandria	alexandria
 amytelecom	amytelecom
-ant design	antdesign
 antarctica	antarctica
 appcleaner	appcleaner
 applecare+	applecare+
-applied ai	appliedai
-arch linux	archlinux
 australian	australian
 autohotkey	autohotkey
 bernardino	bernardino
-better zip	betterzip
 bittorrent	bittorrent
 bloomfield	bloomfield
 bridgeport	bridgeport
 buckingham	buckingham
 bundlehunt	bundlehunt
-cd projekt	cdprojekt
 california	california
 charleston	charleston
 cheatsheet	cheatsheet
@@ -23377,8 +23037,6 @@ christians	christians
 chromebook	chromebook
 chromecast	chromecast
 cinderella	cinderella
-clash meta	clashmeta
-clashx pro	clashxpro
 clearwater	clearwater
 cloudfront	cloudfront
 cloudmagic	cloudmagic
@@ -23393,7 +23051,6 @@ craigslist	craigslist
 cumberland	cumberland
 cunningham	cunningham
 devonthink	devonthink
-daisy disk	daisydisk
 darlington	darlington
 darussalam	darussalam
 derbyshire	derbyshire
@@ -23402,7 +23059,6 @@ disneyland	disneyland
 duckduckgo	duckduckgo
 econpapers	econpapers
 eletroboom	eletroboom
-epic games	epicgames
 evansville	evansville
 fahrenheit	fahrenheit
 farmington	farmington
@@ -23411,39 +23067,31 @@ fitzgerald	fitzgerald
 garageband	garageband
 georgetown	georgetown
 gloucester	gloucester
-google ads	googleads
-google one	googleone
 greenville	greenville
 grenadines	grenadines
 guadeloupe	guadeloupe
-hp spectre	hpspectre
 harrington	harrington
 harrisburg	harrisburg
 heidelberg	heidelberg
 heisenberg	heisenberg
 huntsville	huntsville
 hutchinson	hutchinson
-ibm watson	ibmwatson
 instapaper	instapaper
 instashare	instashare
 jacqueline	jacqueline
 javascript	javascript
 kazakhstan	kazakhstan
 keypirinha	keypirinha
-kip mirtle	kipmirtle
 kubernetes	kubernetes
 kurzgesagt	kurzgesagt
 kyrgyzstan	kyrgyzstan
 lancashire	lancashire
-legal high	legalhigh
 lexisnexis	lexisnexis
 lithuanian	lithuanian
 livereload	livereload
 livingston	livingston
 lockscreen	lockscreen
 louisville	louisville
-mac rumors	macrumors
-mac studio	macstudio
 manchester	manchester
 martinique	martinique
 mauritania	mauritania
@@ -23458,13 +23106,9 @@ montserrat	montserrat
 musixmatch	musixmatch
 nederlands	nederlands
 nickelback	nickelback
-office 365	office365
-openai api	openaiapi
 openoffice	openoffice
-pdf expert	pdfexpert
 philippine	philippine
 philppines	philppines
-pied piper	piedpiper
 pixelmator	pixelmator
 portuguese	portuguese
 postmeridy	postmeridy
@@ -23473,10 +23117,8 @@ prestashop	prestashop
 protractor	protractor
 rescuetime	rescuetime
 richardson	richardson
-sql server	sqlserver
 sqlalchemy	sqlalchemy
 salesforce	salesforce
-sauce labs	saucelabs
 scooby-doo	scooby-doo
 screenflow	screenflow
 sennheiser	sennheiser
@@ -23489,8 +23131,6 @@ soundcloud	soundcloud
 sourcetree	sourcetree
 spencerwoo	spencerwoo
 spider-man	spider-man
-steam deck	steamdeck
-steve jobs	stevejobs
 superpages	superpages
 sutherland	sutherland
 tajikistan	tajikistan
@@ -23501,33 +23141,19 @@ testflight	testflight
 tinkertool	tinkertool
 travelodge	travelodge
 typescript	typescript
-unix shell	unixshell
 uzbekistan	uzbekistan
 vanderbilt	vanderbilt
-vision pro	visionpro
 wappalyzer	wappalyzer
-wechat pay	wechatpay
 wednesdays	wednesdays
 wellbutrin	wellbutrin
 williamson	williamson
 wilmington	wilmington
-windows 10	windows10
-windows 11	windows11
-windows xp	windowsxp
 wunderlist	wunderlist
 xtrafinder	xtrafinder
 yugoslavia	yugoslavia
-zero trust	zerotrust
 ublacklist	ublacklist
-adult video	adultvideo
-aeron chair	aeronchair
-airpods max	airpodsmax
-airpods pro	airpodspro
 amphetamine	amphetamine
 appalachian	appalachian
-apple music	applemusic
-apple store	applestore
-apple watch	applewatch
 australasia	australasia
 australians	australians
 baiduspider	baiduspider
@@ -23542,267 +23168,97 @@ chattanooga	chattanooga
 chembiodraw	chembiodraw
 christensen	christensen
 christopher	christopher
-clash verge	clashverge
-cleanshot x	cleanshotx
 clopidogrel	clopidogrel
-code runner	coderunner
 corinthians	corinthians
 cryptomator	cryptomator
-dragon ball	dragonball
 dreamweaver	dreamweaver
 escherichia	escherichia
-fbi warning	fbiwarning
 fantastical	fantastical
-force touch	forcetouch
-funtouch os	funtouchos
 gainesville	gainesville
-gif brewery	gifbrewery
-google bard	googlebard
-greasy fork	greasyfork
 hammerspoon	hammerspoon
-harmony one	harmonyone
-hello world	helloworld
 herzegovina	herzegovina
-high sierra	highsierra
 lamborghini	lamborghini
 lendingtree	lendingtree
-live photos	livephotos
 livejournal	livejournal
-mit license	mitlicense
 macappdeals	macappdeals
-macbook air	macbookair
-macbook pro	macbookpro
 maharashtra	maharashtra
 markmywords	markmywords
 marlborough	marlborough
-matrix talk	matrixtalk
 mississauga	mississauga
 netherlands	netherlands
-new zealand	newzealand
 northampton	northampton
 objective-c	objective-c
-oculus rift	oculusrift
 omnigraffle	omnigraffle
 oxfordshire	oxfordshire
-pci express	pciexpress
 pancakeswap	pancakeswap
-path finder	pathfinder
 philippines	philippines
 pictureview	pictureview
 pricerunner	pricerunner
 printscreen	printscreen
 proxychains	proxychains
-public beta	publicbeta
-pycharm edu	pycharmedu
-razer blade	razerblade
 readability	readability
-rocky linux	rockylinux
-srware iron	srwareiron
 sagittarius	sagittarius
 scarborough	scarborough
 screenfloat	screenfloat
 shadowsocks	shadowsocks
-sleep cycle	sleepcycle
 sogouspider	sogouspider
 sourceforge	sourceforge
 spiritfarer	spiritfarer
 springfield	springfield
 squarepants	squarepants
 stacksocial	stacksocial
-sumatra pdf	sumatrapdf
 tallahassee	tallahassee
 thunderbolt	thunderbolt
 travelocity	travelocity
-turbo boost	turboboost
 westchester	westchester
-window tidy	windowtidy
 woocommerce	woocommerce
-xbox series	xboxseries
 blackfriday	blackfriday
-icloud mail	icloudmail
 qbittorrent	qbittorrent
 bedfordshire	bedfordshire
 browserstack	browserstack
 christchurch	christchurch
 compactflash	compactflash
 digitalocean	digitalocean
-dish network	dishnetwork
-disk utility	diskutility
-don't starve	don'tstarve
 fayetteville	fayetteville
-github pages	githubpages
-google gmail	googlegmail
-honey select	honeyselect
-hybrid drive	hybriddrive
 indianapolis	indianapolis
 jacksonville	jacksonville
 johannesburg	johannesburg
 kaleidoscope	kaleidoscope
 lincolnshire	lincolnshire
-media player	mediaplayer
 omnioutliner	omnioutliner
-oneplus nord	oneplusnord
 palestinians	palestinians
 peterborough	peterborough
-popcap games	popcapgames
-premiere pro	premierepro
 pricegrabber	pricegrabber
-quantumult x	quantumultx
-raspberry pi	raspberrypi
-react native	reactnative
-secure shell	secureshell
-snow leopard	snowleopard
-sublime text	sublimetext
 surveymonkey	surveymonkey
 textexpander	textexpander
 textwrangler	textwrangler
-time capsule	timecapsule
-time machine	timemachine
 turkmenistan	turkmenistan
-wacom cintiq	wacomcintiq
-wacom intuos	wacomintuos
 warwickshire	warwickshire
-wifi scanner	wifiscanner
 williamsburg	williamsburg
-wireless lan	wirelesslan
 hallelujahim	hallelujahim
-icloud drive	iclouddrive
-itunes match	itunesmatch
-itunes store	itunesstore
-macos mojave	macosmojave
-macos server	macosserver
-macos sierra	macossierra
-after effects	aftereffects
-alibaba group	alibabagroup
-cocos creator	cocoscreator
 codewhisperer	codewhisperer
-color schemer	colorschemer
-color snapper	colorsnapper
 computerworld	computerworld
-curve finance	curvefinance
-fedora coreos	fedoracoreos
-flow launcher	flowlauncher
-frank deloupe	frankdeloupe
-google chrome	googlechrome
-google search	googlesearch
 hertfordshire	hertfordshire
-hollow knight	hollowknight
-idea ultimate	ideaultimate
-intellij idea	intellijidea
-lens protocal	lensprotocal
-little snitch	littlesnitch
-louis vuitton	louisvuitton
 massachusetts	massachusetts
-microsoft 365	microsoft365
-mountain lion	mountainlion
-near protocol	nearprotocol
-new zealander	newzealander
-party animals	partyanimals
-screen studio	screenstudio
 staffordshire	staffordshire
 thessalonians	thessalonians
-united states	unitedstates
-unreal engine	unrealengine
-vmware fusion	vmwarefusion
-visual studio	visualstudio
-wifi explorer	wifiexplorer
-windows vista	windowsvista
 wolverhampton	wolverhampton
-youtube music	youtubemusic
-macos ventura	macosventura
-messenger rna	messengerrna
-ublock origin	ublockorigin
-affinity photo	affinityphoto
-android police	androidpolice
-braavos wallet	braavoswallet
 cambridgeshire	cambridgeshire
-clash meta gui	clashmetagui
-control center	controlcenter
 counter-strike	counter-strike
-facetime audio	facetimeaudio
-github copilot	githubcopilot
-great firewall	greatfirewall
-idea community	ideacommunity
-jetbrains mono	jetbrainsmono
 leicestershire	leicestershire
 northumberland	northumberland
-pickup artists	pickupartists
 reserveamerica	reserveamerica
 schwarzenegger	schwarzenegger
-silicon valley	siliconvalley
-stack overflow	stackoverflow
-studio display	studiodisplay
-surface studio	surfacestudio
-the unarchiver	theunarchiver
-united kingdom	unitedkingdom
 userdictionary	userdictionary
 worcestershire	worcestershire
-itunes connect	itunesconnect
-macos catalina	macoscatalina
-macos monterey	macosmonterey
-adobe photoshop	adobephotoshop
 bizjournalshire	bizjournalshire
 buckinghamshire	buckinghamshire
 charlottesville	charlottesville
-coinbase wallet	coinbasewallet
-davinci resolve	davinciresolve
 gloucestershire	gloucestershire
-lenovo thinkpad	lenovothinkpad
-linus tech tips	linustechtips
-microsoft store	microsoftstore
-navicat premium	navicatpremium
-nintendo switch	nintendoswitch
 nottinghamshire	nottinghamshire
-oracle database	oracledatabase
-native american	nativeamerican
-background music	backgroundmusic
-cloudflare pages	cloudflarepages
-emotional damage	emotionaldamage
-impostor factory	impostorfactory
-keyboard maestro	keyboardmaestro
-language reactor	languagereactor
-music television	musictelevision
 northamptonshire	northamptonshire
-operating system	operatingsystem
-quicktime player	quicktimeplayer
-read-only memory	read-onlymemory
-wallpaper engine	wallpaperengine
-windows terminal	windowsterminal
-affinity designer	affinitydesigner
-apache subversion	apachesubversion
-cloudflare images	cloudflareimages
-cloudflare stream	cloudflarestream
-developer preview	developerpreview
-google gemini app	googlegeminiapp
-internet explorer	internetexplorer
-macupdate desktop	macupdatedesktop
-microsoft outlook	microsoftoutlook
-parallels desktop	parallelsdesktop
-role-playing game	role-playinggame
-solid-state drive	solid-statedrive
-universal actions	universalactions
-vampire survivors	vampiresurvivors
-aftershokz aeropex	aftershokzaeropex
-cloudflare workers	cloudflareworkers
-non-fungible token	non-fungibletoken
-scribble diffusion	scribblediffusion
-simplified chinese	simplifiedchinese
-vmware workstation	vmwareworkstation
-traditional chinese	traditionalchinese
-downloadable content	downloadablecontent
 model-view-viewmodel	model-view-viewmodel
-non-player character	non-playercharacter
-random-access memory	random-accessmemory
-apple music classcial	applemusicclasscial
-champion's inequality	champion'sinequality
-don't starve together	don'tstarvetogether
-intelligence quotient	intelligencequotient
 model-view-controller	model-view-controller
-spongebob squarepants	spongebobsquarepants
-command-line interface	command-lineinterface
-hypertext preprocessor	hypertextpreprocessor
-closed-circuit television	closed-circuittelevision
-non-governmental organization	non-governmentalorganization
 
 
 # word.capitalize
@@ -25788,9 +25244,6 @@ Tion	Tion
 Tips	Tips
 Tire	Tire
 Tits	Tits
-To B	ToB
-To C	ToC
-To G	ToG
 Toad	Toad
 Toby	Toby
 Todo	Todo
@@ -34614,8 +34067,6 @@ Husbands	Husbands
 Hydrogen	Hydrogen
 Hypnosis	Hypnosis
 IMessage	IMessage
-IPad Air	IPadAir
-IPad Pro	IPadPro
 Idealism	Idealism
 Identify	Identify
 Identity	Identity
@@ -36512,7 +35963,6 @@ Dragonfly	Dragonfly
 Duplicate	Duplicate
 Dwellings	Dwellings
 Dynamical	Dynamical
-EM Client	EMClient
 Eccentric	Eccentric
 Ecommerce	Ecommerce
 Economics	Economics
@@ -36807,7 +36257,6 @@ Hydraulic	Hydraulic
 Hyperlink	Hyperlink
 Hypertext	Hypertext
 Hypocrisy	Hypocrisy
-IPad mini	IPadmini
 Identical	Identical
 Ignorance	Ignorance
 Illegally	Illegally
@@ -39571,7 +39020,6 @@ Householder	Householder
 Humiliation	Humiliation
 Hydrocarbon	Hydrocarbon
 Hydrocodone	Hydrocodone
-ICloud Mail	ICloudMail
 Identifiers	Identifiers
 Identifying	Identifying
 Ideological	Ideological
@@ -40219,9 +39667,6 @@ Housekeeping	Housekeeping
 Humanitarian	Humanitarian
 Hypertension	Hypertension
 Hypothetical	Hypothetical
-ICloud Drive	ICloudDrive
-ITunes Match	ITunesMatch
-ITunes Store	ITunesStore
 Identifiable	Identifiable
 Illumination	Illumination
 Illustration	Illustration
@@ -40276,9 +39721,6 @@ Kindergarten	Kindergarten
 Laboratories	Laboratories
 Localization	Localization
 Longitudinal	Longitudinal
-MacOS Mojave	MacOSMojave
-MacOS Server	MacOSServer
-MacOS Sierra	MacOSSierra
 Manipulation	Manipulation
 Manufactured	Manufactured
 Manufacturer	Manufacturer
@@ -40613,13 +40055,11 @@ Jurisdictions	Jurisdictions
 Justification	Justification
 Knowledgeable	Knowledgeable
 Liechtenstein	Liechtenstein
-MacOS Ventura	MacOSVentura
 Macroeconomic	Macroeconomic
 Manufacturers	Manufacturers
 Manufacturing	Manufacturing
 Mediterranean	Mediterranean
 Merchandising	Merchandising
-Messenger RNA	MessengerRNA
 Methodologies	Methodologies
 Miscellaneous	Miscellaneous
 Misunderstand	Misunderstand
@@ -40703,7 +40143,6 @@ Transmissions	Transmissions
 Transnational	Transnational
 Transvestites	Transvestites
 Troublemaking	Troublemaking
-UBlock Origin	UBlockOrigin
 Uncategorized	Uncategorized
 Uncertainties	Uncertainties
 Uncomfortable	Uncomfortable
@@ -40753,10 +40192,8 @@ Distinguishing	Distinguishing
 Electronically	Electronically
 Establishments	Establishments
 Experimentally	Experimentally
-Fcitx5 android	Fcitx5android
 Generalization	Generalization
 Geographically	Geographically
-ITunes Connect	ITunesConnect
 Identification	Identification
 Implementation	Implementation
 Infrastructure	Infrastructure
@@ -40765,8 +40202,6 @@ Interplanetary	Interplanetary
 Interpretation	Interpretation
 Investigations	Investigations
 Knowledgestorm	Knowledgestorm
-MacOS Catalina	MacOSCatalina
-MacOS Monterey	MacOSMonterey
 Meteorological	Meteorological
 Microprocessor	Microprocessor
 Multiplication	Multiplication
@@ -40823,7 +40258,6 @@ Interconnection	Interconnection
 Internationally	Internationally
 Interpretations	Interpretations
 Merchantability	Merchantability
-Native American	NativeAmerican
 Notwithstanding	Notwithstanding
 Pharmaceuticals	Pharmaceuticals
 Phosphorylation	Phosphorylation
@@ -40854,7 +40288,6 @@ Telecommunication	Telecommunication
 Telecommunications	Telecommunications
 Ungoogled-chromium	Ungoogled-chromium
 Rime-radical-pinyin	Rime-radical-pinyin
-Denial-of-service attack	Denial-of-serviceattack
 
 
 # word.upper
@@ -43143,9 +42576,6 @@ TION	TION
 TIPS	TIPS
 TIRE	TIRE
 TITS	TITS
-TO B	TOB
-TO C	TOC
-TO G	TOG
 TOAD	TOAD
 TOBY	TOBY
 TODO	TODO
@@ -43773,7 +43203,6 @@ WATTS	WATTS
 WAYNE	WAYNE
 WHITE	WHITE
 WI-FI	WI-FI
-WII U	WIIU
 WIN32	WIN32
 WINXP	WINXP
 WOLAI	WOLAI
@@ -46253,7 +45682,6 @@ ISRAEL	ISRAEL
 ITALIA	ITALIA
 ITHACA	ITHACA
 IVOIRE	IVOIRE
-JJ LIN	JJLIN
 JACKIE	JACKIE
 JACOBS	JACOBS
 JANICE	JANICE
@@ -46383,7 +45811,6 @@ OKHTTP	OKHTTP
 OLDHAM	OLDHAM
 OLIVER	OLIVER
 OLIVIA	OLIVIA
-ONE UI	ONEUI
 ONEKEY	ONEKEY
 OPENAI	OPENAI
 OPENCC	OPENCC
@@ -49301,7 +48728,6 @@ BERLIOS	BERLIOS
 BETHANY	BETHANY
 BEVERLY	BEVERLY
 BEYONCE	BEYONCE
-BIG SUR	BIGSUR
 BINANCE	BINANCE
 BINGBOT	BINGBOT
 BITCOIN	BITCOIN
@@ -49368,7 +48794,6 @@ CUMBRIA	CUMBRIA
 CYNTHIA	CYNTHIA
 DANIELS	DANIELS
 DARCULA	DARCULA
-DAY ONE	DAYONE
 DAYTONA	DAYTONA
 DEBORAH	DEBORAH
 DECATUR	DECATUR
@@ -49404,7 +48829,6 @@ ERITREA	ERITREA
 EVEREST	EVEREST
 EVERETT	EVERETT
 EZEKIEL	EZEKIEL
-FACE ID	FACEID
 FAIRFAX	FAIRFAX
 FALCONX	FALCONX
 FARRELL	FARRELL
@@ -49421,7 +48845,6 @@ FRANKIE	FRANKIE
 FREDDIE	FREDDIE
 FREEBSD	FREEBSD
 FRIDAYS	FRIDAYS
-G SUITE	GSUITE
 GALGAME	GALGAME
 GALILEO	GALILEO
 GAMESPY	GAMESPY
@@ -49487,7 +48910,6 @@ IPSWICH	IPSWICH
 IRANIAN	IRANIAN
 IRELAND	IRELAND
 ISRAELI	ISRAELI
-IT'S ME	IT'SME
 ITALIAN	ITALIAN
 JACKSON	JACKSON
 JACQUES	JACQUES
@@ -49495,7 +48917,6 @@ JAKARTA	JAKARTA
 JAMAICA	JAMAICA
 JAMESON	JAMESON
 JANUARY	JANUARY
-JAVA EE	JAVAEE
 JEFFREY	JEFFREY
 JENKINS	JENKINS
 JESSICA	JESSICA
@@ -49520,7 +48941,6 @@ KNOWLES	KNOWLES
 KRISHNA	KRISHNA
 KRISTEN	KRISTEN
 KRISTIN	KRISTIN
-KUNG FU	KUNGFU
 KURDISH	KURDISH
 KUROMIS	KUROMIS
 KYOCERA	KYOCERA
@@ -49539,7 +48959,6 @@ LIPITOR	LIPITOR
 LORENZO	LORENZO
 LUBBOCK	LUBBOCK
 LYRICSX	LYRICSX
-MAC PRO	MACPRO
 MACBOOK	MACBOOK
 MACTIPS	MACTIPS
 MACTYPE	MACTYPE
@@ -49647,7 +49066,6 @@ RAYCAST	RAYCAST
 RAYMOND	RAYMOND
 READKIT	READKIT
 REBECCA	REBECCA
-RED HAT	REDHAT
 REDMOND	REDMOND
 REGULEX	REGULEX
 RENAULT	RENAULT
@@ -49750,8 +49168,6 @@ UNICODE	UNICODE
 UNIGRAM	UNIGRAM
 UNISWAP	UNISWAP
 UPSCAYL	UPSCAYL
-USER ID	USERID
-VS CODE	VSCODE
 VALERIE	VALERIE
 VANESSA	VANESSA
 VAUGHAN	VAUGHAN
@@ -49766,7 +49182,6 @@ WALTHAM	WALTHAM
 WARLOCK	WARLOCK
 WARWICK	WARWICK
 WATKINS	WATKINS
-WEAK AI	WEAKAI
 WEBCORE	WEBCORE
 WHEATON	WHEATON
 WHITMAN	WHITMAN
@@ -52502,11 +51917,9 @@ ANGLICAN	ANGLICAN
 ANGUILLA	ANGUILLA
 ANTILLES	ANTILLES
 APPIMAGE	APPIMAGE
-APPLE TV	APPLETV
 APPLETON	APPLETON
 AQUARIUS	AQUARIUS
 ARBITRUM	ARBITRUM
-ARGENT X	ARGENTX
 ARKANSAS	ARKANSAS
 ARMENIAN	ARMENIAN
 ASHCROFT	ASHCROFT
@@ -52578,7 +51991,6 @@ DAVIDSON	DAVIDSON
 DECEMBER	DECEMBER
 DEEPMIND	DEEPMIND
 DELIGATE	DELIGATE
-DELL XPS	DELLXPS
 DJIBOUTI	DJIBOUTI
 DOCUSIGN	DOCUSIGN
 DOMINICA	DOMINICA
@@ -52619,7 +52031,6 @@ FREDERIC	FREDERIC
 FRIEDMAN	FRIEDMAN
 FUJIFILM	FUJIFILM
 GALLOWAY	GALLOWAY
-GAME BOY	GAMEBOY
 GAMEFAQS	GAMEFAQS
 GARFIELD	GARFIELD
 GEEKNOTE	GEEKNOTE
@@ -52638,7 +52049,6 @@ GRAVATAR	GRAVATAR
 GRIDMOVE	GRIDMOVE
 GRIFFITH	GRIFFITH
 GUINNESS	GUINNESS
-HTC VIVE	HTCVIVE
 HANDOVER	HANDOVER
 HANNOVER	HANNOVER
 HARRISON	HARRISON
@@ -52681,16 +52091,13 @@ LAWRENCE	LAWRENCE
 LEBANESE	LEBANESE
 LEETCODE	LEETCODE
 LEONARDO	LEONARDO
-LET'S GO	LET'SGO
 LINKEDIN	LINKEDIN
 LOGITECH	LOGITECH
 LORRAINE	LORRAINE
 LUNARVIM	LUNARVIM
 LUTHERAN	LUTHERAN
-MAC MINI	MACMINI
 MACWORLD	MACWORLD
 MAGELLAN	MAGELLAN
-MAGIC UI	MAGICUI
 MAKERDAO	MAKERDAO
 MALLORCA	MALLORCA
 MANITOBA	MANITOBA
@@ -52730,7 +52137,6 @@ MUDVAYNE	MUDVAYNE
 MUHAMMAD	MUHAMMAD
 MURAKAMI	MURAKAMI
 NAMESILO	NAMESILO
-NEW BING	NEWBING
 NEWSWEEK	NEWSWEEK
 NICHOLAS	NICHOLAS
 NICONICO	NICONICO
@@ -52840,7 +52246,6 @@ THOMPSON	THOMPSON
 THORNTON	THORNTON
 THURSDAY	THURSDAY
 TICKTICK	TICKTICK
-TOUCH ID	TOUCHID
 TOULOUSE	TOULOUSE
 TOWNSEND	TOWNSEND
 TUESDAYS	TUESDAYS
@@ -52848,7 +52253,6 @@ TWEETBOT	TWEETBOT
 VALHALLA	VALHALLA
 VAUXHALL	VAUXHALL
 VERISIGN	VERISIGN
-VIDEO CD	VIDEOCD
 VLADIMIR	VLADIMIR
 VODAFONE	VODAFONE
 WATERFOX	WATERFOX
@@ -52868,7 +52272,6 @@ WOLFGANG	WOLFGANG
 WONDERCV	WONDERCV
 WOODWARD	WOODWARD
 WORLDCAT	WORLDCAT
-XBOX ONE	XBOXONE
 YOSEMITE	YOSEMITE
 YOUTUBER	YOUTUBER
 YUGOSLAV	YUGOSLAV
@@ -53927,8 +53330,6 @@ HUSBANDS	HUSBANDS
 HYDROGEN	HYDROGEN
 HYPNOSIS	HYPNOSIS
 IMESSAGE	IMESSAGE
-IPAD AIR	IPADAIR
-IPAD PRO	IPADPRO
 IDEALISM	IDEALISM
 IDENTIFY	IDENTIFY
 IDENTITY	IDENTITY
@@ -55259,9 +54660,6 @@ AMERICANA	AMERICANA
 AMERICANS	AMERICANS
 ANNAPOLIS	ANNAPOLIS
 ANTHROPIC	ANTHROPIC
-APP STORE	APPSTORE
-APPLE PAY	APPLEPAY
-APPLE TV+	APPLETV+
 APPLECARE	APPLECARE
 APPLEGATE	APPLEGATE
 ARGENTINA	ARGENTINA
@@ -55271,8 +54669,6 @@ ASHEVILLE	ASHEVILLE
 ATLASSIAN	ATLASSIAN
 AUGUSTINE	AUGUSTINE
 AUSTRALIA	AUSTRALIA
-BBC EARTH	BBCEARTH
-BNB CHAIN	BNBCHAIN
 BACKBLAZE	BACKBLAZE
 BACKSPACE	BACKSPACE
 BARTENDER	BARTENDER
@@ -55310,7 +54706,6 @@ CHRISTINE	CHRISTINE
 CHRISTMAS	CHRISTMAS
 CHROMEBOX	CHROMEBOX
 CHURCHILL	CHURCHILL
-CINEMA 4D	CINEMA4D
 CLAREMONT	CLAREMONT
 COCOAPODS	COCOAPODS
 COLOMBIAN	COLOMBIAN
@@ -55337,7 +54732,6 @@ FERDINAND	FERDINAND
 FERNANDEZ	FERNANDEZ
 FILEMAKER	FILEMAKER
 FILEVAULT	FILEVAULT
-FINAL CUT	FINALCUT
 FORRESTER	FORRESTER
 FRANCESCO	FRANCESCO
 FRANKFURT	FRANKFURT
@@ -55367,7 +54761,6 @@ HELVETICA	HELVETICA
 HERNANDEZ	HERNANDEZ
 HITCHCOCK	HITCHCOCK
 HOLLYWOOD	HOLLYWOOD
-HONG KONG	HONGKONG
 HOOTSUITE	HOOTSUITE
 HYDERABAD	HYDERABAD
 ICELANDER	ICELANDER
@@ -55384,7 +54777,6 @@ JEFFERSON	JEFFERSON
 JERUSALEM	JERUSALEM
 JETBRAINS	JETBRAINS
 JIMMYWANG	JIMMYWANG
-JOHN WICK	JOHNWICK
 JOSEPHINE	JOSEPHINE
 KALAMAZOO	KALAMAZOO
 KARABINER	KARABINER
@@ -55398,7 +54790,6 @@ LEICESTER	LEICESTER
 LIBREWOLF	LIBREWOLF
 LIGHTROOM	LIGHTROOM
 LINEAGEOS	LINEAGEOS
-LOGIC PRO	LOGICPRO
 LOUISIANA	LOUISIANA
 MACDONALD	MACDONALD
 MACKENZIE	MACKENZIE
@@ -55409,7 +54800,6 @@ MAILFENCE	MAILFENCE
 MALAYSIAN	MALAYSIAN
 MANHATTAN	MANHATTAN
 MANSFIELD	MANSFIELD
-MARK TEXT	MARKTEXT
 MARQUETTE	MARQUETTE
 MAVERICKS	MAVERICKS
 MCCARTNEY	MCCARTNEY
@@ -55420,7 +54810,6 @@ MIDDLESEX	MIDDLESEX
 MIDDLETON	MIDDLETON
 MISSWARMJ	MISSWARMJ
 NAMECHEAP	NAMECHEAP
-NARROW AI	NARROWAI
 NATHANIEL	NATHANIEL
 NEDERLAND	NEDERLAND
 NETSETMAN	NETSETMAN
@@ -55428,14 +54817,11 @@ NEXITALLY	NEXITALLY
 NICHOLSON	NICHOLSON
 NIGHTWISH	NIGHTWISH
 NOTEPAD++	NOTEPAD++
-NOTION AI	NOTIONAI
 OCEANBASE	OCEANBASE
 OMMWRITER	OMMWRITER
 OMNIFOCUS	OMNIFOCUS
-ONE PIECE	ONEPIECE
 PAINTCODE	PAINTCODE
 PAKISTANI	PAKISTANI
-PALO ALTO	PALOALTO
 PARKINSON	PARKINSON
 PATAGONIA	PATAGONIA
 PENSACOLA	PENSACOLA
@@ -55443,7 +54829,6 @@ PHOTODESK	PHOTODESK
 PHOTOSHOP	PHOTOSHOP
 PINTEREST	PINTEREST
 PLISTEDIT	PLISTEDIT
-POCKET PC	POCKETPC
 POLYNESIA	POLYNESIA
 POWERBOOK	POWERBOOK
 POWERPACK	POWERPACK
@@ -55484,7 +54869,6 @@ STARBUCKS	STARBUCKS
 STEPHANIE	STEPHANIE
 STEVENSON	STEVENSON
 STRATFORD	STRATFORD
-STRONG AI	STRONGAI
 STUTTGART	STUTTGART
 SUGABABES	SUGABABES
 SUPERLIST	SUPERLIST
@@ -55492,8 +54876,6 @@ SUSHISWAP	SUSHISWAP
 SWAROVSKI	SWAROVSKI
 TELEFLORA	TELEFLORA
 TEXTASTIC	TEXTASTIC
-TOUCH BAR	TOUCHBAR
-TRAVIS CI	TRAVISCI
 TRUSTPASS	TRUSTPASS
 UKRAINIAN	UKRAINIAN
 UNCLUTTER	UNCLUTTER
@@ -55511,8 +54893,6 @@ WIKIMEDIA	WIKIMEDIA
 WILKINSON	WILKINSON
 WILTSHIRE	WILTSHIRE
 WIMBLEDON	WIMBLEDON
-WINDOWS 7	WINDOWS7
-WINDOWS 8	WINDOWS8
 WOODSTOCK	WOODSTOCK
 WORDPRESS	WORDPRESS
 WORKFLOWY	WORKFLOWY
@@ -56096,7 +55476,6 @@ DRAGONFLY	DRAGONFLY
 DUPLICATE	DUPLICATE
 DWELLINGS	DWELLINGS
 DYNAMICAL	DYNAMICAL
-EM CLIENT	EMCLIENT
 ECCENTRIC	ECCENTRIC
 ECOMMERCE	ECOMMERCE
 ECONOMICS	ECONOMICS
@@ -56391,7 +55770,6 @@ HYDRAULIC	HYDRAULIC
 HYPERLINK	HYPERLINK
 HYPERTEXT	HYPERTEXT
 HYPOCRISY	HYPOCRISY
-IPAD MINI	IPADMINI
 IDENTICAL	IDENTICAL
 IGNORANCE	IGNORANCE
 ILLEGALLY	ILLEGALLY
@@ -57422,22 +56800,17 @@ ZOOPHILIA	ZOOPHILIA
 AFTERSHOKZ	AFTERSHOKZ
 ALEXANDRIA	ALEXANDRIA
 AMYTELECOM	AMYTELECOM
-ANT DESIGN	ANTDESIGN
 ANTARCTICA	ANTARCTICA
 APPCLEANER	APPCLEANER
 APPLECARE+	APPLECARE+
-APPLIED AI	APPLIEDAI
-ARCH LINUX	ARCHLINUX
 AUSTRALIAN	AUSTRALIAN
 AUTOHOTKEY	AUTOHOTKEY
 BERNARDINO	BERNARDINO
-BETTER ZIP	BETTERZIP
 BITTORRENT	BITTORRENT
 BLOOMFIELD	BLOOMFIELD
 BRIDGEPORT	BRIDGEPORT
 BUCKINGHAM	BUCKINGHAM
 BUNDLEHUNT	BUNDLEHUNT
-CD PROJEKT	CDPROJEKT
 CALIFORNIA	CALIFORNIA
 CHARLESTON	CHARLESTON
 CHEATSHEET	CHEATSHEET
@@ -57447,8 +56820,6 @@ CHRISTIANS	CHRISTIANS
 CHROMEBOOK	CHROMEBOOK
 CHROMECAST	CHROMECAST
 CINDERELLA	CINDERELLA
-CLASH META	CLASHMETA
-CLASHX PRO	CLASHXPRO
 CLEARWATER	CLEARWATER
 CLOUDFRONT	CLOUDFRONT
 CLOUDMAGIC	CLOUDMAGIC
@@ -57463,7 +56834,6 @@ CRAIGSLIST	CRAIGSLIST
 CUMBERLAND	CUMBERLAND
 CUNNINGHAM	CUNNINGHAM
 DEVONTHINK	DEVONTHINK
-DAISY DISK	DAISYDISK
 DARLINGTON	DARLINGTON
 DARUSSALAM	DARUSSALAM
 DERBYSHIRE	DERBYSHIRE
@@ -57472,7 +56842,6 @@ DISNEYLAND	DISNEYLAND
 DUCKDUCKGO	DUCKDUCKGO
 ECONPAPERS	ECONPAPERS
 ELETROBOOM	ELETROBOOM
-EPIC GAMES	EPICGAMES
 EVANSVILLE	EVANSVILLE
 FAHRENHEIT	FAHRENHEIT
 FARMINGTON	FARMINGTON
@@ -57481,39 +56850,31 @@ FITZGERALD	FITZGERALD
 GARAGEBAND	GARAGEBAND
 GEORGETOWN	GEORGETOWN
 GLOUCESTER	GLOUCESTER
-GOOGLE ADS	GOOGLEADS
-GOOGLE ONE	GOOGLEONE
 GREENVILLE	GREENVILLE
 GRENADINES	GRENADINES
 GUADELOUPE	GUADELOUPE
-HP SPECTRE	HPSPECTRE
 HARRINGTON	HARRINGTON
 HARRISBURG	HARRISBURG
 HEIDELBERG	HEIDELBERG
 HEISENBERG	HEISENBERG
 HUNTSVILLE	HUNTSVILLE
 HUTCHINSON	HUTCHINSON
-IBM WATSON	IBMWATSON
 INSTAPAPER	INSTAPAPER
 INSTASHARE	INSTASHARE
 JACQUELINE	JACQUELINE
 JAVASCRIPT	JAVASCRIPT
 KAZAKHSTAN	KAZAKHSTAN
 KEYPIRINHA	KEYPIRINHA
-KIP MIRTLE	KIPMIRTLE
 KUBERNETES	KUBERNETES
 KURZGESAGT	KURZGESAGT
 KYRGYZSTAN	KYRGYZSTAN
 LANCASHIRE	LANCASHIRE
-LEGAL HIGH	LEGALHIGH
 LEXISNEXIS	LEXISNEXIS
 LITHUANIAN	LITHUANIAN
 LIVERELOAD	LIVERELOAD
 LIVINGSTON	LIVINGSTON
 LOCKSCREEN	LOCKSCREEN
 LOUISVILLE	LOUISVILLE
-MAC RUMORS	MACRUMORS
-MAC STUDIO	MACSTUDIO
 MANCHESTER	MANCHESTER
 MARTINIQUE	MARTINIQUE
 MAURITANIA	MAURITANIA
@@ -57528,13 +56889,9 @@ MONTSERRAT	MONTSERRAT
 MUSIXMATCH	MUSIXMATCH
 NEDERLANDS	NEDERLANDS
 NICKELBACK	NICKELBACK
-OFFICE 365	OFFICE365
-OPENAI API	OPENAIAPI
 OPENOFFICE	OPENOFFICE
-PDF EXPERT	PDFEXPERT
 PHILIPPINE	PHILIPPINE
 PHILPPINES	PHILPPINES
-PIED PIPER	PIEDPIPER
 PIXELMATOR	PIXELMATOR
 PORTUGUESE	PORTUGUESE
 POSTMERIDY	POSTMERIDY
@@ -57543,10 +56900,8 @@ PRESTASHOP	PRESTASHOP
 PROTRACTOR	PROTRACTOR
 RESCUETIME	RESCUETIME
 RICHARDSON	RICHARDSON
-SQL SERVER	SQLSERVER
 SQLALCHEMY	SQLALCHEMY
 SALESFORCE	SALESFORCE
-SAUCE LABS	SAUCELABS
 SCOOBY-DOO	SCOOBY-DOO
 SCREENFLOW	SCREENFLOW
 SENNHEISER	SENNHEISER
@@ -57559,8 +56914,6 @@ SOUNDCLOUD	SOUNDCLOUD
 SOURCETREE	SOURCETREE
 SPENCERWOO	SPENCERWOO
 SPIDER-MAN	SPIDER-MAN
-STEAM DECK	STEAMDECK
-STEVE JOBS	STEVEJOBS
 SUPERPAGES	SUPERPAGES
 SUTHERLAND	SUTHERLAND
 TAJIKISTAN	TAJIKISTAN
@@ -57571,23 +56924,16 @@ TESTFLIGHT	TESTFLIGHT
 TINKERTOOL	TINKERTOOL
 TRAVELODGE	TRAVELODGE
 TYPESCRIPT	TYPESCRIPT
-UNIX SHELL	UNIXSHELL
 UZBEKISTAN	UZBEKISTAN
 VANDERBILT	VANDERBILT
-VISION PRO	VISIONPRO
 WAPPALYZER	WAPPALYZER
-WECHAT PAY	WECHATPAY
 WEDNESDAYS	WEDNESDAYS
 WELLBUTRIN	WELLBUTRIN
 WILLIAMSON	WILLIAMSON
 WILMINGTON	WILMINGTON
-WINDOWS 10	WINDOWS10
-WINDOWS 11	WINDOWS11
-WINDOWS XP	WINDOWSXP
 WUNDERLIST	WUNDERLIST
 XTRAFINDER	XTRAFINDER
 YUGOSLAVIA	YUGOSLAVIA
-ZERO TRUST	ZEROTRUST
 ABORIGINAL	ABORIGINAL
 ABSOLUTELY	ABSOLUTELY
 ABSORPTION	ABSORPTION
@@ -58928,15 +58274,8 @@ WORKAROUND	WORKAROUND
 WORKSHEETS	WORKSHEETS
 WORTHWHILE	WORTHWHILE
 YOURSELVES	YOURSELVES
-ADULT VIDEO	ADULTVIDEO
-AERON CHAIR	AERONCHAIR
-AIRPODS MAX	AIRPODSMAX
-AIRPODS PRO	AIRPODSPRO
 AMPHETAMINE	AMPHETAMINE
 APPALACHIAN	APPALACHIAN
-APPLE MUSIC	APPLEMUSIC
-APPLE STORE	APPLESTORE
-APPLE WATCH	APPLEWATCH
 AUSTRALASIA	AUSTRALASIA
 AUSTRALIANS	AUSTRALIANS
 BAIDUSPIDER	BAIDUSPIDER
@@ -58951,81 +58290,50 @@ CHATTANOOGA	CHATTANOOGA
 CHEMBIODRAW	CHEMBIODRAW
 CHRISTENSEN	CHRISTENSEN
 CHRISTOPHER	CHRISTOPHER
-CLASH VERGE	CLASHVERGE
-CLEANSHOT X	CLEANSHOTX
 CLOPIDOGREL	CLOPIDOGREL
-CODE RUNNER	CODERUNNER
 CORINTHIANS	CORINTHIANS
 CRYPTOMATOR	CRYPTOMATOR
-DRAGON BALL	DRAGONBALL
 DREAMWEAVER	DREAMWEAVER
 ESCHERICHIA	ESCHERICHIA
 FANTASTICAL	FANTASTICAL
-FORCE TOUCH	FORCETOUCH
-FUNTOUCH OS	FUNTOUCHOS
 GAINESVILLE	GAINESVILLE
-GIF BREWERY	GIFBREWERY
-GOOGLE BARD	GOOGLEBARD
-GREASY FORK	GREASYFORK
 HAMMERSPOON	HAMMERSPOON
-HARMONY ONE	HARMONYONE
-HELLO WORLD	HELLOWORLD
 HERZEGOVINA	HERZEGOVINA
-HIGH SIERRA	HIGHSIERRA
 LAMBORGHINI	LAMBORGHINI
 LENDINGTREE	LENDINGTREE
-LIVE PHOTOS	LIVEPHOTOS
 LIVEJOURNAL	LIVEJOURNAL
-MIT LICENSE	MITLICENSE
 MACAPPDEALS	MACAPPDEALS
-MACBOOK AIR	MACBOOKAIR
-MACBOOK PRO	MACBOOKPRO
 MAHARASHTRA	MAHARASHTRA
 MARKMYWORDS	MARKMYWORDS
 MARLBOROUGH	MARLBOROUGH
-MATRIX TALK	MATRIXTALK
 MISSISSAUGA	MISSISSAUGA
 NETHERLANDS	NETHERLANDS
-NEW ZEALAND	NEWZEALAND
 NORTHAMPTON	NORTHAMPTON
 OBJECTIVE-C	OBJECTIVE-C
-OCULUS RIFT	OCULUSRIFT
 OMNIGRAFFLE	OMNIGRAFFLE
 OXFORDSHIRE	OXFORDSHIRE
-PCI EXPRESS	PCIEXPRESS
 PANCAKESWAP	PANCAKESWAP
-PATH FINDER	PATHFINDER
 PHILIPPINES	PHILIPPINES
 PICTUREVIEW	PICTUREVIEW
 PRICERUNNER	PRICERUNNER
 PRINTSCREEN	PRINTSCREEN
 PROXYCHAINS	PROXYCHAINS
-PUBLIC BETA	PUBLICBETA
-PYCHARM EDU	PYCHARMEDU
-RAZER BLADE	RAZERBLADE
 READABILITY	READABILITY
-ROCKY LINUX	ROCKYLINUX
-SRWARE IRON	SRWAREIRON
 SAGITTARIUS	SAGITTARIUS
 SCARBOROUGH	SCARBOROUGH
 SCREENFLOAT	SCREENFLOAT
 SHADOWSOCKS	SHADOWSOCKS
-SLEEP CYCLE	SLEEPCYCLE
 SOGOUSPIDER	SOGOUSPIDER
 SOURCEFORGE	SOURCEFORGE
 SPIRITFARER	SPIRITFARER
 SPRINGFIELD	SPRINGFIELD
 SQUAREPANTS	SQUAREPANTS
 STACKSOCIAL	STACKSOCIAL
-SUMATRA PDF	SUMATRAPDF
 TALLAHASSEE	TALLAHASSEE
 THUNDERBOLT	THUNDERBOLT
 TRAVELOCITY	TRAVELOCITY
-TURBO BOOST	TURBOBOOST
 WESTCHESTER	WESTCHESTER
-WINDOW TIDY	WINDOWTIDY
 WOOCOMMERCE	WOOCOMMERCE
-XBOX SERIES	XBOXSERIES
 ABSTRACTION	ABSTRACTION
 ACCELERATED	ACCELERATED
 ACCELERATOR	ACCELERATOR
@@ -59422,7 +58730,6 @@ HOUSEHOLDER	HOUSEHOLDER
 HUMILIATION	HUMILIATION
 HYDROCARBON	HYDROCARBON
 HYDROCODONE	HYDROCODONE
-ICLOUD MAIL	ICLOUDMAIL
 IDENTIFIERS	IDENTIFIERS
 IDENTIFYING	IDENTIFYING
 IDEOLOGICAL	IDEOLOGICAL
@@ -59862,45 +59169,22 @@ BROWSERSTACK	BROWSERSTACK
 CHRISTCHURCH	CHRISTCHURCH
 COMPACTFLASH	COMPACTFLASH
 DIGITALOCEAN	DIGITALOCEAN
-DISH NETWORK	DISHNETWORK
-DISK UTILITY	DISKUTILITY
-DON'T STARVE	DON'TSTARVE
 FAYETTEVILLE	FAYETTEVILLE
-GITHUB PAGES	GITHUBPAGES
-GOOGLE GMAIL	GOOGLEGMAIL
-HONEY SELECT	HONEYSELECT
-HYBRID DRIVE	HYBRIDDRIVE
 INDIANAPOLIS	INDIANAPOLIS
 JACKSONVILLE	JACKSONVILLE
 JOHANNESBURG	JOHANNESBURG
 KALEIDOSCOPE	KALEIDOSCOPE
 LINCOLNSHIRE	LINCOLNSHIRE
-MEDIA PLAYER	MEDIAPLAYER
 OMNIOUTLINER	OMNIOUTLINER
-ONEPLUS NORD	ONEPLUSNORD
 PALESTINIANS	PALESTINIANS
 PETERBOROUGH	PETERBOROUGH
-POPCAP GAMES	POPCAPGAMES
-PREMIERE PRO	PREMIEREPRO
 PRICEGRABBER	PRICEGRABBER
-QUANTUMULT X	QUANTUMULTX
-RASPBERRY PI	RASPBERRYPI
-REACT NATIVE	REACTNATIVE
-SECURE SHELL	SECURESHELL
-SNOW LEOPARD	SNOWLEOPARD
-SUBLIME TEXT	SUBLIMETEXT
 SURVEYMONKEY	SURVEYMONKEY
 TEXTEXPANDER	TEXTEXPANDER
 TEXTWRANGLER	TEXTWRANGLER
-TIME CAPSULE	TIMECAPSULE
-TIME MACHINE	TIMEMACHINE
 TURKMENISTAN	TURKMENISTAN
-WACOM CINTIQ	WACOMCINTIQ
-WACOM INTUOS	WACOMINTUOS
 WARWICKSHIRE	WARWICKSHIRE
-WIFI SCANNER	WIFISCANNER
 WILLIAMSBURG	WILLIAMSBURG
-WIRELESS LAN	WIRELESSLAN
 ABBREVIATION	ABBREVIATION
 ACCELERATION	ACCELERATION
 ACCIDENTALLY	ACCIDENTALLY
@@ -60114,9 +59398,6 @@ HOUSEKEEPING	HOUSEKEEPING
 HUMANITARIAN	HUMANITARIAN
 HYPERTENSION	HYPERTENSION
 HYPOTHETICAL	HYPOTHETICAL
-ICLOUD DRIVE	ICLOUDDRIVE
-ITUNES MATCH	ITUNESMATCH
-ITUNES STORE	ITUNESSTORE
 IDENTIFIABLE	IDENTIFIABLE
 ILLUMINATION	ILLUMINATION
 ILLUSTRATION	ILLUSTRATION
@@ -60171,9 +59452,6 @@ KINDERGARTEN	KINDERGARTEN
 LABORATORIES	LABORATORIES
 LOCALIZATION	LOCALIZATION
 LONGITUDINAL	LONGITUDINAL
-MACOS MOJAVE	MACOSMOJAVE
-MACOS SERVER	MACOSSERVER
-MACOS SIERRA	MACOSSIERRA
 MANIPULATION	MANIPULATION
 MANUFACTURED	MANUFACTURED
 MANUFACTURER	MANUFACTURER
@@ -60364,43 +59642,13 @@ VERIFICATION	VERIFICATION
 VOLUNTEERING	VOLUNTEERING
 WATERMARKING	WATERMARKING
 WORKSTATIONS	WORKSTATIONS
-AFTER EFFECTS	AFTEREFFECTS
-ALIBABA GROUP	ALIBABAGROUP
-COCOS CREATOR	COCOSCREATOR
 CODEWHISPERER	CODEWHISPERER
-COLOR SCHEMER	COLORSCHEMER
-COLOR SNAPPER	COLORSNAPPER
 COMPUTERWORLD	COMPUTERWORLD
-CURVE FINANCE	CURVEFINANCE
-FEDORA COREOS	FEDORACOREOS
-FLOW LAUNCHER	FLOWLAUNCHER
-FRANK DELOUPE	FRANKDELOUPE
-GOOGLE CHROME	GOOGLECHROME
-GOOGLE SEARCH	GOOGLESEARCH
 HERTFORDSHIRE	HERTFORDSHIRE
-HOLLOW KNIGHT	HOLLOWKNIGHT
-IDEA ULTIMATE	IDEAULTIMATE
-INTELLIJ IDEA	INTELLIJIDEA
-LENS PROTOCAL	LENSPROTOCAL
-LITTLE SNITCH	LITTLESNITCH
-LOUIS VUITTON	LOUISVUITTON
 MASSACHUSETTS	MASSACHUSETTS
-MICROSOFT 365	MICROSOFT365
-MOUNTAIN LION	MOUNTAINLION
-NEAR PROTOCOL	NEARPROTOCOL
-NEW ZEALANDER	NEWZEALANDER
-PARTY ANIMALS	PARTYANIMALS
-SCREEN STUDIO	SCREENSTUDIO
 STAFFORDSHIRE	STAFFORDSHIRE
 THESSALONIANS	THESSALONIANS
-UNITED STATES	UNITEDSTATES
-UNREAL ENGINE	UNREALENGINE
-VMWARE FUSION	VMWAREFUSION
-VISUAL STUDIO	VISUALSTUDIO
-WIFI EXPLORER	WIFIEXPLORER
-WINDOWS VISTA	WINDOWSVISTA
 WOLVERHAMPTON	WOLVERHAMPTON
-YOUTUBE MUSIC	YOUTUBEMUSIC
 ABBREVIATIONS	ABBREVIATIONS
 ABNORMALITIES	ABNORMALITIES
 ACCESSIBILITY	ACCESSIBILITY
@@ -60545,13 +59793,11 @@ JURISDICTIONS	JURISDICTIONS
 JUSTIFICATION	JUSTIFICATION
 KNOWLEDGEABLE	KNOWLEDGEABLE
 LIECHTENSTEIN	LIECHTENSTEIN
-MACOS VENTURA	MACOSVENTURA
 MACROECONOMIC	MACROECONOMIC
 MANUFACTURERS	MANUFACTURERS
 MANUFACTURING	MANUFACTURING
 MEDITERRANEAN	MEDITERRANEAN
 MERCHANDISING	MERCHANDISING
-MESSENGER RNA	MESSENGERRNA
 METHODOLOGIES	METHODOLOGIES
 MISCELLANEOUS	MISCELLANEOUS
 MISUNDERSTAND	MISUNDERSTAND
@@ -60635,7 +59881,6 @@ TRANSMISSIONS	TRANSMISSIONS
 TRANSNATIONAL	TRANSNATIONAL
 TRANSVESTITES	TRANSVESTITES
 TROUBLEMAKING	TROUBLEMAKING
-UBLOCK ORIGIN	UBLOCKORIGIN
 UNCATEGORIZED	UNCATEGORIZED
 UNCERTAINTIES	UNCERTAINTIES
 UNCOMFORTABLE	UNCOMFORTABLE
@@ -60648,29 +59893,12 @@ UNPRECEDENTED	UNPRECEDENTED
 UNPREDICTABLE	UNPREDICTABLE
 VISUALIZATION	VISUALIZATION
 VULNERABILITY	VULNERABILITY
-AFFINITY PHOTO	AFFINITYPHOTO
-ANDROID POLICE	ANDROIDPOLICE
-BRAAVOS WALLET	BRAAVOSWALLET
 CAMBRIDGESHIRE	CAMBRIDGESHIRE
-CLASH META GUI	CLASHMETAGUI
-CONTROL CENTER	CONTROLCENTER
 COUNTER-STRIKE	COUNTER-STRIKE
-FACETIME AUDIO	FACETIMEAUDIO
-GITHUB COPILOT	GITHUBCOPILOT
-GREAT FIREWALL	GREATFIREWALL
-IDEA COMMUNITY	IDEACOMMUNITY
-JETBRAINS MONO	JETBRAINSMONO
 LEICESTERSHIRE	LEICESTERSHIRE
 NORTHUMBERLAND	NORTHUMBERLAND
-PICKUP ARTISTS	PICKUPARTISTS
 RESERVEAMERICA	RESERVEAMERICA
 SCHWARZENEGGER	SCHWARZENEGGER
-SILICON VALLEY	SILICONVALLEY
-STACK OVERFLOW	STACKOVERFLOW
-STUDIO DISPLAY	STUDIODISPLAY
-SURFACE STUDIO	SURFACESTUDIO
-THE UNARCHIVER	THEUNARCHIVER
-UNITED KINGDOM	UNITEDKINGDOM
 USERDICTIONARY	USERDICTIONARY
 WORCESTERSHIRE	WORCESTERSHIRE
 ACCOMMODATIONS	ACCOMMODATIONS
@@ -60710,10 +59938,8 @@ DISTINGUISHING	DISTINGUISHING
 ELECTRONICALLY	ELECTRONICALLY
 ESTABLISHMENTS	ESTABLISHMENTS
 EXPERIMENTALLY	EXPERIMENTALLY
-FCITX5 ANDROID	FCITX5ANDROID
 GENERALIZATION	GENERALIZATION
 GEOGRAPHICALLY	GEOGRAPHICALLY
-ITUNES CONNECT	ITUNESCONNECT
 IDENTIFICATION	IDENTIFICATION
 IMPLEMENTATION	IMPLEMENTATION
 INFRASTRUCTURE	INFRASTRUCTURE
@@ -60722,8 +59948,6 @@ INTERPLANETARY	INTERPLANETARY
 INTERPRETATION	INTERPRETATION
 INVESTIGATIONS	INVESTIGATIONS
 KNOWLEDGESTORM	KNOWLEDGESTORM
-MACOS CATALINA	MACOSCATALINA
-MACOS MONTEREY	MACOSMONTEREY
 METEOROLOGICAL	METEOROLOGICAL
 MICROPROCESSOR	MICROPROCESSOR
 MULTIPLICATION	MULTIPLICATION
@@ -60759,20 +59983,11 @@ TRANSFORMATION	TRANSFORMATION
 TRANSPORTATION	TRANSPORTATION
 UNDERGRADUATES	UNDERGRADUATES
 UNDERSTANDABLE	UNDERSTANDABLE
-ADOBE PHOTOSHOP	ADOBEPHOTOSHOP
 BIZJOURNALSHIRE	BIZJOURNALSHIRE
 BUCKINGHAMSHIRE	BUCKINGHAMSHIRE
 CHARLOTTESVILLE	CHARLOTTESVILLE
-COINBASE WALLET	COINBASEWALLET
-DAVINCI RESOLVE	DAVINCIRESOLVE
 GLOUCESTERSHIRE	GLOUCESTERSHIRE
-LENOVO THINKPAD	LENOVOTHINKPAD
-LINUS TECH TIPS	LINUSTECHTIPS
-MICROSOFT STORE	MICROSOFTSTORE
-NAVICAT PREMIUM	NAVICATPREMIUM
-NINTENDO SWITCH	NINTENDOSWITCH
 NOTTINGHAMSHIRE	NOTTINGHAMSHIRE
-ORACLE DATABASE	ORACLEDATABASE
 ACCOMPLISHMENTS	ACCOMPLISHMENTS
 ACKNOWLEDGEMENT	ACKNOWLEDGEMENT
 ACKNOWLEDGMENTS	ACKNOWLEDGMENTS
@@ -60794,7 +60009,6 @@ INTERCONNECTION	INTERCONNECTION
 INTERNATIONALLY	INTERNATIONALLY
 INTERPRETATIONS	INTERPRETATIONS
 MERCHANTABILITY	MERCHANTABILITY
-NATIVE AMERICAN	NATIVEAMERICAN
 NOTWITHSTANDING	NOTWITHSTANDING
 PHARMACEUTICALS	PHARMACEUTICALS
 PHOSPHORYLATION	PHOSPHORYLATION
@@ -60810,19 +60024,7 @@ TRANSFORMATIONS	TRANSFORMATIONS
 TRANSPLANTATION	TRANSPLANTATION
 TROUBLESHOOTING	TROUBLESHOOTING
 VULNERABILITIES	VULNERABILITIES
-BACKGROUND MUSIC	BACKGROUNDMUSIC
-CLOUDFLARE PAGES	CLOUDFLAREPAGES
-EMOTIONAL DAMAGE	EMOTIONALDAMAGE
-IMPOSTOR FACTORY	IMPOSTORFACTORY
-KEYBOARD MAESTRO	KEYBOARDMAESTRO
-LANGUAGE REACTOR	LANGUAGEREACTOR
-MUSIC TELEVISION	MUSICTELEVISION
 NORTHAMPTONSHIRE	NORTHAMPTONSHIRE
-OPERATING SYSTEM	OPERATINGSYSTEM
-QUICKTIME PLAYER	QUICKTIMEPLAYER
-READ-ONLY MEMORY	READ-ONLYMEMORY
-WALLPAPER ENGINE	WALLPAPERENGINE
-WINDOWS TERMINAL	WINDOWSTERMINAL
 ACKNOWLEDGEMENTS	ACKNOWLEDGEMENTS
 AIR-CONDITIONING	AIR-CONDITIONING
 CHARACTERIZATION	CHARACTERIZATION
@@ -60831,46 +60033,12 @@ GASTROINTESTINAL	GASTROINTESTINAL
 INTERCONTINENTAL	INTERCONTINENTAL
 INTEROPERABILITY	INTEROPERABILITY
 RESPONSIBILITIES	RESPONSIBILITIES
-AFFINITY DESIGNER	AFFINITYDESIGNER
-APACHE SUBVERSION	APACHESUBVERSION
-CLOUDFLARE IMAGES	CLOUDFLAREIMAGES
-CLOUDFLARE STREAM	CLOUDFLARESTREAM
-DEVELOPER PREVIEW	DEVELOPERPREVIEW
-GOOGLE GEMINI APP	GOOGLEGEMINIAPP
-INTERNET EXPLORER	INTERNETEXPLORER
-MACUPDATE DESKTOP	MACUPDATEDESKTOP
-MICROSOFT OUTLOOK	MICROSOFTOUTLOOK
-PARALLELS DESKTOP	PARALLELSDESKTOP
-ROLE-PLAYING GAME	ROLE-PLAYINGGAME
-SOLID-STATE DRIVE	SOLID-STATEDRIVE
-UNIVERSAL ACTIONS	UNIVERSALACTIONS
-VAMPIRE SURVIVORS	VAMPIRESURVIVORS
 INTERDISCIPLINARY	INTERDISCIPLINARY
 INTERGOVERNMENTAL	INTERGOVERNMENTAL
 MULTIDISCIPLINARY	MULTIDISCIPLINARY
 TELECOMMUNICATION	TELECOMMUNICATION
-AFTERSHOKZ AEROPEX	AFTERSHOKZAEROPEX
-CLOUDFLARE WORKERS	CLOUDFLAREWORKERS
-NON-FUNGIBLE TOKEN	NON-FUNGIBLETOKEN
-SCRIBBLE DIFFUSION	SCRIBBLEDIFFUSION
-SIMPLIFIED CHINESE	SIMPLIFIEDCHINESE
-VMWARE WORKSTATION	VMWAREWORKSTATION
 TELECOMMUNICATIONS	TELECOMMUNICATIONS
 UNGOOGLED-CHROMIUM	UNGOOGLED-CHROMIUM
-TRADITIONAL CHINESE	TRADITIONALCHINESE
 RIME-RADICAL-PINYIN	RIME-RADICAL-PINYIN
-DOWNLOADABLE CONTENT	DOWNLOADABLECONTENT
 MODEL-VIEW-VIEWMODEL	MODEL-VIEW-VIEWMODEL
-NON-PLAYER CHARACTER	NON-PLAYERCHARACTER
-RANDOM-ACCESS MEMORY	RANDOM-ACCESSMEMORY
-APPLE MUSIC CLASSCIAL	APPLEMUSICCLASSCIAL
-CHAMPION'S INEQUALITY	CHAMPION'SINEQUALITY
-DON'T STARVE TOGETHER	DON'TSTARVETOGETHER
-INTELLIGENCE QUOTIENT	INTELLIGENCEQUOTIENT
 MODEL-VIEW-CONTROLLER	MODEL-VIEW-CONTROLLER
-SPONGEBOB SQUAREPANTS	SPONGEBOBSQUAREPANTS
-COMMAND-LINE INTERFACE	COMMAND-LINEINTERFACE
-HYPERTEXT PREPROCESSOR	HYPERTEXTPREPROCESSOR
-DENIAL-OF-SERVICE ATTACK	DENIAL-OF-SERVICEATTACK
-CLOSED-CIRCUIT TELEVISION	CLOSED-CIRCUITTELEVISION
-NON-GOVERNMENTAL ORGANIZATION	NON-GOVERNMENTALORGANIZATION

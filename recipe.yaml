@@ -19,8 +19,9 @@ install_files: >-
   weasel.yaml
   default.yaml
   ibus_rime.yaml
-  cn_dicts/*
-  en_dicts/*
+  cn_dicts/*.txt
+  cn_dicts/*.yaml
+  en_dicts/*.yaml
   preview/*
   opencc/*
   lua/*

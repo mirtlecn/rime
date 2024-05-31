@@ -1082,7 +1082,6 @@ Noah
 Nora
 OCSP
 OPPO
-OS X
 Oahu
 Oder
 Odoo
@@ -2613,9 +2612,6 @@ tion
 tips
 tire
 tits
-to B
-to C
-to G
 toad
 toby
 todo
@@ -3244,9 +3240,6 @@ Trina
 Trish
 Twink
 Tyson
-USB 2
-USB 3
-USB 4
 USB-A
 USB-B
 USB-C
@@ -3272,7 +3265,6 @@ Watts
 Wayne
 White
 Wi-Fi
-Wii U
 Win32
 WinXP
 Wolai
@@ -5780,7 +5772,6 @@ Israel
 Italia
 Ithaca
 Ivoire
-JJ Lin
 Jackie
 Jacobs
 Janice
@@ -5912,7 +5903,6 @@ OkHttp
 Oldham
 Oliver
 Olivia
-One UI
 OneKey
 OpenAI
 OpenCC
@@ -8844,7 +8834,6 @@ BerliOS
 Bethany
 Beverly
 Beyonce
-Big Sur
 Binance
 Bingbot
 Bitcoin
@@ -8913,7 +8902,6 @@ Cumbria
 Cynthia
 Daniels
 Darcula
-Day One
 Daytona
 Deborah
 Decatur
@@ -8950,7 +8938,6 @@ Eritrea
 Everest
 Everett
 Ezekiel
-Face ID
 Fairfax
 FalconX
 Farrell
@@ -8967,7 +8954,6 @@ Frankie
 Freddie
 FreeBSD
 Fridays
-G Suite
 GalGame
 Galileo
 GameSpy
@@ -9033,7 +9019,6 @@ Ipswich
 Iranian
 Ireland
 Israeli
-It's me
 Italian
 Jackson
 Jacques
@@ -9041,7 +9026,6 @@ Jakarta
 Jamaica
 Jameson
 January
-Java EE
 Jeffrey
 Jenkins
 Jessica
@@ -9066,7 +9050,6 @@ Knowles
 Krishna
 Kristen
 Kristin
-Kung Fu
 Kurdish
 Kuromis
 Kyocera
@@ -9085,7 +9068,6 @@ Lipitor
 Lorenzo
 Lubbock
 LyricsX
-Mac Pro
 MacBook
 MacTips
 MacType
@@ -9195,7 +9177,6 @@ Raycast
 Raymond
 Readkit
 Rebecca
-Red Hat
 Redmond
 Regulex
 Renault
@@ -9298,8 +9279,6 @@ Unicode
 Unigram
 Uniswap
 Upscayl
-User ID
-VS Code
 Valerie
 Vanessa
 Vaughan
@@ -9315,7 +9294,6 @@ Waltham
 Warlock
 Warwick
 Watkins
-Weak AI
 WebCore
 Wheaton
 Whitman
@@ -12054,11 +12032,9 @@ Anglican
 Anguilla
 Antilles
 Appimage
-Apple TV
 Appleton
 Aquarius
 Arbitrum
-Argent X
 Arkansas
 Armenian
 Ashcroft
@@ -12131,7 +12107,6 @@ Davidson
 December
 DeepMind
 Deligate
-Dell XPS
 Djibouti
 DocuSign
 Dominica
@@ -12173,7 +12148,6 @@ Frederic
 Friedman
 FujiFilm
 Galloway
-Game Boy
 GameFAQs
 Garfield
 GeekNote
@@ -12192,7 +12166,6 @@ Gravatar
 GridMove
 Griffith
 Guinness
-HTC Vive
 Handover
 Hannover
 Harrison
@@ -12207,7 +12180,6 @@ Homebrew
 Houghton
 Humboldt
 Humphrey
-ISO 8601
 InDesign
 Infiniti
 Inspiron
@@ -12236,17 +12208,13 @@ Lawrence
 Lebanese
 LeetCode
 Leonardo
-Let's Go
 LinkedIn
 Logitech
 Lorraine
 LunarVim
 Lutheran
-MAMP PRO
-Mac mini
 Macworld
 Magellan
-Magic UI
 MakerDAO
 Mallorca
 Manitoba
@@ -12286,7 +12254,6 @@ Mudvayne
 Muhammad
 Murakami
 NameSilo
-New Bing
 Newsweek
 Nicholas
 Niconico
@@ -12329,7 +12296,6 @@ Promotee
 Provence
 Pythonic
 Qualcomm
-RFC 3339
 Radisson
 Randolph
 Retrofit
@@ -12397,7 +12363,6 @@ Thompson
 Thornton
 Thursday
 TickTick
-Touch ID
 Toulouse
 Townsend
 Tuesdays
@@ -12405,7 +12370,6 @@ Tweetbot
 Valhalla
 Vauxhall
 Verisign
-Video CD
 Vladimir
 Vodafone
 Waterfox
@@ -12425,7 +12389,6 @@ Wolfgang
 WonderCV
 Woodward
 WorldCat
-Xbox One
 Yosemite
 YouTuber
 Yugoslav
@@ -13486,8 +13449,6 @@ husbands
 hydrogen
 hypnosis
 iMessage
-iPad Air
-iPad Pro
 idealism
 identify
 identity
@@ -14818,9 +14779,6 @@ Americana
 Americans
 Annapolis
 Anthropic
-App Store
-Apple Pay
-Apple TV+
 AppleCare
 Applegate
 Argentina
@@ -14830,8 +14788,6 @@ Asheville
 Atlassian
 Augustine
 Australia
-BBC Earth
-BNB Chain
 Backblaze
 Backspace
 Bartender
@@ -14869,7 +14825,6 @@ Christine
 Christmas
 Chromebox
 Churchill
-Cinema 4D
 Claremont
 CocoaPods
 Colombian
@@ -14896,7 +14851,6 @@ Ferdinand
 Fernandez
 FileMaker
 FileVault
-Final Cut
 Forrester
 Francesco
 Frankfurt
@@ -14926,7 +14880,6 @@ Helvetica
 Hernandez
 Hitchcock
 Hollywood
-Hong Kong
 Hootsuite
 Hyderabad
 Icelander
@@ -14943,7 +14896,6 @@ Jefferson
 Jerusalem
 JetBrains
 JimmyWang
-John Wick
 Josephine
 Kalamazoo
 Karabiner
@@ -14957,7 +14909,6 @@ Leicester
 LibreWolf
 Lightroom
 LineageOS
-Logic Pro
 Louisiana
 MacDonald
 Mackenzie
@@ -14968,7 +14919,6 @@ Mailfence
 Malaysian
 Manhattan
 Mansfield
-Mark Text
 Marquette
 Mavericks
 McCartney
@@ -14979,7 +14929,6 @@ Middlesex
 Middleton
 MissWarmJ
 NameCheap
-Narrow AI
 Nathaniel
 Nederland
 NetSetMan
@@ -14987,14 +14936,11 @@ Nexitally
 Nicholson
 Nightwish
 Notepad++
-Notion AI
 OceanBase
 OmmWriter
 OmniFocus
-One Piece
 PaintCode
 Pakistani
-Palo Alto
 Parkinson
 Patagonia
 Pensacola
@@ -15002,7 +14948,6 @@ PhotoDesk
 Photoshop
 Pinterest
 PlistEdit
-Pocket PC
 Polynesia
 PowerBook
 PowerPack
@@ -15043,7 +14988,6 @@ Starbucks
 Stephanie
 Stevenson
 Stratford
-Strong AI
 Stuttgart
 Sugababes
 Superlist
@@ -15051,8 +14995,6 @@ SushiSwap
 Swarovski
 Teleflora
 Textastic
-Touch Bar
-Travis CI
 TrustPass
 Ukrainian
 Unclutter
@@ -15070,8 +15012,6 @@ Wikimedia
 Wilkinson
 Wiltshire
 Wimbledon
-Windows 7
-Windows 8
 Woodstock
 WordPress
 WorkFlowy
@@ -15656,7 +15596,6 @@ dragonfly
 duplicate
 dwellings
 dynamical
-eM Client
 eccentric
 ecommerce
 economics
@@ -15951,7 +15890,6 @@ hydraulic
 hyperlink
 hypertext
 hypocrisy
-iPad mini
 identical
 ignorance
 illegally
@@ -16982,22 +16920,17 @@ zoophilia
 AfterShokz
 Alexandria
 AmyTelecom
-Ant Design
 Antarctica
 AppCleaner
 AppleCare+
-Applied AI
-Arch Linux
 Australian
 AutoHotkey
 Bernardino
-Better Zip
 Bittorrent
 Bloomfield
 Bridgeport
 Buckingham
 BundleHunt
-CD Projekt
 California
 Charleston
 CheatSheet
@@ -17007,8 +16940,6 @@ Christians
 Chromebook
 Chromecast
 Cinderella
-Clash Meta
-ClashX Pro
 Clearwater
 CloudFront
 CloudMagic
@@ -17023,7 +16954,6 @@ Craigslist
 Cumberland
 Cunningham
 DEVONthink
-Daisy Disk
 Darlington
 Darussalam
 Derbyshire
@@ -17032,7 +16962,6 @@ Disneyland
 DuckDuckGo
 EconPapers
 EletroBOOM
-Epic Games
 Evansville
 Fahrenheit
 Farmington
@@ -17041,39 +16970,31 @@ Fitzgerald
 GarageBand
 Georgetown
 Gloucester
-Google Ads
-Google One
 Greenville
 Grenadines
 Guadeloupe
-HP Spectre
 Harrington
 Harrisburg
 Heidelberg
 Heisenberg
 Huntsville
 Hutchinson
-IBM Watson
 Instapaper
 Instashare
 Jacqueline
 JavaScript
 Kazakhstan
 Keypirinha
-Kip Mirtle
 Kubernetes
 Kurzgesagt
 Kyrgyzstan
 Lancashire
-Legal High
 LexisNexis
 Lithuanian
 LiveReload
 Livingston
 LockScreen
 Louisville
-Mac Rumors
-Mac Studio
 Manchester
 Martinique
 Mauritania
@@ -17088,13 +17009,9 @@ Montserrat
 Musixmatch
 Nederlands
 Nickelback
-Office 365
-OpenAI API
 OpenOffice
-PDF Expert
 Philippine
 Philppines
-Pied Piper
 Pixelmator
 Portuguese
 PostMeridy
@@ -17103,10 +17020,8 @@ PrestaShop
 Protractor
 RescueTime
 Richardson
-SQL Server
 SQLAlchemy
 Salesforce
-Sauce Labs
 Scooby-Doo
 ScreenFlow
 Sennheiser
@@ -17119,8 +17034,6 @@ SoundCloud
 Sourcetree
 SpencerWoo
 Spider-Man
-Steam Deck
-Steve Jobs
 SuperPages
 Sutherland
 Tajikistan
@@ -17131,23 +17044,16 @@ TestFlight
 TinkerTool
 Travelodge
 TypeScript
-Unix shell
 Uzbekistan
 Vanderbilt
-Vision Pro
 Wappalyzer
-WeChat Pay
 Wednesdays
 Wellbutrin
 Williamson
 Wilmington
-Windows 10
-Windows 11
-Windows XP
 Wunderlist
 XtraFinder
 Yugoslavia
-Zero Trust
 aboriginal
 absolutely
 absorption
@@ -18488,15 +18394,8 @@ workaround
 worksheets
 worthwhile
 yourselves
-Adult Video
-Aeron Chair
-AirPods Max
-AirPods Pro
 Amphetamine
 Appalachian
-Apple Music
-Apple Store
-Apple Watch
 Australasia
 Australians
 Baiduspider
@@ -18511,82 +18410,50 @@ Chattanooga
 ChemBioDraw
 Christensen
 Christopher
-Clash Verge
-CleanShot X
 Clopidogrel
-Code Runner
 Corinthians
 Cryptomator
-Dragon Ball
 Dreamweaver
 Escherichia
-FBI WARNING
 Fantastical
-Force Touch
-Funtouch OS
 Gainesville
-Gif Brewery
-Google Bard
-Greasy Fork
 Hammerspoon
-Harmony One
-Hello World
 Herzegovina
-High Sierra
 Lamborghini
 LendingTree
-Live Photos
 LiveJournal
-MIT License
 MacAppDeals
-MacBook Air
-MacBook Pro
 Maharashtra
 MarkMyWords
 Marlborough
-Matrix Talk
 Mississauga
 Netherlands
-New Zealand
 Northampton
 Objective-C
-Oculus Rift
 OmniGraffle
 Oxfordshire
-PCI Express
 PancakeSwap
-Path Finder
 Philippines
 PictureView
 PriceRunner
 PrintScreen
 ProxyChains
-Public Beta
-PyCharm Edu
-Razer Blade
 Readability
-Rocky Linux
-SRWare Iron
 Sagittarius
 Scarborough
 ScreenFloat
 Shadowsocks
-Sleep Cycle
 SogouSpider
 SourceForge
 Spiritfarer
 Springfield
 SquarePants
 StackSocial
-Sumatra PDF
 Tallahassee
 Thunderbolt
 Travelocity
-Turbo Boost
 Westchester
-Window Tidy
 WooCommerce
-Xbox Series
 abstraction
 accelerated
 accelerator
@@ -18983,7 +18850,6 @@ householder
 humiliation
 hydrocarbon
 hydrocodone
-iCloud Mail
 identifiers
 identifying
 ideological
@@ -19423,45 +19289,22 @@ BrowserStack
 Christchurch
 CompactFlash
 DigitalOcean
-Dish Network
-Disk Utility
-Don't Starve
 Fayetteville
-GitHub Pages
-Google Gmail
-Honey Select
-Hybrid drive
 Indianapolis
 Jacksonville
 Johannesburg
 Kaleidoscope
 Lincolnshire
-Media Player
 OmniOutliner
-OnePlus Nord
 Palestinians
 Peterborough
-PopCap Games
-Premiere Pro
 PriceGrabber
-Quantumult X
-Raspberry Pi
-React Native
-Secure Shell
-Snow Leopard
-Sublime Text
 SurveyMonkey
 TextExpander
 TextWrangler
-Time Capsule
-Time Machine
 Turkmenistan
-Wacom Cintiq
-Wacom Intuos
 Warwickshire
-WiFi Scanner
 Williamsburg
-Wireless LAN
 abbreviation
 acceleration
 accidentally
@@ -19675,9 +19518,6 @@ housekeeping
 humanitarian
 hypertension
 hypothetical
-iCloud Drive
-iTunes Match
-iTunes Store
 identifiable
 illumination
 illustration
@@ -19732,9 +19572,6 @@ kindergarten
 laboratories
 localization
 longitudinal
-macOS Mojave
-macOS Server
-macOS Sierra
 manipulation
 manufactured
 manufacturer
@@ -19925,43 +19762,13 @@ verification
 volunteering
 watermarking
 workstations
-After Effects
-Alibaba Group
-Cocos Creator
 CodeWhisperer
-Color Schemer
-Color Snapper
 Computerworld
-Curve Finance
-Fedora CoreOS
-Flow Launcher
-Frank DeLoupe
-Google Chrome
-Google Search
 Hertfordshire
-Hollow Knight
-IDEA Ultimate
-IntelliJ IDEA
-Lens Protocal
-Little Snitch
-Louis Vuitton
 Massachusetts
-Microsoft 365
-Mountain Lion
-NEAR Protocol
-New Zealander
-Party Animals
-Screen Studio
 Staffordshire
 Thessalonians
-United States
-Unreal Engine
-VMware Fusion
-Visual Studio
-WiFi Explorer
-Windows Vista
 Wolverhampton
-YouTube Music
 abbreviations
 abnormalities
 accessibility
@@ -20106,13 +19913,11 @@ jurisdictions
 justification
 knowledgeable
 liechtenstein
-macOS Ventura
 macroeconomic
 manufacturers
 manufacturing
 mediterranean
 merchandising
-messenger RNA
 methodologies
 miscellaneous
 misunderstand
@@ -20196,7 +20001,6 @@ transmissions
 transnational
 transvestites
 troublemaking
-uBlock Origin
 uncategorized
 uncertainties
 uncomfortable
@@ -20209,29 +20013,12 @@ unprecedented
 unpredictable
 visualization
 vulnerability
-Affinity Photo
-Android Police
-Braavos Wallet
 Cambridgeshire
-Clash Meta GUI
-Control Center
 Counter-Strike
-FaceTime Audio
-GitHub Copilot
-Great Firewall
-IDEA Community
-JetBrains Mono
 Leicestershire
 Northumberland
-Pickup Artists
 ReserveAmerica
 Schwarzenegger
-Silicon Valley
-Stack Overflow
-Studio Display
-Surface Studio
-The Unarchiver
-United Kingdom
 UserDictionary
 Worcestershire
 accommodations
@@ -20271,10 +20058,8 @@ distinguishing
 electronically
 establishments
 experimentally
-fcitx5 android
 generalization
 geographically
-iTunes Connect
 identification
 implementation
 infrastructure
@@ -20283,8 +20068,6 @@ interplanetary
 interpretation
 investigations
 knowledgestorm
-macOS Catalina
-macOS Monterey
 meteorological
 microprocessor
 multiplication
@@ -20320,20 +20103,11 @@ transformation
 transportation
 undergraduates
 understandable
-Adobe Photoshop
 Bizjournalshire
 Buckinghamshire
 Charlottesville
-Coinbase Wallet
-DaVinci Resolve
 Gloucestershire
-Lenovo ThinkPad
-Linus Tech Tips
-Microsoft Store
-Navicat Premium
-Nintendo Switch
 Nottinghamshire
-Oracle Database
 accomplishments
 acknowledgement
 acknowledgments
@@ -20355,7 +20129,6 @@ interconnection
 internationally
 interpretations
 merchantability
-native American
 notwithstanding
 pharmaceuticals
 phosphorylation
@@ -20371,19 +20144,7 @@ transformations
 transplantation
 troubleshooting
 vulnerabilities
-Background music
-Cloudflare Pages
-Emotional Damage
-Impostor Factory
-Keyboard Maestro
-Language Reactor
-Music Television
 Northamptonshire
-Operating System
-QuickTime Player
-Read-only memory
-Wallpaper Engine
-Windows Terminal
 acknowledgements
 air-conditioning
 characterization
@@ -20392,46 +20153,12 @@ gastrointestinal
 intercontinental
 interoperability
 responsibilities
-Affinity Designer
-Apache Subversion
-Cloudflare Images
-Cloudflare Stream
-Developer Preview
-Google Gemini App
-Internet Explorer
-MacUpdate Desktop
-Microsoft Outlook
-Parallels Desktop
-Role-Playing Game
-Solid-state drive
-Universal Actions
-Vampire Survivors
 interdisciplinary
 intergovernmental
 multidisciplinary
 telecommunication
-AfterShokz Aeropex
-Cloudflare Workers
-Non-Fungible Token
-Scribble Diffusion
-Simplified Chinese
-VMware Workstation
 telecommunications
 ungoogled-chromium
-Traditional Chinese
 rime-radical-pinyin
-Downloadable content
 Model-View-ViewModel
-Non-Player Character
-Random-access memory
-Apple Music Classcial
-Champion's inequality
-Don't Starve Together
-Intelligence quotient
 Model-View-Controller
-SpongeBob SquarePants
-Command-Line Interface
-Hypertext Preprocessor
-denial-of-service attack
-Closed-Circuit Television
-Non-Governmental Organization
