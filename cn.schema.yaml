@@ -249,7 +249,7 @@ en:
 
 cn_en_flypy:
   dictionary: ""
-  user_dict: cn_en_flypy
+  user_dict: cn_dicts/cn_en_flypy
   db_class: stabledb
   enable_completion: true
   initial_quality: 0.5
