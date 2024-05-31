@@ -5,8 +5,8 @@ recipe:
   description: >-
     all content
 
-download_files: >-
-  https://raw.githubusercontent.com/iDvel/rime-ice/main/en_dicts/cn_en_flypy.txt
+# download_files: >-
+#   https://raw.githubusercontent.com/iDvel/rime-ice/main/en_dicts/cn_en_flypy.txt
 
 install_files: >-
   *.dict.yaml
@@ -19,7 +19,7 @@ install_files: >-
   weasel.yaml
   default.yaml
   ibus_rime.yaml
-  cn_dicts/*.txt
+  cn_dicts/cn_flypy.txt
   cn_dicts/*.yaml
   en_dicts/*.yaml
   preview/*
