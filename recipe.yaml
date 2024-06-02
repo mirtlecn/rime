@@ -13,10 +13,6 @@ install_files: >-
   *.schema.yaml
   zh_CN.txt
   punct.yaml
-  fcitx5.yaml
-  fira.trime.yaml
-  ibus_rime.yaml
-  weasel.yaml
   default.yaml
   cn_dicts/*.txt
   cn_dicts/*.yaml

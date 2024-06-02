@@ -1,0 +1,12 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: fcitx5
+  description: >-
+    fcitx5
+
+# download_files: >-
+#   https://raw.githubusercontent.com/iDvel/rime-ice/main/en_dicts/cn_en_flypy.txt
+
+install_files: >-
+  fcitx5.yaml
