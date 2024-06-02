@@ -72,7 +72,6 @@ h_half:
       min_width: 10
       margin_x: 9
       margin_y: 6
-      spacing: 4
       candidate_spacing: 13
       hilite_spacing: 6
       hilite_padding: 2
@@ -102,7 +101,6 @@ win11:
       margin_x: 16
       margin_y: 8
       border: 2
-      spacing: 20
       hilite_spacing: 4
       hilite_padding: 3
       hilite_padding_x: 8

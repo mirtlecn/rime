@@ -289,7 +289,6 @@ h_half:
   style/layout/min_width: 10
   style/layout/margin_x: 9
   style/layout/margin_y: 6
-  style/layout/spacing: 4
   style/layout/candidate_spacing: 13
   style/layout/hilite_spacing: 6
   style/layout/hilite_padding: 2
@@ -317,7 +316,6 @@ win11:
   style/layout/margin_x: 16
   style/layout/margin_y: 8
   style/layout/border: 2
-  style/layout/spacing: 20
   style/layout/hilite_spacing: 4
   style/layout/hilite_padding: 3
   style/layout/hilite_padding_x: 8
