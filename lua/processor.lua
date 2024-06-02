@@ -177,17 +177,17 @@ function P.func( key, env )
         if utf8.len( text ) and utf8.len( text ) > 1 then
             local a = text:sub( 1, utf8.offset( text, 2 ) - 1 )
             local b = text:sub( utf8.offset( text, -1 ) )
-            if (key:repr() == env.first_key) then
+            if (key:repr() == env.first_key or key:repr()=='Home') then
                 engine:commit_text( a )
                 context:clear()
                 return 1
-            elseif (key:repr() == env.last_key) then
+            elseif (key:repr() == env.last_key or key:repr()=='End') then
                 engine:commit_text( b )
                 context:clear()
                 return 1
             end
         elseif utf8.len( text ) and utf8.len( text ) == 1 then
-            if (key:repr() == env.first_key) or (key:repr() == env.last_key) then
+            if (key:repr() == env.first_key) or (key:repr() == env.last_key or key:repr()=='End' or key:repr()=='Home') then
                 engine:commit_text( text )
                 context:clear()
                 return 1
