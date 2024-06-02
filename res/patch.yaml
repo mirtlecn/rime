@@ -62,23 +62,23 @@ h_half:
   style/+:
     label_format: "%s"
     inline_preedit: true
-    font_point: 15
-    label_font_point: 15
+    font_point: 14
+    label_font_point: 14
     comment_font_point: 13
     horizontal: true
     layout:
       max_height: 0
       max_width: 0
       min_width: 10
-      margin_x: 10
-      margin_y: 8
-      spacing: 16
-      candidate_spacing: 24
+      margin_x: 9
+      margin_y: 6
+      spacing: 4
+      candidate_spacing: 13
       hilite_spacing: 6
-      hilite_padding: 3
+      hilite_padding: 2
       hilite_padding_x: 5
-      corner_radius: 8
-      round_corner: 8
+      corner_radius: 6
+      round_corner: 6
       shadow_radius: 8
       shadow_offset_x: 5
       shadow_offset_y: 5
