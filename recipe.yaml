@@ -15,9 +15,9 @@ install_files: >-
   punct.yaml
   fcitx5.yaml
   fira.trime.yaml
+  ibus_rime.yaml
   weasel.yaml
   default.yaml
-  ibus_rime.yaml
   cn_dicts/*.txt
   cn_dicts/*.yaml
   en_dicts/*.yaml

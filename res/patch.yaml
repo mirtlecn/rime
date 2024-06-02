@@ -45,13 +45,13 @@ h_full:
     comment_font_point: 14
     horizontal: true
     layout:
-      max_width: 1200
+      max_width: 0
       min_width: 10
-      margin_x: 15
-      margin_y: 6
-      hilite_spacing: 6
-      hilite_padding_y: 6
-      hilite_padding_x: 15
+      margin_x: 10
+      margin_y: 4
+      hilite_spacing: 4
+      hilite_padding_y: 4
+      hilite_padding_x: 10
       shadow_radius: 8
       corner_radius: 8
       round_corner: 8
@@ -68,7 +68,7 @@ h_half:
     horizontal: true
     layout:
       max_height: 0
-      max_width: 1200
+      max_width: 0
       min_width: 10
       margin_x: 10
       margin_y: 8
@@ -97,7 +97,7 @@ win11:
     layout:
       align_type: center
       max_height: 0
-      max_width: 1200
+      max_width: 0
       min_width: 10
       margin_x: 16
       margin_y: 8

@@ -266,11 +266,11 @@ h_full:
   style/horizontal: true
   style/layout/max_width: 0
   style/layout/min_width: 10
-  style/layout/margin_x: 15
-  style/layout/margin_y: 6
-  style/layout/hilite_spacing: 6
-  style/layout/hilite_padding_y: 6
-  style/layout/hilite_padding_x: 15
+  style/layout/margin_x: 10
+  style/layout/margin_y: 4
+  style/layout/hilite_spacing: 4
+  style/layout/hilite_padding_y: 4
+  style/layout/hilite_padding_x: 10
   style/layout/shadow_radius: 8
   style/layout/corner_radius: 8
   style/layout/round_corner: 8
