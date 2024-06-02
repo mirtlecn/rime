@@ -318,8 +318,8 @@ punctuator:
   import_preset: default
 
 key_binder:
-  select_first_character: Home
-  select_last_character: End
+  select_first_character: "Control+bracketleft"
+  select_last_character: "Control+bracketright"
   import_preset: default
   search: "`"
   bindings:
