@@ -76,6 +76,7 @@ engine:
     - simplifier@reverse_simp
     - lua_filter@*search
     - lua_filter@*filter
+    - lua_filter@*en_spacer
     - uniquifier
 
 processor:
@@ -384,7 +385,8 @@ recognizer:
   patterns:
     punct: "^``.*$"
     # win_path: "^[A-Za-z]:.*"
-    hyphen: "^[A-Za-z0-9]+[-_/.:'].*"
+    hyphen: "^[A-Za-z0-9]+[-_/.:].*"
+    en_words: "^[A-Za-z]+'[A-Za-z]*"
     reverse_lookup: "^`[a-z;]+$"
     radical_lookup: "^`C[a-z;]+$"
     stroke_lookup: "^`B[hspnz]+$"
