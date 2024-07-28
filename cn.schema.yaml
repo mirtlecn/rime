@@ -30,6 +30,8 @@ switches:
     states: [关, 造]
   - name: search_single_char
     states: [词, 单]
+  - name: en_spacer
+    states: [空, 无]
   - name: completion
     reset: 0
     states: [补, 关]
@@ -215,7 +217,7 @@ parrot_translator:
 filter:
   en_schema: en
   mark_user_dict: false
-  add_space_cn_en: false
+  add_space_cn_en: true
   recode_cn_en: false
   add_space_en: false
   comment_format:
@@ -326,7 +328,8 @@ key_binder:
   bindings:
     - { accept: "Control+Shift+F3", toggle: traditionalize, when: always }
     - { accept: "Control+Shift+F4", toggle: emoji, when: always }
-    - { accept: "Control+Shift+F5", toggle: simplify, when: has_menu }
+    - { accept: "Control+Shift+F5", toggle: en_spacer, when: always }
+    - { accept: "Control+Shift+F6", toggle: simplify, when: has_menu }
     - { accept: "Control+r", toggle: reverse_simp, when: has_menu }
     - { accept: "Control+p", toggle: parrot_translator, when: has_menu }
     - { accept: "Control+s", toggle: search_single_char, when: has_menu }

@@ -32,14 +32,21 @@ function F.init( env )
 end
 
 function F.func( input, env )
-    local latest_text = env.engine.context.commit_history:latest_text()
+    local if_disabled = env.engine.context:get_option( 'en_spacer' )
+    if if_disabled then
+        for cand in input:iter() do yield( cand ) end
+        return
+    end
 
+    local latest_text = env.engine.context.commit_history:latest_text()
     if latest_text and #latest_text > 0 and not latest_text:find( '[%p%s]$' ) and not env.cn_punct[latest_text] then
         for cand in input:iter() do
-            if cand.text:match( '^[%a\']+[%a\']*$' ) then
+            if cand.text:match( "^[%a][%a:_./'%-]*$" ) then
                 cand = cand:to_shadow_candidate( 'en_spacer', cand.text:gsub( '.*', ' %1' ), cand.comment )
-            elseif env.add_space or latest_text:match( '^[%a\']+[%a\']*$' ) then
-                cand = cand:to_shadow_candidate( cand.type, cand.text:gsub( '.*', ' %1' ), cand.comment )
+            elseif env.add_space or latest_text:match( "^[%a][%a:_./'%-]*$" ) or latest_text:match('%d$') then
+                if not cand.text:find( '[%p%s]$' ) and not env.cn_punct[cand.text] then
+                    cand = cand:to_shadow_candidate( cand.type, cand.text:gsub( '.*', ' %1' ), cand.comment )
+                end
             end
             if is_mixed_cn_en_num( cand.text ) then
                 cand = cand:to_shadow_candidate( cand.type, add_spaces( cand.text ), cand.comment )
