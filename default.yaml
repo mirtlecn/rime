@@ -125,6 +125,12 @@ key_binder:
     - { accept: Shift+space, when: composing, send: Eisu_toggle }
     - { accept: Control+space, when: always, toggle: ascii_mode }
     - { accept: Control+space, when: always, send: Eisu_toggle }
+    - { accept: "Alt+j", send: Down, when: has_menu }
+    - { accept: "Alt+k", send: Up, when: has_menu }
+    - { accept: "Alt+l", send: Page_Down, when: has_menu }
+    - { accept: "Alt+h", send: Page_Up, when: has_menu }
+    - { accept: "Alt+bracketleft", send: Home, when: has_menu }
+    - { accept: "Alt+bracketright", send: End, when: has_menu }
     # - { accept: "Control+j", send: Down, when: has_menu }
     # - { accept: "Control+k", send: Up, when: has_menu }
     # - { accept: "Control+l", send: Page_Down, when: has_menu }
