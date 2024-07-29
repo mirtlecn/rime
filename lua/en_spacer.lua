@@ -39,7 +39,10 @@ function F.func( input, env )
     end
 
     local latest_text = env.engine.context.commit_history:latest_text()
-    if latest_text and #latest_text > 0 and not latest_text:find( '[%p%s]$' ) and not env.cn_punct[latest_text] then
+    local input_code = env.engine.context.input
+    local commit_text = env.engine.context:get_commit_text()
+
+    if input_code == commit_text and latest_text and #latest_text > 0 and not latest_text:find( '%s$' ) and not latest_text:match('^%p+$') and not env.cn_punct[latest_text] then
         for cand in input:iter() do
             if cand.text:match( "^[%a][%a:_./'%-]*$" ) then
                 cand = cand:to_shadow_candidate( 'en_spacer', cand.text:gsub( '.*', ' %1' ), cand.comment )
