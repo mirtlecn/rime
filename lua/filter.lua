@@ -62,6 +62,8 @@ function F.func( input, env )
     -- local codeLen = #input_code -- 输入码的长
     -- local commit_text = env.engine.context:get_commit_text()
     -- local index = 0 -- 候选排列次序
+    local completion_cand_count = 0
+    local disable_completion = env.engine.context:get_option( 'completion' )
 
     for cand in input:iter() do
         local type = cand.type -- 类型
@@ -70,8 +72,12 @@ function F.func( input, env )
         -- local preedit = cand.preedit -- preedit 后的编码
         -- local index = index + 1
 
-        if (env.engine.context:get_option( 'completion' ) and not text:find( '%a' ) and type == 'completion') then
-            goto skip
+        -- 汉语多音节补全，个数限定为 1；且提供开关
+        if type == 'completion' and not text:find( '%a' ) then
+            completion_cand_count = completion_cand_count + 1
+            if disable_completion or completion_cand_count > 1 then
+                goto skip
+            end
         end
 
         -- 用作在注释中显示候选的各种信息
