@@ -67,6 +67,8 @@ engine:
     - table_translator@stroke_lookup
     - table_translator@cn_en_flypy
     - lua_translator@*parrot_translator
+    - lua_translator@*unicode
+    - lua_translator@*number_translator
   filters:
     - simplifier@simplify
     - simplifier@emoji
@@ -390,8 +392,8 @@ recognizer:
     reverse_lookup: "^`[a-z;]+$"
     radical_lookup: "^`C[a-z;]+$"
     stroke_lookup: "^`B[hspnz]+$"
-    # unicode: "^`U[a-fA-F0-9]+"
-    # number: "^`[0-9]+[.]?[0-9]*"
+    unicode: "^`U[a-fA-F0-9]+"
+    number: "^`[0-9]+[.]?[0-9]*"
 
 speller:
   alphabet: zyxwvutsrqponmlkjüihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA~`1234567890

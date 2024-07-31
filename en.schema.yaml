@@ -3,7 +3,7 @@
 
 schema:
   schema_id: en
-  name: 英文输入方案
+  name: 英文输入方案 | 小鹤双拼算法
   version: "2024.04"
 
 engine:
