@@ -16,7 +16,6 @@ function F.init( env )
 
     env.show_in_comment = config:get_list( env.name_space .. '/show_in_comment' )
     if env.show_in_comment then return end
-    env.mark_user_dict = config:get_bool( env.name_space .. '/mark_user_dict' )
     env.recode_cn_en = config:get_bool( env.name_space .. '/recode_cn_en' )
     if env.recode_cn_en then
         local schema = config:get_string( env.name_space .. '/en_schema' ) or 'en'
@@ -111,11 +110,6 @@ function F.func( input, env )
 
         -- 删除用标点开头的候选
         if input_code:find( '^%p' ) and text:find( '^[%p]' ) and type == 'completion' then goto skip end
-
-        -- 给用户词标记
-        if env.mark_user_dict and (type == 'user_phrase' or type == 'user_table') then
-            cand.comment = cand.comment .. '^'
-        end
 
         -- 给所有的注释加上特定的字符
         if env.projection and cand.comment and #cand.comment > 0 then

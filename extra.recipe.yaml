@@ -1,0 +1,11 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: extra
+  description: >-
+    extra
+install_files: >-
+  extra/liangfen/*
+  extra/lua/*
+  extra/script/*
+  extra/*.*

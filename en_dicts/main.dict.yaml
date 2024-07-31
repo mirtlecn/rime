@@ -831,7 +831,6 @@ APIs	APIs
 ASAP	ASAP
 ASMR	ASMR
 ASUS	ASUS
-AT&T	AT&T
 AVIF	AVIF
 Aave	Aave
 Abba	Abba
@@ -2865,7 +2864,6 @@ Burma	Burma
 Busch	Busch
 Byrne	Byrne
 Byron	Byron
-CD-RW	CD-RW
 CLion	CLion
 CNAME	CNAME
 CORBA	CORBA
@@ -3006,7 +3004,6 @@ Heinz	Heinz
 Helen	Helen
 Henri	Henri
 Henry	Henry
-Hi-Fi	Hi-Fi
 Hindi	Hindi
 Hobbs	Hobbs
 Huobi	Huobi
@@ -3245,10 +3242,6 @@ Trina	Trina
 Trish	Trish
 Twink	Twink
 Tyson	Tyson
-USB-A	USB-A
-USB-B	USB-B
-USB-C	USB-C
-UTF-8	UTF-8
 VMess	VMess
 Vance	Vance
 Venmo	Venmo
@@ -3269,13 +3262,11 @@ Wanda	Wanda
 Watts	Watts
 Wayne	Wayne
 White	White
-Wi-Fi	Wi-Fi
 Win32	Win32
 WinXP	WinXP
 Wolai	Wolai
 Wolfe	Wolfe
 Wyatt	Wyatt
-X-ray	X-ray
 XHTML	XHTML
 Xcode	Xcode
 Xmind	Xmind
@@ -5614,7 +5605,6 @@ Browne	Browne
 Bruins	Bruins
 Buddha	Buddha
 Byword	Byword
-CD-ROM	CD-ROM
 Caesar	Caesar
 Caicos	Caicos
 Cairns	Cairns
@@ -5689,7 +5679,6 @@ Dunlop	Dunlop
 Durban	Durban
 Dustin	Dustin
 Dwight	Dwight
-ERC-20	ERC-20
 Easter	Easter
 Easton	Easton
 Edison	Edison
@@ -5837,8 +5826,6 @@ Lortab	Lortab
 Louise	Louise
 Lowell	Lowell
 Ludwig	Ludwig
-M-team	M-team
-MS-DOS	MS-DOS
 MacVim	MacVim
 Mackay	Mackay
 Malaga	Malaga
@@ -6045,9 +6032,6 @@ Tumblr	Tumblr
 Tuvalu	Tuvalu
 Twilio	Twilio
 Twitch	Twitch
-Type-A	Type-A
-Type-B	Type-B
-Type-C	Type-C
 Typora	Typora
 UNICEF	UNICEF
 Ubuntu	Ubuntu
@@ -8807,7 +8791,6 @@ Andrews	Andrews
 Aniston	Aniston
 Annette	Annette
 Ansible	Ansible
-Ant-Man	Ant-Man
 Anthony	Anthony
 Antonio	Antonio
 AppCode	AppCode
@@ -8928,7 +8911,6 @@ Douglas	Douglas
 Dresden	Dresden
 Dropbox	Dropbox
 Durango	Durango
-ERC-721	ERC-721
 Eastman	Eastman
 Edwards	Edwards
 Eleanor	Eleanor
@@ -9005,13 +8987,11 @@ Herbert	Herbert
 Hershey	Hershey
 Higgins	Higgins
 Hillary	Hillary
-Hip-Hop	Hip-Hop
 Hoffman	Hoffman
 HomeKit	HomeKit
 HomePod	HomePod
 Hubbard	Hubbard
 Hussein	Hussein
-Hyper-V	Hyper-V
 Iceland	Iceland
 IdeaVim	IdeaVim
 InFocus	InFocus
@@ -12066,7 +12046,6 @@ Buchanan	Buchanan
 Buddhism	Buddhism
 Buddhist	Buddhist
 Burberry	Burberry
-COVID-19	COVID-19
 Cabernet	Cabernet
 Calcutta	Calcutta
 Caldwell	Caldwell
@@ -12116,7 +12095,6 @@ Djibouti	Djibouti
 DocuSign	DocuSign
 Dominica	Dominica
 Dropzone	Dropzone
-ERC-1155	ERC-1155
 EduTools	EduTools
 Egyptian	Egyptian
 Einstein	Einstein
@@ -15004,7 +14982,6 @@ TrustPass	TrustPass
 Ukrainian	Ukrainian
 Unclutter	Unclutter
 Underoath	Underoath
-Unix-like	Unix-like
 Valentino	Valentino
 ViewSonic	ViewSonic
 Wakefield	Wakefield
@@ -17027,7 +17004,6 @@ RescueTime	RescueTime
 Richardson	Richardson
 SQLAlchemy	SQLAlchemy
 Salesforce	Salesforce
-Scooby-Doo	Scooby-Doo
 ScreenFlow	ScreenFlow
 Sennheiser	Sennheiser
 Serverless	Serverless
@@ -17038,7 +17014,6 @@ SolidWorks	SolidWorks
 SoundCloud	SoundCloud
 Sourcetree	Sourcetree
 SpencerWoo	SpencerWoo
-Spider-Man	Spider-Man
 SuperPages	SuperPages
 Sutherland	Sutherland
 Tajikistan	Tajikistan
@@ -18434,7 +18409,6 @@ Marlborough	Marlborough
 Mississauga	Mississauga
 Netherlands	Netherlands
 Northampton	Northampton
-Objective-C	Objective-C
 OmniGraffle	OmniGraffle
 Oxfordshire	Oxfordshire
 PancakeSwap	PancakeSwap
@@ -20019,7 +19993,6 @@ unpredictable	unpredictable
 visualization	visualization
 vulnerability	vulnerability
 Cambridgeshire	Cambridgeshire
-Counter-Strike	Counter-Strike
 Leicestershire	Leicestershire
 Northumberland	Northumberland
 ReserveAmerica	ReserveAmerica
@@ -20164,9 +20137,6 @@ multidisciplinary	multidisciplinary
 telecommunication	telecommunication
 telecommunications	telecommunications
 ungoogled-chromium	ungoogled-chromium
-rime-radical-pinyin	rime-radical-pinyin
-Model-View-ViewModel	Model-View-ViewModel
-Model-View-Controller	Model-View-Controller
 
 
 # word.lower
@@ -20423,7 +20393,6 @@ apis	apis
 asap	asap
 asmr	asmr
 asus	asus
-at&t	at&t
 avif	avif
 aave	aave
 abba	abba
@@ -20856,7 +20825,6 @@ burma	burma
 busch	busch
 byrne	byrne
 byron	byron
-cd-rw	cd-rw
 clion	clion
 cname	cname
 corba	corba
@@ -20993,7 +20961,6 @@ heinz	heinz
 helen	helen
 henri	henri
 henry	henry
-hi-fi	hi-fi
 hindi	hindi
 hobbs	hobbs
 huobi	huobi
@@ -21219,10 +21186,6 @@ trina	trina
 trish	trish
 twink	twink
 tyson	tyson
-usb-a	usb-a
-usb-b	usb-b
-usb-c	usb-c
-utf-8	utf-8
 vmess	vmess
 vance	vance
 venmo	venmo
@@ -21242,13 +21205,11 @@ walsh	walsh
 wanda	wanda
 watts	watts
 wayne	wayne
-wi-fi	wi-fi
 win32	win32
 winxp	winxp
 wolai	wolai
 wolfe	wolfe
 wyatt	wyatt
-x-ray	x-ray
 xhtml	xhtml
 xcode	xcode
 xmind	xmind
@@ -21351,7 +21312,6 @@ browne	browne
 bruins	bruins
 buddha	buddha
 byword	byword
-cd-rom	cd-rom
 caesar	caesar
 caicos	caicos
 cairns	cairns
@@ -21426,7 +21386,6 @@ dunlop	dunlop
 durban	durban
 dustin	dustin
 dwight	dwight
-erc-20	erc-20
 easter	easter
 easton	easton
 edison	edison
@@ -21573,8 +21532,6 @@ lortab	lortab
 louise	louise
 lowell	lowell
 ludwig	ludwig
-m-team	m-team
-ms-dos	ms-dos
 macvim	macvim
 mackay	mackay
 malaga	malaga
@@ -21776,9 +21733,6 @@ tumblr	tumblr
 tuvalu	tuvalu
 twilio	twilio
 twitch	twitch
-type-a	type-a
-type-b	type-b
-type-c	type-c
 typora	typora
 unicef	unicef
 ubuntu	ubuntu
@@ -21873,7 +21827,6 @@ andrews	andrews
 aniston	aniston
 annette	annette
 ansible	ansible
-ant-man	ant-man
 anthony	anthony
 antonio	antonio
 appcode	appcode
@@ -21994,7 +21947,6 @@ douglas	douglas
 dresden	dresden
 dropbox	dropbox
 durango	durango
-erc-721	erc-721
 eastman	eastman
 edwards	edwards
 eleanor	eleanor
@@ -22071,13 +22023,11 @@ herbert	herbert
 hershey	hershey
 higgins	higgins
 hillary	hillary
-hip-hop	hip-hop
 hoffman	hoffman
 homekit	homekit
 homepod	homepod
 hubbard	hubbard
 hussein	hussein
-hyper-v	hyper-v
 iceland	iceland
 ideavim	ideavim
 infocus	infocus
@@ -22429,7 +22379,6 @@ buchanan	buchanan
 buddhism	buddhism
 buddhist	buddhist
 burberry	burberry
-covid-19	covid-19
 cabernet	cabernet
 calcutta	calcutta
 caldwell	caldwell
@@ -22477,7 +22426,6 @@ djibouti	djibouti
 docusign	docusign
 dominica	dominica
 dropzone	dropzone
-erc-1155	erc-1155
 edutools	edutools
 egyptian	egyptian
 einstein	einstein
@@ -22994,7 +22942,6 @@ trustpass	trustpass
 ukrainian	ukrainian
 unclutter	unclutter
 underoath	underoath
-unix-like	unix-like
 valentino	valentino
 viewsonic	viewsonic
 wakefield	wakefield
@@ -23119,7 +23066,6 @@ rescuetime	rescuetime
 richardson	richardson
 sqlalchemy	sqlalchemy
 salesforce	salesforce
-scooby-doo	scooby-doo
 screenflow	screenflow
 sennheiser	sennheiser
 serverless	serverless
@@ -23130,7 +23076,6 @@ solidworks	solidworks
 soundcloud	soundcloud
 sourcetree	sourcetree
 spencerwoo	spencerwoo
-spider-man	spider-man
 superpages	superpages
 sutherland	sutherland
 tajikistan	tajikistan
@@ -23187,7 +23132,6 @@ marlborough	marlborough
 mississauga	mississauga
 netherlands	netherlands
 northampton	northampton
-objective-c	objective-c
 omnigraffle	omnigraffle
 oxfordshire	oxfordshire
 pancakeswap	pancakeswap
@@ -23244,7 +23188,6 @@ staffordshire	staffordshire
 thessalonians	thessalonians
 wolverhampton	wolverhampton
 cambridgeshire	cambridgeshire
-counter-strike	counter-strike
 leicestershire	leicestershire
 northumberland	northumberland
 reserveamerica	reserveamerica
@@ -23257,8 +23200,6 @@ charlottesville	charlottesville
 gloucestershire	gloucestershire
 nottinghamshire	nottinghamshire
 northamptonshire	northamptonshire
-model-view-viewmodel	model-view-viewmodel
-model-view-controller	model-view-controller
 
 
 # word.capitalize
@@ -40287,7 +40228,6 @@ Multidisciplinary	Multidisciplinary
 Telecommunication	Telecommunication
 Telecommunications	Telecommunications
 Ungoogled-chromium	Ungoogled-chromium
-Rime-radical-pinyin	Rime-radical-pinyin
 
 
 # word.upper
@@ -42954,7 +42894,6 @@ HEINZ	HEINZ
 HELEN	HELEN
 HENRI	HENRI
 HENRY	HENRY
-HI-FI	HI-FI
 HINDI	HINDI
 HOBBS	HOBBS
 HUOBI	HUOBI
@@ -43202,13 +43141,11 @@ WANDA	WANDA
 WATTS	WATTS
 WAYNE	WAYNE
 WHITE	WHITE
-WI-FI	WI-FI
 WIN32	WIN32
 WINXP	WINXP
 WOLAI	WOLAI
 WOLFE	WOLFE
 WYATT	WYATT
-X-RAY	X-RAY
 XCODE	XCODE
 XMIND	XMIND
 YAHOO	YAHOO
@@ -45742,7 +45679,6 @@ LORTAB	LORTAB
 LOUISE	LOUISE
 LOWELL	LOWELL
 LUDWIG	LUDWIG
-M-TEAM	M-TEAM
 MACVIM	MACVIM
 MACKAY	MACKAY
 MALAGA	MALAGA
@@ -45946,9 +45882,6 @@ TUMBLR	TUMBLR
 TUVALU	TUVALU
 TWILIO	TWILIO
 TWITCH	TWITCH
-TYPE-A	TYPE-A
-TYPE-B	TYPE-B
-TYPE-C	TYPE-C
 TYPORA	TYPORA
 UBUNTU	UBUNTU
 URBANA	URBANA
@@ -48696,7 +48629,6 @@ ANDREWS	ANDREWS
 ANISTON	ANISTON
 ANNETTE	ANNETTE
 ANSIBLE	ANSIBLE
-ANT-MAN	ANT-MAN
 ANTHONY	ANTHONY
 ANTONIO	ANTONIO
 APPCODE	APPCODE
@@ -48891,13 +48823,11 @@ HERBERT	HERBERT
 HERSHEY	HERSHEY
 HIGGINS	HIGGINS
 HILLARY	HILLARY
-HIP-HOP	HIP-HOP
 HOFFMAN	HOFFMAN
 HOMEKIT	HOMEKIT
 HOMEPOD	HOMEPOD
 HUBBARD	HUBBARD
 HUSSEIN	HUSSEIN
-HYPER-V	HYPER-V
 ICELAND	ICELAND
 IDEAVIM	IDEAVIM
 INFOCUS	INFOCUS
@@ -54880,7 +54810,6 @@ TRUSTPASS	TRUSTPASS
 UKRAINIAN	UKRAINIAN
 UNCLUTTER	UNCLUTTER
 UNDEROATH	UNDEROATH
-UNIX-LIKE	UNIX-LIKE
 VALENTINO	VALENTINO
 VIEWSONIC	VIEWSONIC
 WAKEFIELD	WAKEFIELD
@@ -56902,7 +56831,6 @@ RESCUETIME	RESCUETIME
 RICHARDSON	RICHARDSON
 SQLALCHEMY	SQLALCHEMY
 SALESFORCE	SALESFORCE
-SCOOBY-DOO	SCOOBY-DOO
 SCREENFLOW	SCREENFLOW
 SENNHEISER	SENNHEISER
 SERVERLESS	SERVERLESS
@@ -56913,7 +56841,6 @@ SOLIDWORKS	SOLIDWORKS
 SOUNDCLOUD	SOUNDCLOUD
 SOURCETREE	SOURCETREE
 SPENCERWOO	SPENCERWOO
-SPIDER-MAN	SPIDER-MAN
 SUPERPAGES	SUPERPAGES
 SUTHERLAND	SUTHERLAND
 TAJIKISTAN	TAJIKISTAN
@@ -58309,7 +58236,6 @@ MARLBOROUGH	MARLBOROUGH
 MISSISSAUGA	MISSISSAUGA
 NETHERLANDS	NETHERLANDS
 NORTHAMPTON	NORTHAMPTON
-OBJECTIVE-C	OBJECTIVE-C
 OMNIGRAFFLE	OMNIGRAFFLE
 OXFORDSHIRE	OXFORDSHIRE
 PANCAKESWAP	PANCAKESWAP
@@ -59894,7 +59820,6 @@ UNPREDICTABLE	UNPREDICTABLE
 VISUALIZATION	VISUALIZATION
 VULNERABILITY	VULNERABILITY
 CAMBRIDGESHIRE	CAMBRIDGESHIRE
-COUNTER-STRIKE	COUNTER-STRIKE
 LEICESTERSHIRE	LEICESTERSHIRE
 NORTHUMBERLAND	NORTHUMBERLAND
 RESERVEAMERICA	RESERVEAMERICA
@@ -60039,6 +59964,3 @@ MULTIDISCIPLINARY	MULTIDISCIPLINARY
 TELECOMMUNICATION	TELECOMMUNICATION
 TELECOMMUNICATIONS	TELECOMMUNICATIONS
 UNGOOGLED-CHROMIUM	UNGOOGLED-CHROMIUM
-RIME-RADICAL-PINYIN	RIME-RADICAL-PINYIN
-MODEL-VIEW-VIEWMODEL	MODEL-VIEW-VIEWMODEL
-MODEL-VIEW-CONTROLLER	MODEL-VIEW-CONTROLLER

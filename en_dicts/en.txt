@@ -826,7 +826,6 @@ APIs
 ASAP
 ASMR
 ASUS
-AT&T
 AVIF
 Aave
 Abba
@@ -2860,7 +2859,6 @@ Burma
 Busch
 Byrne
 Byron
-CD-RW
 CLion
 CNAME
 CORBA
@@ -3001,7 +2999,6 @@ Heinz
 Helen
 Henri
 Henry
-Hi-Fi
 Hindi
 Hobbs
 Huobi
@@ -3240,10 +3237,6 @@ Trina
 Trish
 Twink
 Tyson
-USB-A
-USB-B
-USB-C
-UTF-8
 VMess
 Vance
 Venmo
@@ -3264,13 +3257,11 @@ Wanda
 Watts
 Wayne
 White
-Wi-Fi
 Win32
 WinXP
 Wolai
 Wolfe
 Wyatt
-X-ray
 XHTML
 Xcode
 Xmind
@@ -5609,7 +5600,6 @@ Browne
 Bruins
 Buddha
 Byword
-CD-ROM
 Caesar
 Caicos
 Cairns
@@ -5684,7 +5674,6 @@ Dunlop
 Durban
 Dustin
 Dwight
-ERC-20
 Easter
 Easton
 Edison
@@ -5832,8 +5821,6 @@ Lortab
 Louise
 Lowell
 Ludwig
-M-team
-MS-DOS
 MacVim
 Mackay
 Malaga
@@ -6040,9 +6027,6 @@ Tumblr
 Tuvalu
 Twilio
 Twitch
-Type-A
-Type-B
-Type-C
 Typora
 UNICEF
 Ubuntu
@@ -8802,7 +8786,6 @@ Andrews
 Aniston
 Annette
 Ansible
-Ant-Man
 Anthony
 Antonio
 AppCode
@@ -8923,7 +8906,6 @@ Douglas
 Dresden
 Dropbox
 Durango
-ERC-721
 Eastman
 Edwards
 Eleanor
@@ -9000,13 +8982,11 @@ Herbert
 Hershey
 Higgins
 Hillary
-Hip-Hop
 Hoffman
 HomeKit
 HomePod
 Hubbard
 Hussein
-Hyper-V
 Iceland
 IdeaVim
 InFocus
@@ -12061,7 +12041,6 @@ Buchanan
 Buddhism
 Buddhist
 Burberry
-COVID-19
 Cabernet
 Calcutta
 Caldwell
@@ -12111,7 +12090,6 @@ Djibouti
 DocuSign
 Dominica
 Dropzone
-ERC-1155
 EduTools
 Egyptian
 Einstein
@@ -14999,7 +14977,6 @@ TrustPass
 Ukrainian
 Unclutter
 Underoath
-Unix-like
 Valentino
 ViewSonic
 Wakefield
@@ -17022,7 +16999,6 @@ RescueTime
 Richardson
 SQLAlchemy
 Salesforce
-Scooby-Doo
 ScreenFlow
 Sennheiser
 Serverless
@@ -17033,7 +17009,6 @@ SolidWorks
 SoundCloud
 Sourcetree
 SpencerWoo
-Spider-Man
 SuperPages
 Sutherland
 Tajikistan
@@ -18429,7 +18404,6 @@ Marlborough
 Mississauga
 Netherlands
 Northampton
-Objective-C
 OmniGraffle
 Oxfordshire
 PancakeSwap
@@ -20014,7 +19988,6 @@ unpredictable
 visualization
 vulnerability
 Cambridgeshire
-Counter-Strike
 Leicestershire
 Northumberland
 ReserveAmerica
@@ -20159,6 +20132,3 @@ multidisciplinary
 telecommunication
 telecommunications
 ungoogled-chromium
-rime-radical-pinyin
-Model-View-ViewModel
-Model-View-Controller
