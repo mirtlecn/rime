@@ -77,8 +77,9 @@ engine:
     - reverse_lookup_filter@stroke_reverse_lookup
     - simplifier@reverse_simp
     - lua_filter@*search
-    - lua_filter@*filter
+    - lua_filter@*completion_filter
     - lua_filter@*en_spacer
+    - lua_filter@*filter
     - uniquifier
 
 processor:
