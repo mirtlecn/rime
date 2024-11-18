@@ -279,7 +279,7 @@ translator:
   initial_quality: 1.2
   # enable_correction: false
   # enable_completion: true
-  # enable_word_completion: true # 多音节补全
+  # enable_word_completion: false # 多音节补全
   # user_dict: pinyin
   preedit_format:
     - xform/([0-9]) ([0-9])/$1$2/

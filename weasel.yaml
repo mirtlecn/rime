@@ -1,7 +1,7 @@
 # Weasel settings
 # encoding: utf-8
 
-config_version: "2024.04"
+config_version: "2024.11"
 
 # [app_options]
 app_options:
@@ -18,7 +18,14 @@ app_options:
   gvim.exe:
     ascii_mode: true
     vim_mode: true
+  neovide.exe:
+    ascii_mode: true
+    inline_preedit: false
+    vim_mode: true
   windowsterminal.exe:
+    ascii_mode: true
+    vim_mode: true
+  OpenConsole.exe:
     ascii_mode: true
     vim_mode: true
   conhost.exe:
@@ -56,7 +63,7 @@ global_ascii: false
 style:
   color_scheme: nord
   # color_scheme_dark: nord
-  font_face: "思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, 思源黑体 CN, SF Pro, 遍黑体P1, 遍黑体P2, Microsoft Yahei, Noto Color Emoji"
+  font_face: "思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, Noto Color Emoji SVG, 思源黑体 CN, SF Pro, 遍黑体P1, 遍黑体P2, Microsoft Yahei, Noto Color Emoji"
   label_font_face: "思源黑体 CN"
   comment_font_face: "思源黑体 CN:41:5A, 思源黑体 CN:61:9A, Segoe UI Emoji, 思源黑体 CN, SF Pro, 遍黑体P1, 遍黑体P2, Microsoft Yahei, Noto Color Emoji"
 

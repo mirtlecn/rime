@@ -13,6 +13,6 @@ import_tables:
   - cn_dicts/tencent # 腾讯词向量（大词库，部署时间较长
   - cn_dicts/classical # 古代汉语
   - cn_dicts/name # 人名
-  - cn_dicts/others # 错字错词，容错
+  # - cn_dicts/others # 错字错词，容错
   # 有重复词条时，最上面的权重生效。
 ...
