@@ -1,9 +1,5 @@
 # Note
 
-Personal use only.
-
-Install
-
 ```pwsh
 # pwsh
 
@@ -48,4 +44,4 @@ bash rime-install mirtlecn/rime
 
 ## Credit
 
-Unless otherwise specified by a separate license, all files in this project are released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License (C) 2023 Mirtle.
+Unless otherwise specified by a separate license, all files in this project are released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License (C) Mirtle.
