@@ -13,26 +13,26 @@ schema:
     - en
 
 switches:
-  - name: ascii_mode
+  - name: ascii_mode         # 中英模式
     reset: 0
     states: [中, 英]
-  - name: traditionalize
+  - name: traditionalize     # 繁简转换
     reset: 0
     states: [简, 臺]
-  - name: simplify
+  - name: simplify           # 是否简化所有候选（默认词库含有繁体字）
     reset: 0
     states: [原, 简]
-  - name: emoji
+  - name: emoji              # emoji
     states: [🈚️, 🈶]
-  - name: reverse_simp
+  - name: reverse_simp       # 反查的候选是否简化
     states: [分, 合]
-  - name: parrot_translator
+  - name: parrot_translator  # 全局开启造词
     states: [关, 造]
-  - name: search_single_char
+  - name: search_single_char # 查词时是否只查单字
     states: [词, 单]
-  - name: en_spacer
+  - name: en_spacer          # 英文添加空格
     states: [空, 无]
-  - name: completion
+  - name: completion         # 显示 script_translator 的候选
     reset: 0
     states: [补, 关]
 
