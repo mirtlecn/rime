@@ -52,6 +52,13 @@ function P.init( env )
     env.COMMITHISTTORY[0] = ''
     env.COMMITHISTTORY[1] = ''
 
+    env.cn_punct = Set(
+                       {
+            '。', '，', '；', '？', '：', '—', '！', '《', '》', '‘', '’', '“', '”', '、', '¥',
+            '…', '（', '）', '【', '】', '「', '」', '『', '』',
+        }
+                    )
+
     local config = env.engine.schema.config
     env.name_space = env.name_space:gsub( '^*', '' )
     env.history_key = config:get_string( env.name_space .. '/commit_history_key' ) or ''
@@ -138,10 +145,23 @@ function P.func( key, env )
     local engine = env.engine
     local context = env.engine.context
     local latest_text = context.commit_history:latest_text()
+    local commit_text = env.engine.context:get_commit_text()
     -- 获取当前的 key 所代表的符号，只处理字母和符号区域的按键
     local ascii_str = ''
     local input = context.input
+
+    local if_disabled = env.engine.context:get_option( 'en_spacer' )
+
     if key.keycode > 0x20 and key.keycode < 0x7f then ascii_str = string.char( key.keycode ) end
+
+    -- 自动添加空格配合 en_spacer 插件
+    if not key:release() and context:is_composing() and key:repr() == 'Return' and not if_disabled and latest_text and
+        #latest_text > 0 and not latest_text:find( '%s$' ) and not latest_text:match( '%p$' ) and
+        not env.cn_punct[latest_text] then
+        context:clear()
+        env.engine:commit_text( ' ' .. input )
+        return 1
+    end
 
     if env.history_key and #env.history_key > 0 and input:find( '^' .. env.history_key .. '$' ) then
         context:clear()
@@ -166,8 +186,8 @@ function P.func( key, env )
             -- elseif input:find( '^%_$' ) and ascii_str == '_' then
             --     env.engine:process_key( KeyEvent( 'Down' ) )
             --     return 1
-        elseif env.search_key and #env.search_key > 0 and input:find( '^[a-z;]+' .. env.search_key .. '.*' .. env.search_key ) and
-            ascii_str == env.search_key then
+        elseif env.search_key and #env.search_key > 0 and
+            input:find( '^[a-z;]+' .. env.search_key .. '.*' .. env.search_key ) and ascii_str == env.search_key then
             return 1
         end
 
@@ -177,17 +197,18 @@ function P.func( key, env )
         if utf8.len( text ) and utf8.len( text ) > 1 then
             local a = text:sub( 1, utf8.offset( text, 2 ) - 1 )
             local b = text:sub( utf8.offset( text, -1 ) )
-            if (key:repr() == env.first_key or key:repr()=='Home') then
+            if (key:repr() == env.first_key or key:repr() == 'Home') then
                 engine:commit_text( a )
                 context:clear()
                 return 1
-            elseif (key:repr() == env.last_key or key:repr()=='End') then
+            elseif (key:repr() == env.last_key or key:repr() == 'End') then
                 engine:commit_text( b )
                 context:clear()
                 return 1
             end
         elseif utf8.len( text ) and utf8.len( text ) == 1 then
-            if (key:repr() == env.first_key) or (key:repr() == env.last_key or key:repr()=='End' or key:repr()=='Home') then
+            if (key:repr() == env.first_key) or
+                (key:repr() == env.last_key or key:repr() == 'End' or key:repr() == 'Home') then
                 engine:commit_text( text )
                 context:clear()
                 return 1
@@ -211,7 +232,7 @@ function P.func( key, env )
     -- 词组处理，如果输入了中英文词组，将最后一个字符视为历史提交
     if utf8.len( latest_text ) > 1 then
         env.COMMITHISTTORY[0] = latest_text:sub( utf8.offset( latest_text, -1 ) )
-        local latest_text_re = latest_text:gsub( env.COMMITHISTTORY[0] .. '$','')
+        local latest_text_re = latest_text:gsub( env.COMMITHISTTORY[0] .. '$', '' )
         env.COMMITHISTTORY[1] = latest_text_re:sub( utf8.offset( latest_text_re, -1 ) )
     else
         env.COMMITHISTTORY[1] = env.COMMITHISTTORY[0] or ''
